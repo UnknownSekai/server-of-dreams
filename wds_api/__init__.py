@@ -25,16 +25,17 @@ See ``README.md`` for the transport/crypto details and caveats.
 
 from __future__ import annotations
 
-from . import crypto, models_generated, routes
+from . import crypto, decode, models_generated, routes
 from .client import WdsApiClient
 from .exceptions import ApiActionException, NotAllowedVersionException
 from .models import ApiActionResult, Headers, MsgpackModel
 from .models_generated import AuthenticatePayload, AuthenticateResult, BooleanResult
-from .transport import SiriusApiClient
+from .transport import MasterDataInfo, SiriusApiClient
 
 __all__ = [
     "WdsApiClient",
     "SiriusApiClient",
+    "MasterDataInfo",
     "ApiActionException",
     "NotAllowedVersionException",
     "ApiActionResult",
@@ -44,6 +45,7 @@ __all__ = [
     "BooleanResult",
     "Headers",
     "crypto",
+    "decode",
     "routes",
     "models_generated",
 ]
