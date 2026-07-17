@@ -50,10 +50,6 @@ except ImportError:
 
 from mitmproxy import ctx, http
 
-# make `wds_api` importable whether or not it's installed
-import sys
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from wds_api import crypto  # noqa: E402
 from wds_api.decode import describe_request, describe_response  # noqa: E402
 
