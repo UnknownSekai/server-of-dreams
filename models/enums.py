@@ -58,6 +58,13 @@ class BanLevels(IntEnum):
     Delete = 3
 
 
+class BloomBonusTypes(IntEnum):
+    None_ = 0
+    EffectDuringLive = 1
+    StatusBonus = 2
+    GrantItem = 3
+
+
 class BonusAbilityEnableFlags(IntEnum):
     None_ = 0
     First = 1
@@ -66,6 +73,22 @@ class BonusAbilityEnableFlags(IntEnum):
     Fourth = 8
     Fifth = 16
     All = 31
+
+
+class BranchConditionType(IntEnum):
+    None_ = 0
+    StarActFireCount = 1
+    PartyPosition = 2
+    CompanyMemberCount = 3
+    CompanyCount = 4
+    AttributeMemberCount = 5
+    AttributeCount = 6
+    PosterAppearanceMemberCount = 7
+    LifeGuardCount = 8
+    PosterAppearanceCompanyCount = 9
+    StorageSenseLightCount = 10
+    CharacterBaseGroup = 11
+    SenseTriggeredCount = 12
 
 
 class BranchConditionTypes(IntEnum):
@@ -91,10 +114,31 @@ class BranchJudgeTypes(IntEnum):
     LessThan = 3
 
 
+class CalculationTypes(IntEnum):
+    PercentageAddition = 1
+    Multiplication = 2
+    FixedAddition = 3
+
+
 class CampTypes(IntEnum):
     None_ = 0
     Camp1 = 1
     Camp2 = 2
+
+
+class CampaignEffectTypes(IntEnum):
+    LiveReward = 1
+    LessonReward = 2
+    StarPoint = 3
+    RankPoint = 4
+    AccessoryDropRate = 5
+    LessonCount = 6
+    ForDisplay = 10
+
+
+class CharacterBaseTypes(IntEnum):
+    Initial = 1
+    Collaboration = 900
 
 
 class CharacterEpisodeOrder(IntEnum):
@@ -205,6 +249,23 @@ class EditTypes(IntEnum):
     DetailEdit = 2
 
 
+class EffectConditions(IntEnum):
+    CharacterBase = 1
+    Company = 2
+    Attribute = 3
+    SenseType = 4
+    Character = 5
+    EquippedPoster = 6
+    NeighborPosition = 7
+    CharacterBaseGroup = 8
+
+
+class EffectTargetRanges(IntEnum):
+    None_ = 0
+    Self = 1
+    All = 2
+
+
 class EffectTypes(IntEnum):
     BaseVocalUp = 1
     BaseExpressionUp = 2
@@ -267,6 +328,18 @@ class EntryTypes(IntEnum):
     Approval = 2
 
 
+class EpisodeReleaseConditionTypes(IntEnum):
+    TotalRankInCompany = 1
+    CharacterRank = 2
+
+
+class FireTimingTypes(IntEnum):
+    StarAct = 1
+    Sense = 2
+    StartLive = 3
+    Passive = 4
+
+
 class FriendAcceptResultStatus(IntEnum):
     AcceptSuccess = 1
     RequestUserFriendsLimitOver = 2
@@ -308,6 +381,13 @@ class GameVersions(IntEnum):
     GooglePlay = 2
 
 
+class HighScoreTypes(IntEnum):
+    Normal = 0
+    Multi = 1
+    TheaterLeague = 2
+    Audition = 3
+
+
 class HomeBGMSelectionTypes(IntEnum):
     UserSelect = 1
     Random = 2
@@ -323,6 +403,53 @@ class InvitationCodeResultStatuses(IntEnum):
     InvalidInvitationCode = 1
     OwnInvitationCode = 2
     InviteUserNotFound = 3
+
+
+class ItemCategories(IntEnum):
+    StaminaRecovery = 11
+    CharacterLevel = 12
+    ConsumeItem = 13
+    TalentBloom = 14
+    CharacterMission = 16
+    GachaTicket = 21
+    ExchangeTicket = 22
+    RouletteBall = 31
+    ScratchCoin = 32
+    GachaPoint = 41
+    EventPoint = 42
+    MissionPassPoint = 43
+    Film = 51
+    AlbumSkin = 52
+    PlayerRankAwakening = 61
+    LessonPartyQuantityLimitRelease = 62
+    BuffItem = 71
+
+
+class JumpTypes(IntEnum):
+    None_ = 0
+    Information = 1
+    Shop = 2
+    JewelShop = 3
+    Gacha = 4
+    Event = 5
+    Live = 6
+    Member = 7
+    Photo = 8
+    Story = 9
+    WebLink = 10
+    BeginnerMission = 11
+    MusicShop = 12
+    Spot = 13
+    Mission = 14
+    Concert = 15
+    StarRank = 16
+    Episode = 17
+    SpecialEvent = 18
+    TotalPointEventRanking = 19
+    BoxGacha = 20
+    TournamentEventTop = 21
+    Lesson = 22
+    League = 23
 
 
 class LeagueClassChangeTypes(IntEnum):
@@ -346,6 +473,34 @@ class LeagueClassTypes(IntEnum):
 class LiveDropTypes(IntEnum):
     Normal = 0
     Special = 1
+
+
+class LiveReleaseStatus(IntEnum):
+    None_ = 0
+    AvailableInShop = 1
+    Playable = 2
+
+
+class LiveTypes(IntEnum):
+    Normal = 1
+    Multi = 2
+    Lesson = 3
+    Audition = 4
+    League = 5
+    MultiCollectionEvent = 6
+    Concert = 7
+    BonusLive = 8
+    CourseMode = 9
+    TripleCast = 10
+    GhostLive = 11
+    Trial = 12
+    MultiRoom = 13
+
+
+class LiveUnlockConditionTypes(IntEnum):
+    None_ = 0
+    ExtraGoodCount = 13
+    NotationShop = 14
 
 
 class LoginBonusLayoutTypes(IntEnum):
@@ -410,9 +565,21 @@ class MusicBookmarkFlags(IntEnum):
     Bookmark3 = 4
 
 
+class MusicCourseCertificationGrade(IntEnum):
+    None_ = 0
+    Failed = 1
+    NormalGaugeCertificate = 2
+    HotGaugeCertificate = 3
+
+
 class MusicCourseGaugeType(IntEnum):
     Normal = 0
     Hot = 1
+
+
+class MusicCoverTypes(IntEnum):
+    Original = 1
+    Cover = 2
 
 
 class MusicDifficulties(IntEnum):
@@ -422,6 +589,26 @@ class MusicDifficulties(IntEnum):
     Extra = 3
     Stella = 4
     Olivier = 5
+
+
+class MusicUnlockConditionTypes(IntEnum):
+    Default = 1
+    Distribute = 2
+    Buy = 10
+    ReadEpisodeAndBuy = 11
+    ClearAudition = 12
+
+
+class MusicVideoTypes(IntEnum):
+    None_ = 0
+    RealTimeRendering = 1
+    Movie = 2
+
+
+class NamePlateChangeTypes(IntEnum):
+    None_ = 0
+    DaiStarEnrollCount = 1
+    TripleCastDaiStarEnrollCount = 2
 
 
 class NotificationCategory(IntEnum):
@@ -437,6 +624,13 @@ class NotificationTabCategory(IntEnum):
     Important = 1
     UpdateInformation = 2
     BugInformation = 3
+
+
+class OlivierReleaseStatuses(IntEnum):
+    None_ = 0
+    Challengeable = 1
+    Purchasable = 2
+    Released = 3
 
 
 class PageCategories(IntEnum):
@@ -552,6 +746,16 @@ class PosterEpisodeTypes(IntEnum):
     Denki = 9
 
 
+class PosterOrientation(IntEnum):
+    Portrait = 1
+    Landscape = 2
+
+
+class PosterSubTitleDisplayConditions(IntEnum):
+    None_ = 0
+    BreakThroughPhase = 1
+
+
 class ProcessPaymentTransactionResult(IntEnum):
     Success = 1
     TemporaryIssuesTryAgain = 2
@@ -589,6 +793,49 @@ class SenseTypes(IntEnum):
     Alternative = 10
 
 
+class ShopCategories(IntEnum):
+    None_ = 0
+    Normal = 1
+    Medal = 2
+    Event = 3
+    Gacha = 4
+    Special = 5
+    Music = 6
+
+
+class ShopReplaceTypes(IntEnum):
+    None_ = 0
+    Daily = 1
+    Weekly = 2
+    Monthly = 3
+    DailyPassExpired = 10
+
+
+class ShopUnlockTypes(IntEnum):
+    ReadStory = 2
+    RateReached = 8
+    ClassReached = 9
+    BuyItem = 10
+    ReadFirstMainStory = 11
+    AuditionReached = 12
+    SelectedPickup = 17
+    NotInPossession = 20
+
+
+class SpotTypes(IntEnum):
+    UtagawaHighSchool = 1
+    HigashiUenoHighSchool = 2
+    Park = 3
+    Cafe = 4
+    ElectricTown = 5
+    ThemePark = 6
+
+
+class StampType(IntEnum):
+    Default = 1
+    Animation = 2
+
+
 class StarPassTypes(IntEnum):
     StarPass = 1
     DaiStarPass = 2
@@ -601,6 +848,19 @@ class StoryTypes(IntEnum):
     Side = 3
     Character = 4
     Special = 5
+
+
+class TabCategories(IntEnum):
+    Hidden = 0
+    Normal = 1
+    Raise = 2
+    Ticket = 3
+    Piece = 4
+
+
+class TalentBloomItemTypes(IntEnum):
+    ActorPiece = 1
+    ActorDaiPiece = 2
 
 
 class ThingTypes(IntEnum):
@@ -636,6 +896,21 @@ class TimingTypes(IntEnum):
     PERFECT_STAR = 6
 
 
+class TriggerType(IntEnum):
+    OverLife = 1
+    BelowLife = 2
+    CharacterBase = 3
+    Company = 4
+    Attribute = 5
+    SenseType = 6
+    CompanyCount = 7
+    AttributeCount = 8
+    CharacterBaseGroup = 9
+    AllMemberBelongingCompany = 10
+    MaxMemberBelongingCompanyCount = 11
+    MaxMemberBelongingAttributeCount = 12
+
+
 class TriggerTypes(IntEnum):
     OverLife = 1
     BelowLife = 2
@@ -657,6 +932,13 @@ class TripleCastGroupOrder(IntEnum):
     Third = 2
 
 
+class TrophyCategories(IntEnum):
+    Character = 1
+    Achievement = 2
+    Event = 3
+    Other = 4
+
+
 class TutorialStatus(IntEnum):
     Start = 0
     TutorialDownLoad = 1
@@ -666,6 +948,20 @@ class TutorialStatus(IntEnum):
     InGame = 5
     MiniTalk = 6
     Finish = 99
+
+
+class UseDecoPageFlag(IntEnum):
+    None_ = 0
+    Page1 = 1
+    Page2 = 2
+    Page3 = 4
+    Page4 = 8
+    Page5 = 16
+    Page6 = 32
+    Page7 = 64
+    Page8 = 128
+    Page9 = 256
+    Page10 = 512
 
 
 class ViewedShopCategoryTypes(IntEnum):
@@ -684,10 +980,15 @@ __all__ = [
     "Attributes",
     "AuthenticationProviders",
     "BanLevels",
+    "BloomBonusTypes",
     "BonusAbilityEnableFlags",
+    "BranchConditionType",
     "BranchConditionTypes",
     "BranchJudgeTypes",
+    "CalculationTypes",
     "CampTypes",
+    "CampaignEffectTypes",
+    "CharacterBaseTypes",
     "CharacterEpisodeOrder",
     "CharacterRarities",
     "CharacterSelectionTypes",
@@ -700,20 +1001,30 @@ __all__ = [
     "Companies",
     "DugongRunClearTypes",
     "EditTypes",
+    "EffectConditions",
+    "EffectTargetRanges",
     "EffectTypes",
     "EntryTypes",
+    "EpisodeReleaseConditionTypes",
+    "FireTimingTypes",
     "FriendAcceptResultStatus",
     "FriendRequestResultStatus",
     "FriendSearchResultStatus",
     "GachaCardTypes",
     "GachaEmissionFlags",
     "GameVersions",
+    "HighScoreTypes",
     "HomeBGMSelectionTypes",
     "HomeCharacterDisplayTypes",
     "InvitationCodeResultStatuses",
+    "ItemCategories",
+    "JumpTypes",
     "LeagueClassChangeTypes",
     "LeagueClassTypes",
     "LiveDropTypes",
+    "LiveReleaseStatus",
+    "LiveTypes",
+    "LiveUnlockConditionTypes",
     "LoginBonusLayoutTypes",
     "LoginBonusSpineSelectType",
     "LoginBonusTypes",
@@ -723,27 +1034,45 @@ __all__ = [
     "MissionPassRewardStatus",
     "MultiRoomPlayModes",
     "MusicBookmarkFlags",
+    "MusicCourseCertificationGrade",
     "MusicCourseGaugeType",
+    "MusicCoverTypes",
     "MusicDifficulties",
+    "MusicUnlockConditionTypes",
+    "MusicVideoTypes",
+    "NamePlateChangeTypes",
     "NotificationCategory",
     "NotificationTabCategory",
+    "OlivierReleaseStatuses",
     "PageCategories",
     "PhotoRarities",
     "PlayTimeTypes",
     "PossessionRarities",
     "PossessionRarityFlag",
     "PosterEpisodeTypes",
+    "PosterOrientation",
+    "PosterSubTitleDisplayConditions",
     "ProcessPaymentTransactionResult",
     "SearchCircleMemberConditionTypes",
     "SenseFirePriority",
     "SenseLightTypes",
     "SenseTypes",
+    "ShopCategories",
+    "ShopReplaceTypes",
+    "ShopUnlockTypes",
+    "SpotTypes",
+    "StampType",
     "StarPassTypes",
     "StoryTypes",
+    "TabCategories",
+    "TalentBloomItemTypes",
     "ThingTypes",
     "TimingTypes",
+    "TriggerType",
     "TriggerTypes",
     "TripleCastGroupOrder",
+    "TrophyCategories",
     "TutorialStatus",
+    "UseDecoPageFlag",
     "ViewedShopCategoryTypes",
 ]

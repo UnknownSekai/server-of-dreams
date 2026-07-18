@@ -1,4 +1,5 @@
 import gzip
+import io
 import json
 import logging
 import os
@@ -12,8 +13,38 @@ try:
     import brotli
 except ImportError:
     brotli = None
+try:
+    import lz4.block
+except ImportError:
+    lz4 = None
 
 log = logging.getLogger("wds")
+
+
+def _lz4_decompress(code, data):
+    if code == 99:  # Lz4Block: msgpack int (uncompressed length) + LZ4 block
+        up = msgpack.Unpacker(raw=False)
+        up.feed(data)
+        length = up.unpack()
+        return lz4.block.decompress(data[up.tell() :], uncompressed_size=length)
+    # code == 98 Lz4BlockArray: array [lengths_or_totallength, block, block, ...]
+    arr = msgpack.unpackb(data, raw=False)
+    lengths, blocks = arr[0], arr[1:]
+    if not isinstance(lengths, (list, tuple)):
+        lengths = [lengths] * len(blocks)
+    return b"".join(
+        lz4.block.decompress(b, uncompressed_size=n) for n, b in zip(lengths, blocks)
+    )
+
+
+def _unwrap_lz4(obj):
+    if isinstance(obj, msgpack.ExtType) and obj.code in (98, 99) and lz4:
+        return _unwrap_lz4(
+            msgpack.unpackb(
+                _lz4_decompress(obj.code, obj.data), raw=False, strict_map_key=False
+            )
+        )
+    return obj
 
 
 def decode(data, encoding):
@@ -30,9 +61,13 @@ def decode(data, encoding):
     except Exception:
         pass
     try:
-        return msgpack.unpackb(data, raw=False, strict_map_key=False)
+        objs = [
+            _unwrap_lz4(o)
+            for o in msgpack.Unpacker(io.BytesIO(data), raw=False, strict_map_key=False)
+        ]
     except Exception:
         return data.hex()
+    return objs[0] if len(objs) == 1 else objs
 
 
 class WdsDecoder:

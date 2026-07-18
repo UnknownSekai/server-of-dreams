@@ -3,4 +3,5 @@ uvicorn[standard]>=0.29
 pydantic>=2.6
 msgpack>=1.0
 PyYAML>=6.0
-asyncpg>=0.31.0
+asyncpg>=0.30.0
+peewee>=3.17

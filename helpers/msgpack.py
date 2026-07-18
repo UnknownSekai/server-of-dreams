@@ -25,11 +25,43 @@ _PACK = dict(use_bin_type=True)
 _UNPACK = dict(raw=False, strict_map_key=False)
 
 
-def _encode(base, is_array, kind, v):
+_INT_TYPES = {
+    "byte",
+    "sbyte",
+    "short",
+    "ushort",
+    "int",
+    "uint",
+    "long",
+    "ulong",
+    "char",
+}
+_FLOAT_TYPES = {"float", "double", "decimal"}
+# C# default(DateTime) == DateTime.MinValue (0001-01-01): this many seconds before the Unix epoch.
+DATETIME_MIN = msgpack.Timestamp(-62135596800, 0)
+
+
+def _zero(base, kind):
+    # non-nullable C# value types serialize as default(T); the client reads them
+    # with ReadInt32/ReadInt64/etc. which throw on msgpack nil.
+    if kind == "enum":
+        return 0
+    if base == "bool":
+        return False
+    if base in _FLOAT_TYPES:
+        return 0.0
+    if base in _INT_TYPES:
+        return 0
+    if base == "DateTime":
+        return DATETIME_MIN
+    return None
+
+
+def _encode(base, is_array, kind, nullable, v):
     if v is None:
-        return None
+        return None if nullable else _zero(base, kind)
     if is_array:
-        return [_encode(base, False, kind, x) for x in v]
+        return [_encode(base, False, kind, True, x) for x in v]
     if kind == "model":
         return to_wire(v)
     if kind == "enum":
@@ -46,8 +78,8 @@ def to_wire(obj):
     if name in KEYS:
         fields = KEYS[name]
         arr = [None] * ((max(f[0] for f in fields) + 1) if fields else 0)
-        for key, fn, base, is_array, kind in fields:
-            arr[key] = _encode(base, is_array, kind, getattr(obj, fn, None))
+        for key, fn, base, is_array, kind, nullable in fields:
+            arr[key] = _encode(base, is_array, kind, nullable, getattr(obj, fn, None))
         return arr
     if isinstance(obj, IntEnum):
         return int(obj)
@@ -72,7 +104,7 @@ def from_array(name, arr):
     if name is None or name not in KEYS or not isinstance(arr, (list, tuple)):
         return arr
     kwargs = {}
-    for key, fn, base, is_array, kind in KEYS[name]:
+    for key, fn, base, is_array, kind, nullable in KEYS[name]:
         kwargs[fn] = _decode(base, is_array, kind, arr[key] if key < len(arr) else None)
     return getattr(models, name)(**kwargs)
 
@@ -108,8 +140,18 @@ def raw_response(result) -> MsgpackResponse:
     return MsgpackResponse(content=pack(result), headers=response_headers())
 
 
-def fault(error_code: str, message: str = "", stack_trace: str = "") -> list:
-    return [error_code, message, stack_trace]
+def fault(error_code: str, message: str = "", stack_trace: str = "") -> "models.Fault":
+    return models.Fault(error_code=error_code, message=message, stack_trace=stack_trace)
+
+
+def deleted(type_name: str, id: int) -> "models.DeletedDataObject":
+    return models.DeletedDataObject(type_name=type_name, id_=id)
+
+
+def union(key: int, value) -> list:
+    # IDataObject[] / INotificationObject[] element: [discriminatorKey, packed value].
+    # e.g. union(IDATA_OBJECT_KEY["Live"], live_model) for a `present` entry.
+    return [key, to_wire(value)]
 
 
 respond = common_response
