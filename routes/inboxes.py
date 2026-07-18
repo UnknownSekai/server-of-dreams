@@ -1,25 +1,19 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/Inboxes", tags=["Inboxes"])
 
 
 # /api/Inboxes/BulkReceive
-@router.post(
-    "/BulkReceive", response_model=InboxReceiveResult, name="Inbox_BulkReceive"
-)
-async def inbox_bulk_receive(body: BulkReceivePayload) -> InboxReceiveResult:
-    return InboxReceiveResult()
+@router.post("/BulkReceive", name="Inbox_BulkReceive")
+async def inbox_bulk_receive(request: Request):
+    payload = await read_request(request, "BulkReceivePayload")
+    return respond(InboxReceiveResult())
 
 
 # /api/Inboxes/CheckPackagesAsync
-@router.post(
-    "/CheckPackagesAsync", response_model=BooleanResult, name="Inbox_CheckPackages"
-)
-async def inbox_check_packages() -> BooleanResult:
-    return BooleanResult()
+@router.post("/CheckPackagesAsync", name="Inbox_CheckPackages")
+async def inbox_check_packages(request: Request):
+    return respond(BooleanResult())

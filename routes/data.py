@@ -1,21 +1,18 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/data", tags=["data"])
 
 
 # /api/data/master
-@router.get("/master", response_model=MasterDataManifest, name="Data_GetMasterData")
-async def data_get_master_data() -> MasterDataManifest:
-    return MasterDataManifest()
+@router.get("/master", name="Data_GetMasterData")
+async def data_get_master_data(request: Request):
+    return respond(MasterDataManifest())
 
 
 # /api/data/user
-@router.get("/user", response_model=list[Any], name="Data_GetUserData")
-async def data_get_user_data() -> list[Any]:
-    return []
+@router.get("/user", name="Data_GetUserData")
+async def data_get_user_data(request: Request):
+    return respond([])

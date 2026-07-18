@@ -1,27 +1,20 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/Accessories", tags=["Accessories"])
 
 
 # /api/Accessories/Sell
-@router.post("/Sell", response_model=BooleanResult, name="Accessories_Sell")
-async def accessories_sell(body: SellAccessoryPayload) -> BooleanResult:
-    return BooleanResult()
+@router.post("/Sell", name="Accessories_Sell")
+async def accessories_sell(request: Request):
+    payload = await read_request(request, "SellAccessoryPayload")
+    return respond(BooleanResult())
 
 
 # /api/Accessories/SetFavorite
-@router.post(
-    "/SetFavorite",
-    response_model=BooleanResult,
-    name="Accessories_SetAccessoryFavorite",
-)
-async def accessories_set_accessory_favorite(
-    body: AccessoryFavoritePayload,
-) -> BooleanResult:
-    return BooleanResult()
+@router.post("/SetFavorite", name="Accessories_SetAccessoryFavorite")
+async def accessories_set_accessory_favorite(request: Request):
+    payload = await read_request(request, "AccessoryFavoritePayload")
+    return respond(BooleanResult())

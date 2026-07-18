@@ -1,89 +1,73 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/Friends", tags=["Friends"])
 
 
 # /api/Friends
-@router.get("/", response_model=FriendListResult, name="Friends_GetFriends")
-async def friends_get_friends() -> FriendListResult:
-    return FriendListResult()
+@router.get("/", name="Friends_GetFriends")
+async def friends_get_friends(request: Request):
+    return respond(FriendListResult())
 
 
 # /api/Friends/AcceptRequest?fromUserId=
-@router.post(
-    "/AcceptRequest",
-    response_model=FriendAcceptResult,
-    name="Friends_AcceptFriendRequest",
-)
-async def friends_accept_friend_request(fromUserId: str) -> FriendAcceptResult:
-    return FriendAcceptResult()
+@router.post("/AcceptRequest", name="Friends_AcceptFriendRequest")
+async def friends_accept_friend_request(request: Request):
+    return respond(FriendAcceptResult())
 
 
 # /api/Friends/BlockUser?targetUserId=
-@router.post("/BlockUser", response_model=BooleanResult, name="Friends_BlockUser")
-async def friends_block_user(targetUserId: str) -> BooleanResult:
-    return BooleanResult()
+@router.post("/BlockUser", name="Friends_BlockUser")
+async def friends_block_user(request: Request):
+    return respond(BooleanResult())
 
 
 # /api/Friends/BlockUsers
-@router.get("/BlockUsers", response_model=BlockListResult, name="Friends_BlockUsers")
-async def friends_block_users() -> BlockListResult:
-    return BlockListResult()
+@router.get("/BlockUsers", name="Friends_BlockUsers")
+async def friends_block_users(request: Request):
+    return respond(BlockListResult())
 
 
 # /api/Friends/CancelRequest?targetUserId=
-@router.post(
-    "/CancelRequest", response_model=BooleanResult, name="Friends_CancelFriendRequest"
-)
-async def friends_cancel_friend_request(targetUserId: str) -> BooleanResult:
-    return BooleanResult()
+@router.post("/CancelRequest", name="Friends_CancelFriendRequest")
+async def friends_cancel_friend_request(request: Request):
+    return respond(BooleanResult())
 
 
 # /api/Friends/DenyRequest?fromUserId=
-@router.post(
-    "/DenyRequest", response_model=BooleanResult, name="Friends_DenyFriendRequest"
-)
-async def friends_deny_friend_request(fromUserId: str) -> BooleanResult:
-    return BooleanResult()
+@router.post("/DenyRequest", name="Friends_DenyFriendRequest")
+async def friends_deny_friend_request(request: Request):
+    return respond(BooleanResult())
 
 
 # /api/Friends/RemoveBlockUser?targetUserId=
-@router.post(
-    "/RemoveBlockUser", response_model=BooleanResult, name="Friends_RemoveBlockUser"
-)
-async def friends_remove_block_user(targetUserId: str) -> BooleanResult:
-    return BooleanResult()
+@router.post("/RemoveBlockUser", name="Friends_RemoveBlockUser")
+async def friends_remove_block_user(request: Request):
+    return respond(BooleanResult())
 
 
 # /api/Friends/RemoveFriend?targetUserId=
-@router.post("/RemoveFriend", response_model=BooleanResult, name="Friends_RemoveFriend")
-async def friends_remove_friend(targetUserId: str) -> BooleanResult:
-    return BooleanResult()
+@router.post("/RemoveFriend", name="Friends_RemoveFriend")
+async def friends_remove_friend(request: Request):
+    return respond(BooleanResult())
 
 
 # /api/Friends/Search?targetUserId=
-@router.post("/Search", response_model=FriendSearchResult, name="Friends_SearchFriend")
-async def friends_search_friend(targetUserId: str) -> FriendSearchResult:
-    return FriendSearchResult()
+@router.post("/Search", name="Friends_SearchFriend")
+async def friends_search_friend(request: Request):
+    return respond(FriendSearchResult())
 
 
 # /api/Friends/SendRequest?targetUserId=
-@router.post(
-    "/SendRequest", response_model=FriendRequestResult, name="Friends_SendFriendRequest"
-)
-async def friends_send_friend_request(targetUserId: str) -> FriendRequestResult:
-    return FriendRequestResult()
+@router.post("/SendRequest", name="Friends_SendFriendRequest")
+async def friends_send_friend_request(request: Request):
+    return respond(FriendRequestResult())
 
 
 # /api/Friends/SetFavorite
-@router.post(
-    "/SetFavorite", response_model=BooleanResult, name="Friends_SetFriendFavorite"
-)
-async def friends_set_friend_favorite(body: FriendFavoritePayload) -> BooleanResult:
-    return BooleanResult()
+@router.post("/SetFavorite", name="Friends_SetFriendFavorite")
+async def friends_set_friend_favorite(request: Request):
+    payload = await read_request(request, "FriendFavoritePayload")
+    return respond(BooleanResult())

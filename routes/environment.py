@@ -1,15 +1,12 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/Environment", tags=["Environment"])
 
 
 # /api/Environment/Ping
-@router.get("/Ping", response_model=BooleanResult, name="Environment_Ping")
-async def environment_ping() -> BooleanResult:
-    return BooleanResult()
+@router.get("/Ping", name="Environment_Ping")
+async def environment_ping(request: Request):
+    return respond(BooleanResult())

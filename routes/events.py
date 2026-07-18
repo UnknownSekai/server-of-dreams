@@ -1,21 +1,13 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/Events", tags=["Events"])
 
 
 # /api/Events/TrialPartyEvent/EditParty
-@router.post(
-    "/TrialPartyEvent/EditParty",
-    response_model=BooleanResult,
-    name="Events_EditTrialPartyEventParty",
-)
-async def events_edit_trial_party_event_party(
-    body: EditTrialPartyEventStagePartyPayload,
-) -> BooleanResult:
-    return BooleanResult()
+@router.post("/TrialPartyEvent/EditParty", name="Events_EditTrialPartyEventParty")
+async def events_edit_trial_party_event_party(request: Request):
+    payload = await read_request(request, "EditTrialPartyEventStagePartyPayload")
+    return respond(BooleanResult())

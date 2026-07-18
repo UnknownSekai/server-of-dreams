@@ -1,31 +1,20 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/Items", tags=["Items"])
 
 
 # /api/Items/ExchangeCharacterPiece
-@router.post(
-    "/ExchangeCharacterPiece",
-    response_model=ReceivedThing,
-    name="Items_ExchangeCharacterPiece",
-)
-async def items_exchange_character_piece(body: list[int]) -> ReceivedThing:
-    return ReceivedThing()
+@router.post("/ExchangeCharacterPiece", name="Items_ExchangeCharacterPiece")
+async def items_exchange_character_piece(request: Request):
+    payload = await read_request(request, None)
+    return respond(ReceivedThing())
 
 
 # /api/Items/UseStaminaRecoveryItems
-@router.post(
-    "/UseStaminaRecoveryItems",
-    response_model=BooleanResult,
-    name="Items_UseRecoveryStaminaItems",
-)
-async def items_use_recovery_stamina_items(
-    body: UseStaminaRecoveryItemsPayload,
-) -> BooleanResult:
-    return BooleanResult()
+@router.post("/UseStaminaRecoveryItems", name="Items_UseRecoveryStaminaItems")
+async def items_use_recovery_stamina_items(request: Request):
+    payload = await read_request(request, "UseStaminaRecoveryItemsPayload")
+    return respond(BooleanResult())

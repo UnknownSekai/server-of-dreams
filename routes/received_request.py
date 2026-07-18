@@ -1,15 +1,12 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/ReceivedRequest", tags=["ReceivedRequest"])
 
 
 # /api/ReceivedRequest
-@router.post("/", response_model=FriendListResult, name="Friends_GetReceivedRequest")
-async def friends_get_received_request() -> FriendListResult:
-    return FriendListResult()
+@router.post("/", name="Friends_GetReceivedRequest")
+async def friends_get_received_request(request: Request):
+    return respond(FriendListResult())

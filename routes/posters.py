@@ -1,9 +1,6 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/Posters", tags=["Posters"])
@@ -11,19 +8,15 @@ router = APIRouter(prefix="/api/Posters", tags=["Posters"])
 
 # /api/Posters/ChangePosterAlternativeImage
 @router.post(
-    "/ChangePosterAlternativeImage",
-    response_model=BooleanResult,
-    name="Posters_ChangePosterAlternativeImage",
+    "/ChangePosterAlternativeImage", name="Posters_ChangePosterAlternativeImage"
 )
-async def posters_change_poster_alternative_image(
-    body: PosterAlternativeImagePayload,
-) -> BooleanResult:
-    return BooleanResult()
+async def posters_change_poster_alternative_image(request: Request):
+    payload = await read_request(request, "PosterAlternativeImagePayload")
+    return respond(BooleanResult())
 
 
 # /api/Posters/SetFavorite
-@router.post(
-    "/SetFavorite", response_model=BooleanResult, name="Posters_SetPosterFavorite"
-)
-async def posters_set_poster_favorite(body: PosterFavoritePayload) -> BooleanResult:
-    return BooleanResult()
+@router.post("/SetFavorite", name="Posters_SetPosterFavorite")
+async def posters_set_poster_favorite(request: Request):
+    payload = await read_request(request, "PosterFavoritePayload")
+    return respond(BooleanResult())

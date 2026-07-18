@@ -1,27 +1,18 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/Leagues", tags=["Leagues"])
 
 
 # /api/Leagues
-@router.get(
-    "/", response_model=LeagueReceiveResults, name="Leagues_SendThingLeagueRewards"
-)
-async def leagues_send_thing_league_rewards() -> LeagueReceiveResults:
-    return LeagueReceiveResults()
+@router.get("/", name="Leagues_SendThingLeagueRewards")
+async def leagues_send_thing_league_rewards(request: Request):
+    return respond(LeagueReceiveResults())
 
 
 # /api/Leagues/TopMenuInformation
-@router.post(
-    "/TopMenuInformation",
-    response_model=LeagueTopMenuInformationResult,
-    name="Leagues_GetTopMenuInformation",
-)
-async def leagues_get_top_menu_information() -> LeagueTopMenuInformationResult:
-    return LeagueTopMenuInformationResult()
+@router.post("/TopMenuInformation", name="Leagues_GetTopMenuInformation")
+async def leagues_get_top_menu_information(request: Request):
+    return respond(LeagueTopMenuInformationResult())

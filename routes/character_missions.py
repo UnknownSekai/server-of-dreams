@@ -1,9 +1,6 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/CharacterMissions", tags=["CharacterMissions"])
@@ -11,21 +8,16 @@ router = APIRouter(prefix="/api/CharacterMissions", tags=["CharacterMissions"])
 
 # /api/CharacterMissions/BulkReceiveAllMission
 @router.post(
-    "/BulkReceiveAllMission",
-    response_model=list[CharacterBaseStarPointResult],
-    name="CharacterMission_ReceiveAllMissionRewardsAll",
+    "/BulkReceiveAllMission", name="CharacterMission_ReceiveAllMissionRewardsAll"
 )
-async def character_mission_receive_all_mission_rewards_all(
-    body: list[int],
-) -> list[CharacterBaseStarPointResult]:
-    return []
+async def character_mission_receive_all_mission_rewards_all(request: Request):
+    payload = await read_request(request, None)
+    return respond([])
 
 
 # /api/CharacterMissions/checkInitializeMissions
 @router.post(
-    "/checkInitializeMissions",
-    response_model=BooleanResult,
-    name="CharacterMission_CheckInitializeCharacterMissions",
+    "/checkInitializeMissions", name="CharacterMission_CheckInitializeCharacterMissions"
 )
-async def character_mission_check_initialize_character_missions() -> BooleanResult:
-    return BooleanResult()
+async def character_mission_check_initialize_character_missions(request: Request):
+    return respond(BooleanResult())

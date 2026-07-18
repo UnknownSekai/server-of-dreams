@@ -1,71 +1,46 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(prefix="/api/Home", tags=["Home"])
 
 
 # /api/Home/CheckEexternalPayment
-@router.post(
-    "/CheckEexternalPayment",
-    response_model=EexternalPaymentResult,
-    name="Home_CheckEexternalPayment",
-)
-async def home_check_eexternal_payment() -> EexternalPaymentResult:
-    return EexternalPaymentResult()
+@router.post("/CheckEexternalPayment", name="Home_CheckEexternalPayment")
+async def home_check_eexternal_payment(request: Request):
+    return respond(EexternalPaymentResult())
 
 
 # /api/Home/CheckReceiveLoginBonus
-@router.post(
-    "/CheckReceiveLoginBonus",
-    response_model=list[LoginBonusResult],
-    name="Home_CheckReceiveLoginBonus",
-)
-async def home_check_receive_login_bonus() -> list[LoginBonusResult]:
-    return []
+@router.post("/CheckReceiveLoginBonus", name="Home_CheckReceiveLoginBonus")
+async def home_check_receive_login_bonus(request: Request):
+    return respond([])
 
 
 # /api/Home/GetMultiLiveRestrictionNotification
 @router.post(
     "/GetMultiLiveRestrictionNotification",
-    response_model=BooleanResult,
     name="Home_GetMultiLiveRestrictionNotification",
 )
-async def home_get_multi_live_restriction_notification() -> BooleanResult:
-    return BooleanResult()
+async def home_get_multi_live_restriction_notification(request: Request):
+    return respond(BooleanResult())
 
 
 # /api/Home/GetNotificationsAsync
-@router.post(
-    "/GetNotificationsAsync",
-    response_model=list[NotificationResult],
-    name="Home_GetNotifications",
-)
-async def home_get_notifications() -> list[NotificationResult]:
-    return []
+@router.post("/GetNotificationsAsync", name="Home_GetNotifications")
+async def home_get_notifications(request: Request):
+    return respond([])
 
 
 # /api/Home/GetNotificationsInTitleAsync
-@router.get(
-    "/GetNotificationsInTitleAsync",
-    response_model=list[NotificationResult],
-    name="Home_GetNotificationsAnonymous",
-)
-async def home_get_notifications_anonymous() -> list[NotificationResult]:
-    return []
+@router.get("/GetNotificationsInTitleAsync", name="Home_GetNotificationsAnonymous")
+async def home_get_notifications_anonymous(request: Request):
+    return respond([])
 
 
 # /api/Home/UpdateNotificationReadTime
-@router.post(
-    "/UpdateNotificationReadTime",
-    response_model=BooleanResult,
-    name="Home_UpdateNotificationReadTime",
-)
-async def home_update_notification_read_time(
-    body: ReadNotificationPayload,
-) -> BooleanResult:
-    return BooleanResult()
+@router.post("/UpdateNotificationReadTime", name="Home_UpdateNotificationReadTime")
+async def home_update_notification_read_time(request: Request):
+    payload = await read_request(request, "ReadNotificationPayload")
+    return respond(BooleanResult())

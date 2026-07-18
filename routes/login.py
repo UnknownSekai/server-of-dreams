@@ -1,15 +1,14 @@
-from __future__ import annotations
+from fastapi import APIRouter, Request
 
-from typing import Any, Optional
-
-from fastapi import APIRouter, Query
-
+from helpers.msgpack import read_request, respond
+from helpers.auth import login
 from models import *
 
 router = APIRouter(prefix="/api/Login", tags=["Login"])
 
 
 # /api/Login
-@router.post("/", response_model=LoginResult, name="Login_Login")
-async def login_login(body: LoginPayload) -> LoginResult:
-    return LoginResult()
+@router.post("/", name="Login_Login")
+async def login_login(request: Request):
+    payload = await read_request(request, "LoginPayload")
+    return respond(login(payload))

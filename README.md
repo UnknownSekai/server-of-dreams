@@ -1,4 +1,4 @@
-# server-of-dreams
+# Server of Dreams (夢のサーバー)
 A certain EOSing mobile theatre idol rhythm game's private server implementation.
 
 began development 2026/07/17 will take a while
