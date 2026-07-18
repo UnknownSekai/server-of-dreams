@@ -1,4 +1,4 @@
-# wds_api — reverse-engineered World Dai Star API client
+# wds_api — reverse-engineered World Dai Star API client (thanks claude)
 
 Python port of the game's `Sirius.ApiClient` (app **2.31.0**), reconstructed from
 the IL2CPP dump (`dump.cs`, `script.json`, `stringliteral.json`) and ARM64
