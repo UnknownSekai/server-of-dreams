@@ -120,7 +120,10 @@ class RedirectToLocal:
             "path substrings to always send to the real server",
         )
         loader.add_option(
-            "sod_keep_host", bool, True, "keep the original Host header on the local call"
+            "sod_keep_host",
+            bool,
+            True,
+            "keep the original Host header on the local call",
         )
         # trust_env=False matters: with HTTP(S)_PROXY set — likely, since a proxy
         # is running — httpx would route the emulator call back through mitmproxy.
@@ -183,7 +186,9 @@ class RedirectToLocal:
                 ctx.log.warn(f"[sod] emulator unreachable ({reason}) -> real server")
                 return
             flow.response = http.Response.make(
-                502, f"emulator unreachable: {reason}".encode(), {"Content-Type": "text/plain"}
+                502,
+                f"emulator unreachable: {reason}".encode(),
+                {"Content-Type": "text/plain"},
             )
             return
 

@@ -29,8 +29,8 @@ except Exception:  # pragma: no cover
 API_HOST = "lb-api.wds-stellarium.com"
 _ROUTES_DIR = pathlib.Path(__file__).resolve().parent / "routes"
 
-_LZ4_BLOCK = 99         # ExtType(99, <int uncompressedLen><raw lz4 block>)
-_LZ4_BLOCK_ARRAY = 98   # [ExtType(98, lens...), bin(block0), .. bin(blockN-1)]
+_LZ4_BLOCK = 99  # ExtType(99, <int uncompressedLen><raw lz4 block>)
+_LZ4_BLOCK_ARRAY = 98  # [ExtType(98, lens...), bin(block0), .. bin(blockN-1)]
 
 
 def _is_lz4_block_array(obj: Any) -> bool:
@@ -67,7 +67,7 @@ def _decompress_lz4_block_ext(data: bytes) -> bytes:
     up = msgpack.Unpacker(raw=False, strict_map_key=False)
     up.feed(data)
     length = up.unpack()
-    return _lz4_decompress(data[up.tell():], length)
+    return _lz4_decompress(data[up.tell() :], length)
 
 
 def _decompress_lz4(obj: Any) -> Any:
@@ -158,7 +158,11 @@ _RESPOND_FNS = {"respond", "common_response", "raw_response"}
 
 
 def _const_str(node) -> str | None:
-    return node.value if isinstance(node, ast.Constant) and isinstance(node.value, str) else None
+    return (
+        node.value
+        if isinstance(node, ast.Constant) and isinstance(node.value, str)
+        else None
+    )
 
 
 def _result_model(arg: ast.expr) -> tuple[str | None, bool]:
@@ -195,14 +199,18 @@ def _build_route_map() -> dict[str, dict]:
             if not isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)):
                 continue
             for dec in node.decorator_list:
-                if not (isinstance(dec, ast.Call) and isinstance(dec.func, ast.Attribute)):
+                if not (
+                    isinstance(dec, ast.Call) and isinstance(dec.func, ast.Attribute)
+                ):
                     continue
                 if dec.func.attr not in ("post", "get", "put", "delete"):
                     continue
                 sub = _const_str(dec.args[0]) if dec.args else None
                 if sub is None:
                     continue
-                op = next((_const_str(k.value) for k in dec.keywords if k.arg == "name"), None)
+                op = next(
+                    (_const_str(k.value) for k in dec.keywords if k.arg == "name"), None
+                )
                 info = {
                     "operation": op,
                     "request": None,
@@ -215,7 +223,9 @@ def _build_route_map() -> dict[str, dict]:
                         continue
                     if n.func.id == "read_request" and len(n.args) >= 2:
                         info["request"] = _const_str(n.args[1]) or info["request"]
-                    elif n.func.id in _RESPOND_FNS and n.args and info["result"] is None:
+                    elif (
+                        n.func.id in _RESPOND_FNS and n.args and info["result"] is None
+                    ):
                         model, is_array = _result_model(n.args[0])
                         if model:
                             info["result"] = model
@@ -294,7 +304,9 @@ def _name_model(model_name: str | None, arr: Any) -> Any:
         return arr
     named: dict[str, Any] = {}
     for key, fn, base, is_array, kind, *_ in KEYS[model_name]:
-        named[fn] = _name_field(kind, base, is_array, arr[key] if key < len(arr) else None)
+        named[fn] = _name_field(
+            kind, base, is_array, arr[key] if key < len(arr) else None
+        )
     return named
 
 
@@ -349,7 +361,9 @@ def _name_extras(extras: dict) -> dict:
     if extras.get("present"):
         out["present"] = _name_union_list(extras["present"], IDATA_OBJECT)
     if extras.get("deleted"):
-        out["deleted"] = [_name_model("DeletedDataObject", x) for x in extras["deleted"]]
+        out["deleted"] = [
+            _name_model("DeletedDataObject", x) for x in extras["deleted"]
+        ]
     if extras.get("notifications"):
         out["notifications"] = _name_union_list(
             extras["notifications"], INOTIFICATION_OBJECT
@@ -402,7 +416,9 @@ class WdsContentview(contentviews.Contentview):
             result, extras = _split_envelope(objs, info.get("raw"))
             model = info.get("result")
             if model:
-                response = _name_result(model, result, info.get("result_is_array", False))
+                response = _name_result(
+                    model, result, info.get("result_is_array", False)
+                )
             elif _looks_like_idata_list(result):
                 response = _name_union_list(result, IDATA_OBJECT)
             else:
@@ -423,9 +439,7 @@ class WdsContentview(contentviews.Contentview):
 
         return json.dumps(out, ensure_ascii=False, indent=2, default=_json_default)
 
-    def render_priority(
-        self, data: bytes, metadata: contentviews.Metadata
-    ) -> float:
+    def render_priority(self, data: bytes, metadata: contentviews.Metadata) -> float:
         if not data or not _is_wds_api(metadata.flow):
             return -1
         return 2
