@@ -80,7 +80,7 @@ async def photo_generate_photo(request: Request):
 async def photo_generate_photos(request: Request):
     app: YumeApp = request.app
     payload = await read_request(request, "GeneratePhotosPayload")
-    return respond([])
+    return respond([GeneratePhotoResult()])
 
 
 # /api/Photo/GetAlbumMainPage?targetUserId=

@@ -41,7 +41,7 @@ async def friend_invitation_check_invitation_code_info(
 async def friend_invitation_receive_invitation_mission_rewards(request: Request):
     app: YumeApp = request.app
     payload = await read_request(request, "FriendInvitationMissionPayload")
-    return respond([])
+    return respond([ReceivedThing()])
 
 
 # /api/FriendInvitation/Update

@@ -25,7 +25,7 @@ async def gachas_decide_re_roll_gacha(
 async def gachas_get_available_gachas(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([GachaInfoResult()])
 
 
 # /api/Gachas/CharacterLineup/{gachaMasterId}
@@ -97,8 +97,7 @@ async def gachas_re_roll_gacha(
 async def gachas_roll_gacha(request: Request, gachaDetailMasterId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(GachaRollResult())
+    return respond(GachaRollResult())
 
 
 # /api/Gachas/{gachaMasterId}/SetSelectedThings

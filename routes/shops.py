@@ -25,7 +25,7 @@ async def shops_exchange_market_thing(request: Request, number: int):
 async def shops_exchange_market_things(request: Request):
     app: YumeApp = request.app
     payload = await read_request(request)
-    return respond([])
+    return respond([ReceivedThing()])
 
 
 # /api/Shops/ExchangeMusic/{mMusicId}
@@ -82,7 +82,7 @@ async def shops_exchange_shop_thing(
 async def shops_exchange_shop_things(request: Request):
     app: YumeApp = request.app
     payload = await read_request(request, "ExchangeShopThingPayload")
-    return respond([])
+    return respond([ReceivedThing()])
 
 
 # /api/Shops/GetOrRefreshMarket
@@ -98,7 +98,7 @@ async def shops_get_or_refresh_market(request: Request):
 async def shops_purchase(request: Request):
     app: YumeApp = request.app
     payload = await read_request(request, "PurchaseItemPayload")
-    return respond([])
+    return respond([ReceivedThing()])
 
 
 # /api/Shops/UpdateLastViewedAt

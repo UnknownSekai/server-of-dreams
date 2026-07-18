@@ -145,7 +145,7 @@ async def circles_get_circle_support_point_weekly_ranking(request: Request):
 async def circles_get_circles(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([CircleInformationResult()])
 
 
 # /api/Circles/Condition
@@ -153,7 +153,7 @@ async def circles_get_circles(request: Request):
 async def circles_get_circles_condition_search(request: Request):
     app: YumeApp = request.app
     payload = await read_request(request, "CirclePayload")
-    return respond([])
+    return respond([CircleInformationResult()])
 
 
 # /api/Circles/Search?circleName=
@@ -163,7 +163,7 @@ async def circles_get_circles_name_search(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([CircleInformationResult()])
 
 
 # /api/Circles/Invited
@@ -171,7 +171,7 @@ async def circles_get_circles_name_search(
 async def circles_get_invited_circles(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([CircleInformationResult()])
 
 
 # /api/Circles/MyCircleInfo

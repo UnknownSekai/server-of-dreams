@@ -22,7 +22,7 @@ async def home_check_eexternal_payment(request: Request):
 async def home_check_receive_login_bonus(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([LoginBonusResult()])
 
 
 # /api/Home/GetMultiLiveRestrictionNotification
@@ -45,7 +45,7 @@ async def home_get_notification_content(request: Request, mNotificationId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
     # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(NotificationContentResult())
+    return respond(NotificationContentResult())
 
 
 # /api/Home/GetNotificationsInTitleAsync/{mNotificationId}
@@ -59,7 +59,7 @@ async def home_get_notification_content_anonymous(
     app: YumeApp = request.app
     payload = {}  # no payload
     # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(NotificationContentResult())
+    return respond(NotificationContentResult())
 
 
 # /api/Home/GetNotificationsAsync
@@ -67,7 +67,7 @@ async def home_get_notification_content_anonymous(
 async def home_get_notifications(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([NotificationResult()])
 
 
 # /api/Home/GetNotificationsInTitleAsync
@@ -77,7 +77,7 @@ async def home_get_notifications(request: Request):
 async def home_get_notifications_anonymous(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([NotificationResult()])
 
 
 # /api/Home/UpdateNotificationReadTime

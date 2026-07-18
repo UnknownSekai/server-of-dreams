@@ -22,7 +22,7 @@ async def multi_room_create_multi_rooms(request: Request):
 async def multi_room_get_invited_multi_rooms(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([MultiRoomInvitedResult()])
 
 
 # /api/MultiRooms/Joined
@@ -30,7 +30,7 @@ async def multi_room_get_invited_multi_rooms(request: Request):
 async def multi_room_get_joined_multi_rooms(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([MultiRoomJoinnedResult()])
 
 
 # /api/MultiRooms/Detail?hashedMultiRoomId=?hashedMultiRoomId=
@@ -50,7 +50,7 @@ async def multi_room_get_multi_room_detail(
 async def multi_room_get_multi_rooms(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([MultiRoomInformationResult()])
 
 
 # /api/MultiRoom/GetSearchMultiRooms?HashedRoomId=&LiveMasterId=

@@ -42,7 +42,7 @@ async def character_mission_receive_all_mission_rewards(
 async def character_mission_receive_all_mission_rewards_all(request: Request):
     app: YumeApp = request.app
     payload = await read_request(request)
-    return respond([])
+    return respond([CharacterBaseStarPointResult()])
 
 
 # /api/CharacterMissions/{mCharacterBaseId}/receiveKeyMission

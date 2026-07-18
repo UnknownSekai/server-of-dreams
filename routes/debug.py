@@ -666,7 +666,7 @@ async def debug_get_league_histories(request: Request):
 async def debug_get_live_score_history(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([])
+    return respond([ScoreWithDateResult()])
 
 
 # /api/Debugs/ConvertUserId?userId=&hashedUserId=
