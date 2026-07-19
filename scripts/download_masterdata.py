@@ -21,11 +21,12 @@ from helpers.mastermemory import unpack  # noqa: E402
 from helpers.msgpack import from_array  # noqa: E402
 from models.master_data import TABLES  # noqa: E402
 from scripts._sirius import MaintenanceError, master_data_manifest  # noqa: E402
+from models import MasterDataManifest
 
 OUT = Path(__file__).resolve().parent.parent / "masterdata"
 
 
-def _download_url(manifest) -> str:
+def _download_url(manifest: MasterDataManifest) -> str:
     uri, sas = manifest.uri or "", manifest.sas_token or ""
     if uri and sas:
         sep = "&" if "?" in uri else "?"
@@ -43,11 +44,11 @@ def main() -> None:
         print(f"read {args.file} ({len(db)} bytes)")
     else:
         try:
-            manifest = master_data_manifest()
+            manifest: MasterDataManifest = master_data_manifest()
         except MaintenanceError:
             print("Server is in maintenance")
             return
-        url = _download_url(manifest)
+        url = "https://assets-e.wds-stellarium.com/master-data/production/" + _download_url(manifest)
         print(
             f"master-data version {manifest.version} (publish {manifest.publish_timestamp})"
         )

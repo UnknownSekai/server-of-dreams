@@ -14,7 +14,7 @@ import msgpack
 import requests
 
 from helpers.msgpack import from_array, to_wire
-from models import AuthenticatePayload, RegisterPayload
+from models import AuthenticatePayload, RegisterPayload, AccountRegistResult, AuthenticateResult
 
 _LZ4_BLOCK = 99
 _LZ4_BLOCK_ARRAY = 98
@@ -27,10 +27,10 @@ class MaintenanceError(Exception):
 OFFICIAL = "https://lb-api.wds-stellarium.com"
 
 _CLIENT_VERSION = "2.31.0"
-_APP_VERSION = "2.31.0.489"
-_GAME_VERSION = 2  # GameVersions.GooglePlay
-_APK_HASH = "E75761F189DDC378894B8DD770B129057F242148:1EFF46A116B8A6B91E858B34D722C18B54F64132:8D695CF32507DD218633ABAF429370A259519AEA"
-_APK_SIGNATURE = "762B0A9B72279219081CAA00F83AA8CEEACED4B8A750DAF70B4F46CFBC4C6D1C"
+_APP_VERSION = "2.31.0.420"
+_GAME_VERSION = 1
+_APK_HASH = None
+_APK_SIGNATURE = None
 
 
 def _request(
@@ -38,11 +38,11 @@ def _request(
 ) -> requests.Response:
     headers = {
         "X-Client-Version": _CLIENT_VERSION,
-        "X-Platform": "Android",
+        "X-Platform": "app-store",
         "Accept": "application/vnd.msgpack",
     }
     if token:
-        headers["Authorization"] = token
+        headers["Authorization"] = "Bearer " + token
     body = None
     if payload is not None:
         body = msgpack.packb(to_wire(payload), use_bin_type=True) or b""
@@ -113,13 +113,13 @@ def environment():
 
 
 def _session_token() -> str:
-    reg = _result(
+    reg: AccountRegistResult = _result(
         _request(
             "/api/Account/Register", payload=RegisterPayload(name="server-of-dreams")
         ),
         "AccountRegistResult",
     )
-    auth = _result(
+    auth: AuthenticateResult = _result(
         _request(
             "/api/Account/Authenticate",
             payload=AuthenticatePayload(
