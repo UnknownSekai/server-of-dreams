@@ -23,7 +23,7 @@ from models.master_data import TABLES  # noqa: E402
 from scripts._sirius import MaintenanceError, master_data_manifest  # noqa: E402
 from models import MasterDataManifest
 
-OUT = Path(__file__).resolve().parent.parent / "masterdata"
+OUT = Path(__file__).resolve().parent.parent / "_data" / "masterdata"
 
 
 def _download_url(manifest: MasterDataManifest) -> str:
@@ -58,7 +58,7 @@ def main() -> None:
         print(f"downloaded {len(db)} bytes")
 
     tables = unpack(db)
-    OUT.mkdir(exist_ok=True)
+    OUT.mkdir(parents=True, exist_ok=True)
     for name, rows in tables.items():
         model = TABLES.get(name)
         if model is None:

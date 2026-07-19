@@ -25,7 +25,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scripts._sirius import MaintenanceError, environment  # noqa: E402
 
-ASSETS = Path(__file__).resolve().parent.parent / "assets"
+ASSETS = Path(__file__).resolve().parent.parent / "_data" / "assets"
 ASSET_URL = "https://assets-e.wds-stellarium.com/production"
 KINDS = ("2d-assets", "3d-assets", "cri-assets")
 PLATFORMS = ("Android", "iOS")
