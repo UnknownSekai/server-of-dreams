@@ -1,5 +1,10 @@
 from db.query import ExecutableQuery, SelectQuery
-from models.database import ActiveLiveModel
+from models.database import ActiveLiveModel, SequenceValueModel
+
+
+def next_live_id() -> SelectQuery[SequenceValueModel]:
+    # collision-free owned-live id, allocated from a Postgres sequence (see live_id_seq)
+    return SelectQuery(SequenceValueModel, "SELECT nextval('live_id_seq') AS value")
 
 
 def delete_active_lives(user_id: int) -> ExecutableQuery:

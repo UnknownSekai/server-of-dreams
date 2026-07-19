@@ -1,4 +1,3 @@
-import random
 from typing import Optional
 
 from fastapi import APIRouter, Request
@@ -10,6 +9,7 @@ from db.user import (
     get_active_live,
     get_lives,
     get_users,
+    next_live_id,
     update_live_result,
     upsert_live,
 )
@@ -123,11 +123,12 @@ async def lives_finish_and_validate(request: Request):
                 )
             )
         elif live_master_id:
+            id_row = await conn.fetchrow(next_live_id())
             await conn.execute(
                 upsert_live(
                     user_id,
                     {
-                        "id": random.randint(1_000_000, 9_999_999_999),
+                        "id": id_row.value if id_row is not None else live_master_id,
                         "liveMasterId": live_master_id,
                         "timesCompleted": times,
                         "achievementRate": best_rate,

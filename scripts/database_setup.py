@@ -3642,6 +3642,7 @@ class EventCamp(BaseModel):
 
 db.connect()
 db.execute_sql("CREATE SEQUENCE IF NOT EXISTS user_id_seq START 1")
+db.execute_sql("CREATE SEQUENCE IF NOT EXISTS live_id_seq START 1")
 db.create_tables([DatabaseInfo, Accounts], safe=True)
 db.create_tables(
     [
