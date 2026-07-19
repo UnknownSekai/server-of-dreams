@@ -179,6 +179,13 @@ async def circles_get_my_circle(request: Request):
     return respond(MyCircleInformationResult())
 
 
+def _support_company_status() -> SupportCompanyLevelStatus:
+    # zero status with a non-null level_limit_status (matches the official response)
+    return SupportCompanyLevelStatus(
+        level_limit_status=SupportCompanyLevelLimitStatus()
+    )
+
+
 # /api/Circles/GetSupportAndTheaterLevelInformation
 @router.get(
     "/api/Circles/GetSupportAndTheaterLevelInformation",
@@ -186,8 +193,14 @@ async def circles_get_my_circle(request: Request):
 )
 async def circles_get_support_and_theater_level_information(request: Request):
     app: YumeApp = request.app
-    payload = {}  # no payload
-    return respond(SupportCompanyInformation())
+    return respond(  # hardcoded: all four companies at zero
+        SupportCompanyInformation(
+            sirius=_support_company_status(),
+            eden=_support_company_status(),
+            gingaza=_support_company_status(),
+            denki=_support_company_status(),
+        )
+    )
 
 
 # /api/Circles/Join?circleId=

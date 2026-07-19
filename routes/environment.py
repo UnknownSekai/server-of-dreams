@@ -29,4 +29,5 @@ async def environment_get_environment(
 async def environment_ping(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond(BooleanResult())
+    # update/maintenance check ping -> always healthy on this server
+    return respond(BooleanResult(is_success=True))

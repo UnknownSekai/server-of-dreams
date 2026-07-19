@@ -115,6 +115,7 @@ from models.database import (
     GradualMissionGroupModel,
     PhotoModel,
     AlbumModel,
+    CircleSupportModel,
     AlbumPageModel,
     StarPassStatusModel,
     LoginPassStatusModel,
@@ -1078,6 +1079,14 @@ def get_photos(user_id: int) -> SelectQuery[PhotoModel]:
 
 def get_albums(user_id: int) -> SelectQuery[AlbumModel]:
     return SelectQuery(AlbumModel, 'SELECT * FROM "album" WHERE "userId" = $1', user_id)
+
+
+def get_circle_supports(user_id: int) -> SelectQuery[CircleSupportModel]:
+    return SelectQuery(
+        CircleSupportModel,
+        'SELECT * FROM "circle_support" WHERE "userId" = $1',
+        user_id,
+    )
 
 
 def get_album_pages(user_id: int) -> SelectQuery[AlbumPageModel]:

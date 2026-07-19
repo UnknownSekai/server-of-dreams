@@ -1,4 +1,25 @@
 KEYS = {
+    "Actor": (
+        (0, "id_", "long", False, "prim", False),
+        (1, "character_base_master_id", "long", False, "prim", False),
+        (2, "character_master_id", "long", False, "prim", False),
+        (3, "awakening_phase", "int", False, "prim", False),
+        (4, "talent_stage", "int", False, "prim", False),
+        (5, "position", "int", False, "prim", False),
+        (6, "sense_level", "int", False, "prim", False),
+        (7, "base_status", "LiveStatus", False, "model", True),
+        (8, "current_status", "LiveStatus", False, "model", True),
+        (9, "display_awakening_status", "bool", False, "prim", False),
+        (10, "secondary_character_base_master_id", "long", False, "prim", True),
+        (11, "secondary_sense_level", "int", False, "prim", False),
+        (12, "selection_type", "CharacterSelectionTypes", False, "enum", False),
+    ),
+    "LiveStatus": (
+        (0, "concentration", "int", False, "prim", False),
+        (1, "expression", "int", False, "prim", False),
+        (2, "vocal", "int", False, "prim", False),
+        (3, "total_status", "int", False, "prim", False),
+    ),
     "Fault": (
         (0, "error_code", "string", False, "prim", True),
         (1, "message", "string", False, "prim", True),

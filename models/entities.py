@@ -1580,9 +1580,35 @@ class LiveTimeEvent(BaseModel):
     cool_times: list[SenseCoolTime] = Field(default_factory=list)
 
 
+class LiveStatus(BaseModel):
+    concentration: int = 0
+    expression: int = 0
+    vocal: int = 0
+    total_status: int = 0
+
+
+class Actor(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+    id_: int = Field(default=0, alias="id")
+    character_base_master_id: int = 0
+    character_master_id: int = 0
+    awakening_phase: int = 0
+    talent_stage: int = 0
+    position: int = 0
+    sense_level: int = 0
+    base_status: LiveStatus = Field(default_factory=lambda: LiveStatus())
+    current_status: LiveStatus = Field(default_factory=lambda: LiveStatus())
+    display_awakening_status: bool = False
+    secondary_character_base_master_id: Optional[int] = None
+    secondary_sense_level: int = 0
+    selection_type: CharacterSelectionTypes = CharacterSelectionTypes.Primary
+
+
 class LiveUnit(BaseModel):
-    actors: Dictionary = Field(default_factory=lambda: Dictionary())
-    time_events: Dictionary = Field(default_factory=lambda: Dictionary())
+    # actors/time_events are MessagePack maps (Dictionary<int, ...>); we hold them as plain
+    # dicts so to_wire serializes them as msgpack maps
+    actors: dict = Field(default_factory=dict)
+    time_events: dict = Field(default_factory=dict)
     possible_senses: list[Sense] = Field(default_factory=list)
     start_effects: list[Effect] = Field(default_factory=list)
     star_act: StarAct = Field(default_factory=lambda: StarAct())
@@ -3292,6 +3318,8 @@ __all__ = [
     "LiveDropLimit",
     "LiveDropThing",
     "LiveTimeEvent",
+    "Actor",
+    "LiveStatus",
     "LiveUnit",
     "LiveUnitWithOrder",
     "LoginBonusDetail",

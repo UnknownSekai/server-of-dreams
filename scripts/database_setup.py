@@ -2364,6 +2364,26 @@ class Album(BaseModel):
         ]
 
 
+class CircleSupport(BaseModel):
+    # per-company circle support progress (SupportCompanyLevelStatus). One row per (userId, company).
+    rowId = AutoField()
+    userId = BigIntegerField(index=True)
+    company = IntegerField(constraints=[SQL("DEFAULT 0")])
+    level = IntegerField(constraints=[SQL("DEFAULT 0")])
+    currentSupportPoint = IntegerField(constraints=[SQL("DEFAULT 0")])
+    lastLevelUppedAt = BigIntegerField(null=True)  # unix ms, matches other *At columns
+    levelLimit = IntegerField(constraints=[SQL("DEFAULT 0")])
+
+    class Meta:
+        table_name = "circle_support"
+        indexes = ((("userId", "company"), True),)  # unique per user+company
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
 class AlbumPage(BaseModel):
     rowId = AutoField()
     userId = BigIntegerField(index=True)
@@ -3508,6 +3528,23 @@ class HashUserId(BaseModel):
         ]
 
 
+# one active live per user (userId is the PK), holding the u_active_live_id the client
+# passes to Finish/Retire; starting a live replaces it, Retire deletes it
+class ActiveLive(BaseModel):
+    userId = BigIntegerField(primary_key=True)
+    id = BigIntegerField()
+    liveMasterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    partyId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+
+    class Meta:
+        table_name = "active_live"
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
 class HomeSkin(BaseModel):
     rowId = AutoField()
     userId = BigIntegerField(index=True)
@@ -3723,6 +3760,7 @@ db.create_tables(
         GradualMissionGroup,
         Photo,
         Album,
+        CircleSupport,
         AlbumPage,
         StarPassStatus,
         LoginPassStatus,
@@ -3796,6 +3834,7 @@ db.create_tables(
         MultiRoomBasic,
         EventCamp,
         HashUserId,
+        ActiveLive,
     ],
     safe=True,
 )

@@ -20,9 +20,11 @@ class UserModel(BaseModel):
     currentRankPoint: int
     currentStamina: int
     maxStaminaRestoredAt: int
-    paidJewel: int
-    freeJewel: int
-    coin: int
+    # coin/freeJewel/paidJewel come from the currency JOIN in get_users; queries that
+    # return a bare "user" row (e.g. adjust_user_stamina_atomic) leave them defaulted
+    paidJewel: int = 0
+    freeJewel: int = 0
+    coin: int = 0
     playerRankLimit: int
     staminaRecoverTimesWithJewel: int
     circleUsageRestrictionsEndTime: int
@@ -1275,6 +1277,16 @@ class AlbumModel(BaseModel):
     level: int
     publishPageNumber: int
     currentPresetOrder: int
+
+
+class CircleSupportModel(BaseModel):
+    # per-company circle support (game: SupportCompanyLevelStatus), keyed by (userId, company)
+    userId: int
+    company: int
+    level: int = 0
+    currentSupportPoint: int = 0
+    lastLevelUppedAt: Optional[int] = None
+    levelLimit: int = 0
 
 
 class AlbumPageModel(BaseModel):

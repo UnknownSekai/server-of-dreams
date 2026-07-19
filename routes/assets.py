@@ -7,6 +7,8 @@ from helpers.assets import (
     catalog_br,
     catalog_hash,
     local_assets_enabled,
+    notation,
+    official_notation_url,
     official_url,
 )
 
@@ -20,6 +22,19 @@ def _octet(result) -> Response:
         media_type="application/octet-stream",
         headers={"Content-MD5": content_md5},
     )
+
+
+# Notation charts + music_config, served under /production/Notations/{music}/{file}.enc.
+# This 3-segment path must be matched here -- otherwise redirect_slashes rewrites it and the
+# client tries to AES-decrypt a redirect body (crash in SymmetricTransform). We hand back the
+# raw encrypted bytes (local if downloaded, else a redirect to the real CDN).
+@router.get("/production/Notations/{music_id}/{filename}", name="Assets_Notation")
+async def asset_notation(music_id: str, filename: str) -> Response:
+    if local_assets_enabled():
+        local = notation(music_id, filename)
+        if local is not None:
+            return _octet(local)
+    return RedirectResponse(official_notation_url(music_id, filename), status_code=302)
 
 
 # Everything the client fetches from assets-e (redirected here). kind is

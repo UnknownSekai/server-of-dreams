@@ -74,3 +74,20 @@ def bundle(kind: str, platform: str, rel_path: str) -> Optional[Tuple[bytes, str
 
 def official_url(kind: str, platform: str, version: str, rel_path: str) -> str:
     return f"{OFFICIAL_ASSET_URL}/{kind}/{platform}/{version}/{rel_path}"
+
+
+def notation(music_id: str, filename: str) -> Optional[Tuple[bytes, str]]:
+    """A local encrypted notation/music_config .enc and its Content-MD5, or None if absent.
+
+    Served verbatim (still AES/brotli-encrypted) -- the client decrypts it, so we must
+    never hand it a redirect body or a decoded file."""
+    path = (ASSETS / "Notations" / music_id / filename).resolve()
+    root = (ASSETS / "Notations").resolve()
+    if root not in path.parents or not path.is_file():
+        return None
+    body = path.read_bytes()
+    return body, _content_md5(body)
+
+
+def official_notation_url(music_id: str, filename: str) -> str:
+    return f"{OFFICIAL_ASSET_URL}/Notations/{music_id}/{filename}"

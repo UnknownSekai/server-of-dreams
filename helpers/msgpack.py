@@ -98,6 +98,8 @@ def _encode(base, is_array, kind, nullable, v):
 def to_wire(obj):
     if obj is None:
         return None
+    if isinstance(obj, dict):  # Dictionary<K,V> -> msgpack map, values converted
+        return {k: to_wire(v) for k, v in obj.items()}
     if isinstance(obj, (list, tuple)):
         return [to_wire(x) for x in obj]
     name = type(obj).__name__
