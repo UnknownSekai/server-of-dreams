@@ -1,3 +1,4 @@
+import json
 from contextlib import asynccontextmanager
 from typing import AsyncGenerator, Optional
 
@@ -7,6 +8,15 @@ from fastapi import FastAPI
 from db import DBConnWrapper
 from db.utils import create_dsn
 from helpers.config import Database
+
+
+async def _init_connection(conn: asyncpg.Connection) -> None:
+    # decode json/jsonb columns to python objects (and encode python -> json) instead of
+    # asyncpg's default of leaving them as raw strings
+    for pg_type in ("json", "jsonb"):
+        await conn.set_type_codec(
+            pg_type, encoder=json.dumps, decoder=json.loads, schema="pg_catalog"
+        )
 
 
 class YumeApp(FastAPI):
@@ -32,6 +42,7 @@ class YumeApp(FastAPI):
             dsn,
             min_size=self.config.settings.min_size,
             max_size=self.config.settings.max_size,
+            init=_init_connection,
         )
         self.is_setup = True
 

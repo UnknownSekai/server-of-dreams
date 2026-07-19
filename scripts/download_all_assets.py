@@ -23,7 +23,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from helpers.config import config  # noqa: E402
+from scripts._sirius import MaintenanceError, environment  # noqa: E402
 
 ASSETS = Path(__file__).resolve().parent.parent / "assets"
 ASSET_URL = "https://assets-e.wds-stellarium.com/production"
@@ -76,7 +76,12 @@ def main() -> None:
     parser.add_argument("--platform", choices=PLATFORMS, help="only this platform")
     args = parser.parse_args()
 
-    version = str(config["asset_version"])
+    try:
+        version = str(environment().asset_version)
+    except MaintenanceError:
+        print("Server is in maintenance")
+        return
+    print(f"asset version {version}")
     kinds = (args.kind,) if args.kind else KINDS
     platforms = (args.platform,) if args.platform else PLATFORMS
 

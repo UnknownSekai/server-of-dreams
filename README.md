@@ -26,7 +26,11 @@ python main.py
 
 2026/07/18 - Basic friends system implemented
 
-2026/07/18 - Game hints read (mini tutorials read status) implemented
+2026/07/18 - Game hints and splash read statuses implemented
+
+2026/07/19 - Inbox receive/bulk receive implemented
+
+
 
 ## Priority Todo
 Episodes - https://lb-api.wds-stellarium.com/api/Episodes/.../GetDetails?episodeMasterId=...
@@ -34,6 +38,7 @@ Episodes - https://lb-api.wds-stellarium.com/api/Episodes/.../GetDetails?episode
 ## Backburner (less important)
 - GET https://lb-api.wds-stellarium.com/api/Circles/Invited -> []
 - POST https://lb-api.wds-stellarium.com/api/Home/CheckReceiveLoginBonus
+- POST https://lb-api.wds-stellarium.com/api/FriendInvitation/Update (friend invitation mission)
 
 ## Help Requested
 Please open an issue if you know how!

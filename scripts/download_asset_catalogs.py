@@ -16,7 +16,7 @@ import brotli
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from helpers.config import config  # noqa: E402
+from scripts._sirius import MaintenanceError, environment  # noqa: E402
 
 OUT = Path(__file__).resolve().parent.parent / "assets"
 ASSET_URL = "https://assets-e.wds-stellarium.com/production"
@@ -29,7 +29,12 @@ def catalog_url(kind: str, platform: str, version: str) -> str:
 
 
 def main() -> None:
-    version = str(config["asset_version"])
+    try:
+        version = str(environment().asset_version)
+    except MaintenanceError:
+        print("Server is in maintenance")
+        return
+    print(f"asset version {version}")
     ok = 0
     for kind in KINDS:
         for platform in PLATFORMS:

@@ -1,10 +1,12 @@
-"""Download the MasterMemory master-data blob and unpack it into per-table JSON.
+"""Download the current MasterMemory master-data blob and unpack it into per-table JSON.
 
-    python -m scripts.download_masterdata                 # from config's URL
-    python -m scripts.download_masterdata --file some.db  # from a local blob
+    python -m scripts.download_masterdata                 # from the live API
+    python -m scripts.download_masterdata --file some.db  # unpack a local blob
 
-Rows are decoded through each table's model, so ``masterdata/<Table>.json`` is a
-human-readable array of keyed objects. The ``/master-data`` route repacks them.
+Registers a throwaway account on the official server, reads the MasterDataManifest for
+the *current* master-data uri + SAS token (the publish timestamp changes on every update,
+so a hardcoded one always 404s), downloads the blob, and decodes each table's rows through
+its model into ``masterdata/<Table>.json``. The ``/master-data`` route repacks them.
 """
 
 import argparse
@@ -18,31 +20,21 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from helpers.mastermemory import unpack  # noqa: E402
 from helpers.msgpack import from_array  # noqa: E402
 from models.master_data import TABLES  # noqa: E402
-from helpers.config import config  # noqa: E402
+from scripts._sirius import MaintenanceError, master_data_manifest  # noqa: E402
 
 OUT = Path(__file__).resolve().parent.parent / "masterdata"
 
 
-MASTER_DATA_URL = "https://assets-e.wds-stellarium.com/master-data/production"
-
-
-def source_url() -> str:
-    ts = config["master_data_publish_timestamp"]
-    return f"{MASTER_DATA_URL}/{_uri(ts)}"
-
-
-def _uri(ts) -> str:
-    import datetime
-
-    day = datetime.datetime.fromtimestamp(int(ts), datetime.timezone.utc).strftime(
-        "%Y-%m-%d"
-    )
-    return f"{day}/mastermemory_{ts}_{ts}.db"
+def _download_url(manifest) -> str:
+    uri, sas = manifest.uri or "", manifest.sas_token or ""
+    if uri and sas:
+        sep = "&" if "?" in uri else "?"
+        return f"{uri}{sep}{sas.lstrip('?')}"
+    return uri
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--url", default=None, help="blob URL (default: from config)")
     parser.add_argument("--file", default=None, help="unpack a local blob instead")
     args = parser.parse_args()
 
@@ -50,7 +42,15 @@ def main() -> None:
         db = Path(args.file).read_bytes()
         print(f"read {args.file} ({len(db)} bytes)")
     else:
-        url = args.url or source_url()
+        try:
+            manifest = master_data_manifest()
+        except MaintenanceError:
+            print("Server is in maintenance")
+            return
+        url = _download_url(manifest)
+        print(
+            f"master-data version {manifest.version} (publish {manifest.publish_timestamp})"
+        )
         print(f"downloading {url}")
         req = urllib.request.Request(url, headers={"User-Agent": "server-of-dreams"})
         db = urllib.request.urlopen(req, timeout=120).read()

@@ -69,7 +69,9 @@ async def home_get_notification_content_anonymous(
 async def home_get_notifications(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([NotificationResult()])
+    # ApiActionResult<NotificationResult[]> -- empty for now
+    # return respond([NotificationResult()])
+    return respond([])
 
 
 # /api/Home/GetNotificationsInTitleAsync
@@ -79,7 +81,9 @@ async def home_get_notifications(request: Request):
 async def home_get_notifications_anonymous(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([NotificationResult()])
+    # ApiActionResult<NotificationResult[]> -- empty for now
+    # return respond([NotificationResult()])
+    return respond([])
 
 
 # /api/Home/UpdateNotificationReadTime
