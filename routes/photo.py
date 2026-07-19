@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Photo"])
@@ -13,7 +13,7 @@ router = APIRouter(tags=["Photo"])
 @router.post("/api/Photo/AbilityVarietyUp", name="Photo_AbilityVarietyUp")
 async def photo_ability_variety_up(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "AbilityVarietyUpPayload")
+    payload = await read_request(request, AbilityVarietyUpPayload)
     return respond(BooleanResult())
 
 
@@ -21,7 +21,7 @@ async def photo_ability_variety_up(request: Request):
 @router.post("/api/Photo/AlbumDetailArranging", name="Photo_AlbumDetailArranging")
 async def photo_album_detail_arranging(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "AlbumArrangingPayload")
+    payload = await read_request(request, AlbumArrangingPayload)
     return respond(BooleanResult())
 
 
@@ -30,15 +30,14 @@ async def photo_album_detail_arranging(request: Request):
 async def photo_album_reset(request: Request, isAllReset: Optional[bool] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Photo/AlbumSimpleArranging
 @router.post("/api/Photo/AlbumSimpleArranging", name="Photo_AlbumSimpleArranging")
 async def photo_album_simple_arranging(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "AlbumArrangingPayload")
+    payload = await read_request(request, AlbumArrangingPayload)
     return respond(BooleanResult())
 
 
@@ -46,7 +45,7 @@ async def photo_album_simple_arranging(request: Request):
 @router.post("/api/Photo/ChangePhotoAbility", name="Photo_ChangePhotoAbility")
 async def photo_change_photo_ability(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "ChangePhotoAbilityPayload")
+    payload = await read_request(request, ChangePhotoAbilityPayload)
     return respond(BooleanResult())
 
 
@@ -55,8 +54,7 @@ async def photo_change_photo_ability(request: Request):
 async def photo_change_preset(request: Request, presetOrder: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Photos/FinishGeneratePhoto
@@ -71,7 +69,7 @@ async def photo_finish_generate_photo(request: Request):
 @router.post("/api/Photos/GeneratePhoto", name="Photo_GeneratePhoto")
 async def photo_generate_photo(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "GeneratePhotoPayload")
+    payload = await read_request(request, GeneratePhotoPayload)
     return respond(GeneratePhotoResult())
 
 
@@ -79,7 +77,7 @@ async def photo_generate_photo(request: Request):
 @router.post("/api/Photos/GeneratePhotos", name="Photo_GeneratePhotos")
 async def photo_generate_photos(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "GeneratePhotosPayload")
+    payload = await read_request(request, GeneratePhotosPayload)
     return respond([GeneratePhotoResult()])
 
 
@@ -102,15 +100,14 @@ async def photo_increase_acquirable_photo_limit(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Photos/PhotoLevelUp
 @router.post("/api/Photos/PhotoLevelUp", name="Photo_PhotoLevelUp")
 async def photo_photo_level_up(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "LevelUpPhotoPayload")
+    payload = await read_request(request, LevelUpPhotoPayload)
     return respond(LevelUpPhotoResult())
 
 
@@ -118,9 +115,8 @@ async def photo_photo_level_up(request: Request):
 @router.post("/api/Photos/RegeneratePhoto", name="Photo_RegeneratePhoto")
 async def photo_regenerate_photo(request: Request, uPhotoId: Optional[int] = None):
     app: YumeApp = request.app
-    payload = await read_request(request, "GeneratePhotoPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(GeneratePhotoResult())
+    payload = await read_request(request, GeneratePhotoPayload)
+    return respond(GeneratePhotoResult())
 
 
 # /api/Photos/Sell
@@ -135,7 +131,7 @@ async def photo_sell(request: Request):
 @router.post("/api/Photo/SetAlbumPublishing", name="Photo_SetAlbumPublishing")
 async def photo_set_album_publishing(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "SetAlbumPublishingPayload")
+    payload = await read_request(request, SetAlbumPublishingPayload)
     return respond(BooleanResult())
 
 
@@ -143,7 +139,7 @@ async def photo_set_album_publishing(request: Request):
 @router.post("/api/Photo/SetCharacterBaseTags", name="Photo_SetCharacterBaseTags")
 async def photo_set_character_base_tags(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "SetPhotoTagPayload")
+    payload = await read_request(request, SetPhotoTagPayload)
     return respond(BooleanResult())
 
 
@@ -152,8 +148,7 @@ async def photo_set_character_base_tags(request: Request):
 async def photo_set_preset_name(request: Request, presetOrder: int):
     app: YumeApp = request.app
     payload = await read_request(request)
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Photos/{photoId}/SwitchLock
@@ -161,8 +156,7 @@ async def photo_set_preset_name(request: Request, presetOrder: int):
 async def photo_switch_lock(request: Request, photoId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Photo/WatchMusicVideo?mMusicVideoId=
@@ -172,8 +166,7 @@ async def photo_watch_music_video(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Photo/WatchTheaterStory?mTheaterStoryId=
@@ -183,5 +176,4 @@ async def photo_watch_theater_story(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())

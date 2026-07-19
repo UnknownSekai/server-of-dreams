@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Accessories"])
@@ -19,8 +19,7 @@ async def accessories_increase_acquirable_accessory_limit(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Accessories/{uAccessoryId}/LevelUp/{levelTo}
@@ -30,15 +29,14 @@ async def accessories_increase_acquirable_accessory_limit(
 async def accessories_level_up(request: Request, uAccessoryId: int, levelTo: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Accessories/Sell
 @router.post("/api/Accessories/Sell", name="Accessories_Sell")
 async def accessories_sell(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "SellAccessoryPayload")
+    payload = await read_request(request, SellAccessoryPayload)
     return respond(BooleanResult())
 
 
@@ -51,15 +49,14 @@ async def accessories_set_accessory_auto_sell(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Accessories/SetFavorite
 @router.post("/api/Accessories/SetFavorite", name="Accessories_SetAccessoryFavorite")
 async def accessories_set_accessory_favorite(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "AccessoryFavoritePayload")
+    payload = await read_request(request, AccessoryFavoritePayload)
     return respond(BooleanResult())
 
 
@@ -68,5 +65,4 @@ async def accessories_set_accessory_favorite(request: Request):
 async def accessories_switch_lock(request: Request, accessoryId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())

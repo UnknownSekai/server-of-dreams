@@ -14,11 +14,21 @@ class DBConnWrapper:
     def conn(self) -> Connection:
         return self._conn
 
+    def transaction(self):
+        return self._conn.transaction()
+
     async def execute(self, query: ExecutableQuery):
         try:
             return await self._conn.execute(query.sql, *query.args)
         except Exception as e:
             print(query)
+            raise e
+
+    async def execute_batch(self, sql: str, args_seq):
+        try:
+            return await self._conn.executemany(sql, args_seq)
+        except Exception as e:
+            print(sql)
             raise e
 
     async def executeAll(self, queries: list[ExecutableQuery]):

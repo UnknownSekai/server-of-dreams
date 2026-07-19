@@ -445,4 +445,56 @@ class WdsContentview(contentviews.Contentview):
         return 2
 
 
+class WdsRawContentview(contentviews.Contentview):
+    """Like WDS but without field/enum naming: same envelope split + LZ4 decompression,
+    values left as their raw ``[Key(n)]`` arrays (e.g. ``[1, 1, null, false]``)."""
+
+    name = "WDS raw"
+    syntax_highlight = "yaml"
+
+    def prettify(self, data: bytes, metadata: contentviews.Metadata) -> str:
+        flow = metadata.flow
+        if not isinstance(flow, http.HTTPFlow):
+            raise ValueError("not an HTTP flow")
+        try:
+            return self._decode(data, flow, metadata)
+        except Exception as e:
+            return (
+                f"# WDS raw view could not decode this body: {type(e).__name__}: {e}\n"
+                f"# Below is a lossless hex dump — copy it verbatim.\n\n"
+                + _hexdump(data)
+            )
+
+    def _decode(
+        self, data: bytes, flow: http.HTTPFlow, metadata: contentviews.Metadata
+    ) -> str:
+        path = urlsplit(flow.request.url).path
+        info = _route_info(path)
+        operation = info.get("operation") or f"{flow.request.method} {path}"
+
+        objs = _decode_wds(data)
+        if not objs:
+            raise ValueError("empty MessagePack body")
+        if metadata.http_message is flow.response:
+            result, extras = _split_envelope(objs, info.get("raw"))
+            out: dict[str, Any] = {"operation": operation, "response": result}
+            for k in ("faults", "present", "deleted", "notifications"):
+                if extras.get(k):
+                    out[k] = extras[k]
+        else:
+            out = {"operation": operation, "payload": objs[0] if objs else None}
+
+        if _unhandled_lz4(objs):
+            out["_warning"] = (
+                "an LZ4 ext survived decompression — some fields below are raw"
+            )
+        return json.dumps(out, ensure_ascii=False, indent=2, default=_json_default)
+
+    def render_priority(self, data: bytes, metadata: contentviews.Metadata) -> float:
+        if not data or not _is_wds_api(metadata.flow):
+            return -1
+        return 1  # below WDS (2): a selectable alternative, not the default
+
+
 contentviews.add(WdsContentview())
+contentviews.add(WdsRawContentview())

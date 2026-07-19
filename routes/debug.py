@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Debug"])
@@ -21,8 +21,7 @@ async def debug_add_circle_event_mission_count(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/AddCircleMembers/{count}
@@ -30,8 +29,7 @@ async def debug_add_circle_event_mission_count(
 async def debug_add_circle_members(request: Request, count: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/AddExceededStarPoint/{mCharacterBaseId}/{amount}
@@ -44,8 +42,7 @@ async def debug_add_exceeded_star_point(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/AddLessonHighScore/{addScore}
@@ -55,8 +52,7 @@ async def debug_add_exceeded_star_point(
 async def debug_add_lesson_high_score(request: Request, addScore: int):
     app: YumeApp = request.app
     payload = await read_request(request)
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/AddPointForTotalPointEvent?userId=&staminaBaseConsumption=&staminaConsumptionRatio=&mLiveSettingId=&isAutoPlay=&score=&achievementRatePercent=
@@ -75,8 +71,7 @@ async def debug_add_point_for_total_point_event(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/AddRankPoint/{rankPoint}
@@ -84,8 +79,7 @@ async def debug_add_point_for_total_point_event(
 async def debug_add_rank_point(request: Request, rankPoint: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/AddStarPoint/{mCharacterBaseId}/{amount}
@@ -95,15 +89,14 @@ async def debug_add_rank_point(request: Request, rankPoint: int):
 async def debug_add_star_point(request: Request, mCharacterBaseId: int, amount: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(StarPointResult())
+    return respond(StarPointResult())
 
 
 # /api/Debugs/AlbumSimpleArranging
 @router.post("/api/Debugs/AlbumSimpleArranging", name="Debug_AlbumSimpleArranging")
 async def debug_album_simple_arranging(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "DebugAlbumSimpleArrangingPayload")
+    payload = await read_request(request, DebugAlbumSimpleArrangingPayload)
     return respond(BooleanResult())
 
 
@@ -117,8 +110,7 @@ async def debug_authenticate_or_register(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response("")
+    return respond("")
 
 
 # /api/Debug/BattleGhost?mGhostLiveId=&uGhostUserId=&uPartyId=&score=
@@ -132,8 +124,7 @@ async def debug_battle_ghost(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/CallInboxService?isTimeLimited=&thingType=&thingId=&thingQuantity=&messageTemplateId=&message1=&message2=
@@ -150,8 +141,7 @@ async def debug_call_inbox_service(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/CallInboxServiceMany?isTimeLimited=&thingType=&thingId=&thingQuantity=&count=&messageTemplateId=&message1=&message2=
@@ -169,8 +159,7 @@ async def debug_call_inbox_service_many(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/CircleUsageTimeReset?setDateTime=
@@ -190,8 +179,7 @@ async def debug_clear_audition(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/ClearBonusLiveEvent?bonusLiveMasterId=&clearStageOrder=
@@ -203,8 +191,7 @@ async def debug_clear_bonus_live_event(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/ClearTrialPartyEvent?trialPartyEventMasterId=&clearStageOrder=
@@ -216,8 +203,7 @@ async def debug_clear_trial_party_event(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/ConvertMultiRoomId?uMultiRoomId=&hashedMultiRoomId=
@@ -229,8 +215,7 @@ async def debug_convert_multi_room_id(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response("")
+    return respond("")
 
 
 # /api/Debugs/CreateAlbum
@@ -249,8 +234,7 @@ async def debug_create_album(request: Request):
 async def debug_create_circle_dummy(request: Request, startUserId: int, quantity: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/CreateConcoursRandomRankings?mConcoursId=&count=
@@ -262,8 +246,7 @@ async def debug_create_concours_random_rankings(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/CreateLeagueHistory?mLeagueId=&classType=&classChangeType=&groupRank=&globalRank=&isPlayed=&allClassGlobalRank=
@@ -280,8 +263,7 @@ async def debug_create_dummy_league_history(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/CreateDummyUsers?userCount=
@@ -289,8 +271,7 @@ async def debug_create_dummy_league_history(
 async def debug_create_dummy_users(request: Request, userCount: Optional[int] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Debugs/CreateFriendRequestForMe/{count}
@@ -301,8 +282,7 @@ async def debug_create_dummy_users(request: Request, userCount: Optional[int] = 
 async def debug_create_friend_request_for_me(request: Request, count: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/CreateTripleCastHistory?mTripleCastId=&classType=&classChangeType=&groupRank=&globalRank=&isPlayed=&allClassGlobalRank=
@@ -321,8 +301,7 @@ async def debug_create_triple_cast_history(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/Circle/SupportPoint/DailyAddedSupportPoint/{point}
@@ -333,8 +312,7 @@ async def debug_create_triple_cast_history(
 async def debug_daily_added_support_point(request: Request, point: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/DeleteAllCourseRanking?musicCourseMasterId=
@@ -344,8 +322,7 @@ async def debug_delete_all_course_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/DeleteCircles
@@ -369,8 +346,7 @@ async def debug_delete_league_all_data(request: Request):
 async def debug_delete_league_data(request: Request, mLeagueId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/DeleteLeagueUserData/{userId}
@@ -380,8 +356,7 @@ async def debug_delete_league_data(request: Request, mLeagueId: int):
 async def debug_delete_league_user_data(request: Request, userId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/DeleteLeagueUsersData
@@ -400,8 +375,7 @@ async def debug_delete_league_users_data(request: Request):
 async def debug_delete_triple_cast_data(request: Request, mTripleCastId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/EasyStartLive?mMusicId=&difficulty=
@@ -411,15 +385,14 @@ async def debug_easy_start_live(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/EditLeagueBasic
 @router.post("/api/Debugs/EditLeagueBasic", name="Debug_EditLeagueBasic")
 async def debug_edit_league_basic(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "DebugEditLeagueBasicPayload")
+    payload = await read_request(request, DebugEditLeagueBasicPayload)
     return respond(BooleanResult())
 
 
@@ -436,8 +409,7 @@ async def debug_edit_league_history(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/ExecuteLeagueTotalization
@@ -454,9 +426,8 @@ async def debug_execute_league_totalization(request: Request):
 @router.post("/api/Debugs/FinishLive", name="Debug_FinishLive")
 async def debug_finish_live(request: Request, remainedLife: Optional[int] = None):
     app: YumeApp = request.app
-    payload = await read_request(request, "FinishLivePayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(FinishLiveResult())
+    payload = await read_request(request, FinishLivePayload)
+    return respond(FinishLiveResult())
 
 
 # /api/Debugs/FinishLiveSpecifiedNotes?score=&perfectStar=&perfect=&great=&good=&bad=&miss=&remainedLife=&maxCombo=&isClear=
@@ -478,8 +449,7 @@ async def debug_finish_live_specified_notes(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(FinishLiveResult())
+    return respond(FinishLiveResult())
 
 
 # /api/Debugs/GenerateCharacterPointEventPointRanking/{mCharacterPointEventId}
@@ -492,8 +462,7 @@ async def debug_generate_character_point_event_point_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/GenerateDummyCharacterPointEventPointRanking/{mCharacterPointEventId}/{amount}/{maxPoint}?mCharacterBaseId=&diff=
@@ -511,8 +480,7 @@ async def debug_generate_dummy_character_point_event_point_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/GenerateDummyTotalPointEventPointRanking/{mTotalPointEventId}/{amount}/{maxPoint}?diff=
@@ -529,8 +497,7 @@ async def debug_generate_dummy_total_point_event_point_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/GenerateLeagueGroupScore?mLeagueId=&minScore=&maxScore=
@@ -545,8 +512,7 @@ async def debug_generate_league_group_score(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/GenerateLinkageCodeAndPassword?userId=&hashedUserId=
@@ -559,8 +525,7 @@ async def debug_generate_linkage_code_and_password(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(DebugLinkageCodeResult())
+    return respond(DebugLinkageCodeResult())
 
 
 # /api/Debugs/GenerateLiveRate/{count}/{achievementRate}
@@ -571,8 +536,7 @@ async def debug_generate_linkage_code_and_password(
 async def debug_generate_live_rate(request: Request, count: int, achievementRate: str):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/GenerateLotteryResult?mLotteryId=
@@ -581,9 +545,8 @@ async def debug_generate_lottery_result(
     request: Request, mLotteryId: Optional[int] = None
 ):
     app: YumeApp = request.app
-    payload = await read_request(request, "GenerateLotteryResultPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, GenerateLotteryResultPayload)
+    return respond(BooleanResult())
 
 
 # /api/Debugs/GenerateStoryEventHighScoreRanking?mStoryEventId=
@@ -596,8 +559,7 @@ async def debug_generate_story_event_high_score_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/GenerateStoryEventPointRanking?mStoryEventId=
@@ -610,8 +572,7 @@ async def debug_generate_story_event_point_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/CacheUpdatedAt
@@ -632,8 +593,7 @@ async def debug_get_current_api_token(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response("")
+    return respond("")
 
 
 # /api/Debugs/GetCurrentLeague
@@ -649,8 +609,7 @@ async def debug_get_current_league(request: Request):
 async def debug_get_episode(request: Request, episodeMasterId: Optional[int] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(EpisodeResult())
+    return respond(EpisodeResult())
 
 
 # /api/Debugs/GetLeagueHistories
@@ -755,8 +714,7 @@ async def debug_join_on_create_league_group_member(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/LeaveLeagueGroup?mLeagueId=
@@ -764,8 +722,7 @@ async def debug_join_on_create_league_group_member(
 async def debug_leave_league_group(request: Request, mLeagueId: Optional[int] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/OpenAllFlashSale?isDefault=
@@ -773,15 +730,14 @@ async def debug_leave_league_group(request: Request, mLeagueId: Optional[int] = 
 async def debug_open_all_falsh_sale(request: Request, isDefault: Optional[bool] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/PrepareLeagueGroupUser
 @router.post("/api/Debugs/PrepareLeagueGroupUser", name="Debug_PrepareLeagueGroupUser")
 async def debug_prepare_league_group_user(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "DebugPrepareLeagueGroupUserPayload")
+    payload = await read_request(request, DebugPrepareLeagueGroupUserPayload)
     return respond(BooleanResult())
 
 
@@ -794,8 +750,7 @@ async def debug_purchase_dai_star_pass(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/PurchaseExternalPaymentItem?mJewelShopItemId=
@@ -807,8 +762,7 @@ async def debug_purchase_external_payment_item(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/PurchaseStarPass?lastEnabled=&totalPurchasedCount=
@@ -820,8 +774,7 @@ async def debug_purchase_star_pass(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/ReadRequiredEpisode?episodeMasterId=
@@ -831,8 +784,7 @@ async def debug_read_required_episode(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/RecordActivityLog?logType=&logValue=
@@ -842,8 +794,7 @@ async def debug_record_activity_log(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetLeagueDaistarEnrollCount/{enrollCount}
@@ -856,8 +807,7 @@ async def debug_reest_circle_event_point_and_mission(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/CircleEvent/ReestCirclePointAndMission/{mCircleEventId}
@@ -870,8 +820,7 @@ async def debug_reest_circle_event_point_and_mission2(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/RefreshMemoryCache
@@ -889,8 +838,7 @@ async def debug_refresh_memory_cache(request: Request):
 async def debug_release_all_episodes(request: Request, timesRead: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/ReleaseAllMusicDifficulty
@@ -921,8 +869,7 @@ async def debug_reset_camp_event_support_point_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/ResetCharacterPointEventPointRanking/{mCharacterPointEventId}
@@ -935,8 +882,7 @@ async def debug_reset_character_point_event_point_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/ResetEventPointRanking?mEventId=
@@ -946,8 +892,7 @@ async def debug_reset_event_point_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/ResetLesson
@@ -967,9 +912,8 @@ async def debug_reset_pickup_gacha_selected_things(
     request: Request, gachaMasterId: Optional[int] = None
 ):
     app: YumeApp = request.app
-    payload = await read_request(request, "SetSelectedThingsPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, SetSelectedThingsPayload)
+    return respond(BooleanResult())
 
 
 # /api/Debugs/ResetStoryEventHighScoreRanking?mStoryEventId=
@@ -982,8 +926,7 @@ async def debug_reset_story_event_high_score_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/ResetStoryEventPointRanking?mStoryEventId=
@@ -995,8 +938,7 @@ async def debug_reset_story_event_point_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/ResetTotalPointEvent?mTotalPointEvent=
@@ -1006,8 +948,7 @@ async def debug_reset_total_point_event(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendAccessories
@@ -1032,8 +973,7 @@ async def debug_send_accessory_with_effect(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendAlbumThemes
@@ -1049,8 +989,7 @@ async def debug_send_albu_themes(request: Request):
 async def debug_send_album_theme(request: Request, mAlbumThemeId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendBomb/{mBombId}
@@ -1058,8 +997,7 @@ async def debug_send_album_theme(request: Request, mAlbumThemeId: int):
 async def debug_send_bomb(request: Request, mBombId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendBombs
@@ -1077,15 +1015,14 @@ async def debug_send_bombs(request: Request):
 async def debug_send_character(request: Request, mCharacterId: int, quantity: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendCharacters
 @router.post("/api/Debugs/SendCharacters", name="Debug_SendCharacters")
 async def debug_send_characters(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "AcquirableThingsPayload")
+    payload = await read_request(request, AcquirableThingsPayload)
     return respond(BooleanResult())
 
 
@@ -1093,7 +1030,7 @@ async def debug_send_characters(request: Request):
 @router.post("/api/Debugs/SendChatworkMessage", name="Debug_SendChatworkMessage")
 async def debug_send_chatwork_message(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "ChatworkSendMessagePayload")
+    payload = await read_request(request, ChatworkSendMessagePayload)
     return respond(BooleanResult())
 
 
@@ -1102,8 +1039,7 @@ async def debug_send_chatwork_message(request: Request):
 async def debug_send_coin(request: Request, amount: int, isPaid: Optional[bool] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendCostume/{mCostumeId}
@@ -1111,8 +1047,7 @@ async def debug_send_coin(request: Request, amount: int, isPaid: Optional[bool] 
 async def debug_send_costume(request: Request, mCostumeId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendCostumes
@@ -1128,8 +1063,7 @@ async def debug_send_costumes(request: Request):
 async def debug_send_decoration(request: Request, mDecorationId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendDecorations
@@ -1145,8 +1079,7 @@ async def debug_send_decorations(request: Request):
 async def debug_send_home_skin(request: Request, mHomeSkinId: Optional[int] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendHomeSkins
@@ -1166,8 +1099,7 @@ async def debug_send_icon_frame(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendIconFrames
@@ -1183,15 +1115,14 @@ async def debug_send_icon_frames(request: Request):
 async def debug_send_item(request: Request, mItemId: int, quantity: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendItems
 @router.post("/api/Debugs/SendItems", name="Debug_SendItems")
 async def debug_send_items(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "AcquirableThingsPayload")
+    payload = await read_request(request, AcquirableThingsPayload)
     return respond(BooleanResult())
 
 
@@ -1200,8 +1131,7 @@ async def debug_send_items(request: Request):
 async def debug_send_jewel(request: Request, amount: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendLoginBonusAgain?mLoginBonusId=&currentLoginCount=
@@ -1213,8 +1143,7 @@ async def debug_send_login_bonus_again(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendMusic/{mMusicId}
@@ -1222,8 +1151,7 @@ async def debug_send_login_bonus_again(
 async def debug_send_music(request: Request, mMusicId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendMusics
@@ -1243,8 +1171,7 @@ async def debug_send_name_base_color(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendNameBaseColors
@@ -1260,8 +1187,7 @@ async def debug_send_name_base_colors(request: Request):
 async def debug_send_name_color(request: Request, mNameColorId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendNameColors
@@ -1277,8 +1203,7 @@ async def debug_send_name_colors(request: Request):
 async def debug_send_nameplate(request: Request, mNamePlateId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendNameplates
@@ -1294,8 +1219,7 @@ async def debug_send_nameplates(request: Request):
 async def debug_send_note(request: Request, mNoteId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendNotes
@@ -1319,8 +1243,7 @@ async def debug_send_notification(request: Request):
 async def debug_send_paid_jewel(request: Request, amount: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendPoster/{mPosterId}/{quantity}
@@ -1328,15 +1251,14 @@ async def debug_send_paid_jewel(request: Request, amount: int):
 async def debug_send_poster(request: Request, mPosterId: int, quantity: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendPosters
 @router.post("/api/Debugs/SendPosters", name="Debug_SendPosters")
 async def debug_send_posters(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "AcquirableThingsPayload")
+    payload = await read_request(request, AcquirableThingsPayload)
     return respond(BooleanResult())
 
 
@@ -1353,8 +1275,7 @@ async def debug_send_stamp(request: Request):
 async def debug_send_stamp2(request: Request, mStampId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SendTrophies
@@ -1370,8 +1291,7 @@ async def debug_send_trophies(request: Request):
 async def debug_send_trophy(request: Request, mTrophyId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetAutoPlayAvailableTimes/{times}
@@ -1382,8 +1302,7 @@ async def debug_send_trophy(request: Request, mTrophyId: int):
 async def debug_set_auto_play_available_times(request: Request, times: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetCharacterEnhanceInfo
@@ -1411,8 +1330,7 @@ async def debug_set_character_mission_count(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetCharacterPointEventPoint/{mCharacterPointEventId}/{amount}
@@ -1425,8 +1343,7 @@ async def debug_set_character_point_event_point(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/Circle/SupportPoint/{company}?level=&point=&lastLevelupDate=&levelLimit=
@@ -1443,8 +1360,7 @@ async def debug_set_circle_support_point_info(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/Circle/SupportCompanyLevelLimit
@@ -1454,7 +1370,7 @@ async def debug_set_circle_support_point_info(
 )
 async def debug_set_circle_support_point_info2(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "SupportCompanyLevelLimitPayload")
+    payload = await read_request(request, SupportCompanyLevelLimitPayload)
     return respond(BooleanResult())
 
 
@@ -1468,8 +1384,7 @@ async def debug_set_course_ranking_results_decreasing_by_percent(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/SetEventPoint?mEventId=&amount=
@@ -1479,8 +1394,7 @@ async def debug_set_event_point(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetFlashSaleCount?mFlashSaleId=&count=&isDefault=
@@ -1493,8 +1407,7 @@ async def debug_set_flash_sale_count(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/SetGhost?mGhostLiveId=&uPartyId=&score=
@@ -1507,8 +1420,7 @@ async def debug_set_ghost(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/SetGingaTheaterLiveDropLimit?multiLiveScheduleMasterId=&setCurrentCount=
@@ -1522,8 +1434,7 @@ async def debug_set_ginga_theater_live_drop_limit(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/SetLeagueGroupScore?leagueMasterId=&startScore=
@@ -1535,8 +1446,7 @@ async def debug_set_league_group_score(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetLeagueScore?mLeagueId=&score=
@@ -1546,8 +1456,7 @@ async def debug_set_league_score(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetLoginPassUntil?until=
@@ -1567,8 +1476,7 @@ async def debug_set_market_frame_thing(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetMissionCount/{mMissionId}/{count}
@@ -1578,8 +1486,7 @@ async def debug_set_market_frame_thing(
 async def debug_set_mission_count(request: Request, mMissionId: int, count: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetMusicCourseRanking?musicCourseMasterId=
@@ -1588,18 +1495,16 @@ async def debug_set_music_course_ranking(
     request: Request, musicCourseMasterId: Optional[int] = None
 ):
     app: YumeApp = request.app
-    payload = await read_request(request, "MusicCourseRankingPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, MusicCourseRankingPayload)
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetParty?uPartyId=
 @router.post("/api/Debugs/SetParty", name="Debug_SetParty")
 async def debug_set_party(request: Request, uPartyId: Optional[int] = None):
     app: YumeApp = request.app
-    payload = await read_request(request, "PartyPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, PartyPayload)
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetPhoto?mPhotoEffectId=&isLock=&level=&rarity=&mSignId=
@@ -1614,8 +1519,7 @@ async def debug_set_photo(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetPlayerRankWithPoint/{rank}
@@ -1625,8 +1529,7 @@ async def debug_set_photo(
 async def debug_set_player_rank_with_point(request: Request, rank: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetPlayerRate?rate=
@@ -1641,7 +1544,7 @@ async def debug_set_player_rate(request: Request, rate: Optional[str] = None):
 @router.post("/api/Debugs/SetPosterEnhanceInfo", name="Debug_SetPosterEnhanceInfo")
 async def debug_set_poster_enhance_info(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "DebugModifyPosterEnhanceInformationPayload")
+    payload = await read_request(request, DebugModifyPosterEnhanceInformationPayload)
     return respond(BooleanResult())
 
 
@@ -1655,8 +1558,7 @@ async def debug_set_releasable_olivier(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetReleasedStella/{mMusicId}/{releasedStella}
@@ -1669,8 +1571,7 @@ async def debug_set_released_stella(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetServerTime?dateTime=
@@ -1686,8 +1587,7 @@ async def debug_set_server_time(request: Request, dateTime: Optional[str] = None
 async def debug_set_sp_rate(request: Request, mMusicId: int, point: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/SetSpRatePoint?point=
@@ -1695,8 +1595,7 @@ async def debug_set_sp_rate(request: Request, mMusicId: int, point: int):
 async def debug_set_sp_rate_point(request: Request, point: Optional[int] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/SetSpRateSegment?segment=
@@ -1704,8 +1603,7 @@ async def debug_set_sp_rate_point(request: Request, point: Optional[int] = None)
 async def debug_set_sp_rate_segment(request: Request, segment: Optional[int] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetSplashLastDisplayedAt?displayedAtText=
@@ -1725,8 +1623,7 @@ async def debug_set_splash_last_displayed_at(
 async def debug_set_stamina(request: Request, stamina: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/Circle/SupportPoint/StaminaLastReceivedAt/{lastReceivedAt}
@@ -1747,8 +1644,7 @@ async def debug_set_stamina_last_received_at(request: Request, lastReceivedAt: s
 async def debug_set_star_rank(request: Request, mCharacterBaseId: int, rank: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetStoryEventHighScoreEnhancementPoint?mStoryEventId=&currentPoint=&totalAcquiredPoint=
@@ -1764,8 +1660,7 @@ async def debug_set_story_event_high_score_enhancement_point(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetStoryEventPoint/{mStoryEventId}/{amount}
@@ -1778,8 +1673,7 @@ async def debug_set_story_event_point(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetTimeWarpByDate?setDateTime=
@@ -1804,8 +1698,7 @@ async def debug_set_time_warp_by_specify_offset(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetTotalPointEvent?mTotalPointEventId=&totalPoint=
@@ -1817,8 +1710,7 @@ async def debug_set_total_point_event(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetTournamentDetail/{tournamentDetailMasterId}?mTournamentDetailMasterId=&perfectStar=&perfect=&great=&good=&bad=&miss=
@@ -1839,8 +1731,7 @@ async def debug_set_tournament_detail(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetTripleCastDaistarEnrollCount/{enrollCount}
@@ -1853,8 +1744,7 @@ async def debug_set_triple_cast_daistar_enroll_count(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/SetTripleCastGroupScore?tripleCastMasterId=&startScore=
@@ -1866,8 +1756,7 @@ async def debug_set_triple_cast_group_score(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debug/SetTripleCastScore?tripleCastMasterId=&score=
@@ -1879,8 +1768,7 @@ async def debug_set_triple_cast_score(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/SetUserBanLevel?banLevel=&bannedCount=
@@ -1890,8 +1778,7 @@ async def debug_set_user_ban_level(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/UnlockAllFeatures
@@ -1912,8 +1799,7 @@ async def debug_update_ranking_score(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/UpdateUserProfileSnapshots?fromUserId=&toUserId=
@@ -1925,8 +1811,7 @@ async def debug_update_user_profile_snapshots(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Debugs/UploadToutchLog

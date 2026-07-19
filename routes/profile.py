@@ -13,5 +13,5 @@ router = APIRouter(tags=["Profile"])
 @router.post("/api/Profiles/Edit", name="Profile_Edit")
 async def profile_edit(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "EditUserProfilePayload")
+    payload = await read_request(request, EditUserProfilePayload)
     return respond(BooleanResult())

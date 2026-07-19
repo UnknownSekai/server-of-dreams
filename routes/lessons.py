@@ -3,7 +3,8 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
+from helpers.stamina import adjust_and_check_stamina  # noqa: F401  (see Lessons_Start)
 from models import *
 
 router = APIRouter(tags=["Lessons"])
@@ -16,15 +17,14 @@ router = APIRouter(tags=["Lessons"])
 async def lessons_create_party(request: Request, characterBaseMasterId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Lessons/Finish
 @router.post("/api/Lessons/Finish", name="Lessons_Finish")
 async def lessons_finish(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "FinishLessonPayload")
+    payload = await read_request(request, FinishLessonPayload)
     return respond(BooleanResult())
 
 
@@ -32,9 +32,8 @@ async def lessons_finish(request: Request):
 @router.post("/api/Lessons/{characterBaseMasterId}/SetParty", name="Lessons_SetParty")
 async def lessons_set_party(request: Request, characterBaseMasterId: int):
     app: YumeApp = request.app
-    payload = await read_request(request, "SetLessonPartyPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, SetLessonPartyPayload)
+    return respond(BooleanResult())
 
 
 # /api/Lessons/{characterBaseMasterId}/SetPartyLeader/{leaderPosition}
@@ -47,8 +46,7 @@ async def lessons_set_party_leader(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Lessons/{characterBaseMasterId}/Start/{liveMasterId}
@@ -59,5 +57,9 @@ async def lessons_start(
     request: Request, characterBaseMasterId: str, liveMasterId: str
 ):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartLessonPayload")
+    payload = await read_request(request, StartLessonPayload)
+    # TODO consume stamina before the lesson:
+    #   async with app.acquire_db() as conn:
+    #       if not await adjust_and_check_stamina(conn, user_id, -cost, player_rank):
+    #           return respond(BooleanResult(is_success=False))  # not enough stamina
     return respond(BooleanResult())

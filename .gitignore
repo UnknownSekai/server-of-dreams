@@ -219,3 +219,7 @@ __marimo__/
 
 
 config.yml
+# files that can be downloaded from server
+# when EOS these can be uncommented as there will no longer be any updates to these files
+masterdata/*.json
+assets/*

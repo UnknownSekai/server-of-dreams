@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from helpers.auth import authenticate
 from helpers.auth import register
 from models import *
@@ -15,15 +15,15 @@ router = APIRouter(tags=["Account"])
 @router.post("/api/Account/Authenticate", name="Account_Authenticate")
 async def account_authenticate(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "AuthenticatePayload")
-    return respond(authenticate(payload))
+    payload = await read_request(request, AuthenticatePayload)
+    return respond(await authenticate(payload, app))
 
 
 # /api/Account/ConnectAccount
 @router.post("/api/Account/ConnectAccount", name="Account_ConnectAccount")
 async def account_connect_account(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "AccountConnectPayload")
+    payload = await read_request(request, AccountConnectPayload)
     return respond(BooleanResult())
 
 
@@ -42,8 +42,7 @@ async def account_delete_account(request: Request):
 async def account_disconnect_account(request: Request, provider: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Account/GetConfirmationCode
@@ -87,7 +86,7 @@ async def account_get_rooot_transition_token(request: Request):
 @router.post("/api/Account/GetTakeOverAccount", name="Account_GetTakeOverAccount")
 async def account_get_take_over_account(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "TakeOverAccountPayload")
+    payload = await read_request(request, TakeOverAccountPayload)
     return respond(TakeOverAccountResult())
 
 
@@ -95,8 +94,8 @@ async def account_get_take_over_account(request: Request):
 @router.post("/api/Account/Register", name="Account_Register")
 async def account_register(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "RegisterPayload")
-    return respond(register(payload))
+    payload = await read_request(request, RegisterPayload)
+    return respond(await register(payload, app))
 
 
 # /api/Account/RegisterTakeOverPassword
@@ -105,7 +104,7 @@ async def account_register(request: Request):
 )
 async def account_register_take_over_password(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "RegisterTakeOverPasswordPayload")
+    payload = await read_request(request, RegisterTakeOverPasswordPayload)
     return respond(TakeOverCodeResult())
 
 
@@ -115,7 +114,7 @@ async def account_register_take_over_password(request: Request):
 )
 async def account_take_over_with_account_connect(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "AccountConnectPayload")
+    payload = await read_request(request, AccountConnectPayload)
     return respond(TakeOverAccountResult())
 
 
@@ -123,5 +122,5 @@ async def account_take_over_with_account_connect(request: Request):
 @router.post("/api/Account/UpdateBirthDate", name="Account_UpdateBirthDate")
 async def account_update_birth_date(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "RegisterBirthDayPayload")
+    payload = await read_request(request, RegisterBirthDayPayload)
     return respond(BooleanResult())

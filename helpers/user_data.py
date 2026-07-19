@@ -1,10 +1,8 @@
 """Builds the ``/api/data/user`` response (an ``IDataObject[]``) entirely from the DB.
 
-Mirrors sekai-api-emulator's ``get_save_data``: resolve the caller, acquire a DB
-connection, fetch every per-user entity table via its ``db.user.get_<table>s``
-query, and assemble the flat MessagePack union array
-``[[unionKey, [field values by Key(n)]], ...]``. Returns an empty array when the
-database isn't set up or the user has no rows.
+Resolve the caller, acquire a DB connection, fetch every per-user entity
+table via its ``db.user.get_<table>s`` query, and assemble the flat
+MessagePack union array ``[[unionKey, [field values by Key(n)]], ...]``.
 
 Each row (a camelCase ``<Entity>Model``) is re-encoded to ``[unionKey, [values by
 Key(n)]]``: value types default to 0/false, ``DateTime`` -> msgpack timestamp,
@@ -12,13 +10,15 @@ reference/Nullable -> null.
 """
 
 import datetime
+import json
 import math
 import re
 from typing import TYPE_CHECKING, Optional
 
 import msgpack
 
-from db import account as db_account, user as db_user
+from db import user as db_user
+from helpers.auth import decode_jwt
 from helpers.msgpack import _zero
 from models.keys import KEYS
 from models.unions import IDATA_OBJECT_KEY
@@ -69,6 +69,8 @@ def _conv(base, is_array, kind, v):
     if kind == "enum":
         return int(v)
     if base == "DateTime":
+        if isinstance(v, int):  # DB stores epoch microseconds
+            return msgpack.Timestamp(v // 1_000_000, (v % 1_000_000) * 1000)
         return iso_to_timestamp(v) if isinstance(v, str) else v
     return v
 
@@ -98,6 +100,7 @@ for _type, _key in IDATA_OBJECT_KEY.items():
         _get = getattr(db_user, f"get_{_table(_type)}s", None)
         if _get is not None:
             _REGISTRY.append((_type, _key, _get))
+_REGISTRY_MAP = {_t: (_k, _g) for _t, _k, _g in _REGISTRY}
 
 
 def _bearer(request) -> Optional[str]:
@@ -107,23 +110,77 @@ def _bearer(request) -> Optional[str]:
     return auth[7:].strip() if auth.lower().startswith("bearer ") else auth.strip()
 
 
-async def current_user_id(app: "YumeApp", request) -> Optional[int]:
-    """Resolve the caller's userId from the API token, or None."""
+def current_user_id(request) -> Optional[int]:
+    """Resolve the caller's userId from the JWT bearer token, or None."""
     token = _bearer(request)
-    if not app.is_setup or not token:
-        return None
-    async with app.acquire_db() as conn:
-        account = await conn.fetchrow(db_account.get_account_by_token(token))
-    return account.userId if account else None
+    return decode_jwt(token) if token else None
 
 
-async def user_data(app: "YumeApp", user_id: Optional[int]) -> list:
-    """Assemble the caller's full ``IDataObject[]`` from every per-user table."""
-    if user_id is None or not app.is_setup:
+def data_object(type_name: str, row_model) -> list:
+    """One ``IDataObject[]`` present entry ``[unionKey, [values by Key(n)]]`` from a
+    DB row model (e.g. for a route's ``present``)."""
+    return [IDATA_OBJECT_KEY[type_name], _to_array(type_name, row_model.model_dump())]
+
+
+def empty_data_object(type_name: str) -> list:
+    """A present entry with an empty value array -- some updates send a bare typed marker
+    rather than the object's data (e.g. UpdateGameHintRead returns an empty GameHint).
+    """
+    return [IDATA_OBJECT_KEY[type_name], []]
+
+
+async def build_present(app: "YumeApp", user_id: Optional[int], *updated) -> list:
+    """Assemble a route's ``present`` -- the ``IDataObject[]`` diff of the resources the
+    operation actually updated. Each arg names what changed: an entity type (all of the
+    caller's rows of that type) or a ``(type_name, ids)`` pair to limit to specific row ids,
+    e.g. ``build_present(app, uid, "User", ("Inbox", claimed_ids))``. Rows are read back
+    from the DB so present reflects the post-update state. Unknown types are skipped."""
+    if user_id is None:
         return []
     out: list = []
     async with app.acquire_db() as conn:
-        for type_name, union_key, get in _REGISTRY:
+        for spec in updated:
+            name, ids = spec if isinstance(spec, tuple) else (spec, None)
+            entry = _REGISTRY_MAP.get(name)
+            if entry is None:
+                continue
+            union_key, get = entry
             for row in await conn.fetch(get(user_id)):
-                out.append([union_key, _to_array(type_name, row.model_dump())])
+                data = row.model_dump()
+                if ids is None or data.get("id") in ids:
+                    out.append([union_key, _to_array(name, data)])
+    return out
+
+
+_ALL_TYPES = tuple(t for t, _, _ in _REGISTRY)
+
+
+def _user_data_sql() -> str:
+    # one round-trip: json_agg each per-user table server-side into a single row of
+    # {typeName: [rows...]} columns, every subquery sharing the $1 userId placeholder.
+    parts = [
+        f"(SELECT coalesce(json_agg(_r), '[]'::json) FROM ({get(0).sql}) _r) AS \"{name}\""
+        for name, _key, get in _REGISTRY
+    ]
+    return "SELECT " + ", ".join(parts)
+
+
+_USER_DATA_SQL = _user_data_sql()
+
+
+async def user_data(app: "YumeApp", user_id: Optional[int]) -> list:
+    """The caller's full ``IDataObject[]`` from every per-user table (for GetUserData),
+    fetched in a single query."""
+    if user_id is None:
+        return []
+    async with app.acquire_db() as conn:
+        record = await conn.conn.fetchrow(_USER_DATA_SQL, user_id)
+    if record is None:
+        return []
+    out: list = []
+    for name, union_key, _get in _REGISTRY:
+        value = record[name]
+        rows = json.loads(value) if isinstance(value, str) else value
+        for row in rows or []:
+            out.append([union_key, _to_array(name, row)])
     return out

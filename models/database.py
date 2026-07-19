@@ -39,14 +39,27 @@ class UserModel(BaseModel):
 
 class UserProfileModel(BaseModel):
     userId: int
-    userName: Optional[str] = None
-    trophyMasterId1: Optional[int] = None
-    trophyMasterId2: Optional[int] = None
-    trophyMasterId3: Optional[int] = None
-    mainMCharacterId: int
-    mainCharacterLevel: int
-    characterDisplayAwakeningStatus: bool
+    id: int
+    name: Optional[str] = None
+    introduction: Optional[str] = None
+    mainUCharacterId: int
+    mNameplateId: Optional[int] = None
+    mNameColorId: int
+    mTrophyId1: Optional[int] = None
+    mTrophyId2: Optional[int] = None
+    mTrophyId3: Optional[int] = None
+    playerRate: float
+    isPublicPlayerRate: bool
+    leagueClass: int
+    totalSpCount: int
+    isPublicAlbumMainPage: bool
+    mNameplateDetailId: Optional[int] = None
+    mainCharacterMasterId: int
+    displayAwakeningStatus: bool
+    isPublicActivityLog: bool
+    nameBaseColorMasterId: int
     iconFrameMasterId: int
+    homeSkinMasterId: int
 
 
 class UserPreferenceModel(BaseModel):
@@ -111,6 +124,17 @@ class PartyModel(BaseModel):
     order: int
     name: Optional[str] = None
     leaderPosition: int
+
+
+class PartySlotModel(BaseModel):
+    userId: int
+    id: int
+    partyId: int
+    position: int
+    characterId: int
+    posterId: Optional[int] = None
+    accessoryId: Optional[int] = None
+    bonusAbilityEnableFlags: int
 
 
 class CharacterMasterModel(BaseModel):
@@ -525,6 +549,7 @@ class InboxModel(BaseModel):
     sentAt: int
     receivedAt: Optional[int] = None
     receiveLimitAt: int
+    checked: bool = False
 
 
 class BombModel(BaseModel):
@@ -555,6 +580,13 @@ class NoteModel(BaseModel):
     userId: int
     id: int
     noteMasterIds: Optional[Any] = None
+
+
+class StampModel(BaseModel):
+    userId: int
+    id: int
+    stampMasterIds: Optional[Any] = None
+    favoriteStampMasterIds: Optional[Any] = None
 
 
 class MissionModel(BaseModel):
@@ -735,6 +767,13 @@ class ViewedShopModel(BaseModel):
     exchangeShopMasterId: Optional[int] = None
     lastViewedAt: int
     viewedShopCategory: int
+
+
+class GameHintModel(BaseModel):
+    userId: int
+    id: int
+    pageCategory: int
+    hasAlreadyRead: bool
 
 
 class UserBonusModel(BaseModel):
@@ -1754,6 +1793,34 @@ class UserBlockModel(BaseModel):
     blockUserId: Optional[str] = None
 
 
+class FriendModel(BaseModel):
+    userId: int
+    friendUserId: int
+    isFavorite: bool = False
+    createdAt: int = 0
+
+
+class FriendRequestModel(BaseModel):
+    fromUserId: int
+    toUserId: int
+    createdAt: int = 0
+
+
+class HashUserIdModel(BaseModel):
+    hashUserId: str
+    userId: int
+
+
+class SequenceValueModel(BaseModel):
+    value: int
+
+
+class HomeSkinModel(BaseModel):
+    userId: int
+    id: int
+    homeSkinMasterIds: Optional[Any] = None
+
+
 class AccessoryAutoSellModel(BaseModel):
     userId: int
     id: int
@@ -1797,6 +1864,7 @@ __all__ = ["AccountModel"] + [
     "CharacterModel",
     "CharacterBaseModel",
     "PartyModel",
+    "PartySlotModel",
     "CharacterMasterModel",
     "CharacterBaseMasterModel",
     "CharacterLevelMasterModel",
@@ -1835,6 +1903,7 @@ __all__ = ["AccountModel"] + [
     "NameColorModel",
     "NameplateModel",
     "NoteModel",
+    "StampModel",
     "MissionModel",
     "AuditionMasterModel",
     "BombMasterModel",
@@ -1851,6 +1920,7 @@ __all__ = ["AccountModel"] + [
     "TrophyModel",
     "MarketModel",
     "ViewedShopModel",
+    "GameHintModel",
     "UserBonusModel",
     "AuditionPhaseMasterModel",
     "AuditionRewardPackageMasterModel",
@@ -1966,6 +2036,7 @@ __all__ = ["AccountModel"] + [
     "TrialPartyEventStagePartyModel",
     "TrialPartyEventStagePartySlotModel",
     "UserBlockModel",
+    "HomeSkinModel",
     "AccessoryAutoSellModel",
     "FavoriteCostumeModel",
     "BuffItemStatusModel",

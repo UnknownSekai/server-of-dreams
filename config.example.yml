@@ -1,0 +1,44 @@
+host: 0.0.0.0
+port: 8080
+
+server_version: "2.31.0"
+asset_version: "1.96.0"
+master_data_publish_timestamp: 1784297595
+feature_maintenance_flags: "0"
+maintenance: false
+maintenance_message: ""
+
+# seconds of real time to regenerate 1 stamina
+stamina_recovery_seconds: 80
+
+# serve asset bundles from the local assets/ folder (run scripts.download_all_assets
+# first) if true, else bundle requests redirect to the official CDN.
+# catalogs are always locally served
+local_assets: false
+
+# base URL the client is told to connect to
+# if using mitm_redirect_sirius_to_local and not a domain, keep this as official
+# url so https still applies
+# official url: https://lb-api.wds-stellarium.com
+api_endpoint: http://127.0.0.1:8080
+
+# /api/Environment URLs handed to the client
+# NOTE: change all to same endpoint if hosting on a domain (merged assets-e into api server)
+master_data_url: https://assets-e.wds-stellarium.com/master-data/production
+static_content_url: https://assets-e.wds-stellarium.com/production/static-assets
+asset_url: https://assets-e.wds-stellarium.com/production
+photo_content_url: https://assets-e.wds-stellarium.com
+multi_real_time_server_url: https://lb-realtime.wds-stellarium.com
+external_payment_url: https://wds-stellarium.com/game/web-shop
+
+database:
+  settings:
+    min_size: 3
+    max_size: 20
+  host: 127.0.0.1
+  port: 5432
+  database: server_of_dreams
+  username: postgres
+  password: postgres
+
+jwt_secret: "change-me-in-production"

@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Shops"])
@@ -16,8 +16,7 @@ router = APIRouter(tags=["Shops"])
 async def shops_exchange_market_thing(request: Request, number: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Shops/ExchangeMarketThings
@@ -33,8 +32,7 @@ async def shops_exchange_market_things(request: Request):
 async def shops_exchange_music(request: Request, mMusicId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(ReceivedThing())
+    return respond(ReceivedThing())
 
 
 # /api/Shops/ExchangeMusicScore/{mLiveId}
@@ -42,8 +40,7 @@ async def shops_exchange_music(request: Request, mMusicId: int):
 async def shops_exchange_music_score(request: Request, mLiveId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Shops/ExchangePermanentMarketThing/{PermanentMarketThingMasterid}?permanentMarketThingMasterId=&quantity=
@@ -59,8 +56,7 @@ async def shops_exchange_permanent_market_things(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Shops/ExchangeShopThing/{mExchangeShopThingId}/{quantity}
@@ -73,15 +69,14 @@ async def shops_exchange_shop_thing(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Shops/ExchangeShopThings
 @router.post("/api/Shops/ExchangeShopThings", name="Shops_ExchangeShopThings")
 async def shops_exchange_shop_things(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "ExchangeShopThingPayload")
+    payload = await read_request(request, ExchangeShopThingPayload)
     return respond([ReceivedThing()])
 
 
@@ -97,7 +92,7 @@ async def shops_get_or_refresh_market(request: Request):
 @router.post("/api/Shops/Purchase", name="Shops_Purchase")
 async def shops_purchase(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "PurchaseItemPayload")
+    payload = await read_request(request, PurchaseItemPayload)
     return respond([ReceivedThing()])
 
 
@@ -105,7 +100,7 @@ async def shops_purchase(request: Request):
 @router.post("/api/Shops/UpdateLastViewedAt", name="Shops_UpdateLastViewedAt")
 async def shops_update_last_viewed_at(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "UpdateLastViewedAtPayload")
+    payload = await read_request(request, UpdateLastViewedAtPayload)
     return respond(BooleanResult())
 
 

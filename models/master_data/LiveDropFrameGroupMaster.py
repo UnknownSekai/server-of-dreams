@@ -1,0 +1,14 @@
+from __future__ import annotations
+
+from typing import Optional, TYPE_CHECKING
+
+from pydantic import BaseModel, ConfigDict, Field
+
+if TYPE_CHECKING:
+    from .LiveDropFrameMaster import LiveDropFrameMaster
+
+
+class LiveDropFrameGroupMaster(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+    id_: int = Field(default=0, alias="id")
+    drop_frames: Optional[list[LiveDropFrameMaster]] = None

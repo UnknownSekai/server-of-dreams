@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Mission"])
@@ -19,8 +19,7 @@ async def mission_bulk_receive_piclup_character_mission_rewards(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Missions/ExchangeMissionPoint?unit=
@@ -28,8 +27,7 @@ async def mission_bulk_receive_piclup_character_mission_rewards(
 async def mission_exchange_mission_point(request: Request, unit: Optional[int] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Missions/receiveRewards?missionCategory=
@@ -39,8 +37,7 @@ async def mission_receive_all_current_reward(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Missions/MissionPassReceiveRewards/{missionPassId}
@@ -53,8 +50,7 @@ async def mission_receive_bulk_mission_pass_rewards(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(MissionPassRewardsResult())
+    return respond(MissionPassRewardsResult())
 
 
 # /api/Missions/{missionId}/receiveCurrentRewards
@@ -65,8 +61,7 @@ async def mission_receive_bulk_mission_pass_rewards(
 async def mission_receive_current_reward(request: Request, missionId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Missions/PickupActor/receiveRewards/{mPickupCharacterMissionMasterId}/{mPickupCharacterMissionDetailMasterId}
@@ -81,5 +76,4 @@ async def mission_receive_piclup_character_mission_rewards(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])

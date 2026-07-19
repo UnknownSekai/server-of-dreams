@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Events"])
@@ -15,7 +15,7 @@ router = APIRouter(tags=["Events"])
 )
 async def events_edit_trial_party_event_party(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "EditTrialPartyEventStagePartyPayload")
+    payload = await read_request(request, EditTrialPartyEventStagePartyPayload)
     return respond(BooleanResult())
 
 
@@ -29,8 +29,7 @@ async def events_get_character_point_character_border_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CharacterPointEventRankingResult())
+    return respond(CharacterPointEventRankingResult())
 
 
 # /api/Events/CharacterPoint/GetCharacterNearRanking/{characterPointEventMasterId}
@@ -43,8 +42,7 @@ async def events_get_character_point_character_near_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CharacterPointEventRankingResult())
+    return respond(CharacterPointEventRankingResult())
 
 
 # /api/Events/CharacterPoint/GetCharacterTopRanking/{characterPointEventMasterId}
@@ -57,8 +55,7 @@ async def events_get_character_point_character_top_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CharacterPointEventRankingResult())
+    return respond(CharacterPointEventRankingResult())
 
 
 # /api/Events/CharacterPoint/GetInformation/{characterPointEventMasterId}
@@ -71,8 +68,7 @@ async def events_get_character_point_event_information(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CharacterPointEventInformationResult())
+    return respond(CharacterPointEventInformationResult())
 
 
 # /api/Events/CharacterPoint/GetOverallTopRanking/{characterPointEventMasterId}
@@ -85,8 +81,7 @@ async def events_get_character_point_overall_top_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CharacterPointEventRankingResult())
+    return respond(CharacterPointEventRankingResult())
 
 
 # /api/Events/CircleEvent/Raking/Border/{circleEventMasterId}
@@ -99,8 +94,7 @@ async def events_get_circle_event_border_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleEventRanking())
+    return respond(CircleEventRanking())
 
 
 # /api/Events/CircleEvent/Raking/Circle/{circleEventMasterId}
@@ -113,8 +107,7 @@ async def events_get_circle_event_circle_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleEventRanking())
+    return respond(CircleEventRanking())
 
 
 # /api/Events/CircleEvent/Information/{circleEventMasterId}
@@ -127,8 +120,7 @@ async def events_get_circle_event_information(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleEventInformationResult())
+    return respond(CircleEventInformationResult())
 
 
 # /api/Events/CircleEvent/Raking/Near/{circleEventMasterId}
@@ -141,8 +133,7 @@ async def events_get_circle_event_near_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleEventRanking())
+    return respond(CircleEventRanking())
 
 
 # /api/Events/GetConcoursInformation?concoursMasterId=
@@ -152,8 +143,7 @@ async def events_get_concours_information(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(ConcoursInfomationResult())
+    return respond(ConcoursInfomationResult())
 
 
 # /api/Events/GetEventBorderRanking?mEventId=
@@ -163,8 +153,7 @@ async def events_get_event_border_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetEventCampBorderRanking?eventMasterId=
@@ -176,8 +165,7 @@ async def events_get_event_camp_border_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetEventCampMyRanking?eventMasterId=
@@ -187,8 +175,7 @@ async def events_get_event_camp_my_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(StoryEventCampInfo())
+    return respond(StoryEventCampInfo())
 
 
 # /api/Events/GetEventCampTopRanking?eventMasterId=
@@ -198,8 +185,7 @@ async def events_get_event_camp_top_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetEventCircleRanking?mEventId=
@@ -209,8 +195,7 @@ async def events_get_event_circle_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetEventFriendRanking?mEventId=
@@ -220,8 +205,7 @@ async def events_get_event_friend_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetEventMyRanking?mEventId=
@@ -229,8 +213,7 @@ async def events_get_event_friend_ranking(
 async def events_get_event_my_ranking(request: Request, mEventId: Optional[int] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRanking())
+    return respond(RawRanking())
 
 
 # /api/Events/GetEventNearRanking?mEventId=
@@ -240,8 +223,7 @@ async def events_get_event_near_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetEventTopRanking?mEventId=
@@ -251,8 +233,7 @@ async def events_get_event_top_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetStoryEventBorderRanking/{mStoryEventId}
@@ -263,8 +244,7 @@ async def events_get_event_top_ranking(
 async def events_get_story_event_border_ranking(request: Request, mStoryEventId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetStoryEventCampNearRanking?eventMasterId=
@@ -277,8 +257,7 @@ async def events_get_story_event_camp_near_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetStoryEventCircleMissionProgresses/{mStoryEventId}
@@ -291,8 +270,7 @@ async def events_get_story_event_circle_mission_progresses(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(StoryEventMissionCircleProgressResult())
+    return respond(StoryEventMissionCircleProgressResult())
 
 
 # /api/Events/GetStoryEventCircleRanking?mStoryEventId=
@@ -304,8 +282,7 @@ async def events_get_story_event_circle_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetStoryEventFriendRanking?mStoryEventId=
@@ -317,8 +294,7 @@ async def events_get_story_event_friend_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetStoryEventHighScoreTopRanking/{mStoryEventId}
@@ -331,8 +307,7 @@ async def events_get_story_event_high_score_top_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawHighScoreRankingResult())
+    return respond(RawHighScoreRankingResult())
 
 
 # /api/Events/GetStoryEventMyRanking/{mStoryEventId}
@@ -343,8 +318,7 @@ async def events_get_story_event_high_score_top_ranking(
 async def events_get_story_event_my_ranking(request: Request, mStoryEventId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRanking())
+    return respond(RawRanking())
 
 
 # /api/Events/GetStoryEventNearRanking/{mStoryEventId}
@@ -355,8 +329,7 @@ async def events_get_story_event_my_ranking(request: Request, mStoryEventId: int
 async def events_get_story_event_near_ranking(request: Request, mStoryEventId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetStoryEventTopRanking/{mStoryEventId}
@@ -367,8 +340,7 @@ async def events_get_story_event_near_ranking(request: Request, mStoryEventId: i
 async def events_get_story_event_top_ranking(request: Request, mStoryEventId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(RawRankingResult())
+    return respond(RawRankingResult())
 
 
 # /api/Events/GetTotalPointEventCircleRanking?mTotalPointEventId=
@@ -381,8 +353,7 @@ async def events_get_total_point_event_circle_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(TotalPointEventRankingResult())
+    return respond(TotalPointEventRankingResult())
 
 
 # /api/Events/GetTotalPointEventFriendRanking?mTotalPointEventId=
@@ -395,8 +366,7 @@ async def events_get_total_point_event_friend_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(TotalPointEventRankingResult())
+    return respond(TotalPointEventRankingResult())
 
 
 # /api/Events/GetTotalPointEventInformation?mTotalPointEventId=
@@ -409,8 +379,7 @@ async def events_get_total_point_event_information(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(TotalPointEventInformationResult())
+    return respond(TotalPointEventInformationResult())
 
 
 # /api/Events/GetTotalPointEventNearRanking?mTotalPointEventId=
@@ -423,8 +392,7 @@ async def events_get_total_point_event_near_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(TotalPointEventRankingResult())
+    return respond(TotalPointEventRankingResult())
 
 
 # /api/Events/GetTotalPointEventTopRanking?mTotalPointEventId=
@@ -437,8 +405,7 @@ async def events_get_total_point_event_top_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(TotalPointEventRankingResult())
+    return respond(TotalPointEventRankingResult())
 
 
 # /api/Events/TournamentQualifying/Information/{tournamentQualifyingMasterId}
@@ -451,8 +418,7 @@ async def events_get_tournament_qualifying_information(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(TournamentQualifyingInformationResult())
+    return respond(TournamentQualifyingInformationResult())
 
 
 # /api/Events/GrowStoryEventHighScoreBuffSetting/{mStoryEventId}/{mStoryEventHighScoreBuffSettingId}/{levelTo}
@@ -468,8 +434,7 @@ async def events_grow_story_event_high_score_buff_setting(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/NoneStoryEvents/ReadTips/{mEventId}
@@ -479,8 +444,7 @@ async def events_grow_story_event_high_score_buff_setting(
 async def events_none_story_events_read_tips(request: Request, mEventId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Events/CharacterPoint/ReadTips/{characterPointEventMasterId}
@@ -493,8 +457,7 @@ async def events_read_character_point_event_tips(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Events/ReadSpecialEventTips?mSpecialEventId=
@@ -504,8 +467,7 @@ async def events_read_special_event_tips(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Events/ReadTips/{mStoryEventId}
@@ -513,8 +475,7 @@ async def events_read_special_event_tips(
 async def events_read_tips(request: Request, mStoryEventId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Events/CircleEvent/ReceiveCirclePointReward/{circleEventMasterId}
@@ -527,8 +488,7 @@ async def events_receive_circle_event_circle_point_reward(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Events/ReceiveStoryEventCircleMissionAllRewards/{mStoryEventId}
@@ -541,8 +501,7 @@ async def events_receive_story_event_circle_mission_all_reward(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Events/ReceiveStoryEventCircleMissionReward/{mStoryEventId}/{receiveMStoryEventCircleMissionRewardId}
@@ -555,8 +514,7 @@ async def events_receive_story_event_circle_mission_reward(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(ReceivedThing())
+    return respond(ReceivedThing())
 
 
 # /api/Events/ReceiveTotalPointEventReward?mTotalPointEventId=
@@ -569,8 +527,7 @@ async def events_receive_total_point_event_reward(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Events/CircleEvent/ResetMissionCount/{circleEventMasterId}
@@ -583,8 +540,7 @@ async def events_reset_circle_event_mision_count(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Events/BoxGacha/Reset/{eventBoxGachaMasterId}
@@ -595,8 +551,7 @@ async def events_reset_circle_event_mision_count(
 async def events_reset_event_box_gacha(request: Request, eventBoxGachaMasterId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Events/BoxGacha/Roll/{eventBoxGachaDetailMasterId}
@@ -609,8 +564,7 @@ async def events_roll_event_box_gacha(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(EventBoxGachaRollResult())
+    return respond(EventBoxGachaRollResult())
 
 
 # /api/Events/DugongRun/{dugongRunCourseMasterId}/Clear/{clearType}
@@ -623,8 +577,7 @@ async def events_save_dugong_run_clear_status(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Events/SelectCamp?eventMasterId=&campType=
@@ -636,8 +589,7 @@ async def events_select_camp(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Events/CharacterPoint/SetCharacter/{characterPointEventMasterId}/{characterBaseMasterId}
@@ -650,5 +602,4 @@ async def events_set_character_point_event_character(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())

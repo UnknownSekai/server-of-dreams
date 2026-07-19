@@ -15,7 +15,7 @@ router = APIRouter(tags=["KmsGeneralPayment"])
 )
 async def kms_general_payment_process_app_store_payment(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "RegisterAppStorePaymentPayload")
+    payload = await read_request(request, RegisterAppStorePaymentPayload)
     return respond(ProcessPaymentResult())
 
 
@@ -26,5 +26,5 @@ async def kms_general_payment_process_app_store_payment(request: Request):
 )
 async def kms_general_payment_process_google_play_payment(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "RegisterGooglePlayPaymentPayload")
+    payload = await read_request(request, RegisterGooglePlayPaymentPayload)
     return respond(ProcessPaymentResult())

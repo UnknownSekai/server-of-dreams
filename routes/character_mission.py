@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["CharacterMission"])
@@ -30,8 +30,7 @@ async def character_mission_receive_all_mission_rewards(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(StarPointResult())
+    return respond(StarPointResult())
 
 
 # /api/CharacterMissions/BulkReceiveAllMission
@@ -55,5 +54,4 @@ async def character_mission_receive_key_mission_rewards(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(StarPointResult())
+    return respond(StarPointResult())

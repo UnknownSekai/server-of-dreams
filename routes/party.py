@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Party"])
@@ -13,9 +13,8 @@ router = APIRouter(tags=["Party"])
 @router.post("/api/Parties/{uPartyId}/ChangeName", name="Party_ChangePartyName")
 async def party_change_party_name(request: Request, uPartyId: int):
     app: YumeApp = request.app
-    payload = await read_request(request, "ChangeNamePayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, ChangeNamePayload)
+    return respond(BooleanResult())
 
 
 # /api/Parties/ChangeTripleCastPartyName?partyOrder=&newName=
@@ -27,8 +26,7 @@ async def party_change_triple_cast_party_name(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Parties/{srcOrder}/CopyTo/{destOrder}
@@ -36,17 +34,15 @@ async def party_change_triple_cast_party_name(
 async def party_copy_party(request: Request, srcOrder: int, destOrder: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Parties/{uPartyId}/EditParty
 @router.post("/api/Parties/{uPartyId}/EditParty", name="Party_EditParty")
 async def party_edit_party(request: Request, uPartyId: int):
     app: YumeApp = request.app
-    payload = await read_request(request, "EditPartyPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, EditPartyPayload)
+    return respond(BooleanResult())
 
 
 # /api/Parties/{uPartyId}/SetLeader/{leaderPosition}
@@ -56,17 +52,15 @@ async def party_edit_party(request: Request, uPartyId: int):
 async def party_edit_party2(request: Request, uPartyId: int, leaderPosition: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Parties/{uPartyId}/EditPosition
 @router.post("/api/Parties/{uPartyId}/EditPosition", name="Party_EditPartyPosition")
 async def party_edit_party_position(request: Request, uPartyId: int):
     app: YumeApp = request.app
-    payload = await read_request(request, "EditPositionPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, EditPositionPayload)
+    return respond(BooleanResult())
 
 
 # /api/Parties/{uPartyId}/EditPartyWithRecommended
@@ -76,9 +70,8 @@ async def party_edit_party_position(request: Request, uPartyId: int):
 )
 async def party_edit_party_with_recommended(request: Request, uPartyId: int):
     app: YumeApp = request.app
-    payload = await read_request(request, "EditPartyPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, EditPartyPayload)
+    return respond(BooleanResult())
 
 
 # /api/Parties/EditTripleCastBasic?partyOrder=&tripleCastGroupOrder=
@@ -90,8 +83,7 @@ async def party_edit_triple_cast_basic(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Parties/EditTripleCastParty?partyOrder=
@@ -100,9 +92,8 @@ async def party_edit_triple_cast_party(
     request: Request, partyOrder: Optional[int] = None
 ):
     app: YumeApp = request.app
-    payload = await read_request(request, "EditPartyPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, EditPartyPayload)
+    return respond(BooleanResult())
 
 
 # /api/Parties/EditTripleCastPartySlotPosition?partyOrder=
@@ -114,9 +105,8 @@ async def party_edit_triple_cast_party_slot_position(
     request: Request, partyOrder: Optional[int] = None
 ):
     app: YumeApp = request.app
-    payload = await read_request(request, "EditPositionPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, EditPositionPayload)
+    return respond(BooleanResult())
 
 
 # /api/Parties/{uPartyId}/SetMultiParty
@@ -124,8 +114,7 @@ async def party_edit_triple_cast_party_slot_position(
 async def party_set_multi_party(request: Request, uPartyId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Parties/SetTripleCastPartyLeaderPosition?partyOrder=&leaderPosition=
@@ -140,5 +129,4 @@ async def party_set_triple_cast_party_leader_position(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())

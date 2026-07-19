@@ -21,6 +21,15 @@ def create_account(
     )
 
 
+def add_hash_user_id(hash_user_id: str, user_id: int) -> ExecutableQuery:
+    return ExecutableQuery(
+        'INSERT INTO "hash_user_id" ("hashUserId", "userId") VALUES ($1, $2) '
+        'ON CONFLICT ("hashUserId") DO NOTHING',
+        hash_user_id,
+        user_id,
+    )
+
+
 def update_account_token(user_id: int, api_token: str) -> ExecutableQuery:
     return ExecutableQuery(
         'UPDATE "accounts" SET "apiToken" = $1 WHERE "userId" = $2',

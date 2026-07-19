@@ -3,7 +3,8 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
+from helpers.stamina import adjust_and_check_stamina  # noqa: F401  (see Start routes)
 from models import *
 
 router = APIRouter(tags=["Lives"])
@@ -15,7 +16,7 @@ router = APIRouter(tags=["Lives"])
 )
 async def lives_calculate_lesson_timing_events(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "CalculateLessonTimeEventPayload")
+    payload = await read_request(request, CalculateLessonTimeEventPayload)
     return respond(LiveTimeEvent())
 
 
@@ -23,7 +24,7 @@ async def lives_calculate_lesson_timing_events(request: Request):
 @router.post("/api/Lives/CalculateTimingEvents", name="Lives_CalculateTimeEvents")
 async def lives_calculate_time_events(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "CalculateTimeEventPayload")
+    payload = await read_request(request, CalculateTimeEventPayload)
     return respond(LiveTimeEvent())
 
 
@@ -31,7 +32,7 @@ async def lives_calculate_time_events(request: Request):
 @router.post("/api/Lives/Music/EditBookmark", name="Lives_EditBookmark")
 async def lives_edit_bookmark(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "EditBookmarkPayload")
+    payload = await read_request(request, EditBookmarkPayload)
     return respond(BooleanResult())
 
 
@@ -39,7 +40,7 @@ async def lives_edit_bookmark(request: Request):
 @router.post("/api/Lives/FinishAndValidate", name="Lives_FinishAndValidate")
 async def lives_finish_and_validate(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "FinishLivePayload")
+    payload = await read_request(request, FinishLivePayload)
     return respond(FinishLiveResult())
 
 
@@ -49,7 +50,7 @@ async def lives_finish_and_validate(request: Request):
 )
 async def lives_finish_another_notation_live(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "FinishAnotherNotationLivePayload")
+    payload = await read_request(request, FinishAnotherNotationLivePayload)
     return respond(FinishLiveResult())
 
 
@@ -61,8 +62,7 @@ async def lives_finish_another_notation_live(request: Request):
 async def lives_get_course_circle_ranking(request: Request, mMusicCourseId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Lives/GetCourseFriendRanking/{mMusicCourseId}
@@ -73,8 +73,7 @@ async def lives_get_course_circle_ranking(request: Request, mMusicCourseId: int)
 async def lives_get_course_friend_ranking(request: Request, mMusicCourseId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Lives/GetCourseNearRanking/{mMusicCourseId}
@@ -85,8 +84,7 @@ async def lives_get_course_friend_ranking(request: Request, mMusicCourseId: int)
 async def lives_get_course_near_ranking(request: Request, mMusicCourseId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Lives/GetCourseTopRanking/{mMusicCourseId}
@@ -96,8 +94,7 @@ async def lives_get_course_near_ranking(request: Request, mMusicCourseId: int):
 async def lives_get_course_top_ranking(request: Request, mMusicCourseId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Lives/GetMultiLiveInformation/{multiLiveId}
@@ -108,8 +105,7 @@ async def lives_get_course_top_ranking(request: Request, mMusicCourseId: int):
 async def lives_get_multi_live_information(request: Request, multiLiveId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(MultiLiveInformation())
+    return respond(MultiLiveInformation())
 
 
 # /api/Lives/MatchingGhostLive
@@ -125,8 +121,7 @@ async def lives_matching_ghost_live(request: Request):
 async def lives_read_concert_tips(request: Request, mConcertId: Optional[int] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Lives/ReceiveTeamChallengeRewards?uMultiLiveId=
@@ -138,8 +133,7 @@ async def lives_receive_team_challenge_rewards(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Lives/Retire
@@ -156,7 +150,7 @@ async def lives_retire(request: Request):
 )
 async def lives_select_music_course_random_music(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "SelectMusicCourseRandomMusicPayload")
+    payload = await read_request(request, SelectMusicCourseRandomMusicPayload)
     return respond(MusicCourseRandomSelectResult())
 
 
@@ -164,7 +158,11 @@ async def lives_select_music_course_random_music(request: Request):
 @router.post("/api/Lives/Start", name="Lives_Start")
 async def lives_start(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartLivePayload")
+    payload = await read_request(request, StartLivePayload)
+    # TODO consume stamina before the live (same for StartBonusLive / StartConcert):
+    #   async with app.acquire_db() as conn:
+    #       if not await adjust_and_check_stamina(conn, user_id, -cost, player_rank):
+    #           return respond(BooleanResult(is_success=False))  # not enough stamina
     return respond(LiveUnit())
 
 
@@ -172,7 +170,7 @@ async def lives_start(request: Request):
 @router.post("/api/Lives/StartBonusLive", name="Lives_StartBonusLive")
 async def lives_start_bonus_live(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartLivePayload")
+    payload = await read_request(request, StartLivePayload)
     return respond(LiveUnit())
 
 
@@ -180,7 +178,7 @@ async def lives_start_bonus_live(request: Request):
 @router.post("/api/Lives/StartConcert", name="Lives_StartConcert")
 async def lives_start_concert(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartLivePayload")
+    payload = await read_request(request, StartLivePayload)
     return respond(LiveUnit())
 
 
@@ -188,7 +186,7 @@ async def lives_start_concert(request: Request):
 @router.post("/api/Lives/StartGhostLive", name="Lives_StartGhostLive")
 async def lives_start_ghost_live(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartLivePayload")
+    payload = await read_request(request, StartLivePayload)
     return respond(LiveUnit())
 
 
@@ -196,7 +194,7 @@ async def lives_start_ghost_live(request: Request):
 @router.post("/api/Lives/StartLesson", name="Lives_StartLesson")
 async def lives_start_lesson(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartLessonPayload")
+    payload = await read_request(request, StartLessonPayload)
     return respond(LiveUnit())
 
 
@@ -204,7 +202,7 @@ async def lives_start_lesson(request: Request):
 @router.post("/api/Lives/StartMultiLive", name="Lives_StartMultiLive")
 async def lives_start_multi_live(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartMultiLivePayload")
+    payload = await read_request(request, StartMultiLivePayload)
     return respond(LiveUnit())
 
 
@@ -212,7 +210,7 @@ async def lives_start_multi_live(request: Request):
 @router.post("/api/Lives/StartMultiRoomLive", name="Lives_StartMultiRoomLive")
 async def lives_start_multi_room_live(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartMultiRoomLivePayload")
+    payload = await read_request(request, StartMultiRoomLivePayload)
     return respond(LiveUnit())
 
 
@@ -220,7 +218,7 @@ async def lives_start_multi_room_live(request: Request):
 @router.post("/api/Lives/StartMusicCourseLive", name="Lives_StartMusicCourse")
 async def lives_start_music_course(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartLivePayload")
+    payload = await read_request(request, StartLivePayload)
     return respond(LiveUnit())
 
 
@@ -228,7 +226,7 @@ async def lives_start_music_course(request: Request):
 @router.post("/api/Lives/StartTournament", name="Lives_StartTournament")
 async def lives_start_tournament(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartTournamentPayload")
+    payload = await read_request(request, StartTournamentPayload)
     return respond(LiveUnit())
 
 
@@ -238,7 +236,7 @@ async def lives_start_tournament(request: Request):
 )
 async def lives_start_trial_party_event_stage(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartLivePayload")
+    payload = await read_request(request, StartLivePayload)
     return respond(LiveUnit())
 
 
@@ -246,7 +244,7 @@ async def lives_start_trial_party_event_stage(request: Request):
 @router.post("/api/Lives/StartTripleCastLive", name="Lives_StartTripleCastLive")
 async def lives_start_triple_cast_live(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "StartTripleCastLivePayload")
+    payload = await read_request(request, StartTripleCastLivePayload)
     return respond(StartTripleCastLiveResult())
 
 
@@ -255,5 +253,4 @@ async def lives_start_triple_cast_live(request: Request):
 async def lives_update_clear_lamp(request: Request, multiLiveId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(UpdateClearLampResult())
+    return respond(UpdateClearLampResult())

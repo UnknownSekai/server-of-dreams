@@ -92,14 +92,27 @@ class User(BaseModel):
 class UserProfile(BaseModel):
     rowId = AutoField()
     userId = BigIntegerField(index=True)
-    userName = TextField(null=True)
-    trophyMasterId1 = BigIntegerField(null=True)
-    trophyMasterId2 = BigIntegerField(null=True)
-    trophyMasterId3 = BigIntegerField(null=True)
-    mainMCharacterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
-    mainCharacterLevel = BigIntegerField(constraints=[SQL("DEFAULT 0")])
-    characterDisplayAwakeningStatus = BooleanField(constraints=[SQL("DEFAULT false")])
+    id = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    name = TextField(null=True)
+    introduction = TextField(null=True)
+    mainUCharacterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    mNameplateId = BigIntegerField(null=True)
+    mNameColorId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    mTrophyId1 = BigIntegerField(null=True)
+    mTrophyId2 = BigIntegerField(null=True)
+    mTrophyId3 = BigIntegerField(null=True)
+    playerRate = DoubleField(constraints=[SQL("DEFAULT 0")])
+    isPublicPlayerRate = BooleanField(constraints=[SQL("DEFAULT false")])
+    leagueClass = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    totalSpCount = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    isPublicAlbumMainPage = BooleanField(constraints=[SQL("DEFAULT false")])
+    mNameplateDetailId = BigIntegerField(null=True)
+    mainCharacterMasterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    displayAwakeningStatus = BooleanField(constraints=[SQL("DEFAULT false")])
+    isPublicActivityLog = BooleanField(constraints=[SQL("DEFAULT false")])
+    nameBaseColorMasterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
     iconFrameMasterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    homeSkinMasterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
 
     class Meta:
         table_name = "user_profile"
@@ -212,6 +225,26 @@ class Party(BaseModel):
 
     class Meta:
         table_name = "party"
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
+class PartySlot(BaseModel):
+    rowId = AutoField()
+    userId = BigIntegerField(index=True)
+    id = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    partyId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    position = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    characterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    posterId = BigIntegerField(null=True)
+    accessoryId = BigIntegerField(null=True)
+    bonusAbilityEnableFlags = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+
+    class Meta:
+        table_name = "party_slot"
         constraints = [
             SQL(
                 'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
@@ -920,6 +953,9 @@ class Inbox(BaseModel):
     sentAt = BigIntegerField(constraints=[SQL("DEFAULT 0")])
     receivedAt = BigIntegerField(null=True)
     receiveLimitAt = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    checked = BooleanField(
+        constraints=[SQL("DEFAULT false")]
+    )  # surfaced by CheckPackages
 
     class Meta:
         table_name = "inbox"
@@ -998,6 +1034,22 @@ class Note(BaseModel):
 
     class Meta:
         table_name = "note"
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
+class Stamp(BaseModel):
+    rowId = AutoField()
+    userId = BigIntegerField(index=True)
+    id = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    stampMasterIds = JSONField(null=True)
+    favoriteStampMasterIds = JSONField(null=True)
+
+    class Meta:
+        table_name = "stamp"
         constraints = [
             SQL(
                 'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
@@ -1322,6 +1374,22 @@ class ViewedShop(BaseModel):
 
     class Meta:
         table_name = "viewed_shop"
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
+class GameHint(BaseModel):
+    rowId = AutoField()
+    userId = BigIntegerField(index=True)
+    id = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    pageCategory = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    hasAlreadyRead = BooleanField(constraints=[SQL("DEFAULT false")])
+
+    class Meta:
+        table_name = "game_hint"
         constraints = [
             SQL(
                 'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
@@ -3393,6 +3461,69 @@ class UserBlock(BaseModel):
         ]
 
 
+class Friend(BaseModel):
+    rowId = AutoField()
+    userId = BigIntegerField(index=True)
+    friendUserId = BigIntegerField()
+    isFavorite = BooleanField(constraints=[SQL("DEFAULT false")])
+    createdAt = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+
+    class Meta:
+        table_name = "friend"
+        indexes = ((("userId", "friendUserId"), True),)  # one row per direction
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
+class FriendRequest(BaseModel):
+    rowId = AutoField()
+    fromUserId = BigIntegerField(index=True)
+    toUserId = BigIntegerField(index=True)
+    createdAt = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+
+    class Meta:
+        table_name = "friend_request"
+        indexes = ((("fromUserId", "toUserId"), True),)
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("fromUserId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
+# reverse index: the client references users by their (string) hashUserId, so this maps
+# it back to the sequential userId without recomputing unhash_id on every request
+class HashUserId(BaseModel):
+    hashUserId = TextField(primary_key=True)
+    userId = BigIntegerField(unique=True, index=True)
+
+    class Meta:
+        table_name = "hash_user_id"
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
+class HomeSkin(BaseModel):
+    rowId = AutoField()
+    userId = BigIntegerField(index=True)
+    id = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    homeSkinMasterIds = JSONField(null=True)
+
+    class Meta:
+        table_name = "home_skin"
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
 class AccessoryAutoSell(BaseModel):
     rowId = AutoField()
     userId = BigIntegerField(index=True)
@@ -3474,6 +3605,7 @@ class EventCamp(BaseModel):
 
 
 db.connect()
+db.execute_sql("CREATE SEQUENCE IF NOT EXISTS user_id_seq START 1")
 db.create_tables([DatabaseInfo, Accounts], safe=True)
 db.create_tables(
     [
@@ -3484,6 +3616,7 @@ db.create_tables(
         Character,
         CharacterBase,
         Party,
+        PartySlot,
         CharacterMaster,
         CharacterBaseMaster,
         CharacterLevelMaster,
@@ -3522,6 +3655,7 @@ db.create_tables(
         NameColor,
         Nameplate,
         Note,
+        Stamp,
         Mission,
         AuditionMaster,
         BombMaster,
@@ -3538,6 +3672,7 @@ db.create_tables(
         Trophy,
         Market,
         ViewedShop,
+        GameHint,
         UserBonus,
         AuditionPhaseMaster,
         AuditionRewardPackageMaster,
@@ -3653,14 +3788,19 @@ db.create_tables(
         TrialPartyEventStageParty,
         TrialPartyEventStagePartySlot,
         UserBlock,
+        Friend,
+        FriendRequest,
+        HomeSkin,
         AccessoryAutoSell,
         FavoriteCostume,
         BuffItemStatus,
         MultiRoomBasic,
         EventCamp,
+        HashUserId,
     ],
     safe=True,
 )
 if not DatabaseInfo.select().exists():
     DatabaseInfo.create(version=version)
 db.close()
+print("Complete!")

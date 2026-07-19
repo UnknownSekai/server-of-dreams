@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Auditions"])
@@ -19,8 +19,7 @@ async def auditions_copy_audition_clear_party(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Auditions/{auditionId}/HighScoreParty
@@ -31,8 +30,7 @@ async def auditions_copy_audition_clear_party(
 async def auditions_get_audition_high_score_party(request: Request, auditionId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(AuditionClearParty())
+    return respond(AuditionClearParty())
 
 
 # /api/Auditions/{auditionId}
@@ -40,5 +38,4 @@ async def auditions_get_audition_high_score_party(request: Request, auditionId: 
 async def auditions_get_audition_information(request: Request, auditionId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(AuditionClearedInformationResult())
+    return respond(AuditionClearedInformationResult())

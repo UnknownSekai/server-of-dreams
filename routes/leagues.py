@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Leagues"])
@@ -16,8 +16,7 @@ router = APIRouter(tags=["Leagues"])
 async def leagues_get_global_ranking(request: Request, leagueMasterId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Leagues/GroupRanking/{leagueMasterId}/{leagueGroupId}
@@ -30,8 +29,7 @@ async def leagues_get_group_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Leagues/TopMenuInformation
@@ -52,8 +50,7 @@ async def leagues_get_triple_cast_global_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/TripleCast/GroupRanking/{tripleCastMasterId}
@@ -66,8 +63,7 @@ async def leagues_get_triple_cast_group_ranking(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/TripleCast/TopMenuInformation

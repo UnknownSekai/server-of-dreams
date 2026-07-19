@@ -1,5 +1,17 @@
 from db.query import SelectQuery
-from models.database import AccountModel
+from models.database import AccountModel, HashUserIdModel, SequenceValueModel
+
+
+def next_user_id() -> SelectQuery[SequenceValueModel]:
+    return SelectQuery(SequenceValueModel, "SELECT nextval('user_id_seq') AS value")
+
+
+def get_user_id_by_hash(hash_user_id: str) -> SelectQuery[HashUserIdModel]:
+    return SelectQuery(
+        HashUserIdModel,
+        'SELECT * FROM "hash_user_id" WHERE "hashUserId" = $1',
+        hash_user_id,
+    )
 
 
 def get_account_by_id(user_id: int) -> SelectQuery[AccountModel]:

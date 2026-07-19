@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Posters"])
@@ -16,8 +16,7 @@ router = APIRouter(tags=["Posters"])
 async def posters_breakthrough(request: Request, uPosterId: int, phaseTo: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Posters/ChangePosterAlternativeImage
@@ -27,7 +26,7 @@ async def posters_breakthrough(request: Request, uPosterId: int, phaseTo: int):
 )
 async def posters_change_poster_alternative_image(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "PosterAlternativeImagePayload")
+    payload = await read_request(request, PosterAlternativeImagePayload)
     return respond(BooleanResult())
 
 
@@ -36,15 +35,14 @@ async def posters_change_poster_alternative_image(request: Request):
 async def posters_level_up(request: Request, uPosterId: int, levelTo: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Posters/SetFavorite
 @router.post("/api/Posters/SetFavorite", name="Posters_SetPosterFavorite")
 async def posters_set_poster_favorite(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "PosterFavoritePayload")
+    payload = await read_request(request, PosterFavoritePayload)
     return respond(BooleanResult())
 
 
@@ -58,5 +56,4 @@ async def posters_update_released_poster_story(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())

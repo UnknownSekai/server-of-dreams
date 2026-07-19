@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Home"])
@@ -13,7 +13,7 @@ router = APIRouter(tags=["Home"])
 @router.post("/api/Home/CheckEexternalPayment", name="Home_CheckEexternalPayment")
 async def home_check_eexternal_payment(request: Request):
     app: YumeApp = request.app
-    payload = {}  # no payload
+    # ApiActionResult - single item not list style
     return respond(EexternalPaymentResult())
 
 
@@ -22,7 +22,11 @@ async def home_check_eexternal_payment(request: Request):
 async def home_check_receive_login_bonus(request: Request):
     app: YumeApp = request.app
     payload = {}  # no payload
-    return respond([LoginBonusResult()])
+    # TODO: build LoginBonusResult[] from masterdata + grant the day's rewards via
+    # helpers.things.grant_things (to_inbox=True). Blocked: LoginBonusMaster /
+    # LoginBonusDetailMaster / LoginBonusSpineGroupMaster are NOT in our unpacked masterdata
+    # (only LoginBonusSpineCostumeMaster is). Return [] (no bonus) rather than a bogus id-0 one.
+    return respond([])
 
 
 # /api/Home/GetMultiLiveRestrictionNotification
@@ -44,7 +48,6 @@ async def home_get_multi_live_restriction_notification(request: Request):
 async def home_get_notification_content(request: Request, mNotificationId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
     return respond(NotificationContentResult())
 
 
@@ -58,7 +61,6 @@ async def home_get_notification_content_anonymous(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
     return respond(NotificationContentResult())
 
 
@@ -86,5 +88,5 @@ async def home_get_notifications_anonymous(request: Request):
 )
 async def home_update_notification_read_time(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "ReadNotificationPayload")
+    payload = await read_request(request, ReadNotificationPayload)
     return respond(BooleanResult())

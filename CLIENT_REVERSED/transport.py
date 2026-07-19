@@ -197,8 +197,8 @@ class SiriusApiClient:
         if self.api_token:
             h["Authorization"] = f"{self.auth_scheme}{self.api_token}"
         if has_body:
-            h["Content-Type"] = "application/x-msgpack"
-        h["Accept"] = "application/x-msgpack"
+            h["Content-Type"] = "application/vnd.msgpack"
+        h["Accept"] = "application/vnd.msgpack"
         return h
 
     @staticmethod

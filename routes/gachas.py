@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Gachas"])
@@ -16,8 +16,7 @@ async def gachas_decide_re_roll_gacha(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Gachas
@@ -35,8 +34,7 @@ async def gachas_get_available_gachas(request: Request):
 async def gachas_get_character_gacha_lineup(request: Request, gachaMasterId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CharacterLineupResult())
+    return respond(CharacterLineupResult())
 
 
 # /api/Gachas/GetGachaHistories?cardType=
@@ -44,8 +42,7 @@ async def gachas_get_character_gacha_lineup(request: Request, gachaMasterId: int
 async def gachas_get_gacha_histories(request: Request, cardType: Optional[int] = None):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Gachas/PosterLineup/{gachaMasterId}
@@ -55,8 +52,7 @@ async def gachas_get_gacha_histories(request: Request, cardType: Optional[int] =
 async def gachas_get_poster_gacha_lineup(request: Request, gachaMasterId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(PosterLineupResult())
+    return respond(PosterLineupResult())
 
 
 # /api/Gachas/GetReRollGachaResults?gachaDetailMasterId=
@@ -66,8 +62,7 @@ async def gachas_get_re_roll_gacha_results(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(GachaRollResult())
+    return respond(GachaRollResult())
 
 
 # /api/Gachas/{gachaMasterId}/SelectedThings
@@ -77,8 +72,7 @@ async def gachas_get_re_roll_gacha_results(
 async def gachas_get_selected_things(request: Request, gachaMasterId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(GachaSelectedThingsResult())
+    return respond(GachaSelectedThingsResult())
 
 
 # /api/Gachas/ReRollGacha?gachaDetailMasterId=
@@ -88,8 +82,7 @@ async def gachas_re_roll_gacha(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(GachaRollResult())
+    return respond(GachaRollResult())
 
 
 # /api/Gachas/Roll/{gachaDetailMasterId}
@@ -106,6 +99,5 @@ async def gachas_roll_gacha(request: Request, gachaDetailMasterId: int):
 )
 async def gachas_set_selected_things(request: Request, gachaMasterId: int):
     app: YumeApp = request.app
-    payload = await read_request(request, "SetSelectedThingsPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(GachaSelectedThingsResult())
+    payload = await read_request(request, SetSelectedThingsPayload)
+    return respond(GachaSelectedThingsResult())

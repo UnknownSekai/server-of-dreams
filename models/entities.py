@@ -7,6 +7,9 @@ from pydantic import BaseModel, ConfigDict, Field
 from .enums import *
 
 
+from models.master_data import *  # master types live in models/master_data/
+
+
 class AbilityVarietyUpPayload(BaseModel):
     photo_id: int = 0
     variety_to: int = 0
@@ -41,52 +44,9 @@ class AccessoryAutoSellConvertThing(BaseModel):
     convert_thing: Optional[ReceivedThing] = None
 
 
-class AccessoryEffectMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    effect_master_id: int = 0
-    name: Optional[str] = None
-    description: Optional[str] = None
-    variety: Optional[int] = None
-
-
 class AccessoryFavoritePayload(BaseModel):
     accessory_id: int = 0
     set_favorite: bool = False
-
-
-class AccessoryLevelPatternGroupMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    patterns: Optional[list[AccessoryLevelPatternMaster]] = None
-
-
-class AccessoryLevelPatternItemMaster(BaseModel):
-    item_master_id: int = 0
-    quantity: int = 0
-
-
-class AccessoryLevelPatternMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    accessory_level_pattern_group_master_id: int = 0
-    level: int = 0
-    required_coin: int = 0
-    items: Optional[list[AccessoryLevelPatternItemMaster]] = None
-
-
-class AccessoryMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    description: Optional[str] = None
-    rarity: PossessionRarities = PossessionRarities.R
-    accessory_level_pattern_group_id: int = 0
-    fixed_accessory_effects: Optional[list[int]] = None
-    random_effect_groups: Optional[list[int]] = None
-    pronounce_name: Optional[str] = None
-    series: int = 0
-    max_level: int = 0
 
 
 class AccountConnectPayload(BaseModel):
@@ -102,14 +62,6 @@ class AccountDeletionResult(BaseModel):
 class AccountRegistResult(BaseModel):
     token: Optional[str] = None
     error_type: AccountRegisterErrorTypes = AccountRegisterErrorTypes.None_
-
-
-class AchivementRateRewardMaster(BaseModel):
-    thing_type: ThingTypes = ThingTypes.Item
-    thing_id: int = 0
-    thing_quantity: int = 0
-    difficulty: MusicDifficulties = MusicDifficulties.None_
-    achivement_rate: Optional[Decimal] = None
 
 
 class AcquirableThing(BaseModel):
@@ -193,7 +145,7 @@ class AnotherNotation(BaseModel):
     another_notation_master_id: int = 0
     clear_lamp: ClearLamps = ClearLamps.None_
     rate_grade: AchievementRateGrades = AchievementRateGrades.None_
-    achievement_rate_percent_record: Optional[Decimal] = None
+    achievement_rate_percent_record: Optional[str] = None
 
 
 class AuditionClear(BaseModel):
@@ -245,44 +197,6 @@ class AuditionClearedInformationResult(BaseModel):
     parties_phases: Optional[list[AuditionClearedInformationParties]] = None
 
 
-class AuditionMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    music_master_id: int = 0
-    recommended_company: Companies = Companies.None_
-    can_skip: bool = False
-    sense_notation_master_id: int = 0
-    max_phase: Optional[str] = None
-    display_start_at: str = ""
-    display_end_at: str = ""
-    vocal_version: int = 0
-    audition_group_number: int = 0
-    skip_start_at: str = ""
-
-
-class AuditionPhaseMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    auditionaster_id: int = 0
-    phase: int = 0
-    recommended_player_rank: int = 0
-    clear_score: int = 0
-    star_act_count: Optional[int] = None
-    audition_reward_package_master_id: int = 0
-
-
-class AuditionRewardPackageMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    rewards: Optional[list[AuditionRewardThing]] = None
-
-
-class AuditionRewardThing(BaseModel):
-    thing_id: int = 0
-    thing_type: ThingTypes = ThingTypes.Item
-    thing_quantity: int = 0
-
-
 class AuthenticatePayload(BaseModel):
     login_token: Optional[str] = None
     game_version: GameVersions = GameVersions.Unknown
@@ -332,16 +246,6 @@ class Bomb(BaseModel):
     bomb_master_ids: Optional[list[int]] = None
 
 
-class BombMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    description: Optional[str] = None
-    order: int = 0
-    hidden: bool = False
-    is_default: bool = False
-
-
 class BonusLive(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
     id_: int = Field(default=0, alias="id")
@@ -364,17 +268,6 @@ class BonusLiveStage(BaseModel):
 
 class BooleanResult(BaseModel):
     is_success: bool = False
-
-
-class BranchMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    order: int = 0
-    branch_effects: Optional[list[EffectOrderMaster]] = None
-    judge_type1: Optional[BranchJudgeTypes] = None
-    parameter1: Optional[int] = None
-    judge_type2: Optional[BranchJudgeTypes] = None
-    parameter2: Optional[int] = None
-    id_: int = Field(default=0, alias="id")
 
 
 class BuffItemStatus(BaseModel):
@@ -407,20 +300,6 @@ class CalculateTimeEventPayload(BaseModel):
     is_story_event_challenge: bool = False
 
 
-class CampaignMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    title: Optional[str] = None
-    description: Optional[str] = None
-    icon_image_path: Optional[str] = None
-    order: int = 0
-    start_date: str = ""
-    end_date: str = ""
-    comeback_campaign_master_id: Optional[int] = None
-    campaign_effect_type: CampaignEffectTypes = CampaignEffectTypes.LiveReward
-    campaign_effect_value: int = 0
-
-
 class ChangeNamePayload(BaseModel):
     name: Optional[str] = None
 
@@ -450,14 +329,6 @@ class Character(BaseModel):
     is_favorite: bool = False
 
 
-class CharacterAwakeningItemMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    awakening_phase: int = 0
-    item_master_id: int = 0
-    required_quantity: int = 0
-
-
 class CharacterBase(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
     id_: int = Field(default=0, alias="id")
@@ -470,85 +341,10 @@ class CharacterBase(BaseModel):
     portal_display_awakening_status: bool = False
 
 
-class CharacterBaseMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    description: Optional[str] = None
-    school: Optional[str] = None
-    grade: Optional[int] = None
-    birth_month: Optional[int] = None
-    birth_day: Optional[int] = None
-    height: int = 0
-    hobby: Optional[str] = None
-    company_master_id: int = 0
-    name_romanization: Optional[str] = None
-    sense_name: Optional[str] = None
-    sense_effect: Optional[str] = None
-    character_voice: Optional[str] = None
-    profile_image_asset_id: Optional[str] = None
-    age: Optional[int] = None
-    family_name_romanization: Optional[str] = None
-    first_name_romanization: Optional[str] = None
-    pronounce_family_name: Optional[str] = None
-    pronounce_first_name: Optional[str] = None
-    family_name: Optional[str] = None
-    first_name: Optional[str] = None
-    evo_sense_name: Optional[str] = None
-    evo_sense_effect: Optional[str] = None
-    default_costume_master_id: int = 0
-    character_base_type: CharacterBaseTypes = CharacterBaseTypes.Initial
-
-
 class CharacterBaseStarPointResult(BaseModel):
     character_base_master_id: int = 0
     star_point_result: Optional[StarPointResult] = None
     link_character_received_reward: Optional[list[ReceivedThing]] = None
-
-
-class CharacterBloomBonusGroupMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    bloom_bonuses: Optional[list[CharacterBloomBonusMaster]] = None
-    bloom_rewards: Optional[list[CharacterBloomRewardMaster]] = None
-
-
-class CharacterBloomBonusMaster(BaseModel):
-    bloom_bonus_type: BloomBonusTypes = BloomBonusTypes.None_
-    description: Optional[str] = None
-    phase: int = 0
-    effect_master_id: int = 0
-    icon_path: Optional[str] = None
-
-
-class CharacterBloomItemMaster(BaseModel):
-    rarity: CharacterRarities = CharacterRarities.Rare1
-    current_stage: int = 0
-    required_piece_amount: int = 0
-    talent_bloom_item_type: TalentBloomItemTypes = TalentBloomItemTypes.ActorPiece
-    generic_bloom_item_master_id: Optional[int] = None
-    required_item_master_id: Optional[int] = None
-    required_item_amount: Optional[int] = None
-
-
-class CharacterBloomRewardMaster(BaseModel):
-    thing_id: int = 0
-    thing_type: ThingTypes = ThingTypes.Item
-    thing_quantity: int = 0
-    phase: int = 0
-
-
-class CharacterCategoryMaster(BaseModel):
-    category_master_id: int = 0
-    is_awaken: bool = False
-
-
-class CharacterExperienceItemMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    item_master_id: int = 0
-    acquirable_experience: int = 0
-    acquirable_experience_bonus: float = 0.0
 
 
 class CharacterFavoritePayload(BaseModel):
@@ -569,49 +365,11 @@ class CharacterLessonSlot(BaseModel):
     set_character_id: Optional[int] = None
 
 
-class CharacterLevelMaster(BaseModel):
-    level: int = 0
-    experience_to_level_up: int = 0
-    character_status_level: int = 0
-    start_date: str = ""
-
-
 class CharacterLineupResult(BaseModel):
     normal_probabilities: Optional[list[CharacterRarityProbability]] = None
     fixed_probabilities: Optional[list[CharacterRarityProbability]] = None
     normal_lineup_items: Optional[list[GachaLineupItemProbability]] = None
     fixed_lineup_items: Optional[list[GachaLineupItemProbability]] = None
-
-
-class CharacterMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    character_base_master_id: int = 0
-    name: Optional[str] = None
-    description: Optional[str] = None
-    asset_id: Optional[str] = None
-    rarity: CharacterRarities = CharacterRarities.Rare1
-    attribute: Attributes = Attributes.Cute
-    min_level_status: Optional[Status] = None
-    star_act_master_id: int = 0
-    awaken_star_act_master_id: Optional[int] = None
-    sense_master_id: int = 0
-    forbid_generic_item_bloom: bool = False
-    bloom_bonus_group_master_id: int = 0
-    sense_enhance_item_group_master_id: int = 0
-    first_episode_release_item_group_id: int = 0
-    second_episode_release_item_group_id: int = 0
-    character_awakening_item_group_master_id: Optional[int] = None
-    display_start_at: str = ""
-    display_end_at: str = ""
-    unlock_text: Optional[str] = None
-    categories: Optional[list[CharacterCategoryMaster]] = None
-    leader_sense_master_id: Optional[int] = None
-    max_talent_stage: int = 0
-    max_talent_stage_release_date: Optional[str] = None
-    secondary_character_base_master_id: Optional[int] = None
-    secondary_sense_master_id: Optional[int] = None
-    secondary_attribute: Optional[Attributes] = None
 
 
 class CharacterMission(BaseModel):
@@ -624,33 +382,6 @@ class CharacterMission(BaseModel):
     cleared_stage_order: int = 0
     reward_received_stage_order: int = 0
     completed_level: int = 0
-
-
-class CharacterMissionMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    title: Optional[str] = None
-    jump_type: Optional[JumpTypes] = None
-    jump_value: Optional[int] = None
-    stages: Optional[list[CharacterMissionStageMaster]] = None
-
-
-class CharacterMissionStageMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    character_mission_category_level_master_id: int = 0
-    character_mission_master_id: int = 0
-    exclusion_no_sense_character: bool = False
-    order: int = 0
-    stage_order: int = 0
-    goal_count: int = 0
-
-
-class CharacterPieceMaster(BaseModel):
-    item_master_id: int = 0
-    character_master_id: int = 0
-    dugong_required_amount: int = 0
-    talent_bloom_item_type: TalentBloomItemTypes = TalentBloomItemTypes.ActorPiece
 
 
 class CharacterPointEvent(BaseModel):
@@ -682,37 +413,6 @@ class CharacterRank(BaseModel):
 class CharacterRarityProbability(BaseModel):
     rarity: CharacterRarities = CharacterRarities.Rare1
     probability: float = 0.0
-
-
-class CharacterSenseEnhanceItemGroupMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    items: Optional[list[CharacterSenseEnhanceItemMaster]] = None
-
-
-class CharacterSenseEnhanceItemMaster(BaseModel):
-    current_level: int = 0
-    item_master_id: int = 0
-    required_quantity: int = 0
-
-
-class CharacterStarRankMaster(BaseModel):
-    rank: int = 0
-    next_rank_point: int = 0
-    required_lesson_score: int = 0
-    status_bonus: float = 0.0
-
-
-class CharacterStarRankRewardGroupMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    rewards: Optional[list[CharacterStarRankRewardMaster]] = None
-
-
-class CharacterStarRankRewardMaster(BaseModel):
-    thing_type: ThingTypes = ThingTypes.Item
-    thing_id: int = 0
-    thing_quantity: int = 0
 
 
 class ChatworkSendMessagePayload(BaseModel):
@@ -803,7 +503,7 @@ class CircleMemberInfoParameters(BaseModel):
     trophy_master_id3: int = 0
     main_character_master_id: int = 0
     display_awakening_status: bool = False
-    player_rate: Optional[Decimal] = None
+    player_rate: Optional[str] = None
     is_public_player_rate: bool = False
     league_class: LeagueClassTypes = LeagueClassTypes.None_
     icon_fame_master_id: int = 0
@@ -885,15 +585,6 @@ class Comic(BaseModel):
     comic_episode_master_id: int = 0
 
 
-class CompanyMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    companies: Companies = Companies.None_
-    description: Optional[str] = None
-    is_other: bool = False
-
-
 class Component(BaseModel):
     pass
 
@@ -945,22 +636,6 @@ class CostumeFavoritePayload(BaseModel):
     set_favorite: bool = False
 
 
-class CostumeMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    order: int = 0
-    is_default: bool = False
-    costume_group_master_id: int = 0
-    description: Optional[str] = None
-
-
-class CostumeWearableCharacterGroupMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    character_base_master_ids: Optional[list[int]] = None
-
-
 class CourseRankingResult(BaseModel):
     rank: int = 0
     user_id: int = 0
@@ -970,7 +645,7 @@ class CourseRankingResult(BaseModel):
 
 
 class CourseResult(BaseModel):
-    total_achievement_rate_percent_record: Decimal = Field(
+    total_achievement_rate_percent_record: str = Field(
         default_factory=lambda: Decimal()
     )
     best_record_challenge_count: int = 0
@@ -1178,45 +853,6 @@ class EffectBranch(BaseModel):
     sense_effects: list[Effect] = Field(default_factory=list)
 
 
-class EffectConditionMaster(BaseModel):
-    condition: EffectConditions = EffectConditions.CharacterBase
-    value: Optional[int] = None
-
-
-class EffectDetailMaster(BaseModel):
-    level: int = 0
-    value: float = 0.0
-
-
-class EffectDurationGroupMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    durations: Optional[list[EffectDurationMaster]] = None
-
-
-class EffectDurationMaster(BaseModel):
-    level: int = 0
-    duration_seconds: float = 0.0
-
-
-class EffectMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    type: EffectTypes = EffectTypes.BaseVocalUp
-    range: EffectTargetRanges = EffectTargetRanges.None_
-    calculation_type: CalculationTypes = CalculationTypes.PercentageAddition
-    details: Optional[list[EffectDetailMaster]] = None
-    conditions: Optional[list[EffectConditionMaster]] = None
-    duration_second: int = 0
-    triggers: Optional[list[EffectTriggerMaster]] = None
-    fire_timing_type: FireTimingTypes = FireTimingTypes.StarAct
-
-
-class EffectOrderMaster(BaseModel):
-    order: int = 0
-    effect_master_id: int = 0
-
-
 class EffectTargetValue(BaseModel):
     target_actor_id: Optional[int] = None
     value: float = 0.0
@@ -1225,11 +861,6 @@ class EffectTargetValue(BaseModel):
 class EffectTrigger(BaseModel):
     type: TriggerTypes = TriggerTypes.OverLife
     value: int = 0
-
-
-class EffectTriggerMaster(BaseModel):
-    trigger: TriggerType = TriggerType.OverLife
-    value: Optional[int] = None
 
 
 class EnvironmentResult(BaseModel):
@@ -1253,47 +884,11 @@ class Episode(BaseModel):
     has_read_all: bool = False
 
 
-class EpisodeMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    story_master_id: int = 0
-    title: Optional[str] = None
-    order: int = 0
-    episode_reward_package_master_id: int = 0
-    conditions: Optional[list[EpisodeReleaseCondition]] = None
-    pre_episode_master_id: Optional[int] = None
-    display_start_date: Optional[str] = None
-    display_end_date: Optional[str] = None
-
-
-class EpisodeReleaseCondition(BaseModel):
-    condition_type: EpisodeReleaseConditionTypes = (
-        EpisodeReleaseConditionTypes.TotalRankInCompany
-    )
-    value1: Optional[int] = None
-    value2: Optional[int] = None
-    value3: Optional[int] = None
-
-
 class EpisodeResult(BaseModel):
     episode_title: Optional[str] = None
     story_type: StoryTypes = StoryTypes.None_
     episode_order: int = 0
     episode_detail_asset_source: Optional[str] = None
-
-
-class EpisodeRewardPackageMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    rewards: Optional[list[EpisodeRewardThing]] = None
-
-
-class EpisodeRewardThing(BaseModel):
-    thing_id: int = 0
-    thing_type: ThingTypes = ThingTypes.Item
-    thing_quantity: int = 0
-    is_only_story_event_term: bool = False
-    is_chapter_all_read_reward: bool = False
 
 
 class Event(BaseModel):
@@ -1360,40 +955,6 @@ class ExchangeLimit(BaseModel):
     specified_number_of_days_limit: Optional[int] = None
     exchanged_count: int = 0
     until: Optional[str] = None
-
-
-class ExchangeShopMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    is_display_required_having_item: bool = False
-    category: ShopCategories = ShopCategories.None_
-    name: Optional[str] = None
-    display_thing_type: ThingTypes = ThingTypes.Item
-    display_item_master_id: Optional[int] = None
-    banner_path: Optional[str] = None
-    start_date: Optional[str] = None
-    end_date: Optional[str] = None
-    last_refreshed_at: str = ""
-    lineup: Optional[list[ExchangeShopThing]] = None
-    order: int = 0
-
-
-class ExchangeShopThing(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    thing_id: int = 0
-    thing_type: ThingTypes = ThingTypes.Item
-    thing_quantity: int = 0
-    exchange_limit: Optional[int] = None
-    order: int = 0
-    replace_type: Optional[ShopReplaceTypes] = None
-    is_display_locked: bool = False
-    unlock_type: Optional[ShopUnlockTypes] = None
-    unlock_value: Optional[int] = None
-    start_date: Optional[str] = None
-    end_date: Optional[str] = None
-    required_item_master_id: int = 0
-    required_quantity: int = 0
 
 
 class ExchangeShopThingPayload(BaseModel):
@@ -1627,7 +1188,10 @@ class GachaThingResult(BaseModel):
 
 
 class GameHint(BaseModel):
-    pass
+    model_config = ConfigDict(populate_by_name=True)
+    id_: int = Field(default=0, alias="id")
+    page_category: PageCategories = PageCategories.TutorialIngame
+    has_already_read: bool = False
 
 
 class GameHintMonoBehaviour(BaseModel):
@@ -1721,31 +1285,6 @@ class HomeBGM(BaseModel):
     home_b_g_m_detail_master_id: Optional[int] = None
 
 
-class HomeCharacterVoiceMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    character_base_master_id: int = 0
-    text: Optional[str] = None
-    weight: int = 0
-    character_voice_period_master_id: Optional[int] = None
-    is_player_birth_date_voice: bool = False
-    voice_file_name1: Optional[str] = None
-    voice_file_name2: Optional[str] = None
-    voice_file_name3: Optional[str] = None
-    voice_file_name4: Optional[str] = None
-    voice_interval1: float = 0.0
-    voice_interval2: float = 0.0
-    voice_interval3: float = 0.0
-    mouth_motion_id1: Optional[str] = None
-    mouth_motion_id2: Optional[str] = None
-    mouth_motion_id3: Optional[str] = None
-    mouth_motion_id4: Optional[str] = None
-    body_motion_id1: Optional[str] = None
-    body_motion_id2: Optional[str] = None
-    body_motion_id3: Optional[str] = None
-    body_motion_id4: Optional[str] = None
-
-
 class HomeDisplayPreference(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
     id_: int = Field(default=0, alias="id")
@@ -1767,7 +1306,9 @@ class HomeDisplayPreference(BaseModel):
 
 
 class HomeSkin(BaseModel):
-    pass
+    model_config = ConfigDict(populate_by_name=True)
+    id_: int = Field(default=0, alias="id")
+    home_skin_master_ids: Optional[list[int]] = None
 
 
 class IconFrame(BaseModel):
@@ -1805,22 +1346,6 @@ class Item(BaseModel):
     id_: int = Field(default=0, alias="id")
     item_master_id: int = 0
     stock: int = 0
-
-
-class ItemMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    description: Optional[str] = None
-    display_order: int = 0
-    display_end_date: Optional[str] = None
-    max_stock: int = 0
-    category: ItemCategories = ItemCategories.StaminaRecovery
-    consumable: bool = False
-    jump_type: Optional[JumpTypes] = None
-    jump_target_id: Optional[int] = None
-    tab_category: TabCategories = TabCategories.Hidden
-    rarity: PossessionRarities = PossessionRarities.R
 
 
 class JewelShop(BaseModel):
@@ -2050,27 +1575,6 @@ class LiveDropThing(BaseModel):
     is_fixed_drop: bool = False
 
 
-class LiveMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    difficulty: MusicDifficulties = MusicDifficulties.None_
-    music_master_id: int = 0
-    level: int = 0
-    note_count: int = 0
-    unlock_condition: LiveUnlockConditionTypes = LiveUnlockConditionTypes.None_
-    unlock_value: Optional[int] = None
-    start_date: str = ""
-    end_date: str = ""
-
-
-class LiveSettingMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    live_type: LiveTypes = LiveTypes.Normal
-    live_drop_frame_group_master_id: int = 0
-
-
 class LiveTimeEvent(BaseModel):
     timings: list[SenseTimingEvent] = Field(default_factory=list)
     cool_times: list[SenseCoolTime] = Field(default_factory=list)
@@ -2253,22 +1757,6 @@ class MissionCleared(BaseModel):
     mission_stage_master_id: int = 0
 
 
-class MissionMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    mission_category: MissionCategories = MissionCategories.Beginner
-    mission_view_order: int = 0
-    title: Optional[str] = None
-    description: Optional[str] = None
-    event_master_id: Optional[int] = None
-    jump_type: JumpTypes = JumpTypes.None_
-    jump_target_id: Optional[int] = None
-    start_date: str = ""
-    end_date: str = ""
-    stages: Optional[list[MissionStageMaster]] = None
-    comeback_campaign_master_id: Optional[int] = None
-
-
 class MissionPass(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
     id_: int = Field(default=0, alias="id")
@@ -2284,53 +1772,9 @@ class MissionPass(BaseModel):
     paid_reward_loop_received_phase: Optional[int] = None
 
 
-class MissionPassDetailMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    phase: int = 0
-    mission_pass_master_id: Optional[int] = None
-    clear_point: int = 0
-    start_date: str = ""
-    end_date: str = ""
-    rewards: Optional[list[MissionPassRewardThing]] = None
-
-
-class MissionPassMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    item_master_id: int = 0
-    start_date: str = ""
-    end_date: str = ""
-
-
-class MissionPassRewardThing(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    thing_id: int = 0
-    thing_type: ThingTypes = ThingTypes.Item
-    thing_quantity: int = 0
-    mission_pass_detail_master_id: int = 0
-    is_sp: bool = False
-
-
 class MissionPassRewardsResult(BaseModel):
     mission_pass_rewards: Optional[list[ReceivedThing]] = None
     reward_result: MissionPassRewardStatus = MissionPassRewardStatus.NotReceived
-
-
-class MissionRewardMaster(BaseModel):
-    thing_id: int = 0
-    thing_type: ThingTypes = ThingTypes.Item
-    thing_quantity: int = 0
-
-
-class MissionStageMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    mission_stage_order: int = 0
-    stage_goal_value: int = 0
-    start_date: Optional[str] = None
-    rewards: Optional[list[MissionRewardMaster]] = None
 
 
 class MonoBehaviour(BaseModel):
@@ -2393,7 +1837,7 @@ class MultiRoomInvitedResult(BaseModel):
 class MultiRoomJoinnedResult(BaseModel):
     my_rank: int = 0
     my_score: Optional[int] = None
-    my_total_achievement_rate_percent_record: Optional[Decimal] = None
+    my_total_achievement_rate_percent_record: Optional[str] = None
     multi_room_information_result: Optional[MultiRoomInformationResult] = None
 
 
@@ -2418,7 +1862,7 @@ class MultiRoomRanking(BaseModel):
     rank: int = 0
     is_owner: bool = False
     score: Optional[int] = None
-    total_achievement_rate_percent_record: Optional[Decimal] = None
+    total_achievement_rate_percent_record: Optional[str] = None
     best_record_challenge_count: int = 0
     best_record_date: Optional[str] = None
     user_profile: Optional[UserProfile] = None
@@ -2449,7 +1893,7 @@ class MusicCourse(BaseModel):
     certification_grade: MusicCourseCertificationGrade = (
         MusicCourseCertificationGrade.None_
     )
-    total_achievement_rate_percent_record: Optional[Decimal] = None
+    total_achievement_rate_percent_record: Optional[str] = None
 
 
 class MusicCourseRandomSelectResult(BaseModel):
@@ -2472,7 +1916,7 @@ class MusicCourseRanking(BaseModel):
     good: int = 0
     bad: int = 0
     miss: int = 0
-    total_achievement_rate_percent_record: Optional[Decimal] = None
+    total_achievement_rate_percent_record: Optional[str] = None
     best_record_challenge_count: int = 0
     best_record_date: Optional[str] = None
     has_received_reward: bool = False
@@ -2487,60 +1931,17 @@ class MusicCourseRankingPayload(BaseModel):
     good: int = 0
     bad: int = 0
     miss: int = 0
-    total_achievement_rate_percent_record: Decimal = Field(
+    total_achievement_rate_percent_record: str = Field(
         default_factory=lambda: Decimal()
     )
     best_record_challenge_count: int = 0
     best_record_date: Optional[str] = None
 
 
-class MusicMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    description: Optional[str] = None
-    reward_rule_master_id: int = 0
-    pronounce_name: Optional[str] = None
-    lyric_writer: Optional[str] = None
-    composer: Optional[str] = None
-    arranger: Optional[str] = None
-    unlock_text: Optional[str] = None
-    is_long_version: bool = False
-    released_at: Optional[str] = None
-    stamina_consumption: int = 0
-    music_time_second: int = 0
-    invisible: bool = False
-    sample_start_seconds: float = 0.0
-    sample_end_seconds: float = 0.0
-    delay_seconds: float = 0.0
-    vocal_versions: Optional[list[MusicVocalVersionMaster]] = None
-    unlock_condition_type: MusicUnlockConditionTypes = MusicUnlockConditionTypes.Default
-    unlock_condition_value: Optional[int] = None
-    music_video_type: MusicVideoTypes = MusicVideoTypes.None_
-    music_cover_type: MusicCoverTypes = MusicCoverTypes.Original
-    story_event_master_id: Optional[int] = None
-    story_master_id: Optional[int] = None
-    event_master_id: Optional[int] = None
-
-
 class MusicVideo(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
     id_: int = Field(default=0, alias="id")
     music_video_master_id: int = 0
-
-
-class MusicVocalVersionMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    music_master_id: int = 0
-    vocal_version: int = 0
-    singer: Optional[str] = None
-    name: Optional[str] = None
-    music_time_second: int = 0
-    sample_start_seconds: float = 0.0
-    sample_end_seconds: float = 0.0
-    music_video_type: MusicVideoTypes = MusicVideoTypes.None_
-    characters: Optional[list[int]] = None
 
 
 class MyCircleInformationResult(BaseModel):
@@ -2578,47 +1979,10 @@ class NameColor(BaseModel):
     name_color_master_ids: Optional[list[int]] = None
 
 
-class NameColorMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    description: Optional[str] = None
-    order: int = 0
-    hidden: bool = False
-    is_default: bool = False
-    unlock_text: Optional[str] = None
-
-
 class Nameplate(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
     id_: int = Field(default=0, alias="id")
     name_plate_master_id: int = 0
-
-
-class NameplateDetailMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    class_type: LeagueClassTypes = LeagueClassTypes.None_
-    enroll_count: int = 0
-    change_value1: Optional[int] = None
-    change_value2: Optional[int] = None
-    priority: int = 0
-
-
-class NameplateMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    description: Optional[str] = None
-    order: int = 0
-    hidden: bool = False
-    is_default: bool = False
-    details: Optional[list[NameplateDetailMaster]] = None
-    unlock_text: Optional[str] = None
-    change_type: NamePlateChangeTypes = NamePlateChangeTypes.None_
-    change_value1: Optional[int] = None
-    change_value2: Optional[int] = None
 
 
 class Note(BaseModel):
@@ -2630,16 +1994,6 @@ class Note(BaseModel):
 class NoteJudgePayload(BaseModel):
     timing: TimingTypes = TimingTypes.None_
     count: int = 0
-
-
-class NoteMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    description: Optional[str] = None
-    order: int = 0
-    hidden: bool = False
-    is_default: bool = False
 
 
 class NoteResult(BaseModel):
@@ -2707,7 +2061,14 @@ class PartyPayload(BaseModel):
 
 
 class PartySlot(BaseModel):
-    pass
+    model_config = ConfigDict(populate_by_name=True)
+    id_: int = Field(default=0, alias="id")
+    party_id: int = 0
+    position: int = 0
+    character_id: int = 0
+    poster_id: Optional[int] = None
+    accessory_id: Optional[int] = None
+    bonus_ability_enable_flags: BonusAbilityEnableFlags = BonusAbilityEnableFlags.None_
 
 
 class PartySlotAccessoryPayload(BaseModel):
@@ -2821,32 +2182,9 @@ class PosterAlternativeImagePayload(BaseModel):
     pattern: int = 0
 
 
-class PosterCostumeMaster(BaseModel):
-    phase: int = 0
-    costume_master_id: Optional[int] = None
-    item_master_id: Optional[int] = None
-    quantity: int = 0
-    decoration_master_id: Optional[int] = None
-
-
 class PosterFavoritePayload(BaseModel):
     poster_id: int = 0
     set_favorite: bool = False
-
-
-class PosterLevelPatternGroupMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    patterns: Optional[list[PosterLevelPatternMaster]] = None
-
-
-class PosterLevelPatternMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    level_pattern_group_id: int = 0
-    level: int = 0
-    item_master_id: int = 0
-    quantity: int = 0
 
 
 class PosterLineupResult(BaseModel):
@@ -2856,77 +2194,9 @@ class PosterLineupResult(BaseModel):
     fixed_lineup_items: Optional[list[GachaLineupItemProbability]] = None
 
 
-class PosterMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    organize_restrict_group_id: Optional[int] = None
-    rarity: PossessionRarities = PossessionRarities.R
-    level_pattern_group_master_id: int = 0
-    sub_title_position_x1: Optional[float] = None
-    sub_title_position_y1: Optional[float] = None
-    sub_title_position_x2: Optional[float] = None
-    sub_title_position_y2: Optional[float] = None
-    sub_title_position_x3: Optional[float] = None
-    sub_title_position_y3: Optional[float] = None
-    release_item_group_id: int = 0
-    pronounce_name: Optional[str] = None
-    costumes: Optional[list[PosterCostumeMaster]] = None
-    appearance_character_base_master_ids: Optional[list[int]] = None
-    is_restrict_item_break_through: bool = False
-    display_start_at: str = ""
-    display_end_at: str = ""
-    unlock_text: Optional[str] = None
-    orientation: PosterOrientation = PosterOrientation.Portrait
-    sub_title_display_condition: PosterSubTitleDisplayConditions = (
-        PosterSubTitleDisplayConditions.None_
-    )
-    sub_title_display_condition_value: Optional[int] = None
-    poster_breakthrough_max_phase: Optional[int] = None
-    poster_breakthrough_max_phase_release_date: Optional[str] = None
-    secondary_sub_title_display_condition: PosterSubTitleDisplayConditions = (
-        PosterSubTitleDisplayConditions.None_
-    )
-    secondary_sub_title_display_condition_value: Optional[int] = None
-    alternate_image_position_x1: Optional[float] = None
-    alternate_image_position_y1: Optional[float] = None
-    alternate_image_release_phase1: Optional[int] = None
-    alternate_image_position_x2: Optional[float] = None
-    alternate_image_position_y2: Optional[float] = None
-    alternate_image_release_phase2: Optional[int] = None
-    alternate_image_position_x3: Optional[float] = None
-    alternate_image_position_y3: Optional[float] = None
-    alternate_image_release_phase3: Optional[int] = None
-
-
 class PosterRarityProbability(BaseModel):
     rarity: PossessionRarities = PossessionRarities.R
     probability: float = 0.0
-
-
-class PosterReleaseItemGroupMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    items: Optional[list[PosterReleaseItemMaster]] = None
-    item_consume_apply_flag: bool = False
-
-
-class PosterReleaseItemMaster(BaseModel):
-    current_phase: int = 0
-    item_master_id: int = 0
-    required_quantity: int = 0
-
-
-class PosterStoryMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    poster_master_id: int = 0
-    episode_type: PosterEpisodeTypes = PosterEpisodeTypes.Information
-    character_base_master_id: Optional[int] = None
-    description: Optional[str] = None
-    order: int = 0
-    character_icon_id: Optional[int] = None
-    character_name: Optional[str] = None
 
 
 class ProcessPaymentResult(BaseModel):
@@ -2935,12 +2205,6 @@ class ProcessPaymentResult(BaseModel):
 
 class PurchaseItemPayload(BaseModel):
     m_jewel_shop_item_id: int = 0
-
-
-class RandomEffectGroupMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    accessory_effects: Optional[list[int]] = None
 
 
 class RateResult(BaseModel):
@@ -3028,12 +2292,6 @@ class Restriction(BaseModel):
     read_multi_live_restriction_dialog: Optional[bool] = None
 
 
-class RewardRuleMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    achivement_rate_rewards: Optional[list[AchivementRateRewardMaster]] = None
-
-
 class RollResult(BaseModel):
     roll_order: int = 0
     selected_slot: int = 0
@@ -3100,31 +2358,6 @@ class SenseEffect(BaseModel):
     effect_branches: list[EffectBranch] = Field(default_factory=list)
 
 
-class SenseEffectMaster(BaseModel):
-    order: int = 0
-    effect_master_id: int = 0
-
-
-class SenseMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    description: Optional[str] = None
-    type: SenseTypes = SenseTypes.Support
-    pre_effects: Optional[list[EffectOrderMaster]] = None
-    branches: Optional[list[BranchMaster]] = None
-    acquirable_gauge: int = 0
-    acquirable_score_percent: int = 0
-    score_up_per_level: int = 0
-    light_count: int = 0
-    cool_time: int = 0
-    branch_condition1: BranchConditionType = BranchConditionType.None_
-    condition_value1: Optional[int] = None
-    branch_condition2: BranchConditionType = BranchConditionType.None_
-    condition_value2: Optional[int] = None
-    sub_types: Optional[list[SenseTypes]] = None
-
-
 class SenseScoreBlock(BaseModel):
     hash: int = 0
     score: int = 0
@@ -3184,39 +2417,11 @@ class SpecialEvent(BaseModel):
     read_tips: bool = False
 
 
-class SpotConversationMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    spot: SpotTypes = SpotTypes.UtagawaHighSchool
-    character_id1: Optional[int] = None
-    character_id2: Optional[int] = None
-    character_id3: Optional[int] = None
-    character_id4: Optional[int] = None
-    character_id5: Optional[int] = None
-    episode_master_id: int = 0
-    costume_id1: Optional[int] = None
-    costume_id2: Optional[int] = None
-    costume_id3: Optional[int] = None
-    costume_id4: Optional[int] = None
-    costume_id5: Optional[int] = None
-    title: Optional[str] = None
-
-
 class Stamp(BaseModel):
-    pass
-
-
-class StampMaster(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
     id_: int = Field(default=0, alias="id")
-    order: int = 0
-    is_default: bool = False
-    character_base_master_id: int = 0
-    type: StampType = StampType.Default
-    asset_id: Optional[str] = None
-    voice_asset_id: Optional[str] = None
-    name: Optional[str] = None
-    character_base_master_ids: Optional[list[int]] = None
+    stamp_master_ids: Optional[list[int]] = None
+    favorite_stamp_master_ids: Optional[list[int]] = None
 
 
 class StarAct(BaseModel):
@@ -3249,12 +2454,6 @@ class StarPointResult(BaseModel):
     star_point_after: int = 0
     star_point_acquired: int = 0
     received_reward: Optional[list[ReceivedThing]] = None
-
-
-class StarRankRewardMaster(BaseModel):
-    rank: int = 0
-    character_base_master_id: int = 0
-    character_star_rank_reward_group_master_id: int = 0
 
 
 class StartLessonPayload(BaseModel):
@@ -3307,13 +2506,6 @@ class StartTripleCastLivePayload(BaseModel):
 
 class StartTripleCastLiveResult(BaseModel):
     live_units: Optional[list[LiveUnitWithOrder]] = None
-
-
-class Status(BaseModel):
-    concentration: int = 0
-    expression: int = 0
-    vocal: int = 0
-    total_status: int = 0
 
 
 class StoryEvent(BaseModel):
@@ -3414,17 +2606,6 @@ class StoryEventPointExchangeResult(BaseModel):
     story_event_master_id: int = 0
     before_story_event_point_amount: int = 0
     after_coin_amount: int = 0
-
-
-class StoryMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    type: StoryTypes = StoryTypes.None_
-    company_master_id: Optional[int] = None
-    event_master_id: Optional[int] = None
-    chapter_order: int = 0
-    display_start_at: str = ""
-    display_end_at: str = ""
 
 
 class SupportCompanyInformation(BaseModel):
@@ -3553,7 +2734,7 @@ class TournamentQualifying(BaseModel):
     good: int = 0
     bad: int = 0
     miss: int = 0
-    total_achievement_rate_percent_record: Optional[Decimal] = None
+    total_achievement_rate_percent_record: Optional[str] = None
     best_record_challenge_count: int = 0
     best_record_date: Optional[str] = None
 
@@ -3733,24 +2914,6 @@ class Trophy(BaseModel):
     current_order: int = 0
 
 
-class TrophyGroupMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    category: TrophyCategories = TrophyCategories.Character
-
-
-class TrophyMaster(BaseModel):
-    model_config = ConfigDict(populate_by_name=True)
-    id_: int = Field(default=0, alias="id")
-    name: Optional[str] = None
-    description: Optional[str] = None
-    rarity: PossessionRarities = PossessionRarities.R
-    order: int = 0
-    trophy_group_master_id: int = 0
-    hidden: bool = False
-    unlock_text: Optional[str] = None
-
-
 class UpdateClearLampResult(BaseModel):
     clear_lamp: ClearLamps = ClearLamps.None_
 
@@ -3851,15 +3014,28 @@ class UserPreference(BaseModel):
 
 
 class UserProfile(BaseModel):
-    user_id: Optional[str] = None
-    user_name: Optional[str] = None
-    trophy_master_id1: Optional[int] = None
-    trophy_master_id2: Optional[int] = None
-    trophy_master_id3: Optional[int] = None
-    main_m_character_id: int = 0
-    main_character_level: int = 0
-    character_display_awakening_status: bool = False
+    model_config = ConfigDict(populate_by_name=True)
+    id_: int = Field(default=0, alias="id")
+    name: Optional[str] = None
+    introduction: Optional[str] = None
+    main_u_character_id: int = 0
+    m_nameplate_id: Optional[int] = None
+    m_name_color_id: int = 0
+    m_trophy_id1: Optional[int] = None
+    m_trophy_id2: Optional[int] = None
+    m_trophy_id3: Optional[int] = None
+    player_rate: float = 0.0
+    is_public_player_rate: bool = False
+    league_class: LeagueClassTypes = LeagueClassTypes.None_
+    total_sp_count: int = 0
+    is_public_album_main_page: bool = False
+    m_nameplate_detail_id: Optional[int] = None
+    main_character_master_id: int = 0
+    display_awakening_status: bool = False
+    is_public_activity_log: bool = False
+    name_base_color_master_id: int = 0
     icon_frame_master_id: int = 0
+    home_skin_master_id: int = 0
 
 
 class UserProfileDetail(BaseModel):
@@ -3908,23 +3084,15 @@ class DeletedDataObject(BaseModel):
 
 
 __all__ = [
-    "Fault",
-    "DeletedDataObject",
     "AbilityVarietyUpPayload",
     "AcceptFriendRequest",
     "Accessory",
     "AccessoryAutoSell",
     "AccessoryAutoSellConvertThing",
-    "AccessoryEffectMaster",
     "AccessoryFavoritePayload",
-    "AccessoryLevelPatternGroupMaster",
-    "AccessoryLevelPatternItemMaster",
-    "AccessoryLevelPatternMaster",
-    "AccessoryMaster",
     "AccountConnectPayload",
     "AccountDeletionResult",
     "AccountRegistResult",
-    "AchivementRateRewardMaster",
     "AcquirableThing",
     "AcquirableThingsPayload",
     "ActorPortalCharacterPayload",
@@ -3942,10 +3110,6 @@ __all__ = [
     "AuditionClearPartySlot",
     "AuditionClearedInformationParties",
     "AuditionClearedInformationResult",
-    "AuditionMaster",
-    "AuditionPhaseMaster",
-    "AuditionRewardPackageMaster",
-    "AuditionRewardThing",
     "AuthenticatePayload",
     "AuthenticateResult",
     "BannerPayload",
@@ -3953,51 +3117,30 @@ __all__ = [
     "Behaviour",
     "BlockListResult",
     "Bomb",
-    "BombMaster",
     "BonusLive",
     "BonusLiveResult",
     "BonusLiveStage",
     "BooleanResult",
-    "BranchMaster",
     "BuffItemStatus",
     "BulkLevelUpPayload",
     "BulkReceivePayload",
     "CalculateLessonTimeEventPayload",
     "CalculateTimeEventPayload",
-    "CampaignMaster",
     "ChangeNamePayload",
     "ChangePhotoAbilityPayload",
     "Character",
-    "CharacterAwakeningItemMaster",
     "CharacterBase",
-    "CharacterBaseMaster",
     "CharacterBaseStarPointResult",
-    "CharacterBloomBonusGroupMaster",
-    "CharacterBloomBonusMaster",
-    "CharacterBloomItemMaster",
-    "CharacterBloomRewardMaster",
-    "CharacterCategoryMaster",
-    "CharacterExperienceItemMaster",
     "CharacterFavoritePayload",
     "CharacterLesson",
     "CharacterLessonSlot",
-    "CharacterLevelMaster",
     "CharacterLineupResult",
-    "CharacterMaster",
     "CharacterMission",
-    "CharacterMissionMaster",
-    "CharacterMissionStageMaster",
-    "CharacterPieceMaster",
     "CharacterPointEvent",
     "CharacterPointEventInformationResult",
     "CharacterPointEventRankingResult",
     "CharacterRank",
     "CharacterRarityProbability",
-    "CharacterSenseEnhanceItemGroupMaster",
-    "CharacterSenseEnhanceItemMaster",
-    "CharacterStarRankMaster",
-    "CharacterStarRankRewardGroupMaster",
-    "CharacterStarRankRewardMaster",
     "ChatworkSendMessagePayload",
     "CircleAuthorityChangePayload",
     "CircleAuthorityResult",
@@ -4019,7 +3162,6 @@ __all__ = [
     "CircleSearchResult",
     "ComebackCampaign",
     "Comic",
-    "CompanyMaster",
     "Component",
     "ConcertResult",
     "ConcertStage",
@@ -4030,8 +3172,6 @@ __all__ = [
     "ConvertedThingResult",
     "Costume",
     "CostumeFavoritePayload",
-    "CostumeMaster",
-    "CostumeWearableCharacterGroupMaster",
     "CourseRankingResult",
     "CourseResult",
     "CreateCircleResult",
@@ -4064,22 +3204,11 @@ __all__ = [
     "EexternalPaymentResult",
     "Effect",
     "EffectBranch",
-    "EffectConditionMaster",
-    "EffectDetailMaster",
-    "EffectDurationGroupMaster",
-    "EffectDurationMaster",
-    "EffectMaster",
-    "EffectOrderMaster",
     "EffectTargetValue",
     "EffectTrigger",
-    "EffectTriggerMaster",
     "EnvironmentResult",
     "Episode",
-    "EpisodeMaster",
-    "EpisodeReleaseCondition",
     "EpisodeResult",
-    "EpisodeRewardPackageMaster",
-    "EpisodeRewardThing",
     "Event",
     "EventBoxGacha",
     "EventBoxGachaBoxThing",
@@ -4087,8 +3216,6 @@ __all__ = [
     "EventCamp",
     "EventResult",
     "ExchangeLimit",
-    "ExchangeShopMaster",
-    "ExchangeShopThing",
     "ExchangeShopThingPayload",
     "FavoriteCostume",
     "FavoriteStampOrderPayload",
@@ -4133,7 +3260,6 @@ __all__ = [
     "HighScoreParty",
     "HighScorePartySlot",
     "HomeBGM",
-    "HomeCharacterVoiceMaster",
     "HomeDisplayPreference",
     "HomeSkin",
     "IconFrame",
@@ -4141,7 +3267,6 @@ __all__ = [
     "InboxReceiveResult",
     "InviteMultiRoomPayload",
     "Item",
-    "ItemMaster",
     "JewelShop",
     "JoinMultiRoomPayload",
     "LeagueBasic",
@@ -4166,8 +3291,6 @@ __all__ = [
     "LiveDropCelling",
     "LiveDropLimit",
     "LiveDropThing",
-    "LiveMaster",
-    "LiveSettingMaster",
     "LiveTimeEvent",
     "LiveUnit",
     "LiveUnitWithOrder",
@@ -4189,14 +3312,8 @@ __all__ = [
     "MatchingGhostLiveResult",
     "Mission",
     "MissionCleared",
-    "MissionMaster",
     "MissionPass",
-    "MissionPassDetailMaster",
-    "MissionPassMaster",
-    "MissionPassRewardThing",
     "MissionPassRewardsResult",
-    "MissionRewardMaster",
-    "MissionStageMaster",
     "MonoBehaviour",
     "MultiLiveAdditionalScoreBlock",
     "MultiLiveInformation",
@@ -4216,19 +3333,13 @@ __all__ = [
     "MusicCourseRandomSelectResultDetail",
     "MusicCourseRanking",
     "MusicCourseRankingPayload",
-    "MusicMaster",
     "MusicVideo",
-    "MusicVocalVersionMaster",
     "MyCircleInformationResult",
     "NameBaseColor",
     "NameColor",
-    "NameColorMaster",
     "Nameplate",
-    "NameplateDetailMaster",
-    "NameplateMaster",
     "Note",
     "NoteJudgePayload",
-    "NoteMaster",
     "NoteResult",
     "Notification",
     "NotificationContentResult",
@@ -4249,19 +3360,11 @@ __all__ = [
     "PlayerRankPointResult",
     "Poster",
     "PosterAlternativeImagePayload",
-    "PosterCostumeMaster",
     "PosterFavoritePayload",
-    "PosterLevelPatternGroupMaster",
-    "PosterLevelPatternMaster",
     "PosterLineupResult",
-    "PosterMaster",
     "PosterRarityProbability",
-    "PosterReleaseItemGroupMaster",
-    "PosterReleaseItemMaster",
-    "PosterStoryMaster",
     "ProcessPaymentResult",
     "PurchaseItemPayload",
-    "RandomEffectGroupMaster",
     "RateResult",
     "RateUpdateResult",
     "RawHighScoreRankingResult",
@@ -4277,7 +3380,6 @@ __all__ = [
     "RegisterPayload",
     "RegisterTakeOverPasswordPayload",
     "Restriction",
-    "RewardRuleMaster",
     "RollResult",
     "Roulette",
     "RouletteEvent",
@@ -4288,8 +3390,6 @@ __all__ = [
     "Sense",
     "SenseCoolTime",
     "SenseEffect",
-    "SenseEffectMaster",
-    "SenseMaster",
     "SenseScoreBlock",
     "SenseTimingEvent",
     "SetAlbumPublishingPayload",
@@ -4300,14 +3400,11 @@ __all__ = [
     "SpRate",
     "SpRateUpdateResult",
     "SpecialEvent",
-    "SpotConversationMaster",
     "Stamp",
-    "StampMaster",
     "StarAct",
     "StarActScoreBlock",
     "StarPassStatus",
     "StarPointResult",
-    "StarRankRewardMaster",
     "StartLessonPayload",
     "StartLivePayload",
     "StartMultiLivePayload",
@@ -4315,7 +3412,6 @@ __all__ = [
     "StartTournamentPayload",
     "StartTripleCastLivePayload",
     "StartTripleCastLiveResult",
-    "Status",
     "StoryEvent",
     "StoryEventCampInfo",
     "StoryEventCircle",
@@ -4328,7 +3424,6 @@ __all__ = [
     "StoryEventMissionCircleProgress",
     "StoryEventMissionCircleProgressResult",
     "StoryEventPointExchangeResult",
-    "StoryMaster",
     "SupportCompanyInformation",
     "SupportCompanyLevelLimitDetail",
     "SupportCompanyLevelLimitPayload",
@@ -4369,8 +3464,6 @@ __all__ = [
     "TripleCastPartySlot",
     "TripleCastSeasonResult",
     "Trophy",
-    "TrophyGroupMaster",
-    "TrophyMaster",
     "UpdateClearLampResult",
     "UpdateGameHintPayload",
     "UpdateHomeDisplayPreferencePayload",
@@ -4389,6 +3482,8 @@ __all__ = [
     "UserResult",
     "ViewShopResult",
     "ViewedShop",
+    "Fault",
+    "DeletedDataObject",
 ]
 
 for _m in __all__:

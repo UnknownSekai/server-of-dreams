@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Possessions"])
@@ -16,15 +16,14 @@ router = APIRouter(tags=["Possessions"])
 async def possessions_add_favorite_stamp(request: Request, mStampId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Possessions/SetFavorite
 @router.post("/api/Possessions/SetFavorite", name="Possessions_BulkSetCostumeFavorite")
 async def possessions_bulk_set_costume_favorite(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "CostumeFavoritePayload")
+    payload = await read_request(request, CostumeFavoritePayload)
     return respond(BooleanResult())
 
 
@@ -36,8 +35,7 @@ async def possessions_bulk_set_costume_favorite(request: Request):
 async def possessions_remove_favorite_stamp(request: Request, mStampId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Possessions/SortFavoriteStamps
@@ -46,5 +44,5 @@ async def possessions_remove_favorite_stamp(request: Request, mStampId: int):
 )
 async def possessions_sort_favorite_stamps(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "FavoriteStampOrderPayload")
+    payload = await read_request(request, FavoriteStampOrderPayload)
     return respond(BooleanResult())

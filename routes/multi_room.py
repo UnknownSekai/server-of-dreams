@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["MultiRoom"])
@@ -13,7 +13,7 @@ router = APIRouter(tags=["MultiRoom"])
 @router.post("/api/MultiRooms/Create", name="MultiRoom_CreateMultiRooms")
 async def multi_room_create_multi_rooms(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "CreateMultiRoomPayload")
+    payload = await read_request(request, CreateMultiRoomPayload)
     return respond(MultiRoomCreateResult())
 
 
@@ -62,15 +62,14 @@ async def multi_room_get_search_multi_rooms(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/MultiRooms/Join
 @router.post("/api/MultiRooms/Join", name="MultiRoom_JoinMultiRooms")
 async def multi_room_join_multi_rooms(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "JoinMultiRoomPayload")
+    payload = await read_request(request, JoinMultiRoomPayload)
     return respond(BooleanResult())
 
 
@@ -103,5 +102,5 @@ async def multi_room_resignation_multi_room(
 @router.post("/api/MultiRooms/Send/Invite", name="MultiRoom_SendMultiRoomInvite")
 async def multi_room_send_multi_room_invite(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "InviteMultiRoomPayload")
+    payload = await read_request(request, InviteMultiRoomPayload)
     return respond(BooleanResult())

@@ -7,6 +7,7 @@ from models.database import (
     CharacterModel,
     CharacterBaseModel,
     PartyModel,
+    PartySlotModel,
     CharacterMasterModel,
     CharacterBaseMasterModel,
     CharacterLevelMasterModel,
@@ -45,6 +46,7 @@ from models.database import (
     NameColorModel,
     NameplateModel,
     NoteModel,
+    StampModel,
     MissionModel,
     AuditionMasterModel,
     BombMasterModel,
@@ -61,6 +63,7 @@ from models.database import (
     TrophyModel,
     MarketModel,
     ViewedShopModel,
+    GameHintModel,
     UserBonusModel,
     AuditionPhaseMasterModel,
     AuditionRewardPackageMasterModel,
@@ -176,6 +179,7 @@ from models.database import (
     TrialPartyEventStagePartyModel,
     TrialPartyEventStagePartySlotModel,
     UserBlockModel,
+    HomeSkinModel,
     AccessoryAutoSellModel,
     FavoriteCostumeModel,
     BuffItemStatusModel,
@@ -228,6 +232,12 @@ def get_character_bases(user_id: int) -> SelectQuery[CharacterBaseModel]:
 
 def get_partys(user_id: int) -> SelectQuery[PartyModel]:
     return SelectQuery(PartyModel, 'SELECT * FROM "party" WHERE "userId" = $1', user_id)
+
+
+def get_party_slots(user_id: int) -> SelectQuery[PartySlotModel]:
+    return SelectQuery(
+        PartySlotModel, 'SELECT * FROM "party_slot" WHERE "userId" = $1', user_id
+    )
 
 
 def get_character_masters(user_id: int) -> SelectQuery[CharacterMasterModel]:
@@ -472,6 +482,15 @@ def get_inboxs(user_id: int) -> SelectQuery[InboxModel]:
     return SelectQuery(InboxModel, 'SELECT * FROM "inbox" WHERE "userId" = $1', user_id)
 
 
+def get_unchecked_inboxs(user_id: int) -> SelectQuery[InboxModel]:
+    """Inbox packages not yet surfaced by CheckPackages (its new-package diff)."""
+    return SelectQuery(
+        InboxModel,
+        'SELECT * FROM "inbox" WHERE "userId" = $1 AND "checked" = false',
+        user_id,
+    )
+
+
 def get_bombs(user_id: int) -> SelectQuery[BombModel]:
     return SelectQuery(BombModel, 'SELECT * FROM "bomb" WHERE "userId" = $1', user_id)
 
@@ -496,6 +515,10 @@ def get_nameplates(user_id: int) -> SelectQuery[NameplateModel]:
 
 def get_notes(user_id: int) -> SelectQuery[NoteModel]:
     return SelectQuery(NoteModel, 'SELECT * FROM "note" WHERE "userId" = $1', user_id)
+
+
+def get_stamps(user_id: int) -> SelectQuery[StampModel]:
+    return SelectQuery(StampModel, 'SELECT * FROM "stamp" WHERE "userId" = $1', user_id)
 
 
 def get_missions(user_id: int) -> SelectQuery[MissionModel]:
@@ -617,6 +640,12 @@ def get_markets(user_id: int) -> SelectQuery[MarketModel]:
 def get_viewed_shops(user_id: int) -> SelectQuery[ViewedShopModel]:
     return SelectQuery(
         ViewedShopModel, 'SELECT * FROM "viewed_shop" WHERE "userId" = $1', user_id
+    )
+
+
+def get_game_hints(user_id: int) -> SelectQuery[GameHintModel]:
+    return SelectQuery(
+        GameHintModel, 'SELECT * FROM "game_hint" WHERE "userId" = $1', user_id
     )
 
 
@@ -1517,6 +1546,12 @@ def get_trial_party_event_stage_party_slots(
 def get_user_blocks(user_id: int) -> SelectQuery[UserBlockModel]:
     return SelectQuery(
         UserBlockModel, 'SELECT * FROM "user_block" WHERE "userId" = $1', user_id
+    )
+
+
+def get_home_skins(user_id: int) -> SelectQuery[HomeSkinModel]:
+    return SelectQuery(
+        HomeSkinModel, 'SELECT * FROM "home_skin" WHERE "userId" = $1', user_id
     )
 
 

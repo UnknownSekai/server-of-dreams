@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Circles"])
@@ -16,8 +16,7 @@ router = APIRouter(tags=["Circles"])
 async def circles_approve_circle_invite(request: Request, inviteId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleResult())
+    return respond(CircleResult())
 
 
 # /api/Circles/ApproveRequest/{requestId}
@@ -27,15 +26,14 @@ async def circles_approve_circle_invite(request: Request, inviteId: int):
 async def circles_approve_circle_request(request: Request, requestId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleResult())
+    return respond(CircleResult())
 
 
 # /api/Circles/AuthorityChange
 @router.post("/api/Circles/AuthorityChange", name="Circles_AuthorityChangeCircle")
 async def circles_authority_change_circle(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "CircleAuthorityChangePayload")
+    payload = await read_request(request, CircleAuthorityChangePayload)
     return respond(CircleAuthorityResult())
 
 
@@ -46,8 +44,7 @@ async def circles_authority_change_circle(request: Request):
 async def circles_cancel_invite_circle_invite(request: Request, inviteId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleResult())
+    return respond(CircleResult())
 
 
 # /api/Circles/MemberInfo?circleId=
@@ -62,7 +59,7 @@ async def circles_circle_member_info(request: Request, circleId: Optional[str] =
 @router.post("/api/Circles/Create", name="Circles_CreateCircle")
 async def circles_create_circle(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "CirclePayload")
+    payload = await read_request(request, CirclePayload)
     return respond(CreateCircleResult())
 
 
@@ -70,7 +67,7 @@ async def circles_create_circle(request: Request):
 @router.post("/api/Circles/DonateSupportCompany", name="Circles_DonateSupportCompany")
 async def circles_donate_support_company(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "DonateSupportLevelLimitPayload")
+    payload = await read_request(request, DonateSupportLevelLimitPayload)
     return respond(DonateSupportCompanyResult())
 
 
@@ -78,7 +75,7 @@ async def circles_donate_support_company(request: Request):
 @router.post("/api/Circles/Edit", name="Circles_EditCircle")
 async def circles_edit_circle(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "CirclePayload")
+    payload = await read_request(request, CirclePayload)
     return respond(CircleResult())
 
 
@@ -86,7 +83,7 @@ async def circles_edit_circle(request: Request):
 @router.post("/api/Circles/EditCircleBanner", name="Circles_EditCircleBanner")
 async def circles_edit_circle_banner(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "BannerPayload")
+    payload = await read_request(request, BannerPayload)
     return respond(BooleanResult())
 
 
@@ -152,7 +149,7 @@ async def circles_get_circles(request: Request):
 @router.post("/api/Circles/Condition", name="Circles_GetCirclesConditionSearch")
 async def circles_get_circles_condition_search(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "CirclePayload")
+    payload = await read_request(request, CirclePayload)
     return respond([CircleInformationResult()])
 
 
@@ -228,8 +225,7 @@ async def circles_recommend_invite_user(
 async def circles_reject_invite_circle_invite(request: Request, inviteId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleResult())
+    return respond(CircleResult())
 
 
 # /api/Circles/RejectRequest/{requstId}
@@ -239,8 +235,7 @@ async def circles_reject_invite_circle_invite(request: Request, inviteId: int):
 async def circles_reject_request_circle_invite(request: Request, requstId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleResult())
+    return respond(CircleResult())
 
 
 # /api/Circles/Release?circleId=
@@ -333,8 +328,7 @@ async def circles_send_circlen_request(
 async def circles_set_is_publish_ranking(request: Request, IsPublishRanking: bool):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleResult())
+    return respond(CircleResult())
 
 
 # /api/Circles/SetSupportCompany/{company}
@@ -344,8 +338,7 @@ async def circles_set_is_publish_ranking(request: Request, IsPublishRanking: boo
 async def circles_set_support_company(request: Request, company: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(CircleResult())
+    return respond(CircleResult())
 
 
 # /api/Circles/SetVisibleActivityLog?isPublicActivityLog=
@@ -355,5 +348,4 @@ async def circles_set_visible_activity_log(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())

@@ -3,7 +3,7 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import raw_response, read_request, respond
+from helpers.msgpack import read_request, respond
 from models import *
 
 router = APIRouter(tags=["Characters"])
@@ -15,9 +15,8 @@ router = APIRouter(tags=["Characters"])
 )
 async def characters_add_experience(request: Request, characterId: int):
     app: YumeApp = request.app
-    payload = await read_request(request, "UseExperienceItemsPayload")
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    payload = await read_request(request, UseExperienceItemsPayload)
+    return respond(BooleanResult())
 
 
 # /api/Characters/{characterId}/Awaken
@@ -25,8 +24,7 @@ async def characters_add_experience(request: Request, characterId: int):
 async def characters_awaken(request: Request, characterId: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Characters/{characterId}/BloomTalent/{stageTo}
@@ -36,15 +34,14 @@ async def characters_awaken(request: Request, characterId: int):
 async def characters_bloom_talent(request: Request, characterId: int, stageTo: int):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Characters/BulkLevelUp
 @router.post("/api/Characters/BulkLevelUp", name="Characters_BulkLevelUp")
 async def characters_bulk_level_up(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "BulkLevelUpPayload")
+    payload = await read_request(request, BulkLevelUpPayload)
     return respond(BooleanResult())
 
 
@@ -58,8 +55,7 @@ async def characters_enhance_sense_level(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Characters/LinkCharacter?mCharacterBaseId=&linkedMCharacterBaseId=
@@ -71,8 +67,7 @@ async def characters_link_character(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Characters/ReceiveLinkCharacterReward?mCharacterBaseId=
@@ -85,8 +80,7 @@ async def characters_receive_link_character_reward(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response([])
+    return respond([])
 
 
 # /api/Characters/{characterMasterId}/ReleaseSideStory?order=
@@ -99,15 +93,14 @@ async def characters_release_side_story(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Characters/SetFavorite
 @router.post("/api/Characters/SetFavorite", name="Characters_SetCharacterFavorite")
 async def characters_set_character_favorite(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "CharacterFavoritePayload")
+    payload = await read_request(request, CharacterFavoritePayload)
     return respond(BooleanResult())
 
 
@@ -121,8 +114,7 @@ async def characters_set_costume(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Characters/Portal/SetCharacter
@@ -131,7 +123,7 @@ async def characters_set_costume(
 )
 async def characters_set_portal_mcharacter(request: Request):
     app: YumeApp = request.app
-    payload = await read_request(request, "ActorPortalCharacterPayload")
+    payload = await read_request(request, ActorPortalCharacterPayload)
     return respond(BooleanResult())
 
 
@@ -145,8 +137,7 @@ async def characters_switch_character_display_awakening_status(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())
 
 
 # /api/Characters/UpdateSelectionType?characterId=&selectionType=
@@ -160,5 +151,4 @@ async def characters_update_selection_type(
 ):
     app: YumeApp = request.app
     payload = {}  # no payload
-    # does not use common response (ParseWithoutCommonResponse APIClient)
-    return raw_response(BooleanResult())
+    return respond(BooleanResult())

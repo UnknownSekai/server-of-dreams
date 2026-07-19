@@ -1,6 +1,14 @@
 from db.query import ExecutableQuery
 
 
+def update_user_tutorial_status(user_id: int, status: int) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "user" SET "tutorialStatus" = $2 WHERE "userId" = $1',
+        user_id,
+        status,
+    )
+
+
 def upsert_user(user_id: int, row: dict) -> ExecutableQuery:
     cols = [
         "id",
@@ -33,18 +41,31 @@ def upsert_user(user_id: int, row: dict) -> ExecutableQuery:
 
 def upsert_user_profile(user_id: int, row: dict) -> ExecutableQuery:
     cols = [
-        "userName",
-        "trophyMasterId1",
-        "trophyMasterId2",
-        "trophyMasterId3",
-        "mainMCharacterId",
-        "mainCharacterLevel",
-        "characterDisplayAwakeningStatus",
+        "id",
+        "name",
+        "introduction",
+        "mainUCharacterId",
+        "mNameplateId",
+        "mNameColorId",
+        "mTrophyId1",
+        "mTrophyId2",
+        "mTrophyId3",
+        "playerRate",
+        "isPublicPlayerRate",
+        "leagueClass",
+        "totalSpCount",
+        "isPublicAlbumMainPage",
+        "mNameplateDetailId",
+        "mainCharacterMasterId",
+        "displayAwakeningStatus",
+        "isPublicActivityLog",
+        "nameBaseColorMasterId",
         "iconFrameMasterId",
+        "homeSkinMasterId",
     ]
     vals = [user_id] + [row.get(k) for k in cols]
     return ExecutableQuery(
-        'INSERT INTO "user_profile" ("userId", "userName", "trophyMasterId1", "trophyMasterId2", "trophyMasterId3", "mainMCharacterId", "mainCharacterLevel", "characterDisplayAwakeningStatus", "iconFrameMasterId") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)',
+        'INSERT INTO "user_profile" ("userId", "id", "name", "introduction", "mainUCharacterId", "mNameplateId", "mNameColorId", "mTrophyId1", "mTrophyId2", "mTrophyId3", "playerRate", "isPublicPlayerRate", "leagueClass", "totalSpCount", "isPublicAlbumMainPage", "mNameplateDetailId", "mainCharacterMasterId", "displayAwakeningStatus", "isPublicActivityLog", "nameBaseColorMasterId", "iconFrameMasterId", "homeSkinMasterId") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22)',
         *vals,
     )
 
@@ -130,6 +151,23 @@ def upsert_party(user_id: int, row: dict) -> ExecutableQuery:
     vals = [user_id] + [row.get(k) for k in cols]
     return ExecutableQuery(
         'INSERT INTO "party" ("userId", "id", "order", "name", "leaderPosition") VALUES ($1, $2, $3, $4, $5)',
+        *vals,
+    )
+
+
+def upsert_party_slot(user_id: int, row: dict) -> ExecutableQuery:
+    cols = [
+        "id",
+        "partyId",
+        "position",
+        "characterId",
+        "posterId",
+        "accessoryId",
+        "bonusAbilityEnableFlags",
+    ]
+    vals = [user_id] + [row.get(k) for k in cols]
+    return ExecutableQuery(
+        'INSERT INTO "party_slot" ("userId", "id", "partyId", "position", "characterId", "posterId", "accessoryId", "bonusAbilityEnableFlags") VALUES ($1, $2, $3, $4, $5, $6, $7, $8)',
         *vals,
     )
 
@@ -530,6 +568,65 @@ def upsert_item(user_id: int, row: dict) -> ExecutableQuery:
     )
 
 
+def increment_item_stock(
+    user_id: int, item_master_id: int, delta: int
+) -> ExecutableQuery:
+    """Add ``delta`` to the caller's stock of an item, creating the row if new (id = master id)."""
+    return ExecutableQuery(
+        "WITH upd AS ("
+        '  UPDATE "item" SET "stock" = "stock" + $3 '
+        '  WHERE "userId" = $1 AND "itemMasterId" = $2 RETURNING 1'
+        ") "
+        'INSERT INTO "item" ("userId", "id", "itemMasterId", "stock") '
+        "SELECT $1, $2, $2, $3 WHERE NOT EXISTS (SELECT 1 FROM upd)",
+        user_id,
+        item_master_id,
+        delta,
+    )
+
+
+def add_currency(user_id: int, coin: int = 0, free_jewel: int = 0) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "currency" SET "coin" = "coin" + $2, "freeJewel" = "freeJewel" + $3 '
+        'WHERE "userId" = $1',
+        user_id,
+        coin,
+        free_jewel,
+    )
+
+
+def mark_inboxs_checked(user_id: int) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "inbox" SET "checked" = true WHERE "userId" = $1 AND "checked" = false',
+        user_id,
+    )
+
+
+def create_inbox(
+    user_id: int,
+    inbox_id: int,
+    thing_type: int,
+    thing_id: int,
+    quantity: int,
+    description,
+    sent_at: int,
+    receive_limit_at: int,
+) -> ExecutableQuery:
+    return ExecutableQuery(
+        'INSERT INTO "inbox" ("userId", "id", "thingType", "thingId", "thingQuantity", '
+        '"isTimeLimited", "hasReceived", "description", "sentAt", "receiveLimitAt") '
+        "VALUES ($1, $2, $3, $4, $5, true, false, $6, $7, $8)",
+        user_id,
+        inbox_id,
+        thing_type,
+        thing_id,
+        quantity,
+        description,
+        sent_at,
+        receive_limit_at,
+    )
+
+
 def upsert_accessory_effect_master(user_id: int, row: dict) -> ExecutableQuery:
     cols = ["id", "effectMasterId", "name", "description", "variety"]
     vals = [user_id] + [row.get(k) for k in cols]
@@ -738,6 +835,15 @@ def upsert_note(user_id: int, row: dict) -> ExecutableQuery:
     vals = [user_id] + [row.get(k) for k in cols]
     return ExecutableQuery(
         'INSERT INTO "note" ("userId", "id", "noteMasterIds") VALUES ($1, $2, $3)',
+        *vals,
+    )
+
+
+def upsert_stamp(user_id: int, row: dict) -> ExecutableQuery:
+    cols = ["id", "stampMasterIds", "favoriteStampMasterIds"]
+    vals = [user_id] + [row.get(k) for k in cols]
+    return ExecutableQuery(
+        'INSERT INTO "stamp" ("userId", "id", "stampMasterIds", "favoriteStampMasterIds") VALUES ($1, $2, $3, $4)',
         *vals,
     )
 
@@ -963,6 +1069,29 @@ def upsert_viewed_shop(user_id: int, row: dict) -> ExecutableQuery:
     return ExecutableQuery(
         'INSERT INTO "viewed_shop" ("userId", "id", "exchangeShopMasterId", "lastViewedAt", "viewedShopCategory") VALUES ($1, $2, $3, $4, $5)',
         *vals,
+    )
+
+
+def upsert_game_hint(user_id: int, row: dict) -> ExecutableQuery:
+    cols = ["id", "pageCategory", "hasAlreadyRead"]
+    vals = [user_id] + [row.get(k) for k in cols]
+    return ExecutableQuery(
+        'INSERT INTO "game_hint" ("userId", "id", "pageCategory", "hasAlreadyRead") VALUES ($1, $2, $3, $4)',
+        *vals,
+    )
+
+
+def mark_game_hint_read(user_id: int, page_category: int) -> ExecutableQuery:
+    """Idempotently mark a page category's hint read (id = the category)."""
+    return ExecutableQuery(
+        "WITH upd AS ("
+        '  UPDATE "game_hint" SET "hasAlreadyRead" = true '
+        '  WHERE "userId" = $1 AND "pageCategory" = $2 RETURNING 1'
+        ") "
+        'INSERT INTO "game_hint" ("userId", "id", "pageCategory", "hasAlreadyRead") '
+        "SELECT $1, $2, $2, true WHERE NOT EXISTS (SELECT 1 FROM upd)",
+        user_id,
+        page_category,
     )
 
 
@@ -1466,6 +1595,18 @@ def upsert_daily_limit(user_id: int, row: dict) -> ExecutableQuery:
     return ExecutableQuery(
         'INSERT INTO "daily_limit" ("userId", "id", "autoPlayTimes", "dailyLessonTimes", "lastRefreshedAt", "musicCourseFreeChallengeTimes") VALUES ($1, $2, $3, $4, $5, $6)',
         *vals,
+    )
+
+
+def update_daily_limit(user_id: int, row: dict) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "daily_limit" SET "autoPlayTimes" = $2, "dailyLessonTimes" = $3, '
+        '"lastRefreshedAt" = $4, "musicCourseFreeChallengeTimes" = $5 WHERE "userId" = $1',
+        user_id,
+        row.get("autoPlayTimes"),
+        row.get("dailyLessonTimes"),
+        row.get("lastRefreshedAt"),
+        row.get("musicCourseFreeChallengeTimes"),
     )
 
 
@@ -2410,6 +2551,15 @@ def upsert_user_block(user_id: int, row: dict) -> ExecutableQuery:
     vals = [user_id] + [row.get(k) for k in cols]
     return ExecutableQuery(
         'INSERT INTO "user_block" ("userId", "id", "blockUserId") VALUES ($1, $2, $3)',
+        *vals,
+    )
+
+
+def upsert_home_skin(user_id: int, row: dict) -> ExecutableQuery:
+    cols = ["id", "homeSkinMasterIds"]
+    vals = [user_id] + [row.get(k) for k in cols]
+    return ExecutableQuery(
+        'INSERT INTO "home_skin" ("userId", "id", "homeSkinMasterIds") VALUES ($1, $2, $3)',
         *vals,
     )
 
