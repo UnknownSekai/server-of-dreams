@@ -4,9 +4,18 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from db.user import create_active_live, delete_active_lives, get_users
+from db.user import (
+    create_active_live,
+    delete_active_lives,
+    get_active_live,
+    get_lives,
+    get_users,
+    update_live_result,
+    upsert_live,
+)
 from helpers.cache import cache
 from helpers.live import build_live_time_event, build_live_unit
+from helpers.live_result import achievement_rate, clear_lamp, rate_grade
 from helpers.msgpack import fault, read_request, respond
 from helpers.score import verify_score_blocks
 from helpers.stamina import adjust_and_check_stamina
@@ -71,11 +80,80 @@ async def lives_edit_bookmark(request: Request):
 @router.post("/api/Lives/FinishAndValidate", name="Lives_FinishAndValidate")
 async def lives_finish_and_validate(request: Request):
     app: YumeApp = request.app
+    user_id = current_user_id(request)
     payload = await read_request(request, FinishLivePayload)
-    if payload is not None and not verify_score_blocks(payload):
+    if payload is None:
+        return respond(FinishLiveResult())
+    if not verify_score_blocks(payload):
         # score-block hash chain does not reproduce -> tampered score, reject
         return respond(FinishLiveResult(), faults=[fault("InvalidScoreBlockHash")])
-    return respond(FinishLiveResult())
+    if user_id is None:
+        return respond(FinishLiveResult())
+
+    # clear_lamp / achievement rate / grade are exact mirrors of the client
+    # (InputCollector.CalculateAchievementRate + AchievementRateExtensions.GetAchievementRateGrade)
+    new_lamp = clear_lamp(payload.is_cleared, payload.judges)
+    this_rate = achievement_rate(payload.judges)
+
+    async with app.acquire_db() as conn:
+        active = await conn.fetchrow(get_active_live(user_id))
+        live_master_id = active.liveMasterId if active is not None else 0
+        existing = None
+        if live_master_id:
+            for row in await conn.fetch(get_lives(user_id)):
+                if row.liveMasterId == live_master_id:
+                    existing = row
+                    break
+
+        before_lamp = (
+            existing.clearLamp if existing is not None else int(ClearLamps.None_)
+        )
+        prev_rate = existing.achievementRate if existing is not None else 0.0
+        is_high_score = this_rate > prev_rate
+
+        best_lamp = max(before_lamp, new_lamp)  # ClearLamps int order = worst..best
+        best_rate = max(prev_rate, this_rate)
+        best_grade = rate_grade(best_rate)
+        times = (existing.timesCompleted if existing is not None else 0) + 1
+
+        if existing is not None:
+            await conn.execute(
+                update_live_result(
+                    user_id, live_master_id, times, best_rate, best_lamp, best_grade
+                )
+            )
+        elif live_master_id:
+            await conn.execute(
+                upsert_live(
+                    user_id,
+                    {
+                        "id": random.randint(1_000_000, 9_999_999_999),
+                        "liveMasterId": live_master_id,
+                        "timesCompleted": times,
+                        "achievementRate": best_rate,
+                        "notationRate": 0.0,
+                        "clearLamp": best_lamp,
+                        "status": int(LiveReleaseStatus.Playable),
+                        "rateGrade": best_grade,
+                    },
+                )
+            )
+
+        await conn.execute(delete_active_lives(user_id))  # consume the session
+
+    result = FinishLiveResult(
+        clear_lamp=ClearLamps(best_lamp),
+        before_clear_lamp=ClearLamps(before_lamp),
+        rate_grade=AchievementRateGrades(best_grade),
+        is_high_score=is_high_score,
+        achievement_rate_average=this_rate,
+        rate_result=RateResult(
+            achievement_rate_result=RateUpdateResult(
+                best_ever=best_rate, this_time=this_rate
+            )
+        ),
+    )
+    return respond(result)
 
 
 # /api/Lives/FinishAnotherNotationLive
