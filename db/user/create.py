@@ -9,6 +9,14 @@ def update_user_tutorial_status(user_id: int, status: int) -> ExecutableQuery:
     )
 
 
+def update_user_splash_last_displayed_at(user_id: int, ts: int) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "user" SET "splashLastDisplayedAt" = $2 WHERE "userId" = $1',
+        user_id,
+        ts,
+    )
+
+
 def upsert_user(user_id: int, row: dict) -> ExecutableQuery:
     cols = [
         "id",
@@ -16,9 +24,6 @@ def upsert_user(user_id: int, row: dict) -> ExecutableQuery:
         "currentRankPoint",
         "currentStamina",
         "maxStaminaRestoredAt",
-        "paidJewel",
-        "freeJewel",
-        "coin",
         "playerRankLimit",
         "staminaRecoverTimesWithJewel",
         "circleUsageRestrictionsEndTime",
@@ -34,7 +39,7 @@ def upsert_user(user_id: int, row: dict) -> ExecutableQuery:
     ]
     vals = [user_id] + [row.get(k) for k in cols]
     return ExecutableQuery(
-        'INSERT INTO "user" ("userId", "id", "playerRank", "currentRankPoint", "currentStamina", "maxStaminaRestoredAt", "paidJewel", "freeJewel", "coin", "playerRankLimit", "staminaRecoverTimesWithJewel", "circleUsageRestrictionsEndTime", "circleId", "gameStartAt", "hashUserId", "banLevel", "tutorialStatus", "monthlyPayment", "splashLastDisplayedAt", "isCapedPlayerRank", "requireCapedPlayerRankAnnounce") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21)',
+        'INSERT INTO "user" ("userId", "id", "playerRank", "currentRankPoint", "currentStamina", "maxStaminaRestoredAt", "playerRankLimit", "staminaRecoverTimesWithJewel", "circleUsageRestrictionsEndTime", "circleId", "gameStartAt", "hashUserId", "banLevel", "tutorialStatus", "monthlyPayment", "splashLastDisplayedAt", "isCapedPlayerRank", "requireCapedPlayerRankAnnounce") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18)',
         *vals,
     )
 

@@ -64,9 +64,8 @@ class User(BaseModel):
     currentRankPoint = BigIntegerField(constraints=[SQL("DEFAULT 0")])
     currentStamina = BigIntegerField(constraints=[SQL("DEFAULT 0")])
     maxStaminaRestoredAt = BigIntegerField(constraints=[SQL("DEFAULT 0")])
-    paidJewel = BigIntegerField(constraints=[SQL("DEFAULT 0")])
-    freeJewel = BigIntegerField(constraints=[SQL("DEFAULT 0")])
-    coin = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    # coin/freeJewel/paidJewel live only in the "currency" table; the User entity reads
+    # them via a JOIN in get_users, so there is a single source of truth
     playerRankLimit = BigIntegerField(constraints=[SQL("DEFAULT 0")])
     staminaRecoverTimesWithJewel = BigIntegerField(constraints=[SQL("DEFAULT 0")])
     circleUsageRestrictionsEndTime = BigIntegerField(constraints=[SQL("DEFAULT 0")])

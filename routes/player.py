@@ -1,9 +1,15 @@
+import time
 from typing import Optional
 
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from db.user import get_users, mark_game_hint_read, update_user_tutorial_status
+from db.user import (
+    get_users,
+    mark_game_hint_read,
+    update_user_splash_last_displayed_at,
+    update_user_tutorial_status,
+)
 from helpers.msgpack import read_request, respond
 from helpers.stamina import (
     adjust_and_check_stamina,
@@ -97,8 +103,15 @@ async def player_update_home_display_preference(request: Request):
 )
 async def player_update_home_last_transition_time(request: Request):
     app: YumeApp = request.app
-    payload = {}  # no payload
-    return respond(BooleanResult())
+    user_id = current_user_id(request)
+    present: list = []
+    if user_id is not None:
+        now = int(time.time() * 1_000_000)  # epoch micros, like other User timestamps
+        async with app.acquire_db() as conn:
+            await conn.execute(update_user_splash_last_displayed_at(user_id, now))
+            user = await conn.fetchrow(get_users(user_id))
+        present = [data_object("User", user)] if user is not None else []
+    return respond(BooleanResult(is_success=True), present=present)
 
 
 # /api/Player/UpdateTutorial

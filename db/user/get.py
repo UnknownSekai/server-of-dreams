@@ -189,7 +189,16 @@ from models.database import (
 
 
 def get_users(user_id: int) -> SelectQuery[UserModel]:
-    return SelectQuery(UserModel, 'SELECT * FROM "user" WHERE "userId" = $1', user_id)
+    # coin/freeJewel/paidJewel come from the "currency" table (single source of truth)
+    return SelectQuery(
+        UserModel,
+        'SELECT u.*, COALESCE(c."coin", 0) AS "coin", '
+        'COALESCE(c."freeJewel", 0) AS "freeJewel", '
+        'COALESCE(c."paidJewel", 0) AS "paidJewel" '
+        'FROM "user" u LEFT JOIN "currency" c ON c."userId" = u."userId" '
+        'WHERE u."userId" = $1',
+        user_id,
+    )
 
 
 def get_user_profiles(user_id: int) -> SelectQuery[UserProfileModel]:
