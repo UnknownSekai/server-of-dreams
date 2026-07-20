@@ -23,10 +23,11 @@ s.connect(("1.1.1.1", 80))
 IP_ADDR = s.getsockname()[0]
 print("Redirecting to {}:{}".format(IP_ADDR, LOCAL_PORT))
 
+
 def request(flow: http.HTTPFlow) -> None:
     if not do_proxying:
         return
-    
+
     host = flow.request.pretty_host
 
     # redirect the official API to the local emulator
@@ -35,7 +36,7 @@ def request(flow: http.HTTPFlow) -> None:
         flow.request.port = LOCAL_PORT
         flow.request.scheme = "http"
         flow.request.headers["Host"] = host
-        
+
     # redirect the official realtime server to the local emulator
     elif host == REALTIME_HOST:
         flow.request.host = IP_ADDR
@@ -47,7 +48,7 @@ def request(flow: http.HTTPFlow) -> None:
     elif host == ASSET_HOST:
         if not local_assets:
             return
-        
+
         flow.request.host = IP_ADDR
         flow.request.port = LOCAL_PORT
         flow.request.scheme = "http"

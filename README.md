@@ -32,6 +32,8 @@ python main.py
 
 2026/07/19 - Live start and stamina
 
+2026/07/19 - Live end, drops, ratings, clear lamps
+
 ## Priority Todo
 Episodes - https://lb-api.wds-stellarium.com/api/Episodes/.../GetDetails?episodeMasterId=...
 

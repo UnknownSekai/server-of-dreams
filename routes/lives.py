@@ -35,13 +35,23 @@ _LIVE_MASTER: dict = {}
 _MUSIC_MASTER: dict = {}
 
 
-def _stamina_cost(live_master_id: int, ratio: int) -> int:
-    # LiveMaster -> MusicMaster.stamina_consumption, scaled by the play's ratio
+def _music_of(live_master_id: int):
+    # LiveMaster -> its MusicMaster
     if not _LIVE_MASTER:
         _LIVE_MASTER.update({m.id_: m for m in cache.live_master})
         _MUSIC_MASTER.update({m.id_: m for m in cache.music_master})
     live = _LIVE_MASTER.get(live_master_id)
-    music = _MUSIC_MASTER.get(live.music_master_id) if live is not None else None
+    return _MUSIC_MASTER.get(live.music_master_id) if live is not None else None
+
+
+def _is_long_version(live_master_id: int) -> bool:
+    music = _music_of(live_master_id)
+    return music.is_long_version if music is not None else False
+
+
+def _stamina_cost(live_master_id: int, ratio: int) -> int:
+    # MusicMaster.stamina_consumption, scaled by the play's ratio
+    music = _music_of(live_master_id)
     base = music.stamina_consumption if music is not None else 0
     return base * max(1, int(ratio))
 
@@ -170,16 +180,18 @@ async def lives_finish_and_validate(request: Request):
                 await conn.execute(update_music_releases(user_id, changes))
 
         # live drops: resolve the setting's drop frames whose lot condition this play met,
-        # then consolidate + batch-grant their rewards.
-        setting_id = active.liveSettingMasterId if active is not None else 0
-        frames = resolve_frames(
-            setting_id,
-            stamina_consumed=active.staminaSpent if active is not None else False,
-            score=payload.score,
-            star_act_count=len(payload.star_act_score_blocks or []),
-            achievement_rate=this_rate,
-        )
-        live_drops = await grant_frames(conn, user_id, frames)
+        # then consolidate + batch-grant their rewards. Long-version songs never drop.
+        live_drops: list = []
+        if not _is_long_version(live_master_id):
+            setting_id = active.liveSettingMasterId if active is not None else 0
+            frames = resolve_frames(
+                setting_id,
+                stamina_consumed=active.staminaSpent if active is not None else False,
+                score=payload.score,
+                star_act_count=len(payload.star_act_score_blocks or []),
+                achievement_rate=this_rate,
+            )
+            live_drops = await grant_frames(conn, user_id, frames)
 
         # live rate: this chart's (past-best, this-time) + the top-30 total before/after this
         # play. The profile's playerRate IS that top-30 total, so keep it in sync when it moves.
@@ -354,7 +366,12 @@ async def lives_start(request: Request):
         async with app.acquire_db() as conn:
             user = await conn.fetchrow(get_users(user_id))
             stamina_spent = False
-            if user is not None and payload.use_stamina:
+            # long-version songs never consume stamina
+            if (
+                user is not None
+                and payload.use_stamina
+                and not _is_long_version(payload.live_master_id)
+            ):
                 cost = _stamina_cost(
                     payload.live_master_id, payload.stamina_consumption_ratio
                 )
