@@ -1,7 +1,81 @@
 from typing import Optional
 
-from db.query import SelectQuery
-from models.database import UserModel
+from db.query import ExecutableQuery, SelectQuery
+from models.database import PartySlotModel, UserModel
+
+
+def update_party_slots(
+    user_id: int, slots: list[PartySlotModel]
+) -> ExecutableQuery:
+    """Batch character/poster/accessory/flags updates for many party slots into one
+    statement (``slots`` must be non-empty). Rows are matched on (userId, id) -- an edit
+    never reassigns a slot's partyId or position, and never creates a slot.
+    """
+    rows: list[str] = []
+    args: list = [user_id]
+    for s in slots:
+        n = len(args)
+        rows.append(
+            f"(${n + 1}::bigint, ${n + 2}::bigint, ${n + 3}::bigint, "
+            f"${n + 4}::bigint, ${n + 5}::bigint)"
+        )
+        args.extend(
+            (s.id, s.characterId, s.posterId, s.accessoryId, s.bonusAbilityEnableFlags)
+        )
+    return ExecutableQuery(
+        'UPDATE "party_slot" AS s SET "characterId" = v.character_id, '
+        '"posterId" = v.poster_id, "accessoryId" = v.accessory_id, '
+        '"bonusAbilityEnableFlags" = v.flags '
+        f'FROM (VALUES {", ".join(rows)}) AS v(id, character_id, poster_id, accessory_id, flags) '
+        'WHERE s."userId" = $1 AND s."id" = v.id',
+        *args,
+    )
+
+
+def update_party_slot_positions(
+    user_id: int, positions: list[tuple[int, int]]
+) -> ExecutableQuery:
+    """Batch position reassignment for many party slots into one statement
+    (``positions`` = [(slot_id, position), ...]; must be non-empty).
+    """
+    rows: list[str] = []
+    args: list = [user_id]
+    for slot_id, position in positions:
+        n = len(args)
+        rows.append(f"(${n + 1}::bigint, ${n + 2}::bigint)")
+        args.extend((slot_id, position))
+    return ExecutableQuery(
+        'UPDATE "party_slot" AS s SET "position" = v.position '
+        f'FROM (VALUES {", ".join(rows)}) AS v(id, position) '
+        'WHERE s."userId" = $1 AND s."id" = v.id',
+        *args,
+    )
+
+
+def update_party_leader(user_id: int, party_id: int, position: int) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "party" SET "leaderPosition" = $3 WHERE "userId" = $1 AND "id" = $2',
+        user_id,
+        party_id,
+        position,
+    )
+
+
+def update_party_name(user_id: int, party_id: int, name: str) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "party" SET "name" = $3 WHERE "userId" = $1 AND "id" = $2',
+        user_id,
+        party_id,
+        name,
+    )
+
+
+def update_multi_party(user_id: int, party_id: int) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "user_preference" SET "multiPartyId" = $2 WHERE "userId" = $1',
+        user_id,
+        party_id,
+    )
 
 
 def adjust_user_stamina_atomic(

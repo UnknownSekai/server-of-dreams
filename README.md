@@ -32,9 +32,11 @@ python main.py
 
 2026/07/19 - Live start and stamina
 
-2026/07/19 - Live end, drops, ratings, clear lamps **DOES NOT WORK**
+2026/07/19 - Live end, drops, ratings, clear lamps
 
 2026/07/19 - Episodes (and read rewards)
+
+2026/07/20 - Party Edits (no triple cast)
 
 ## Priority Todo
 - Player rating history log
