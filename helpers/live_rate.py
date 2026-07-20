@@ -7,12 +7,18 @@ For those, live_rate_result is 0/0 (best_ever and this_time) and the total rate 
 regardless of the result. The player's total rate is the sum of the best live rate of their
 top 30 charts.
 
-Achievement-rate -> adjustment breakpoints (>= threshold wins):
+Achievement-rate -> adjustment breakpoints, LINEARLY interpolated between them (they are
+knots on a piecewise-linear curve, not a step function):
   101.00% +6.05 | 100.95% +6.00 | 100.75% +4.50 | 100.50% +3.00 | 100.25% +2.25
   100.00% +1.50 |  99.00% +0.75 |  98.00% +0.00 |  97.50% -1.00
-Below 97.50% falls to the lowest bracket (-1.00) -- lower brackets aren't published.
+Clamped at both ends: >=101% is +6.05, <=97.50% is -1.00 (lower brackets aren't published).
+
+Interpolation confirmed against captures: two charts, two achievement rates each, all four
+solving to the same integer level per chart (100.9933%/100.9559% -> level 29; 100.7306%/
+100.3794% -> level 31). A step function would not reproduce any of the four.
 """
 
+import math
 from typing import Optional
 
 from helpers.cache import cache
@@ -70,7 +76,8 @@ def _adjustment(rate: float) -> float:
 
 
 def live_rate(level: int, rate: float) -> float:
-    return round(level + _adjustment(rate), 2)
+    # TRUNCATED to 2dp, not rounded
+    return math.floor((level + _adjustment(rate)) * 100) / 100
 
 
 def chart_live_rate(live_master_id: int, rate: float) -> Optional[float]:

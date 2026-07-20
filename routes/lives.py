@@ -259,12 +259,12 @@ async def lives_finish_and_validate(request: Request):
     result = FinishLiveResult(
         clear_lamp=ClearLamps(new_lamp),
         before_clear_lamp=ClearLamps(before_lamp),
-        rate_grade=AchievementRateGrades(best_grade),
+        rate_grade=AchievementRateGrades(rate_grade(this_rate)),
         is_high_score=is_high_score,
         achievement_rate_average=0.0, # TODO: add global average acc
         rate_result=RateResult(
             achievement_rate_result=RateUpdateResult(
-                best_ever=prev_rate, this_time=this_rate  # best_ever = past best only
+                best_ever=round(prev_rate, 4), this_time=round(this_rate, 4)  # best_ever = past best only
             ),
             live_rate_result=live_rate_result,
             total_rate_before=total_before,
