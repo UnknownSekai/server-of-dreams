@@ -249,9 +249,6 @@ async def shops_exchange_music(request: Request, mMusicId: int):
     if user_id is None:
         return respond(ReceivedThing())
 
-    # WARNING: MUSIC_UNLOCK_ITEM_ID is still a placeholder -- see helpers/shops.py. Until it
-    # is the real ticket, this charges the wrong item and the purchase will simply fail as
-    # unaffordable rather than silently taking something else.
     try:
         async with app.acquire_db() as conn:
             async with conn.transaction():
@@ -299,7 +296,6 @@ async def shops_exchange_music_score(request: Request, mLiveId: int):
     if user_id is None or music_master_id is None:
         return respond(BooleanResult())
 
-    # WARNING: MUSIC_SCORE_ITEM_ID is still a placeholder -- see helpers/shops.py.
     try:
         async with app.acquire_db() as conn:
             async with conn.transaction():

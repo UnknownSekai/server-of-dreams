@@ -425,4 +425,8 @@ async def gachas_set_selected_things(request: Request, gachaMasterId: int):
 
     async with app.acquire_db() as conn:
         await conn.execute(set_gacha_selected_things(user_id, gachaMasterId, chosen))
-    return respond(GachaSelectedThingsResult(selected_gacha_thing_ids=chosen))
+
+    present = await build_present(app, user_id, "GachaSelectedThings")
+    return respond(
+        GachaSelectedThingsResult(selected_gacha_thing_ids=chosen), present=present
+    )
