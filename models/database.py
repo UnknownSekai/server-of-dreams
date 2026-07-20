@@ -1703,6 +1703,13 @@ class GachaModel(BaseModel):
     rollCount: int
 
 
+class GachaHistoryModel(BaseModel):
+    userId: int
+    cardType: int
+    masterId: int
+    createdAt: int
+
+
 class TripleCastHistoryModel(BaseModel):
     userId: int
     tripleCastMasterId: int
@@ -2045,6 +2052,7 @@ __all__ = ["AccountModel"] + [
     "TripleCastSeasonResultModel",
     "AlbumPresetModel",
     "GachaModel",
+    "GachaHistoryModel",
     "TripleCastHistoryModel",
     "DugongRunModel",
     "MusicCourseRankingModel",

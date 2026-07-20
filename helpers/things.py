@@ -26,7 +26,9 @@ from models.enums import ThingTypes as T
 # possession tables -- one owned row per unit: ThingType -> (table, masterId col, fixed extra cols).
 # Character/Accessory are handled separately (they need masterdata-derived fields).
 _POSSESSION = {
-    T.Poster: ("poster", "posterMasterId", {}),
+    # posters start at level 1, not the column's 0 -- Character/Accessory hardcode the same
+    # in their create_* queries, and Poster is the only possession here with a level column
+    T.Poster: ("poster", "posterMasterId", {"level": 1}),
     T.Costume: ("costume", "costumeMasterId", {}),
     T.Trophy: ("trophy", "trophyMasterId", {}),
     T.Nameplate: ("nameplate", "namePlateMasterId", {}),

@@ -3249,6 +3249,25 @@ class Gacha(BaseModel):
         ]
 
 
+class GachaHistory(BaseModel):
+    # one row per prize pulled. cardType splits the character and poster histories, which
+    # the client asks for separately; masterId is the Character/Poster master id awarded
+    # (NOT the gacha thing id), and createdAt is epoch microseconds.
+    rowId = AutoField()
+    userId = BigIntegerField(index=True)
+    cardType = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    masterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    createdAt = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+
+    class Meta:
+        table_name = "gacha_history"
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
 class TripleCastHistory(BaseModel):
     rowId = AutoField()
     userId = BigIntegerField(index=True)
@@ -3838,6 +3857,7 @@ db.create_tables(
         EventCamp,
         HashUserId,
         ActiveLive,
+        GachaHistory,
     ],
     safe=True,
 )

@@ -4,9 +4,7 @@ from db.query import ExecutableQuery, SelectQuery
 from models.database import PartySlotModel, UserModel
 
 
-def update_party_slots(
-    user_id: int, slots: list[PartySlotModel]
-) -> ExecutableQuery:
+def update_party_slots(user_id: int, slots: list[PartySlotModel]) -> ExecutableQuery:
     """Batch character/poster/accessory/flags updates for many party slots into one
     statement (``slots`` must be non-empty). Rows are matched on (userId, id) -- an edit
     never reassigns a slot's partyId or position, and never creates a slot.
@@ -26,7 +24,7 @@ def update_party_slots(
         'UPDATE "party_slot" AS s SET "characterId" = v.character_id, '
         '"posterId" = v.poster_id, "accessoryId" = v.accessory_id, '
         '"bonusAbilityEnableFlags" = v.flags '
-        f'FROM (VALUES {", ".join(rows)}) AS v(id, character_id, poster_id, accessory_id, flags) '
+        f"FROM (VALUES {', '.join(rows)}) AS v(id, character_id, poster_id, accessory_id, flags) "
         'WHERE s."userId" = $1 AND s."id" = v.id',
         *args,
     )
@@ -46,7 +44,7 @@ def update_party_slot_positions(
         args.extend((slot_id, position))
     return ExecutableQuery(
         'UPDATE "party_slot" AS s SET "position" = v.position '
-        f'FROM (VALUES {", ".join(rows)}) AS v(id, position) '
+        f"FROM (VALUES {', '.join(rows)}) AS v(id, position) "
         'WHERE s."userId" = $1 AND s."id" = v.id',
         *args,
     )
@@ -67,6 +65,73 @@ def update_party_name(user_id: int, party_id: int, name: str) -> ExecutableQuery
         user_id,
         party_id,
         name,
+    )
+
+
+def breakthrough_poster(
+    user_id: int, poster_id: int, max_phase: int
+) -> ExecutableQuery:
+    """Push one owned poster up a breakthrough phase, capped at ``max_phase``. The cap is
+    enforced in SQL so a concurrent roll can't push a maxed poster past it."""
+    return ExecutableQuery(
+        'UPDATE "poster" SET "breakthroughPhase" = "breakthroughPhase" + 1 '
+        'WHERE "userId" = $1 AND "id" = $2 AND "breakthroughPhase" < $3',
+        user_id,
+        poster_id,
+        max_phase,
+    )
+
+
+def add_gacha_rolls(
+    user_id: int, gacha_master_id: int, delta: int, new_id: int
+) -> ExecutableQuery:
+    """Add ``delta`` to a banner's lifetime roll count, creating the row on first roll."""
+    return ExecutableQuery(
+        "WITH upd AS ("
+        '  UPDATE "gacha" SET "rollCount" = "rollCount" + $3 '
+        '  WHERE "userId" = $1 AND "gachaMasterId" = $2 RETURNING 1'
+        ") "
+        'INSERT INTO "gacha" ("userId", "id", "gachaMasterId", "rollCount") '
+        "SELECT $1, $4, $2, $3 WHERE NOT EXISTS (SELECT 1 FROM upd)",
+        user_id,
+        gacha_master_id,
+        delta,
+        new_id,
+    )
+
+
+def add_gacha_historys(
+    user_id: int, card_type: int, master_ids: list[int], created_at: int
+) -> ExecutableQuery:
+    """Append one history row per prize pulled (``master_ids`` must be non-empty). Every
+    prize of a roll shares that roll's timestamp, as the captures show."""
+    rows: list[str] = []
+    args: list = [user_id, card_type, created_at]
+    for master_id in master_ids:
+        args.append(master_id)
+        rows.append(f"($1::bigint, $2::bigint, ${len(args)}::bigint, $3::bigint)")
+    return ExecutableQuery(
+        'INSERT INTO "gacha_history" ("userId", "cardType", "masterId", "createdAt") '
+        f"VALUES {', '.join(rows)}",
+        *args,
+    )
+
+
+def set_gacha_selected_things(
+    user_id: int, gacha_master_id: int, thing_ids: list[int]
+) -> ExecutableQuery:
+    """Replace the caller's pickup selection for one gacha. There is no unique constraint on
+    (userId, gachaMasterId), so the old row is deleted in the same statement rather than
+    leaning on ON CONFLICT -- re-selecting must not accumulate duplicate rows.
+    """
+    return ExecutableQuery(
+        'WITH d AS (DELETE FROM "gacha_selected_thing" '
+        'WHERE "userId" = $1 AND "gachaMasterId" = $2) '
+        'INSERT INTO "gacha_selected_thing" ("userId", "gachaMasterId", "gachaThingIds") '
+        "VALUES ($1, $2, $3)",
+        user_id,
+        gacha_master_id,
+        thing_ids,
     )
 
 

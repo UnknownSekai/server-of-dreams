@@ -30,7 +30,7 @@ def update_music_releases(
     return ExecutableQuery(
         'UPDATE "music" AS m SET "stellaReleased" = v.stella, '
         '"olivierReleaseStatus" = v.status '
-        f'FROM (VALUES {", ".join(rows)}) AS v(id, stella, status) '
+        f"FROM (VALUES {', '.join(rows)}) AS v(id, stella, status) "
         'WHERE m."userId" = $1 AND m."id" = v.id',
         *args,
     )

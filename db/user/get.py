@@ -167,6 +167,7 @@ from models.database import (
     TripleCastSeasonResultModel,
     AlbumPresetModel,
     GachaModel,
+    GachaHistoryModel,
     TripleCastHistoryModel,
     DugongRunModel,
     MusicCourseRankingModel,
@@ -1461,6 +1462,21 @@ def get_album_presets(user_id: int) -> SelectQuery[AlbumPresetModel]:
 
 def get_gachas(user_id: int) -> SelectQuery[GachaModel]:
     return SelectQuery(GachaModel, 'SELECT * FROM "gacha" WHERE "userId" = $1', user_id)
+
+
+def get_gacha_historys(
+    user_id: int, card_type: int, limit: int = 100
+) -> SelectQuery[GachaHistoryModel]:
+    """Most recent gacha prizes first. The client asks for the character and poster
+    histories separately, hence the cardType filter."""
+    return SelectQuery(
+        GachaHistoryModel,
+        'SELECT * FROM "gacha_history" WHERE "userId" = $1 AND "cardType" = $2 '
+        'ORDER BY "createdAt" DESC, "rowId" DESC LIMIT $3',
+        user_id,
+        card_type,
+        limit,
+    )
 
 
 def get_triple_cast_historys(user_id: int) -> SelectQuery[TripleCastHistoryModel]:
