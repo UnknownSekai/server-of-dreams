@@ -6,7 +6,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from .enums import *
 
-
+from models.master_data import Status
 from models.master_data import *  # master types live in models/master_data/
 
 

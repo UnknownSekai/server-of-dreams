@@ -4,7 +4,7 @@
 
 Each ``catalog_<ver>.json.br`` is a Brotli-compressed Addressables catalog. This
 fetches every kind/platform pair and writes the decompressed catalog to
-``assets/<kind>/<platform>/catalog.json``.
+``_data/assets/<kind>/<platform>/catalog.json``.
 """
 
 import sys
@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scripts._sirius import MaintenanceError, environment  # noqa: E402
 
-OUT = Path(__file__).resolve().parent.parent / "assets"
+OUT = Path(__file__).resolve().parent.parent / "_data" / "assets"
 ASSET_URL = "https://assets-e.wds-stellarium.com/production"
 KINDS = ("2d-assets", "3d-assets", "cri-assets")
 PLATFORMS = ("Android", "iOS")

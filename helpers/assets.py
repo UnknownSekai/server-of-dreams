@@ -18,7 +18,7 @@ import spookyhash
 
 from helpers.config import config
 
-ASSETS = Path(__file__).resolve().parent.parent / "assets"
+ASSETS = Path(__file__).resolve().parent.parent / "_data" / "assets"
 # where bundle requests are redirected when local_assets is off (hardcoded on purpose)
 OFFICIAL_ASSET_URL = "https://assets-e.wds-stellarium.com/production"
 
