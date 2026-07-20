@@ -19,7 +19,7 @@ from db.user import (
 from helpers.cache import cache
 from helpers.live import build_live_time_event, build_live_unit
 from helpers.live_drops import grant_frames, resolve_frames
-from helpers.live_rate import chart_live_rate_result, total_rate
+from helpers.live_rate import chart_live_rate, chart_live_rate_result, total_rate
 from helpers.live_result import achievement_rate, clear_lamp, rate_grade
 from helpers.music_unlock import affects_unlocks, load_progress
 from helpers.msgpack import fault, read_request, respond
@@ -28,6 +28,7 @@ from helpers.stamina import adjust_and_check_stamina
 from helpers.things import present_type
 from helpers.user_data import build_present, current_user_id, data_object
 from models import *
+from models.database import LiveModel
 
 router = APIRouter(tags=["Lives"])
 
@@ -128,26 +129,40 @@ async def lives_finish_and_validate(request: Request):
         best_rate = max(prev_rate, this_rate)
         best_grade = rate_grade(best_rate)
         times = (existing.timesCompleted if existing is not None else 0) + 1
+        # notation_rate is the chart's (best) live rate: level + interpolated achievement bonus
+        notation_rate = chart_live_rate(live_master_id, best_rate) or 0.0
 
+        # the owned Live row's fields that this finish doesn't change carry over (or default)
+        live_id = existing.id if existing is not None else 0
+        live_status = (
+            existing.status if existing is not None else int(LiveReleaseStatus.None_)
+        )
         if existing is not None:
             await conn.execute(
                 update_live_result(
-                    user_id, live_master_id, times, best_rate, best_lamp, best_grade
+                    user_id,
+                    live_master_id,
+                    times,
+                    best_rate,
+                    notation_rate,
+                    best_lamp,
+                    best_grade,
                 )
             )
         elif live_master_id:
             id_row = await conn.fetchrow(next_live_id())
+            live_id = id_row.value if id_row is not None else live_master_id
             await conn.execute(
                 upsert_live(
                     user_id,
                     {
-                        "id": id_row.value if id_row is not None else live_master_id,
+                        "id": live_id,
                         "liveMasterId": live_master_id,
                         "timesCompleted": times,
                         "achievementRate": best_rate,
-                        "notationRate": 0.0,
+                        "notationRate": notation_rate,
                         "clearLamp": best_lamp,
-                        "status": int(LiveReleaseStatus.Playable),
+                        "status": live_status,
                         "rateGrade": best_grade,
                     },
                 )
@@ -155,9 +170,28 @@ async def lives_finish_and_validate(request: Request):
 
         await conn.execute(delete_active_lives(user_id))  # consume the session
 
+        # the updated owned Live row goes in present so the client's records reflect it
+        present: list = []
+        if live_master_id:
+            present.append(
+                data_object(
+                    "Live",
+                    LiveModel(
+                        userId=user_id,
+                        id=live_id,
+                        liveMasterId=live_master_id,
+                        timesCompleted=times,
+                        achievementRate=best_rate,
+                        notationRate=notation_rate,
+                        clearLamp=best_lamp,
+                        status=live_status,
+                        rateGrade=best_grade,
+                    ),
+                )
+            )
+
         # Only Extra/Stella/Olivier clears can change release state -- skip everything else.
         # When they can, re-derive every owned song, then push all changes in one UPDATE.
-        present: list = []
         if affects_unlocks(live_master_id):
             progress = await load_progress(conn, user_id)
             changes: list[tuple[int, bool, int]] = []

@@ -55,9 +55,17 @@ def _rated_chart(live_master_id: int):
 
 
 def _adjustment(rate: float) -> float:
-    for threshold, adj in _ADJUSTMENTS:
-        if rate >= threshold:
-            return adj
+    # piecewise-LINEAR interpolation between the breakpoints (not a step function):
+    # e.g. 100.358% between 100.25 (+2.25) and 100.50 (+3.00) -> +2.574
+    if rate >= _ADJUSTMENTS[0][0]:
+        return _ADJUSTMENTS[0][1]  # clamp above the top breakpoint (>=101% -> +6.05)
+    if rate <= _ADJUSTMENTS[-1][0]:
+        return _ADJUSTMENTS[-1][
+            1
+        ]  # floor below the bottom breakpoint (<=97.5% -> -1.00)
+    for (hi_r, hi_a), (lo_r, lo_a) in zip(_ADJUSTMENTS, _ADJUSTMENTS[1:]):
+        if lo_r <= rate <= hi_r:
+            return lo_a + (rate - lo_r) / (hi_r - lo_r) * (hi_a - lo_a)
     return _ADJUSTMENTS[-1][1]
 
 

@@ -72,18 +72,20 @@ def update_live_result(
     live_master_id: int,
     times_completed: int,
     achievement_rate: float,
+    notation_rate: float,
     clear_lamp: int,
     rate_grade: int,
 ) -> ExecutableQuery:
     # best-of merge is decided by the caller; this just writes the row for (userId, liveMasterId)
     return ExecutableQuery(
         'UPDATE "live" SET "timesCompleted" = $3, "achievementRate" = $4, '
-        '"clearLamp" = $5, "rateGrade" = $6 '
+        '"notationRate" = $5, "clearLamp" = $6, "rateGrade" = $7 '
         'WHERE "userId" = $1 AND "liveMasterId" = $2',
         user_id,
         live_master_id,
         times_completed,
         achievement_rate,
+        notation_rate,
         clear_lamp,
         rate_grade,
     )
