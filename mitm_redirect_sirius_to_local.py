@@ -44,9 +44,11 @@ def request(flow: http.HTTPFlow) -> None:
         flow.request.scheme = "http"
         flow.request.headers["Host"] = host
 
-    # redirect the official asset server to the local emulator
+    # redirect the official asset server to the local emulator. The master-data (MasterMemory)
+    # blob is ALWAYS emulated locally, so it must be redirected regardless of local_assets;
+    # other assets (bundles, notations, catalogs) only when local_assets is on.
     elif host == ASSET_HOST:
-        if not local_assets:
+        if not (local_assets or flow.request.path.startswith("/master-data/")):
             return
 
         flow.request.host = IP_ADDR
