@@ -237,6 +237,12 @@ async def lives_finish_and_validate(request: Request):
         # TODO: rank-point gain not implemented (0 acquired)
         player_rank_point_result=PlayerRankPointResult(rank_point_acquired=0),
         live_drop_things=live_drops,
+        # These must be empty lists, not null -- the result panel iterates them and a null
+        # list NREs the client. Empty for now; TODO implement each:
+        league_rewards=[],  # TODO: league-mode finish rewards
+        audition_rewards=[],  # TODO: audition finish rewards
+        story_event_rewards=[],  # TODO: story-event finish rewards
+        accessory_auto_sell_convert_things=[],  # TODO: accessories auto-sold to items on drop
     )
     return respond(result, present=present)
 
