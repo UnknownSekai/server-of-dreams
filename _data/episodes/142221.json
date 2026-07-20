@@ -1,0 +1,853 @@
+{
+    "EpisodeId": 142221,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 142222,
+    "Chapter": "その望み、叶えてやろう！",
+    "Title": "オズの魔法使いの真実",
+    "EpisodeDetail": [
+        {
+            "Id": 142221001,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（おばあさまたちにはまだ、『オズの魔法使い』の公演について/n　話してはいないので……千寿家の稽古場は使いにくいですね……）",
+            "BackgroundImageFileName": "921",
+            "BgmFileName": "303",
+            "VoiceFileName": "1422210010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221002,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（ひとまず、お部屋で台本を読むことにしよう）",
+            "VoiceFileName": "1422210020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221003,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 3,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "900",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "WindowEffect": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.10000000149011612,
+            "FadeValue2": 0.20000000298023224,
+            "FadeValue3": 0.10000000149011612
+        },
+        {
+            "Id": 142221004,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "要",
+            "FontSize": 2,
+            "Phrase": "オズの魔法使い、千寿いろは。",
+            "WindowEffect": 1,
+            "VoiceFileName": "1422210030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40603,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "406"
+        },
+        {
+            "Id": 142221005,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 5,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "921",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "CharacterMotions": [],
+            "FadeValue1": 0.10000000149011612,
+            "FadeValue2": 0.20000000298023224,
+            "FadeValue3": 0.10000000149011612
+        },
+        {
+            "Id": 142221006,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（僕の役は……オズの魔法使い……）",
+            "VoiceFileName": "1422210040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221007,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "『わしは……偉大にして恐ろしきオズだ。/n　だが殴らないでくれ。お願いだ。そうすれば、望みは何でも叶えてやる』",
+            "VoiceFileName": "1422210050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221008,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "ドロシーたちは、驚きと落胆の表情で男を見つめる……。/n『オズは、偉大な頭脳の持ち主だと思っていたのに』",
+            "VoiceFileName": "1422210060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221009,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "『オズは、素敵な女性だと思っていた』/n『オズは恐ろしい獣だと』『オズは火の玉なのかと……』",
+            "VoiceFileName": "1422210070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221010,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "『いや、それは違う。オズの魔法使いは見せかけだったのだ。/n　……わしはただの、平凡な人間だ』",
+            "VoiceFileName": "1422210080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221011,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "……！",
+            "VoiceFileName": "1422210090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 511,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221012,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（『オズの魔法使い』に登場する、魔法使いオズは、/n　本当は魔法使いじゃなかった……）",
+            "VoiceFileName": "1422210100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221013,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（魔法の使えない、ただの平凡な人間のオズ……。/n　その役を演じるのが、僕……――）",
+            "VoiceFileName": "1422210110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221014,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（センスを使えない、ただの平凡な人間の、僕……）",
+            "VoiceFileName": "1422210120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221015,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 15,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1641",
+            "BackgroundImageFileFadeType": 2,
+            "BgmFileName": "304",
+            "SeFileName": "641",
+            "WindowEffect": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.10000000149011612,
+            "FadeValue2": 0.20000000298023224,
+            "FadeValue3": 0.10000000149011612
+        },
+        {
+            "Id": 142221016,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "私にはお姉ちゃんみたいなセンスはないんです。/nお姉ちゃんに、私の気持ちなんてわかりません。",
+            "WindowEffect": 1,
+            "VoiceFileName": "1422210130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40801,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221017,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "……私にも、お姉ちゃんみたいなセンスがあったらよかったのに。",
+            "WindowEffect": 1,
+            "VoiceFileName": "1422210140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadDirectionMasterId": 4,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40801,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221018,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "なんにも知らないのに、優しい顔なんてしないでください。",
+            "WindowEffect": 1,
+            "VoiceFileName": "1422210150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40801,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221019,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 19,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "921",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "CharacterMotions": [],
+            "FadeValue1": 0.10000000149011612,
+            "FadeValue2": 0.20000000298023224,
+            "FadeValue3": 0.10000000149011612
+        },
+        {
+            "Id": 142221020,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "……はぁ……。",
+            "VoiceFileName": "1422210160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221021,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（僕は結局……センスが使えない自分は劣っているのだと、/n　ずっと誰かを羨んでいます……姉さん、それから……）",
+            "VoiceFileName": "1422210170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221022,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（みとちゃんのことも。/n　大切な親友なのに……大好きなはずなのに……こんなこと考えてるなんて）",
+            "VoiceFileName": "1422210180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221023,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "……『あなたはとても悪い人だわ』とドロシーは言う。",
+            "VoiceFileName": "1422210190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221024,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（やっぱり、嘘をついていたことを責められてしまうんですね。/n　……当然です。皆を騙していたんですから）",
+            "VoiceFileName": "1422210200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221025,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "『わしは言った通り、大した魔法使いではない。/n　だが、明日の朝ここへ来たら、あんたの頭に脳みそを詰めてやろう』",
+            "VoiceFileName": "1422210210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221026,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "それから、ライオンには勇気を……ブリキの木こりには心を、/nドロシーには故郷へ帰る方法を考えておこうと、オズは言う……。",
+            "VoiceFileName": "1422210220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221027,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（皆に嘘吐き呼ばわりされたのに、/n　自分も知らない国に来て、大変だったはずなのに……）",
+            "VoiceFileName": "1422210230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221028,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（オズは、ドロシーたちの願いを、約束通り叶えようとするんですね……）",
+            "VoiceFileName": "1422210240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221029,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（……僕も、このままじゃダメです。/n　皆を羨んでばかりいては、どんどん嫌な子になってしまいます）",
+            "VoiceFileName": "1422210250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221030,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（センスを持たない、千寿いろは……/n　そんな僕にだって、きっと演じられるはずです！）",
+            "VoiceFileName": "1422210260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221031,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（せっかくメインの役柄に、オーディションで選ばれたんですから……/n　役と向き合って、しっかり演じないとですよねっ！）",
+            "VoiceFileName": "1422210270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 20,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221032,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "僕もオズの魔法使いらしく……/nみとちゃんたちを導けるように頑張るぞー！　おー！",
+            "VoiceFileName": "1422210280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221033,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（それによく考えたら、大親友のみとちゃんと同じ舞台に立てて、/n　しかも、みとちゃんを導ける役がやれるなんて）",
+            "VoiceFileName": "1422210290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221034,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（とってもとっても幸せなことじゃないですか！/n　贅沢言ったら、きっとバチが当たっちゃいますよねっ）",
+            "VoiceFileName": "1422210300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 2,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221035,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "……うん、大丈夫。僕はオズの魔法使い……。/nセンスが無くたって大丈夫……皆と同じように演じられる……。",
+            "VoiceFileName": "1422210310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221036,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "大丈夫……大丈夫ですよ……。/nみとちゃんや、電姫の皆がいてくれるんですから……。",
+            "VoiceFileName": "1422210320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 142221037,
+            "EpisodeMasterId": 142221,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "1422210330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        }
+    ]
+}

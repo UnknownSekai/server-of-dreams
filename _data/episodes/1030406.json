@@ -1,0 +1,962 @@
+{
+    "EpisodeId": 1030406,
+    "StoryType": 1,
+    "Order": 6,
+    "Prev": 1030405,
+    "Next": 1030407,
+    "Chapter": "銀河座　4章",
+    "Title": "配される役と重圧",
+    "EpisodeDetail": [
+        {
+            "Id": 1030406001,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "皆、揃ってるな。/nそれでは、『橋弁慶』の配役を発表する。",
+            "BackgroundImageFileName": "670",
+            "BgmFileName": "23",
+            "VoiceFileName": "10304060010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406002,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "今回は世界演劇リーグの者が訪れる、重要な舞台だ。/n全ての役はこちらからの指名で決定する。",
+            "VoiceFileName": "10304060020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406003,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "早速発表していくぞ。/nまずは、主役のひとりとなる弁慶役――千寿暦。",
+            "VoiceFileName": "10304060030",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406004,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "！　……はい。精一杯、演じさせていただきます。",
+            "VoiceFileName": "10304060040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030406005,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "（ついに……来てしまいましたわね）",
+            "VoiceFileName": "10304060050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030406006,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "次に、もうひとりの主役である、牛若丸役――与那国緋花里。",
+            "VoiceFileName": "10304060060",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406007,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "え？　あっ、はい！　一生懸命がんばります！！",
+            "VoiceFileName": "10304060070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030406008,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "銀河座劇団員A",
+            "FontSize": 2,
+            "Phrase": "暦先輩の相手役に、緋花里先輩？/nこれって緋花里先輩にとっては大出世じゃない？",
+            "VoiceFileName": "10304060080",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406009,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "銀河座劇団員B",
+            "FontSize": 2,
+            "Phrase": "世界演劇リーグの人が観に来る舞台で主役なんて、/nいいなぁ……羨ましい。",
+            "VoiceFileName": "10304060090",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406010,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（どうしよう、どうしよう……！/n　ほ、本当に私が主役に……！）",
+            "VoiceFileName": "10304060100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030406011,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "よかったな、緋花里！",
+            "VoiceFileName": "10304060110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030406012,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "うんっ！　ありがとう、ラモさん！",
+            "VoiceFileName": "10304060120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030406013,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "弁慶の従者である、忍者役――ラモーナ・ウォルフ。",
+            "VoiceFileName": "10304060130",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406014,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "はい、よろしくお願いします。",
+            "VoiceFileName": "10304060140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030406015,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "（今回も暦との関わりが多そうな役柄だな。/n　舞台の上で暦を支えられるように、全力で挑もう）",
+            "VoiceFileName": "10304060150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030406016,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "牛若丸の母――王雪。",
+            "VoiceFileName": "10304060160",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406017,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "っ……はい……。",
+            "VoiceFileName": "10304060170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030406018,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（また出番の少ない役……！/n　これでは『マクベス』の時と何も変わらないじゃないか……！）",
+            "VoiceFileName": "10304060180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030406019,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "都の民のひとり――鹿島志穂。/nもうひとりの都の民――クァン・ソーンカム。",
+            "VoiceFileName": "10304060190",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406020,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "志穂・クァン",
+            "FontSize": 2,
+            "Phrase": "はい！",
+            "VoiceFileName": "10304060200",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406021,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "最後に、弁慶と牛若丸の敵役となる鬼、/n橋姫役――リリヤ・クルトベイ。",
+            "VoiceFileName": "10304060210",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406022,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "……はい。",
+            "VoiceFileName": "10304060220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030406023,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "銀河座劇団員C",
+            "FontSize": 2,
+            "Phrase": "リリヤ先輩が橋姫……！",
+            "VoiceFileName": "10304060230",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406024,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "銀河座劇団員D",
+            "FontSize": 2,
+            "Phrase": "マクベス夫人の演技を見ちゃったら、納得の配役だよねー。",
+            "VoiceFileName": "10304060240",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406025,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "（弁慶と牛若丸に対峙する、鬼……。/n　それなら、誰よりも美しく恐ろしい鬼を追求するだけ）",
+            "VoiceFileName": "10304060250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 14,
+                    "SpineId": 30403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030406026,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "（きたなくて、きれいな私を）",
+            "VoiceFileName": "10304060260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030406027,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "これは、それぞれの適性を考慮した上での決定だ。異論は認めない。/n演出についても、この演目に沿うような格式の高いものを考えている。",
+            "VoiceFileName": "10304060270",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406028,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "銀河座劇団員達",
+            "FontSize": 2,
+            "Phrase": "はい！",
+            "VoiceFileName": "10304060280",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406029,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "本格的な稽古に入り次第、そちらも伝える。/n……それと与那国。",
+            "VoiceFileName": "10304060290",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406030,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "は、はいっ！",
+            "VoiceFileName": "10304060300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030406031,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "お前は今回、千寿の相手役だ。/n牛若丸の完成度が、相対する弁慶の輝きを左右する。",
+            "VoiceFileName": "10304060310",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406032,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "そのことを自覚した上で、今後の稽古に励め。",
+            "VoiceFileName": "10304060320",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406033,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "はい、分かりました！/nいい演技が魅せられるように、努力します！",
+            "VoiceFileName": "10304060330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030406034,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（はあ……びっくりした～！　でもあんな風に声をかけてもらえるってことは、/n　期待されてる証拠……だよね？）",
+            "VoiceFileName": "10304060340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030406035,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（よーし、ますます頑張らないと！　暦さんの足引っ張りたくないし！）",
+            "VoiceFileName": "10304060350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030406036,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "銀河座劇団員A",
+            "FontSize": 2,
+            "Phrase": "与那国先輩、大丈夫かな……。/n先生も、あんなにプレッシャーかけなくてもいいのにね。",
+            "VoiceFileName": "10304060360",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406037,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "銀河座劇団員B",
+            "FontSize": 2,
+            "Phrase": "しかも『橋弁慶』って元々、能楽や歌舞伎で演じられてた舞台でしょ？/nリリヤ先輩たちだって馴染みがないと思うし、難しいんじゃないのかな？",
+            "VoiceFileName": "10304060370",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406038,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "……皆も話しているように、『橋弁慶』は随分と古典色が強いからな。/nまさか、このタイミングで演じることになるとはな。",
+            "VoiceFileName": "10304060380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030406039,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "『かぐや姫』とは違うの？",
+            "VoiceFileName": "10304060390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030406040,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "『かぐや姫』……竹取物語もたしかに古典文学ではあるのだが、/nまた少し雰囲気が違うな。",
+            "VoiceFileName": "10304060400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030406041,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "もっと堅さがあるというか、台詞回しなども独特な印象があるな。/nしかも、モデルとなったのは剛毅な僧侶と武将・源義経だ。",
+            "VoiceFileName": "10304060410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030406042,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "他国の者に馴染みがないどころか、/n日本出身者でも高度な演技が要求されるだろう。",
+            "VoiceFileName": "10304060420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030406043,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "ふぅん……でも私のやることは変わらない。/n変わらず、美しく在るだけ。",
+            "VoiceFileName": "10304060430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030406044,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "リリヤは常に一貫しているな。/n私も、やるべきことをやるというのに変わりはないのだが……。",
+            "VoiceFileName": "10304060440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030406045,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "銀河座劇団員C",
+            "FontSize": 2,
+            "Phrase": "きっと大丈夫ですよ、ラモーナ先輩。/nみんなで力を合わせて、頑張りましょう！",
+            "VoiceFileName": "10304060450",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030406046,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "……ああ、そうだな。",
+            "VoiceFileName": "10304060460",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030406047,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（みんなザワついてるな。まあ、仕方ないか。/n　前回を上回るほどの重大な公演になるだろうからな）",
+            "VoiceFileName": "10304060470",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030406048,
+            "EpisodeMasterId": 1030406,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（それより……なぜ先生は、緋花里にあんなこと言ったんだ？/n　あの場面で、わざわざ暦サンを引き合いに出すなんて……）",
+            "VoiceFileName": "10304060480",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        }
+    ]
+}

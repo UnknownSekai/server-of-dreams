@@ -1,0 +1,1364 @@
+{
+    "EpisodeId": 2004002,
+    "StoryType": 2,
+    "Order": 2,
+    "Prev": 2004001,
+    "Next": 2004003,
+    "Chapter": "今は遠い星のリグレット",
+    "Title": "母との再会",
+    "EpisodeDetail": [
+        {
+            "Id": 2004002001,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "（もう朝……。/n　昨日もよく眠れなかったわね）",
+            "BackgroundImageFileName": "1400",
+            "VoiceFileName": "20040020010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 10305,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002002,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "今何時かしら……。",
+            "VoiceFileName": "20040020020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002003,
+            "EpisodeMasterId": 2004002,
+            "Order": 2,
+            "GroupOrder": 2,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "――あれ？",
+            "VoiceFileName": "20040020021",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002004,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 3,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "130",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 2004002005,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "カトリナ、久しぶりね。",
+            "BgmFileName": "101",
+            "VoiceFileName": "20040020030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002006,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "驚いたわ。/n『浅草にいるから会いたい』だなんて。",
+            "VoiceFileName": "20040020040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 50101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002007,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ふふ。/n映画の撮影で少しの間日本に滞在するの。",
+            "VoiceFileName": "20040020050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002008,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "映画……？/n日本が舞台なの？",
+            "VoiceFileName": "20040020060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002009,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ええ。もういくつか撮影したんだけど、トラディショナルだったわ！/n素敵な作品になりそう。また情報が公開されたら連絡するわね。",
+            "VoiceFileName": "20040020070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002010,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "へぇ、映画だったらアタシも観に行けるかも。/n楽しみにしてる。",
+            "VoiceFileName": "20040020080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002011,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "カトリナは公演が終わって、今は落ち着いた時期？",
+            "VoiceFileName": "20040020090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002012,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "ええ。/nだから今日もこうして来れたの。タイミングが良かったわ。",
+            "VoiceFileName": "20040020100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002013,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ごめんなさい、連絡が当日になっちゃって。/nでもサプライズみたいで素敵でしょ？",
+            "VoiceFileName": "20040020110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002014,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "『悪魔の友人』って、確かあの不思議な女の子が出演してるのよね？/n観たかったわ。撮影がもう少し早ければチャンスがあったかもしれないのに。",
+            "VoiceFileName": "20040020120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002015,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "もう少し早ければ、って……この前までドイツで舞台に立ってたじゃない。/nママはワールドダイスターなんだから、仕方ないわよ。",
+            "VoiceFileName": "20040020130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002016,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "でも、母親として、娘の出る舞台を観に行けないのは残念よ。",
+            "VoiceFileName": "20040020140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 402,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002017,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "アタシは今回、主演じゃなかったし……良いのよ。/nママを必要としてる人はたくさんいるもの。",
+            "VoiceFileName": "20040020150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002018,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "愛娘の舞台なら、主演じゃなくても観に行きたいわよ。",
+            "VoiceFileName": "20040020160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002019,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "それに家族なんだから、カトリナだって、/nいつでも頼ってくれていいのよ。",
+            "VoiceFileName": "20040020170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002020,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "ありがとう。",
+            "VoiceFileName": "20040020180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002021,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "私ね、観には行けなかったけど、舞台の評判は調べたの。/n大好評じゃない。あなたをほめるコメントも沢山あったわ。",
+            "VoiceFileName": "20040020190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002022,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "アタシを？",
+            "VoiceFileName": "20040020200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002023,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ええ。これまでに無い、等身大の学生を演じるあなたの姿についてよ。/n悩みを抱える主人公の親友をうまく演じられていたって。",
+            "VoiceFileName": "20040020210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002024,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "……そう。/nアタシ自身は、まだまだだと思ってるけど。",
+            "VoiceFileName": "20040020220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002025,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ふふ、本当にカトリナはがんばり屋さんね。",
+            "VoiceFileName": "20040020230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002026,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "違うの、本当にそう思うのよ。/n今の……シリウスには、アタシに並ぶくらいの役者がいるから。",
+            "VoiceFileName": "20040020240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002027,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "だからアタシは、こんなところで満足しちゃいられないの。",
+            "VoiceFileName": "20040020250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002028,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "……あなたが日本に行くって言った時、少しだけ心配になったけど……。",
+            "VoiceFileName": "20040020260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002029,
+            "EpisodeMasterId": 2004002,
+            "Order": 2,
+            "GroupOrder": 27,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "結果的に良い選択だったのかもしれないわ。",
+            "VoiceFileName": "20040020261",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002030,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "……どうして？",
+            "VoiceFileName": "20040020270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002031,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ママはドイツにいても、なかなかあなたのそばにいられなかった。/nけど今は、日本で素敵な仲間がいるもの。",
+            "VoiceFileName": "20040020280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002032,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "仲間。/n確かにそうね。",
+            "VoiceFileName": "20040020290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002033,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "寮に入って、ましてや誰かと相部屋だなんて考えられなかったけど。/n今では毎日楽しく過ごしてるわ。",
+            "VoiceFileName": "20040020300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002034,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "うふふ。３人で寝てるのよね？/nママも時間があったらお邪魔したいわ。",
+            "VoiceFileName": "20040020310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002035,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "もとはふたりだったけどね。",
+            "VoiceFileName": "20040020320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002036,
+            "EpisodeMasterId": 2004002,
+            "Order": 2,
+            "GroupOrder": 33,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "さすがに同じ布団じゃないわよ？",
+            "VoiceFileName": "20040020321",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002037,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "でも、とっても楽しそう。/nみんなで一緒に稽古して、お風呂に入って、ご飯を食べて……。",
+            "VoiceFileName": "20040020330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002038,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ママもそんな生活がしてみたかったわ。",
+            "VoiceFileName": "20040020340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002039,
+            "EpisodeMasterId": 2004002,
+            "Order": 2,
+            "GroupOrder": 35,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "同じ夢に向かって進む仲間はとっても大事よ。",
+            "VoiceFileName": "20040020341",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002040,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "……ええ。/n助けられてるって思うことも、度々あるわ。",
+            "VoiceFileName": "20040020350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002041,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "だからね？/nカトリナ。",
+            "VoiceFileName": "20040020360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002042,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "何？",
+            "VoiceFileName": "20040020370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2004002043,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ひとりで焦らなくっていいの。/nあなたはまだ若いんだから。",
+            "VoiceFileName": "20040020380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 2004002044,
+            "EpisodeMasterId": 2004002,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "……わかった。",
+            "VoiceFileName": "20040020390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        }
+    ]
+}

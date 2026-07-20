@@ -1,0 +1,60 @@
+{
+    "EpisodeId": 4013,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "お母さんってばどこ…",
+    "EpisodeDetail": [
+        {
+            "Id": 4013001,
+            "EpisodeMasterId": 4013,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "お母さんってばどこまで行ってるんでしょうか？/nすぐに戻るって言ってたけど……。",
+            "VoiceFileName": "40130010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 4013002,
+            "EpisodeMasterId": 4013,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "でも、こういう場所で一人でお茶をしてると、/nなんだか大人になったような気がします♪",
+            "VoiceFileName": "40130020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        }
+    ]
+}

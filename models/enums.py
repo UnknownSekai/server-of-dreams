@@ -1393,7 +1393,61 @@ class WebLinkTypes(_Enum):
     WebShop = 1
 
 
+class FontSizes(_Enum):
+    Small = 1
+    Middle = 2
+    Large = 3
+
+
+class FadeTypes(_Enum):
+    BlackFadeOutFadeIn = 1
+    WhiteFadeOutFadeIn = 2
+    TimeElapsed = 3
+    CrossFade = 4
+
+
+class WindowEffects(_Enum):
+    Sepia = 1
+    WhiteBlur = 2
+
+
+class CharacterAppearanceTypes(_Enum):
+    FadeIn = 0
+    SlideInFromRight = 1
+    SlideInFromLeft = 2
+    SlideInFromBottom = 3
+
+
+class CharacterPositions(_Enum):
+    None_ = 0
+    OuterLeft = 1
+    InnerLeft = 2
+    Center = 3
+    InnerRight = 4
+    OuterRight = 5
+
+
+class CharacterLayerTypes(_Enum):
+    None_ = 0
+    Layer1 = 1
+    Layer2 = 2
+    Layer3 = 3
+
+
+class SpineSizes(_Enum):
+    Small = 1
+    Middle = 2
+    Large = 3
+
+
 __all__ = [
+    "FontSizes",
+    "FadeTypes",
+    "WindowEffects",
+    "CharacterAppearanceTypes",
+    "CharacterPositions",
+    "CharacterLayerTypes",
+    "SpineSizes",
     "AnotherNotationTypes",
     "AsideLiveButtonTypes",
     "BannerDeleteConditionTypes",

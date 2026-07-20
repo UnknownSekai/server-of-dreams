@@ -1,0 +1,1620 @@
+{
+    "EpisodeId": 1040309,
+    "StoryType": 1,
+    "Order": 9,
+    "Prev": 1040308,
+    "Next": 1040310,
+    "Chapter": "劇団電姫　3章",
+    "Title": "ありがたいお言葉",
+    "EpisodeDetail": [
+        {
+            "Id": 1040309001,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "テロップ",
+            "FontSize": 2,
+            "Phrase": "――後日。",
+            "BackgroundImageFileName": "900",
+            "BgmFileName": "302",
+            "VoiceFileName": "10403090010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309002,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "要",
+            "FontSize": 2,
+            "Phrase": "はーい、今日の特訓はここまで。/nま、稽古も始まったばかりだし？　こんなもんかしら。",
+            "VoiceFileName": "10403090020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40603,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "406"
+        },
+        {
+            "Id": 1040309003,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "う……、うっす！　/nあざーした！　",
+            "VoiceFileName": "10403090030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 40303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40603,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309004,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "要",
+            "FontSize": 2,
+            "Phrase": "良い返事ね。トレーニング中の演技でも、/nそれくらい堂々としてたらいいのに。",
+            "VoiceFileName": "10403090040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "406"
+        },
+        {
+            "Id": 1040309005,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "へへ……要さんの指導、スパルタで。/nついていくので精いっぱいってーか。",
+            "VoiceFileName": "10403090050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309006,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "要",
+            "FontSize": 2,
+            "Phrase": "そ？　私としては肩ひじ張らずに、/nのびのびやってくれればいいんだけど。",
+            "VoiceFileName": "10403090060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "406"
+        },
+        {
+            "Id": 1040309007,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "のびのび、っすか。/nハハハ……そんな余裕ウチにはまだねーっす。",
+            "VoiceFileName": "10403090070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309008,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "要",
+            "FontSize": 2,
+            "Phrase": "まあ、練習を重ねれば気持ちも慣れてくるわ。/nあと例の漫画持ってきたから読んどいてね。",
+            "VoiceFileName": "10403090080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "406"
+        },
+        {
+            "Id": 1040309009,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "うっす！",
+            "VoiceFileName": "10403090090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309010,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 10,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "120",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "8",
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 1040309011,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……………………はぁ～。",
+            "VoiceFileName": "10403090100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309012,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（今日は休みだったから、/n　勉強のために例の漫画一気読みしたけど……）",
+            "VoiceFileName": "10403090110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 6,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309013,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（マジでパック役、/n　ウチなんかじゃ、ダイジョバないヤツだった！！）",
+            "VoiceFileName": "10403090120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309014,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（みんな、気軽にできるできる言いすぎだって！/n　どんだけウチのこと買いかぶってんのって話！）",
+            "VoiceFileName": "10403090130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309015,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（ウチ、マジで演技に関してはシロートに毛が生えた程度なんだってーの！　/n　見比べたら全然ダメだって自分でもわかってるんだってーの！）",
+            "VoiceFileName": "10403090140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309016,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（……って、言ったところで詮無いよねえ。/n　やるって言っちゃったわけだし）",
+            "VoiceFileName": "10403090150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309017,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（要さん、ウチの何をそんなに買ってくれてるんだろ……）",
+            "VoiceFileName": "10403090160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309018,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（あの漫画の主人公レベルで苦戦する役、/n　ウチなんかができるはずないじゃん……）",
+            "VoiceFileName": "10403090170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309019,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "はぁ。どーどーめぐりだこりゃ。",
+            "VoiceFileName": "10403090180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309020,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……ウチ、電姫に入ってから、/nどんだけ上手くなってるんだろ。",
+            "VoiceFileName": "10403090190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309021,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（最近要さんとマンツーマンで練習してもらってるけど、/n　正直上手くなってる気がしないんだよねぇ……）",
+            "VoiceFileName": "10403090200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309022,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（要さんは練習を続ければ大丈夫だって言ってくれるし、/n　指示もわかりやすいから、やりやすいけど）",
+            "VoiceFileName": "10403090210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309023,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（はー……でっかいスポンサー候補が絡んでるんだよ？/n　もっとできる人で固めればいーじゃん……）",
+            "VoiceFileName": "10403090220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309024,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "（これでスポンサー候補が満足してくれなかったら……）",
+            "VoiceFileName": "10403090230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309025,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "あー！　やめやめ！　怖いこと考えんな！",
+            "VoiceFileName": "10403090240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309026,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "せっかくスゲー役もらえたんだから、がんばる！　/nそれでいーじゃん！　",
+            "VoiceFileName": "10403090250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309027,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "いや、それでよくねーから困ってるんだっつーの！",
+            "VoiceFileName": "10403090260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309028,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "何、百面相してやがんだ？",
+            "VoiceFileName": "10403090270",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309029,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "うひゃあおっ！？",
+            "VoiceFileName": "10403090280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 40321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309030,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "うおおっ！？　往来でなんつー声だしてやがる。",
+            "VoiceFileName": "10403090290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309031,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "び、び、びっくりしたぁ……いきなり声かけないでってば。/n心臓が一瞬止まったわ……。",
+            "VoiceFileName": "10403090300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309032,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "……ふむ、ちょっと茶につき合えや。",
+            "VoiceFileName": "10403090310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309033,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "へ？　は？",
+            "VoiceFileName": "10403090320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309034,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 34,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "130",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "1",
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 1040309035,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "こういうハイカラな店にも入ってみたいんだが、/nまあ、清水の舞台から飛び降りるってやつだな。",
+            "VoiceFileName": "10403090330",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309036,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "まさかのチョイスで、予想外過ぎてビビり倒してる。超ウケる。",
+            "VoiceFileName": "10403090340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309037,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "お前さんと一緒だから別にいいだろ。/nほれ、好きなもん頼め。",
+            "VoiceFileName": "10403090350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309038,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "あー、うん。ごちになります。",
+            "VoiceFileName": "10403090360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309039,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "うめぇな、このフルーツパフェ。/nこいつぁイケてる。",
+            "VoiceFileName": "10403090370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309040,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "和尚もイケてるとか言うんだ。",
+            "VoiceFileName": "10403090380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309041,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "お前さんだって俺たちの言葉マネたりするだろ。/nそれで、往来のど真ん中ででかい声出して、何してたんだ？　",
+            "VoiceFileName": "10403090390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309042,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "いきなり本題に戻んね！？　もうちょっと楽しまん！？",
+            "VoiceFileName": "10403090400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309043,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "んなことしてたら夕食に障る。/nこの和尚、秘密は守るぜ。話してみな。",
+            "VoiceFileName": "10403090410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309044,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "10403090420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309045,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ウチ、重要な舞台で、重要な役もらったんだけどさ。",
+            "VoiceFileName": "10403090430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "HeadDirectionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309046,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "ほお？　良かったじゃねーか。",
+            "VoiceFileName": "10403090440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309047,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "あー、ウチを応援してくれてるみんなはそう思うかも。/nでもなんつーか……プレッシャーに耐えられねー。",
+            "VoiceFileName": "10403090450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309048,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "……プレッシャーねぇ。/n本当にそうか？　",
+            "VoiceFileName": "10403090460",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309049,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 49,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "え、いや、そうっしょ。でないとこんなに悩まないって。",
+            "VoiceFileName": "10403090470",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309050,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 50,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "悩むってのはな、弱い人間にはできんことさ。/nお前さんは悩む時点で、努力しようとする意志を持ってる。",
+            "VoiceFileName": "10403090480",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309051,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 51,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "へ？　/n……そうなん？　",
+            "VoiceFileName": "10403090490",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309052,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 52,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "お前さんの中では、決まってるんじゃないか？　/n自分がどうすべきかってのはよ。",
+            "VoiceFileName": "10403090500",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309053,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 53,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……まあ、やるしかねー……、とは思ってる。/nそれはそうなんだけど。",
+            "VoiceFileName": "10403090510",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309054,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 54,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "でもさ、上手くやるにはどーすればいいん……？",
+            "VoiceFileName": "10403090520",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309055,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 55,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "動いていれば、何かしら結果は出てくる。",
+            "VoiceFileName": "10403090530",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309056,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 56,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "モヤモヤしたまま練習してても？　/nウチは、上手くやれんのかな。がんばれてんのかな。",
+            "VoiceFileName": "10403090540",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309057,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 57,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "練習してんなら、もう動けてんじゃねぇか。/nその結果を見て、次に何をすりゃいいのか考えりゃいいんだよ。",
+            "VoiceFileName": "10403090550",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309058,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 58,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "阿岐留カミラはそれができる人間だ。/nこの俺が太鼓判を押してやる。",
+            "VoiceFileName": "10403090560",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309059,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 59,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "和尚……。",
+            "VoiceFileName": "10403090570",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309060,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 60,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "にしても、今日は顔に覇気がねーな。/n悩むあまり調子でも崩したか？　",
+            "VoiceFileName": "10403090580",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309061,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 61,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……あー、舞台のことで頭いっぱいになって、/nメイク、軽くで済ましてきちゃったせいかも？　",
+            "VoiceFileName": "10403090590",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309062,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 62,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "なんで俺に聞くんだよ。/n昔、一丁前にメイクのコツをあーだこーだ俺に語ってたじゃねーか。",
+            "VoiceFileName": "10403090600",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309063,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 63,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……そーだっけ。/nでも、たしかにメイク薄いせいで覇気がないっていうのはそうかも。",
+            "VoiceFileName": "10403090610",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309064,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 64,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "メイクすると、気持ちが入るって言うかさ、/nやるぞ！　って思えるんだよね。スイッチが切り替わる、みたいな。",
+            "VoiceFileName": "10403090620",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309065,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 65,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……そっか。/nウチが、ウチ自身のスイッチを切り替えなくちゃ。",
+            "VoiceFileName": "10403090630",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309066,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 66,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "おう。/nなんか道が見えたみてーだな。",
+            "VoiceFileName": "10403090640",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309067,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 67,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "鏡に向き合ってよ、変身してみせな。/n恐れ知らずに初めてメイクに挑戦した時みてぇによ。",
+            "VoiceFileName": "10403090650",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309068,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 68,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "若いもんの言い方をするなら、/nそういうのが毎日のルーティーンってヤツなんだろ？　",
+            "VoiceFileName": "10403090660",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309069,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 69,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……そだね。うん。",
+            "VoiceFileName": "10403090670",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309070,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 70,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ありがと、和尚！",
+            "VoiceFileName": "10403090680",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040309071,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 71,
+            "SpeakerName": "和尚",
+            "FontSize": 2,
+            "Phrase": "なぁに、こんな洒落た喫茶店に来れたんだ。/n安いもんさ。",
+            "VoiceFileName": "10403090690",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040309072,
+            "EpisodeMasterId": 1040309,
+            "Order": 1,
+            "GroupOrder": 72,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "なまぐさ坊主ー。",
+            "VoiceFileName": "10403090700",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        }
+    ]
+}

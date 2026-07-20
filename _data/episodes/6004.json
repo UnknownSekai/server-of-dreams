@@ -1,0 +1,60 @@
+{
+    "EpisodeId": 6004,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "遊園地っていうから…",
+    "EpisodeDetail": [
+        {
+            "Id": 6004001,
+            "EpisodeMasterId": 6004,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "遊園地っていうからもっと洋風な感じをイメージしてたけど、/n少し和風な要素があるのね。こういうのはモナさんが喜びそうね。",
+            "VoiceFileName": "60040010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 6004002,
+            "EpisodeMasterId": 6004,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "まあ、アイツのことだからアタシが教えなくても/n自分で調べて勝手に遊びにくるでしょうね。",
+            "VoiceFileName": "60040020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        }
+    ]
+}

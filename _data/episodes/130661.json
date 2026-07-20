@@ -1,0 +1,1456 @@
+{
+    "EpisodeId": 130661,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 130662,
+    "Chapter": "お話、聞きましょうか？",
+    "Title": "八恵の不安",
+    "EpisodeDetail": [
+        {
+            "Id": 130661001,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "はーい、みなさん！　/nそろそろ稽古場に行かないとですよー！　",
+            "BackgroundImageFileName": "541",
+            "BgmFileName": "103",
+            "VoiceFileName": "1306610010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130661002,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "えっ、もうそんな時間？",
+            "VoiceFileName": "1306610020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 130661003,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "でも、テレーゼさんと全然話し足りないよ～！",
+            "VoiceFileName": "1306610030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 130661004,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "そうですね。お聞きしたいこと、まだまだあるのに……。",
+            "VoiceFileName": "1306610040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661005,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "あらあら、どうしましょう……。/nそんなこと言われたら、私も引き止めたくなっちゃうわ！　",
+            "VoiceFileName": "1306610050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661006,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "ママ、そういうこと言ってみんなを惑わせないで。/n公演が終わった後も、みんな基礎練習で忙しいんだから。",
+            "VoiceFileName": "1306610060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 130661007,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "はーい……。",
+            "VoiceFileName": "1306610070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661008,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "それに、ママこそ時間は大丈夫なの？　/n映画の撮影だってあるんでしょ？　",
+            "VoiceFileName": "1306610080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 130661009,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ふふふ……それがね？　今日はまだフリータイムなの！　/nだから、もう少しだけのんびりしていくわ。",
+            "VoiceFileName": "1306610090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661010,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "えっ？　このしりうす湯で……ですか？",
+            "VoiceFileName": "1306610100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661011,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ええ。ジャパニーズ・銭湯の空気、もっと味わっておきたくてね。/nシャモにお願いしたら、好きにしていいって言ってくれたの。",
+            "VoiceFileName": "1306610110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661012,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "そうなんですか……。",
+            "VoiceFileName": "1306610120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661013,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "はいはーい！　そろそろマジで時間ヤバいです！　/nみんな、行きますよー！　",
+            "VoiceFileName": "1306610130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130661014,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "これ以上遅くなると、ボスの堪忍袋が大爆発するよ。/nこのあたり一面が、消滅の危機……！　",
+            "VoiceFileName": "1306610140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 130661015,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "あわわ……それは怖いなぁ……！",
+            "VoiceFileName": "1306610150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 402,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 130661016,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "名残惜しいけど、ここまでね。/nテレーゼさん、今日はありがとうございました。",
+            "VoiceFileName": "1306610160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 130661017,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "また機会があったら、お話させてください！",
+            "VoiceFileName": "1306610170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 130661018,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ええ、もちろん！　みんなも頑張ってね！",
+            "VoiceFileName": "1306610180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661019,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 19,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 130661020,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "は～……楽しかった。/nやっぱり、シリウスには素敵な役者が揃ってるわね。",
+            "VoiceFileName": "1306610190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661021,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "ここであの子を預かってもらえて、本当に良かった……。",
+            "VoiceFileName": "1306610200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661022,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "わぁ……綺麗……。",
+            "VoiceFileName": "1306610210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661023,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "あら、今の声……もしかして、八恵？",
+            "VoiceFileName": "1306610220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 50101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661024,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "ご、ごめんなさい！　覗くような真似をして……。",
+            "VoiceFileName": "1306610230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661025,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "謝ることなんてないわ。/n役者は見られることが仕事ですもの。",
+            "VoiceFileName": "1306610240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661026,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "練習はどうしたの？　/n休憩するには、まだ早い時間よね？　",
+            "VoiceFileName": "1306610250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661027,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "柊さんにお願いして、私だけこっそり抜けてきたんです。/nテレーゼさんにお願いしたいことがあって……。",
+            "VoiceFileName": "1306610260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661028,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "あら、何かしら？",
+            "VoiceFileName": "1306610270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661029,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "……今ここで、私の演技を見てくださいませんか？",
+            "VoiceFileName": "1306610280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661030,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "えっ？",
+            "VoiceFileName": "1306610290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661031,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "勝手なお願いなのは承知しています……。/nでも、どうしてもテレーゼさんの意見を聞かせてほしいんです。",
+            "VoiceFileName": "1306610300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661032,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "もっともっと、良い演技をするために……！",
+            "VoiceFileName": "1306610310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661033,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "…………。",
+            "VoiceFileName": "1306610320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661034,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "…………。",
+            "VoiceFileName": "1306610330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661035,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "（揺らぐことのない真っすぐで真剣な眼差し……。/n　軽い気持ちで言ってるわけじゃなさそうね）",
+            "VoiceFileName": "1306610340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661036,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "わかったわ。じゃあ、見せてくれる？",
+            "VoiceFileName": "1306610350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661037,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "ありがとうございます！",
+            "VoiceFileName": "1306610360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661038,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "演じる内容は任せるわ。自由にやってみて。",
+            "VoiceFileName": "1306610370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661039,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "はい！　",
+            "VoiceFileName": "1306610380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661040,
+            "EpisodeMasterId": 130661,
+            "Order": 2,
+            "GroupOrder": 39,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "では、始めます……！　",
+            "VoiceFileName": "1306610381",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661041,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 40,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": -1.0,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 130661042,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "――以上です。/n見ていただき、ありがとうございました。",
+            "VoiceFileName": "1306610390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661043,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "……どうでしたか、私の演技……？",
+            "VoiceFileName": "1306610400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661044,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "……正直、驚いたわね。/nここまでのものを見せてくれるだなんて。",
+            "VoiceFileName": "1306610410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 50101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661045,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "自分なりにどう演じるかを考え抜いた、/nダイスターに相応しい、芯の通った素敵な演技だったわ。",
+            "VoiceFileName": "1306610420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661046,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "嬉しいです。/nテレーゼさんにそんな風に言ってもらえるなんて……。",
+            "VoiceFileName": "1306610430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661047,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "でも私……自分ではそう思えなくて……。",
+            "VoiceFileName": "1306610440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661048,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "あら、どうして？",
+            "VoiceFileName": "1306610450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        },
+        {
+            "Id": 130661049,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "私……今の演技で、オーディションに落ちてしまったんです……。",
+            "VoiceFileName": "1306610460",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 130661050,
+            "EpisodeMasterId": 130661,
+            "Order": 1,
+            "GroupOrder": 49,
+            "SpeakerName": "テレーゼ",
+            "FontSize": 2,
+            "Phrase": "え？",
+            "VoiceFileName": "1306610470",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "501"
+        }
+    ]
+}

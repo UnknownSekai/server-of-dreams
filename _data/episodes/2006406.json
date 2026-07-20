@@ -1,0 +1,965 @@
+{
+    "EpisodeId": 2006406,
+    "StoryType": 2,
+    "Order": 6,
+    "Prev": 2006405,
+    "Next": 2006407,
+    "Chapter": "FASCINATE COORDINATE",
+    "Title": "誰が選ばれる？",
+    "EpisodeDetail": [
+        {
+            "Id": 2006406001,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "こうしてみんなで一緒に買い物に来たのって、/nキャンプの買い出しぶりですよね～。",
+            "BackgroundImageFileName": "1240",
+            "BgmFileName": "402",
+            "VoiceFileName": "20064060010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2006406002,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "たしかに、思えばみんなの予定が合うときって中々ないかも。",
+            "VoiceFileName": "20064060020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 2006406003,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "まぁ、私の方も脚本作成がひと段落ついた頃だったからな。/nちょうどいいタイミングだ。",
+            "VoiceFileName": "20064060030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406004,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "我が主とまた一緒にお買い物……恐悦至極だわ",
+            "VoiceFileName": "20064060040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406005,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "相変わらず、大げさですねぇ……。",
+            "VoiceFileName": "20064060050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2006406006,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "そうだ、今日はどこのお店に行くとかって決まってるんですか？",
+            "VoiceFileName": "20064060060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2006406007,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "そうだな……仁花子にはあそこで待っていてもらって、/n私たちが選んだ服を試着室で着てもらって判断するのはどうだろう？",
+            "VoiceFileName": "20064060070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406008,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ゲーム感覚で楽しめるんじゃないかと思うのだが。",
+            "VoiceFileName": "20064060080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406009,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "（さ、さすが初魅……！　そうすれば、/n　試着する服に仁花子のセンスが介入する余地はなくなる……）",
+            "VoiceFileName": "20064060090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 2006406010,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（考えましたね、初魅さん……）",
+            "VoiceFileName": "20064060100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "SpineId": 20521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2006406011,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（最終的ににかっちが選んだ服になるという可能性を封じつつ、/n　にかっちも含めてみんなが楽しめる方法を思いついてただなんて……）",
+            "VoiceFileName": "20064060110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406012,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（一生ついていきます……我が主！）",
+            "VoiceFileName": "20064060120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406013,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "わ、私は我が主の提案してくださった方法で良いと思います！",
+            "VoiceFileName": "20064060130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406014,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "そうですね、ま？　/nしぐれの選んだ服が一番だと思いますけどぉ～？",
+            "VoiceFileName": "20064060140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 28,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2006406015,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "仁花子はどう？/n待ってもらってる間、ちょっと暇になっちゃうかもだけど……。",
+            "VoiceFileName": "20064060150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 2006406016,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "すごく面白そうですね！/nみんなが選んでるところも、見ない方が良いですよね？",
+            "VoiceFileName": "20064060160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2006406017,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ああ、そうじゃなきゃ最後の試着時の楽しみが減ってしまうからな。",
+            "VoiceFileName": "20064060170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406018,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "分かりました！/nそれじゃ、私……みんなが選ぶ服を楽しみに待ってますね！",
+            "VoiceFileName": "20064060180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20321,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2006406019,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 19,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.10000000149011612,
+            "FadeValue2": 0.20000000298023224,
+            "FadeValue3": 0.10000000149011612
+        },
+        {
+            "Id": 2006406020,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "そうね……う～ん、/nこれもにかっちに似合うかも……。",
+            "VoiceFileName": "20064060190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406021,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "この店を選ぶとは、奇遇だな。/n順調か、大黒？",
+            "VoiceFileName": "20064060200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406022,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "うひゃぁ！？　わ、我が主！？/nあ、今考えている所でして……。",
+            "VoiceFileName": "20064060210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406023,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ん？　ほう、その服か……。/nふふっ、相変わらず大黒はセンスがいいな。",
+            "VoiceFileName": "20064060220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406024,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "そんな……私にはもったいないお言葉です！",
+            "VoiceFileName": "20064060230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406025,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（我が主に、センスが良いって言われちゃった……！/n　それも相変わらずって……）",
+            "VoiceFileName": "20064060240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 205,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406026,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（～～～～～～っ！！！）",
+            "VoiceFileName": "20064060250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 114,
+                    "BodyMotionMasterId": 19,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406027,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "自分を卑下することはない。/n素晴らしいぞ、大黒。",
+            "VoiceFileName": "20064060260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406028,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "あ、ありがとうございます……！/nそ、そうだ。我が主はどんな服を選ばれたのですか？",
+            "VoiceFileName": "20064060270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406029,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "本来は試着室の段階で分かった方が楽しいが、/n偶然とはいえ、先に大黒の選んでいる服を見てしまったからな。",
+            "VoiceFileName": "20064060280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406030,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "私も見せるのが筋だろう。/nほら、私はこの服を選んだぞ。",
+            "VoiceFileName": "20064060290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406031,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "クールで大人っぽいデザインのコート……。/n我が主らしい素敵なチョイスです！",
+            "VoiceFileName": "20064060300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006406032,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "普段、こういう系統の服は仁花子は着て来ないからな。/nあとはこの下に何を合わせていくかだが……。",
+            "VoiceFileName": "20064060310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406033,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "それは、仁花子が試着した時のお楽しみだな。/n大黒の選ぶ服、楽しみにしているぞ。",
+            "VoiceFileName": "20064060320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006406034,
+            "EpisodeMasterId": 2006406,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "は、はい！　期待に応えられるよう頑張ります！",
+            "VoiceFileName": "20064060330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        }
+    ]
+}

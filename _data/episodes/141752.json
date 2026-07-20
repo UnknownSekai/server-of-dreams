@@ -1,0 +1,2292 @@
+{
+    "EpisodeId": 141752,
+    "StoryType": 3,
+    "Order": 2,
+    "Prev": 141751,
+    "Next": null,
+    "Chapter": "アーサー王のお通りよ！",
+    "Title": "逆境で輝いてこそ",
+    "EpisodeDetail": [
+        {
+            "Id": 141752001,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ああ……ドッジボール、始まっちゃった……。",
+            "BackgroundImageFileName": "2140",
+            "BgmFileName": "26",
+            "VoiceFileName": "1417520010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752002,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "しぐれ様、大丈夫？/n無理しないで、ボールが来たらすぐ逃げてね？",
+            "VoiceFileName": "1417520020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752003,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "言われなくても、そのつもりよぉ……。",
+            "VoiceFileName": "1417520030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752004,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "しぐれ様……本気でいかせてもらいます！",
+            "VoiceFileName": "1417520040",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752005,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ふ、ふん！ 気合だけは充分みたいねぇ。/nどっからでもかかってきなさぁい！",
+            "VoiceFileName": "1417520050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752006,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（……って、何で挑発しちゃったのよぉ！/nこんな事言ったら、絶対しぐれのこと狙ってくるじゃない！）",
+            "VoiceFileName": "1417520060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 504,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752007,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "わかりました！ いきますよっ！",
+            "VoiceFileName": "1417520070",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752008,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 8,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "3220",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 141752009,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（ほら、やっぱりぃ！）",
+            "VoiceFileName": "1417520080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 504,
+                    "BodyMotionMasterId": 5,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752010,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "しぐれ様ごめんね！　引っ張るよ、こっち！",
+            "VoiceFileName": "1417520090",
+            "CharacterMotions": [],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752011,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "へっ！？　きゃあ！？",
+            "VoiceFileName": "1417520100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752012,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "よし、避けられた！",
+            "VoiceFileName": "1417520110",
+            "CharacterMotions": [],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752013,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "はぁ……はぁ……小春、助かったわぁ……。",
+            "VoiceFileName": "1417520120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752014,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "無事で良かった！",
+            "VoiceFileName": "1417520130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752015,
+            "EpisodeMasterId": 141752,
+            "Order": 2,
+            "GroupOrder": 14,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "りこ、杏！　親衛隊で防御陣形になるよ！",
+            "VoiceFileName": "1417520131",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 18,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752016,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "りこ・杏",
+            "FontSize": 2,
+            "Phrase": "はい。/nわかったっち！",
+            "VoiceFileName": "1417520140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752017,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "しぐれ様は、我ら親衛隊が守ります……！",
+            "VoiceFileName": "1417520150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 21,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752018,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "しぐれ様を狙う前に、アタシたちをやってみろっち！",
+            "VoiceFileName": "1417520160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 9,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752019,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あんたたち……。",
+            "VoiceFileName": "1417520170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752020,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（そうよ……この３人がいれば、きっと何とかなる……！）",
+            "VoiceFileName": "1417520180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752021,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 20,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "2140",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "26",
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 141752022,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 21,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "3230",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 141752023,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "うわあ！？",
+            "VoiceFileName": "1417520190",
+            "CharacterMotions": [],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752024,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "小春が当てられちゃったっち！？",
+            "VoiceFileName": "1417520200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752025,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（——って、いきなりやられちゃってるじゃないの！？）",
+            "VoiceFileName": "1417520210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 503,
+                    "BodyMotionMasterId": 5,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752026,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "ああ、親衛隊の防御陣形が崩れてしまった……。",
+            "VoiceFileName": "1417520220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752027,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "だ、大丈夫なの……！？",
+            "VoiceFileName": "1417520230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 405,
+                    "BodyMotionMasterId": 19,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752028,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "正直かなり危険です。",
+            "VoiceFileName": "1417520240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752029,
+            "EpisodeMasterId": 141752,
+            "Order": 2,
+            "GroupOrder": 27,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "相手はきっと、一気に——。",
+            "VoiceFileName": "1417520241",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752030,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 28,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "3230",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 141752031,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "あうっ！？",
+            "VoiceFileName": "1417520250",
+            "CharacterMotions": [],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752032,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "りこ！？",
+            "VoiceFileName": "1417520260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 503,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752033,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "やはり、狙いは親衛隊……。/nしぐれ様、申し訳ございません……お気をつけて……。",
+            "VoiceFileName": "1417520270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752034,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "気をつけろって、どうやってよ……！？",
+            "VoiceFileName": "1417520280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752035,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "防御陣形はボロボロになったぞ！/nこのまま一気に押し切れー！",
+            "VoiceFileName": "1417520290",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752036,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 34,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "3220",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 141752037,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ひゃあああ！？",
+            "VoiceFileName": "1417520300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 504,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752038,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "しぐれ様、危ないっちー！？",
+            "VoiceFileName": "1417520310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752039,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 37,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "3230",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 141752040,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "うあーっ！　 アタシもアウトだっちー！",
+            "VoiceFileName": "1417520320",
+            "CharacterMotions": [],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752041,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あ、杏まで……。",
+            "VoiceFileName": "1417520330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 405,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752042,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "しぐれ様、ごめんだっち……。/n何とか逃げてほしいっち……！",
+            "VoiceFileName": "1417520340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752043,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "そ、そんなこと言われても……！",
+            "VoiceFileName": "1417520350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752044,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……あれ？　 もしかして赤チームの内野って、/nしぐれ一人だけ……？",
+            "VoiceFileName": "1417520360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 113,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752045,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "しぐれ様を倒せば、こっちの勝ちだーっ！/n最後まで気を抜かないようにー！",
+            "VoiceFileName": "1417520370",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752046,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "白チームのクラスメイト達",
+            "FontSize": 2,
+            "Phrase": "おーっ！！",
+            "VoiceFileName": "1417520380",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752047,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "しぐれ様、諦めちゃダメだっちー！",
+            "VoiceFileName": "1417520390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752048,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "しぐれ様なら、逆転勝利のチャンスを掴めます……！",
+            "VoiceFileName": "1417520400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752049,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "ボールから目を離さないでー！",
+            "VoiceFileName": "1417520410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 18,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752050,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（無茶言わないでよ……！/nそんなの簡単に出来たら、運動で苦労してないわ！）",
+            "VoiceFileName": "1417520420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 5,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752051,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 49,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "しぐれ様に勝って、私もヒーローになるんだーっ！",
+            "VoiceFileName": "1417520430",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752052,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 50,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "3220",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 141752053,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 51,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あぁ……しぐれはもう終わりよ……。/nこのまま儚く散るんだわ……。",
+            "VoiceFileName": "1417520440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752054,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 52,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "わーっ！？ しぐれ様、目をつぶっちゃダメーッ！",
+            "VoiceFileName": "1417520450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 19,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752055,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 53,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "へっ？",
+            "VoiceFileName": "1417520460",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752056,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 54,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "3230",
+            "VoiceFileName": "1417520470",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 141752057,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 55,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ふぎゃあ！？",
+            "VoiceFileName": "1417520480",
+            "CharacterMotions": [],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752058,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 56,
+            "SpeakerName": "りこ・小春・杏",
+            "FontSize": 2,
+            "Phrase": "しぐれ様ーっ！！",
+            "VoiceFileName": "1417520490",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 408,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "FacialExpressionMasterId": 511,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752059,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 57,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "待ってください……！/nしぐれ様の顔面にぶつかったボールが、打ち上がって……。",
+            "VoiceFileName": "1417520500",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 501,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752060,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 58,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "落ちてない！ 　ボールはまだ死んでないっち！",
+            "VoiceFileName": "1417520510",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752061,
+            "EpisodeMasterId": 141752,
+            "Order": 2,
+            "GroupOrder": 58,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "しぐれ様！　 それをキャッチすれば——。",
+            "VoiceFileName": "1417520511",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 18,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752062,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 59,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あへっ……？",
+            "VoiceFileName": "1417520520",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 505,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752063,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 60,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "見事にキャッチしています……！ しぐれ様、凄いです！",
+            "VoiceFileName": "1417520530",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 506,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752064,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 61,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "も、もしかして……！",
+            "VoiceFileName": "1417520540",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 113,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752065,
+            "EpisodeMasterId": 141752,
+            "Order": 2,
+            "GroupOrder": 61,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "ボールをキャッチできるように、わざと顔に当てたっち！？",
+            "VoiceFileName": "1417520541",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752066,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 62,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "なんてガッツなんだ……カッコよすぎるよ、しぐれ様！",
+            "VoiceFileName": "1417520550",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 404,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752067,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 63,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "いったぁい……！/nも〜、ほんと何なのよぉ！！",
+            "VoiceFileName": "1417520560",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 303,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752068,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 64,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あんたがやったのね……！",
+            "VoiceFileName": "1417520570",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 301,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752069,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 65,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "ひっ……！？",
+            "VoiceFileName": "1417520580",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752070,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 66,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "しぐれの顔に当てるだなんて……ふざけんじゃないわよぉ！",
+            "VoiceFileName": "1417520590",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 301,
+                    "BodyMotionMasterId": 10,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752071,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 67,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "3220",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 141752072,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 68,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "……えっ、ボールはどこに！？",
+            "VoiceFileName": "1417520600",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752073,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 69,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "消えたっち！？",
+            "VoiceFileName": "1417520610",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752074,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 70,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あれっ！？",
+            "VoiceFileName": "1417520620",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 113,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752075,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 71,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "——違う、ここだ！",
+            "VoiceFileName": "1417520630",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 509,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752076,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 72,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（そんなとこ狙ってないわよぉ！？）",
+            "VoiceFileName": "1417520640",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 2,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752077,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 73,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "小春、行くっち！",
+            "VoiceFileName": "1417520650",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752078,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 74,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "私の計算では今がチャンスです！",
+            "VoiceFileName": "1417520660",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752079,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 75,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "任せてっ！ そこだっ！",
+            "VoiceFileName": "1417520670",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752080,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 76,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "3220",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 141752081,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 77,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "うわっ！？",
+            "VoiceFileName": "1417520680",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752082,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 78,
+            "FontSize": 2,
+            "Phrase": "",
+            "VoiceFileName": "1417520690",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 141752083,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 79,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "よし！　 当たった！/nこれで内野に戻れる！",
+            "VoiceFileName": "1417520700",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752084,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 80,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "もしや……しぐれ様はここまで計算して、あの遠投を……？",
+            "VoiceFileName": "1417520710",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752085,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 81,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "きっとそうだっち！/nしぐれ様の作戦通りだっちー！",
+            "VoiceFileName": "1417520720",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752086,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 82,
+            "SpeakerName": "赤チームのクラスメイト",
+            "FontSize": 2,
+            "Phrase": "『しぐれ様すげー！　やっぱり総大将だけあるよなー！』/n『かっけーぜ、しぐれ様ー！ここから逆転だー！』",
+            "VoiceFileName": "1417520730",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752087,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 83,
+            "SpeakerName": "白チームのクラスメイト",
+            "FontSize": 2,
+            "Phrase": "『ま、まだ負けたわけじゃないよ！』　『そうだ！　 こっちが有利だ！』/n『さっきみたいに、小春ちゃんを狙えば……』",
+            "VoiceFileName": "1417520740",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752088,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 84,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "そうはいかない！　 ありがとう、しぐれ様！/nここからは僕に任せて！",
+            "VoiceFileName": "1417520750",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752089,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 85,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "え、ええ……。",
+            "VoiceFileName": "1417520760",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752090,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 86,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（何が何だかわからないけど……。/nしぐれ一人じゃなくなって、良かった……）",
+            "VoiceFileName": "1417520770",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752091,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 87,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "2140",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "26",
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 141752092,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 88,
+            "SpeakerName": "担任教師",
+            "FontSize": 2,
+            "Phrase": "そこまでーっ！/nドッジボールは赤チームの勝利！",
+            "SeFileName": "2000",
+            "VoiceFileName": "1417520780",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752093,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 89,
+            "SpeakerName": "赤チームのクラスメイト達",
+            "FontSize": 2,
+            "Phrase": "わああああああああ！",
+            "VoiceFileName": "1417520790",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752094,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 90,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "はぁ……やっと終わったわ……。/nボールの痕が顔に残ったらどうするのよぉ……最悪だわぁ……。",
+            "VoiceFileName": "1417520800",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752095,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 91,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "大丈夫、今日もきれいなしぐれ様だよ！/nそれに今回も、しぐれ様の作戦勝ちだったね！",
+            "VoiceFileName": "1417520810",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 50807,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 141752096,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 92,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "へ……？",
+            "VoiceFileName": "1417520820",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 106,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752097,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 93,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "あの窮地で、自らを犠牲にするボールキャッチ。/nそして相手を狙う迫真の演技から、小春にパスする予想外の一手……。",
+            "VoiceFileName": "1417520830",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752098,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 94,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "混乱した相手を小春が討ち取り、私達が見事に勝利できました。/nしぐれ様の作戦、あまりに完璧すぎます……！",
+            "VoiceFileName": "1417520840",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50607,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 141752099,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 95,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（そんな作戦、まったく考えてなかったんだけど……。/n何だか上手く行っちゃったわ……）",
+            "VoiceFileName": "1417520850",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752100,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 96,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（でも……こういう活躍を偶然しちゃうのが、/nスターの証なのかもしれないわねぇ）",
+            "VoiceFileName": "1417520860",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 14,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752101,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 97,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "やっぱり、しぐれ様は最強の総大将だっち！",
+            "VoiceFileName": "1417520870",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 50707,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 141752102,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 98,
+            "SpeakerName": "白チームのクラスメイト達",
+            "FontSize": 2,
+            "Phrase": "悔しいけど、やっぱりしぐれ様はすごい！",
+            "VoiceFileName": "1417520880",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141752103,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 99,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "い、言ったでしょ！/nあんたたちの心を鷲掴みにしてあげるって！",
+            "VoiceFileName": "1417520890",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 28,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20507,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752104,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 100,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "これからもしぐれについてきなさぁい！",
+            "VoiceFileName": "1417520900",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 141752105,
+            "EpisodeMasterId": 141752,
+            "Order": 1,
+            "GroupOrder": 101,
+            "SpeakerName": "クラスメイト達",
+            "FontSize": 2,
+            "Phrase": "しぐれ様さいこー！！",
+            "VoiceFileName": "1417520910",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        }
+    ]
+}

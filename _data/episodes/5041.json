@@ -1,0 +1,141 @@
+{
+    "EpisodeId": 5041,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "ちょっと、美兎先輩！",
+    "EpisodeDetail": [
+        {
+            "Id": 5041001,
+            "EpisodeMasterId": 5041,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ちょっと、美兎先輩！/nさっさと次のお店に行きますよ！",
+            "VoiceFileName": "50410010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 5041002,
+            "EpisodeMasterId": 5041,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "う、うん。/nしぐれちゃん、つ、次はなんのお店に行くの……？",
+            "VoiceFileName": "50410020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 5041003,
+            "EpisodeMasterId": 5041,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "しぐれオススメの服屋です。/n今日発売で数量限定の服をゲットしてみせます！",
+            "VoiceFileName": "50410030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 5041004,
+            "EpisodeMasterId": 5041,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "げ、限定品かぁ、どんな服なんだろう。/nふふ……なんだかワクワクしてきちゃった♪",
+            "VoiceFileName": "50410040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        }
+    ]
+}

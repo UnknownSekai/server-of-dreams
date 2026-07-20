@@ -1,0 +1,974 @@
+{
+    "EpisodeId": 140181,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 140182,
+    "Chapter": "茜海に満たされて",
+    "Title": "最高の一着を求めて",
+    "EpisodeDetail": [
+        {
+            "Id": 140181001,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "ふっふっふ～、新しい水着を買うとワクワクしちゃいますね！/nああ、早く海に遊びに行きたいです！　もういっそこのまま電車に飛び乗って！",
+            "BackgroundImageFileName": "1240",
+            "BgmFileName": "1",
+            "VoiceFileName": "1401810010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 19,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 140181002,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "うん……そうだね。/n海に行くの、美兎も楽しみ。",
+            "VoiceFileName": "1401810020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 17,
+                    "SpineId": 40501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 140181003,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "ていうかさー、疲れたー。どっかで休もうよー。/nいたいけな少女をこれ以上歩かせるなんて、鬼か悪魔だよ。",
+            "VoiceFileName": "1401810030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 140181004,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "……私の精神も陽の気に削られてしまった。/nこれ以上は、闇の組織を阻む結界の維持もままならない。",
+            "VoiceFileName": "1401810040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 22,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 5,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 140181005,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "じゃあ、フードコートに行きましょう！",
+            "VoiceFileName": "1401810050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 140181006,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "あっ、やっば！",
+            "VoiceFileName": "1401810060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181007,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ゴッメン！　ウチ、ちょ～っと買い忘れたモンあった。",
+            "VoiceFileName": "1401810070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181008,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "え、大丈夫ですか？/n一緒に戻りましょうか？",
+            "VoiceFileName": "1401810080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 140181009,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "いーっていーって。先輩も叶羽もマジムリっぽいし。",
+            "VoiceFileName": "1401810090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181010,
+            "EpisodeMasterId": 140181,
+            "Order": 2,
+            "GroupOrder": 9,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ウチだけで買ってくる！　後で合流するから、休んでて！",
+            "VoiceFileName": "1401810091",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181011,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 10,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 140181012,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "さーてと……えーっと、さっきの店員さんは……",
+            "VoiceFileName": "1401810100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181013,
+            "EpisodeMasterId": 140181,
+            "Order": 2,
+            "GroupOrder": 11,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "あ、いたいた！　あのー、すみませーん！",
+            "VoiceFileName": "1401810101",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 18,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181014,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "店員",
+            "FontSize": 2,
+            "Phrase": "さっきの子の水着のサイズ？/nああ、あのイチオシじゃない方の水着を選んじゃった、あの子か……。",
+            "VoiceFileName": "1401810110",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 140181015,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "はい！　日頃お世話になってる先輩に、報恩謝徳ってことで。/nサプライズで水着をプレゼントしたいんです！",
+            "VoiceFileName": "1401810120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181016,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "それに、先輩マジでスタイルイイのに。/nさっきの水着じゃあ魅力はぜんっぜん伝わらないから、隔靴ソーヨーでっ！",
+            "VoiceFileName": "1401810130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181017,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "店員",
+            "FontSize": 2,
+            "Phrase": "――わかる！　わかりみが深い！　そうっ、そうなのよっ！/nこの売り場を担当して２年、彼女ほど素材を無駄にした水着選びはないわっ！",
+            "VoiceFileName": "1401810140",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 140181018,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ですよね！　ってことで、先輩のサイズ教えてください！　この通り！",
+            "VoiceFileName": "1401810150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 207,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181019,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "店員",
+            "FontSize": 2,
+            "Phrase": "……わかった。/nでも、他の人には絶対にナイショでお願いね。",
+            "VoiceFileName": "1401810160",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 140181020,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ありしゃす！",
+            "VoiceFileName": "1401810170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181021,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 19,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 3,
+            "CharacterMotions": []
+        },
+        {
+            "Id": 140181022,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "あったあった！　さっき目星はつけてたんだよねー。",
+            "VoiceFileName": "1401810180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181023,
+            "EpisodeMasterId": 140181,
+            "Order": 2,
+            "GroupOrder": 20,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "これは、先輩のスタイルなら絶対似合う！",
+            "VoiceFileName": "1401810181",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181024,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "んだけど……んー、こっちのも良さそうなんだよなー。",
+            "VoiceFileName": "1401810190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 75,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181025,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "一見、みとりんが着るならバッチリ！　な、/nリボンとシアーなフリルがいい感じのワンピだからこそ！",
+            "VoiceFileName": "1401810200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181026,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "逆にカッコイイ系が似合う先輩に着せてみたい的な！",
+            "VoiceFileName": "1401810210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181027,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "あーでも、こっちのタンキニも、ボーイレッグでスポーティなところが/n捨てがたいってなったんだよねぇ。",
+            "VoiceFileName": "1401810220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181028,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "先輩よりいろっち？　って二者択一で却下したものの……やっぱ悩む！",
+            "VoiceFileName": "1401810230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadDirectionMasterId": 4,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181029,
+            "EpisodeMasterId": 140181,
+            "Order": 2,
+            "GroupOrder": 25,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "このワンショルダーのセパレートだって大人な感じで良さげだし！",
+            "VoiceFileName": "1401810231",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181030,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "って、配信してたらみんなに聞いてるトコなんだけど。/nさすがに今日はねー。やるわけにはいかないよねえー。",
+            "VoiceFileName": "1401810240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181031,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "先輩のいートコを円満具足に出してくれそうなヤツ……。",
+            "VoiceFileName": "1401810250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "HeadDirectionMasterId": 4,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181032,
+            "EpisodeMasterId": 140181,
+            "Order": 2,
+            "GroupOrder": 27,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ヤツ……ヤツ……うーん、なんでも似合いそうだから結構難題かも。",
+            "VoiceFileName": "1401810251",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181033,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "そうだ、先輩の特徴から考えてみよう。/nえーと先輩といえば……占い？",
+            "VoiceFileName": "1401810260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181034,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "占い師から連想されるような水着なんて……",
+            "VoiceFileName": "1401810270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181035,
+            "EpisodeMasterId": 140181,
+            "Order": 2,
+            "GroupOrder": 29,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……ダメだ、思いつかない。",
+            "VoiceFileName": "1401810271",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181036,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "あ、巫女さんっぽい服をいつも着てるから、和柄のヤツはいいかも。",
+            "VoiceFileName": "1401810280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181037,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "いいや、ちょっと待って。/n先輩といえば、やっぱり謎の組織っしょ？",
+            "VoiceFileName": "1401810290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181038,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "つまり、危険な感じがするもの！/nこの店で一番危険と言えば――このエグいクロスホルダー！！",
+            "VoiceFileName": "1401810300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181039,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ごくり。こんなの着たらビーチの視線独り占めどころか、/nお縄になってもおかしくない……って、ナシナシさすがにナシ！",
+            "VoiceFileName": "1401810310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181040,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "先輩のカッコイイところ見せたいけど、さすがにないわ。/nいくらなんでもネタに走りすぎ。配信じゃないんだから。",
+            "VoiceFileName": "1401810320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 140181041,
+            "EpisodeMasterId": 140181,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "もっと真面目に考えないとね、うん。/n最高の一着、ウチが見つけてみせる……！",
+            "VoiceFileName": "1401810330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        }
+    ]
+}

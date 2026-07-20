@@ -1,6 +1,6 @@
 """Effect engine: collect a party slot's effects from masterdata and apply them.
 
-Reversed from SiriusLogic.Shared.PartyStatusCalculator (see scratchpad/RE_NOTES.md):
+Reversed from SiriusLogic.Shared.PartyStatusCalculator:
 each source contributes EffectMaster references; an effect's value = its detail value at the
 source level, and modifiers are the per-type sum (``GetEffectValue``). ``fire_timing_type``
 routes where an effect applies: StartLive -> LiveUnit.StartEffects; Passive stat types ->

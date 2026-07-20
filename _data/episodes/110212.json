@@ -1,0 +1,860 @@
+{
+    "EpisodeId": 110212,
+    "StoryType": 3,
+    "Order": 2,
+    "Prev": 110211,
+    "Next": null,
+    "Chapter": "劇団電姫",
+    "Title": "叶羽の矜持-同級生編-",
+    "EpisodeDetail": [
+        {
+            "Id": 110212001,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "小学生A",
+            "FontSize": 2,
+            "Phrase": "ねえねえ、昨日のライガーだけど！",
+            "BackgroundImageFileName": "1080",
+            "BgmFileName": "301",
+            "VoiceFileName": "1102120010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212002,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（……ん？　ライガー？）",
+            "VoiceFileName": "1102120020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 40501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212003,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "小学生A",
+            "FontSize": 2,
+            "Phrase": "まさかシュンくんが登場すると思ってなかったー！/n超カッコよかったー！",
+            "VoiceFileName": "1102120030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212004,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "小学生B",
+            "FontSize": 2,
+            "Phrase": "わかるー！　予告にいなかったからビックリしたよー！/nお姉ちゃんと一緒にぎゃーって叫んでお母さんに怒られちゃった！",
+            "VoiceFileName": "1102120040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212005,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（あの再登場はバズってたもんねぇ。",
+            "VoiceFileName": "1102120050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212006,
+            "EpisodeMasterId": 110212,
+            "Order": 2,
+            "GroupOrder": 5,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "　映画ならともあれ、まさかテレビで来るとはコッチも思わないっての）",
+            "VoiceFileName": "1102120051",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212007,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "小学生B",
+            "FontSize": 2,
+            "Phrase": "ナツキくんもカッコイイけど、シュンくん出て来ちゃったら、/nお子様って感じがしちゃうよねー。",
+            "VoiceFileName": "1102120060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212008,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（アタシが生まれる前から活動してたベテランと、/n　今作初主演のペーペーを比較したら可哀想だって）",
+            "VoiceFileName": "1102120070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 15,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212009,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "小学生A",
+            "FontSize": 2,
+            "Phrase": "それ！　公式がシュンくんのデビュー作のライガーも配信してくれたの！/n観た？　初々しくて、超可愛かったんだよ～！",
+            "VoiceFileName": "1102120080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212010,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "小学生B",
+            "FontSize": 2,
+            "Phrase": "ヤバイ、まだ観てないよ～！　帰ったらすぐ観る～！",
+            "VoiceFileName": "1102120090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212011,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（デビュー作……って、アタシが出た時と同じ監督だったっけ）",
+            "VoiceFileName": "1102120100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212012,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（天才ってほめてくれたけど、あの現場はもうカンベンだわ。/n　特撮なんて、観る専が一番よ）",
+            "VoiceFileName": "1102120110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212013,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "小学生B",
+            "FontSize": 2,
+            "Phrase": "でもさ、闇堕ちしたシュンくん、メッチャカッコよくなかった？",
+            "VoiceFileName": "1102120120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212014,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "小学生A",
+            "FontSize": 2,
+            "Phrase": "カッコよかった～！　ナツキくんはなよっとしてるし優柔不断じゃない？/nそのくせして夢ばっか語ってんじゃないよって感じだよね～。",
+            "VoiceFileName": "1102120130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212015,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "小学生B",
+            "FontSize": 2,
+            "Phrase": "ビシッと言ってくれるシュンくんにキュンキュンきちゃった。",
+            "VoiceFileName": "1102120140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 76,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212016,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "……アン、タたち……わかってなーい！",
+            "VoiceFileName": "1102120150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212017,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "小学生A・B",
+            "FontSize": 2,
+            "Phrase": "！？",
+            "VoiceFileName": "1102120160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212018,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "ナツキは自分が甘いってわかってんの！　敵を見逃して、失敗もした！",
+            "VoiceFileName": "1102120170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 76,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212019,
+            "EpisodeMasterId": 110212,
+            "Order": 2,
+            "GroupOrder": 17,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "でも優しさを捨てきれない！　その理由は過去回想でも出て来てるワケ！",
+            "VoiceFileName": "1102120171",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212020,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "葛藤を抱えてるし、シュンもそれがわかって敢えて闇堕ちして敵になった！",
+            "VoiceFileName": "1102120180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 10,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212021,
+            "EpisodeMasterId": 110212,
+            "Order": 2,
+            "GroupOrder": 18,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "それをナツキもわかっているから、信念を貫く覚悟を見せた。なのに――",
+            "VoiceFileName": "1102120181",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212022,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "小学生A・B",
+            "FontSize": 2,
+            "Phrase": "…………。",
+            "VoiceFileName": "1102120190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212023,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "――はっ！？",
+            "VoiceFileName": "1102120200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212024,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "あ……あー、ごめんね。横から入っちゃって。/nお話続けて。",
+            "VoiceFileName": "1102120210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212025,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "小学生A",
+            "FontSize": 2,
+            "Phrase": "叶羽ちゃんも、やっぱりライガー観てるの！？",
+            "VoiceFileName": "1102120220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212026,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "小学生B",
+            "FontSize": 2,
+            "Phrase": "昔、出てたんだよね！　お姉ちゃんに教えてもらったの！/nだから、あんまりお話聞いちゃいけないのかなって思ってたんだけど……。",
+            "VoiceFileName": "1102120230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212027,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "小学生B",
+            "FontSize": 2,
+            "Phrase": "ねえ、よかったらもっとお話聞かせて！",
+            "VoiceFileName": "1102120240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212028,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "へえ！？",
+            "VoiceFileName": "1102120250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 513,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212029,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "えーと、あー……それは……。",
+            "VoiceFileName": "1102120260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 407,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212030,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "小学生A",
+            "FontSize": 2,
+            "Phrase": "ほら、や、やっぱりダメだよ……。/nプロの世界には、守秘義務……ってあるんだからっ。",
+            "VoiceFileName": "1102120270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212031,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "小学生B",
+            "FontSize": 2,
+            "Phrase": "そ、そうだよね。ごめんね……。/n叶羽ちゃんのお話が聞けて、盛り上がっちゃった……。",
+            "VoiceFileName": "1102120280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212032,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "あ、あー、その、演技……とか？",
+            "VoiceFileName": "1102120290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212033,
+            "EpisodeMasterId": 110212,
+            "Order": 2,
+            "GroupOrder": 29,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "お話に関する考察程度でよかったら。まあ、いいよ。",
+            "VoiceFileName": "1102120291",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212034,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "小学生A・B",
+            "FontSize": 2,
+            "Phrase": "本当！？",
+            "VoiceFileName": "1102120300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212035,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "う……うん。",
+            "VoiceFileName": "1102120310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212036,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "小学生A・B",
+            "FontSize": 2,
+            "Phrase": "やったー！",
+            "VoiceFileName": "1102120320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110212037,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（はぁ～、やっちゃった。/n　面倒くさぁ）",
+            "VoiceFileName": "1102120330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 110212038,
+            "EpisodeMasterId": 110212,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（まぁ、イケメン語りじゃなきゃ、いっか）",
+            "VoiceFileName": "1102120340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        }
+    ]
+}

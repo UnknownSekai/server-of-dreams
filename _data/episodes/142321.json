@@ -1,0 +1,785 @@
+{
+    "EpisodeId": 142321,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 142322,
+    "Chapter": "音楽の天使にお別れを",
+    "Title": "音楽の天使",
+    "EpisodeDetail": [
+        {
+            "Id": 142321001,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "静香、よかったね。",
+            "BackgroundImageFileName": "370",
+            "BgmFileName": "103",
+            "VoiceFileName": "1423210010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10603,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 142321002,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "え？　ええ……。",
+            "VoiceFileName": "1423210020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 10603,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321003,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "これマジですか……？　まさか新たな役として『音楽の天使』を加えるとは、/n……超異例ですよこれは！",
+            "VoiceFileName": "1423210030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 142321004,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "そう、よね……私も驚いたわ。/n『オペラ座の怪人』のリバイバル公演で、新しく役が追加されるなんて……。",
+            "VoiceFileName": "1423210040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 10503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321005,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "しかもその役を、私が演じる……なんて。",
+            "VoiceFileName": "1423210050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321006,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "たしか、音楽の天使って……選ばれた子どもの前に現れて、/n音楽の才能を開花させるっていう、劇中でも語られてる逸話だよね。",
+            "VoiceFileName": "1423210060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 142321007,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "その天使の役で、静香ちゃんも一緒に、/n『オペラ座の怪人』の舞台に立てるなんて……！",
+            "VoiceFileName": "1423210070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 142321008,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "なんか、まだ不思議な感じだけど……すっごく嬉しい！/n一緒に頑張ろうね、静香ちゃん！",
+            "VoiceFileName": "1423210080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 142321009,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ええ、うん……！",
+            "VoiceFileName": "1423210090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321010,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "…………。",
+            "BgmFileName": "104",
+            "VoiceFileName": "1423210100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321011,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（せっかくの『オペラ座の怪人』のリバイバル公演……なのに、/n　前回とは違う、音楽の天使が追加された……私のために）",
+            "VoiceFileName": "1423210110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321012,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（どうしてわざわざ、柊さんが役を追加してくれたのかは分からない……。/n　けど……私はこのまま、この舞台に立っていいのかしら）",
+            "VoiceFileName": "1423210120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321013,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（もちろん、役を貰えたのは嬉しいし、/n　『オペラ座の怪人』だって、やりたかった演目だけれど……）",
+            "VoiceFileName": "1423210130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321014,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（……きっと、観に来てくれるお客さんは、/n　前の『オペラ座の怪人』をもう一度観たくて、来るはず）",
+            "VoiceFileName": "1423210140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321015,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（なのに、前とは違う……新しい役が追加されてしまって、/n　本当にお客さんの観たい舞台になるの……？）",
+            "VoiceFileName": "1423210150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321016,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（それで本当に、観てくれるお客さんは喜んでくれるのかしら……。/n　けど、ここなたちは、私が同じ舞台に立つことを喜んでくれている）",
+            "VoiceFileName": "1423210160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321017,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（私がこんなふうに不安に思っているなんて……。/n　とてもじゃないけど、言えないわ……）",
+            "VoiceFileName": "1423210170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321018,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 18,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "523",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.20000000298023224,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.20000000298023224
+        },
+        {
+            "Id": 142321019,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "すぅー……すぅー……。",
+            "VoiceFileName": "1423210180",
+            "CharacterMotions": [],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 142321020,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（ここなとカトリナは……寝ちゃったわね）",
+            "VoiceFileName": "1423210190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321021,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "はぁ……。",
+            "VoiceFileName": "1423210200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321022,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（私の悩みは……ここなには言えない。/n　あの子は、私が一緒に舞台に立つことを、心から喜んでくれている……）",
+            "VoiceFileName": "1423210210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321023,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（じゃあカトリナなら……？/n　もしかしたら、カトリナだったら冷静な意見をくれるかも……）",
+            "VoiceFileName": "1423210220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321024,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ねえ、カトリ……ううん、カトリナは寝てるんだもの。/n起こすのは……悪いわ。",
+            "BackgroundCharacterImageFileName": "142320_0",
+            "VoiceFileName": "1423210230",
+            "CharacterMotions": [],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321025,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（まったく……何やってるのかしら、私……）",
+            "BackgroundCharacterImageFileName": "142320_0",
+            "VoiceFileName": "1423210240",
+            "CharacterMotions": [],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321026,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（それに、カトリナならきっと、『役まで作ってもらったんだから、/n　認めさせるしかないでしょ？』って……言うわよね）",
+            "BackgroundCharacterImageFileName": "142320_0",
+            "VoiceFileName": "1423210250",
+            "CharacterMotions": [],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321027,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（そう……それは分かってる……。/n　今さら逃げるわけにはいかないって、分かってるんだけど……）",
+            "BackgroundCharacterImageFileName": "142320_0",
+            "VoiceFileName": "1423210260",
+            "CharacterMotions": [],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321028,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "…………。",
+            "VoiceFileName": "1423210270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321029,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（……ダメね。このままこうしていても、うじうじするだけだわ。/n　少し、外の空気でも吸ってこようかしら）",
+            "VoiceFileName": "1423210280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321030,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 30,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "481",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "103",
+            "CharacterMotions": [],
+            "FadeValue1": 0.20000000298023224,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.20000000298023224
+        },
+        {
+            "Id": 142321031,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "すー……はぁー……っ。",
+            "VoiceFileName": "1423210290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321032,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "（空気が冷たくて、気持ちいいわね……）",
+            "VoiceFileName": "1423210300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 142321033,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "おや、こんなところで天使が羽を休めてるみたいだね。/nどうしたんだい？　我らが音楽の天使よ。",
+            "VoiceFileName": "1423210310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 10605,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 142321034,
+            "EpisodeMasterId": 142321,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "流石……！",
+            "VoiceFileName": "1423210320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        }
+    ]
+}

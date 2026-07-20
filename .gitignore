@@ -222,3 +222,6 @@ config.yml
 # files that can be downloaded from server
 # when EOS these can be uncommented as there will no longer be any updates to these files
 _data/*
+# episode adv data is vendored (from wds-sirius/Adv-Resource), keep it tracked
+!_data/episodes/
+!_data/episodes/**

@@ -1,0 +1,642 @@
+{
+    "EpisodeId": 150021,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 150022,
+    "Chapter": "Bomb Interruption !!",
+    "Title": "怠け者の懲罰官とゲリラ",
+    "EpisodeDetail": [
+        {
+            "Id": 150021001,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "レジスタンスメンバーA",
+            "FontSize": 2,
+            "Phrase": "はぁ、はぁっ……ふぅ、この辺りで良さそうね。/nここの絶望圏のヤツら、あっと驚くでしょうね！",
+            "BackgroundImageFileName": "1300",
+            "BgmFileName": "401",
+            "VoiceFileName": "1500210010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021002,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "レジスタンスメンバーB",
+            "FontSize": 2,
+            "Phrase": "完全に相手の裏をかいた作戦だものね。/nそれもこれも、しぐれ様の的確な指示のおかげよ！",
+            "VoiceFileName": "1500210020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021003,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ほらぁ～、無駄話してないで、テキパキ動きなさいよねぇ！/n人目につかない、夜のうちがチャンスなんだからぁ～！",
+            "VoiceFileName": "1500210030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 150021004,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "レジスタンスメンバーたち",
+            "FontSize": 2,
+            "Phrase": "はいっ！　了解しました、しぐれ様！",
+            "VoiceFileName": "1500210040",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021005,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "フフッ、なかなかいい感じじゃない♪/nまっ、しぐれにかかれば？　こんなものチョロいけどねぇ♪",
+            "VoiceFileName": "1500210050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 150021006,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "レジスタンスメンバーC",
+            "FontSize": 2,
+            "Phrase": "そっちはどうだ？",
+            "VoiceFileName": "1500210060",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021007,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "レジスタンスメンバーD",
+            "FontSize": 2,
+            "Phrase": "ええ、こっちの爆弾は仕掛け終わったわ。/nあとはこれに火をつけるだけね。",
+            "VoiceFileName": "1500210070",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021008,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "実はぁ～、ここの絶望圏の懲罰官は、ちょ～怠け者だって有名なのぉ。/nおかげで、いとも簡単に侵入できちゃったけどねぇ♪",
+            "BackgroundCharacterImageFileName": "150020_0",
+            "VoiceFileName": "1500210080",
+            "CharacterMotions": [],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 150021009,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "まずは、この場所をぶっ壊してぇ、/n革命の火をもっとたくさんの絶望圏に広げるの。わかったぁ？",
+            "VoiceFileName": "1500210090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 10,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 150021010,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "レジスタンスメンバーたち",
+            "FontSize": 2,
+            "Phrase": "はっ！　全てはしぐれ様の意のままに！",
+            "VoiceFileName": "1500210100",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021011,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（ウチのメンバーは、み～んなしぐれの信奉者だからぁ。/n　しぐれの『センス』で、しぐれへの支持はいつもより爆上がり♪）",
+            "VoiceFileName": "1500210110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 15,
+                    "SpineId": 20534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 150021012,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（つまり今なら、な～んでもしぐれの言うこと聞いてくれる状態。/n　こんなのもう、勝ったも同然じゃない？　相手はやる気なさそうだしぃ）",
+            "VoiceFileName": "1500210120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 150021013,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 13,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.10000000149011612,
+            "FadeValue2": 0.20000000298023224,
+            "FadeValue3": 0.10000000149011612
+        },
+        {
+            "Id": 150021014,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……これで準備完了っとぉ♪",
+            "VoiceFileName": "1500210130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 150021015,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 15,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1600",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "23",
+            "CharacterMotions": [],
+            "FadeValue1": 0.20000000298023224,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.20000000298023224
+        },
+        {
+            "Id": 150021016,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "はぁ～、早く終わんないかな～。",
+            "VoiceFileName": "1500210140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021017,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 17,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "50",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 150021018,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "ゲ……。なんか通信入った……。/n出たくないけど、出なきゃ怒られるし……。",
+            "VoiceFileName": "1500210150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021019,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "はーい、こちら叶羽です。ただいま留守にしており――",
+            "VoiceFileName": "1500210160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021020,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "？？？",
+            "FontSize": 2,
+            "Phrase": "ちょっと叶羽さん！　何をふざけていらっしゃるのですか。/n今日の進捗状況の報告がまだ来ておりませんけれど。",
+            "VoiceFileName": "1500210170",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021021,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "？？？",
+            "FontSize": 2,
+            "Phrase": "そちらの状況はいかがですか？/nきちんと滞りなく進んでおりますの？",
+            "VoiceFileName": "1500210180",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021022,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "ああうん、そりゃあもちろん。/nなんの問題もなーし。万事おーけー。",
+            "VoiceFileName": "1500210190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021023,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "？？？",
+            "FontSize": 2,
+            "Phrase": "はぁ……あなたの実力は認めておりますわ。/nですが、叶羽さんには向上心が欠けていますわよ。",
+            "VoiceFileName": "1500210200",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021024,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "？？？",
+            "FontSize": 2,
+            "Phrase": "本来のあなたであれば、もっと出来るでしょうに。/n最近では、最低限のノルマをこなすばかりではありませんか。",
+            "VoiceFileName": "1500210210",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021025,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "？？？",
+            "FontSize": 2,
+            "Phrase": "しっかりしていただかないと困りますわ。/n聞いておりますの、叶羽さん？",
+            "VoiceFileName": "1500210220",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021026,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "はいはーい、わかりましたってば。/nじゃ、また何かあったら連絡しまーす、それではー。",
+            "VoiceFileName": "1500210230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021027,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "？？？",
+            "FontSize": 2,
+            "Phrase": "ちょ、ちょっと叶羽さん！？　さらなるリソースの採取、/n頼みましたわよ……！？　叶羽さ――",
+            "VoiceFileName": "1500210240",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 150021028,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "はぁぁ～……。/nもう、いっつも口うるさいなー。",
+            "VoiceFileName": "1500210250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 40534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021029,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（ちゃんとノルマはこなしてるんだから、/n　放っておいてほしい……切実に）",
+            "VoiceFileName": "1500210260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021030,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（それに、一定以上のステラリウムを出そうとすると、/n　機材を点検する頻度だって上げないといけないし……）",
+            "VoiceFileName": "1500210270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021031,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（んで、そうなったら労働者を監視する人員だって増やさないとだし、/n　とにかく頭使うし、面倒すぎる）",
+            "VoiceFileName": "1500210280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021032,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（今だってアタシは寝てるだけでもノルマ量は稼げてるんだから、/n　ま、大丈夫っしょ）",
+            "VoiceFileName": "1500210290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 17,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021033,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "ふわぁあ～……ねむっ……。/nちょっとだけ、仮眠仮眠……――",
+            "VoiceFileName": "1500210300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 23,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 150021034,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 34,
+            "FontSize": 2,
+            "Phrase": "",
+            "BgmFileName": "999",
+            "SeFileName": "1660",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 150021035,
+            "EpisodeMasterId": 150021,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "……は？",
+            "VoiceFileName": "1500210310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40534,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        }
+    ]
+}

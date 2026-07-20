@@ -9,7 +9,7 @@ from __future__ import annotations
 from mitmproxy import http
 import socket
 
-do_proxying = False
+do_proxying = True
 local_assets = True  # redirect asset requests to the local server (if downloaded)
 
 LOCAL_PORT = 8123

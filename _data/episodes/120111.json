@@ -1,0 +1,998 @@
+{
+    "EpisodeId": 120111,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 120112,
+    "Chapter": "小悪魔系小学生",
+    "Title": "気に食わないやつ",
+    "EpisodeDetail": [
+        {
+            "Id": 120111001,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ヤバいな、バイトですっかり遅くなってしまった。/n急がないと……！",
+            "BackgroundImageFileName": "270",
+            "BgmFileName": "3",
+            "VoiceFileName": "1201110010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111002,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あはっ、なんだか余裕の無さそうな人がいる～。",
+            "VoiceFileName": "1201110020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111003,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "うげっ、筆島……。",
+            "VoiceFileName": "1201110030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111004,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ちょっと？　しぐれに会えたのに『うげ』はないんじゃないの？/nせっかく声をかけてあげたのに、最悪な気分～。",
+            "VoiceFileName": "1201110040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 76,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111005,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "……こっちは急いでるんだ。じゃあな。",
+            "VoiceFileName": "1201110050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 76,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111006,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "こっちだって、無駄に話すつもりはないでーす。",
+            "VoiceFileName": "1201110060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 300,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111007,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "1201110070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111008,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "1201110080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111009,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "なんでついてくるんだよ。",
+            "VoiceFileName": "1201110090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111010,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "はぁ？　自意識過剰すぎじゃない？/nしぐれもこっちに用があるだけよ。",
+            "VoiceFileName": "1201110100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111011,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "あぁ、そう。なら、勝手にしな。",
+            "VoiceFileName": "1201110110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 76,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111012,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "言われなくても、好きにさせてもらいま～す。",
+            "VoiceFileName": "1201110120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111013,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 13,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1160",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 120111014,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "はぁ～……どうしてこんなことに……。",
+            "VoiceFileName": "1201110130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111015,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "それはこっちの台詞ですぅ。",
+            "VoiceFileName": "1201110140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111016,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "なんで目的地まで被ってるんだよ……。",
+            "VoiceFileName": "1201110150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111017,
+            "EpisodeMasterId": 120111,
+            "Order": 2,
+            "GroupOrder": 16,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "甘味処なんて、そこら中にあるのに。",
+            "VoiceFileName": "1201110151",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111018,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ここの限定和菓子が食べたかったんだから、/nしかたないじゃないですか。",
+            "VoiceFileName": "1201110160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 76,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111019,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "目当てまで一緒か……。",
+            "VoiceFileName": "1201110170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111020,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ふん。こっちこそ意外ですよぉ～。/nお金にはうるさい雪先輩が、外食するだなんて。",
+            "VoiceFileName": "1201110180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111021,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "甘いものなんて贅沢品だ～！　とか言って、/nそもそも見向きもしないと思ってましたよぉ？",
+            "VoiceFileName": "1201110190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111022,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "まぁ、そういう気持ちはないわけじゃないけど……。",
+            "VoiceFileName": "1201110200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111023,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ほらぁ、やっぱり～！",
+            "VoiceFileName": "1201110210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111024,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "だからこそ、甘いものは自分へのご褒美にしてるんだよ！/nいいことがあったときとか、頑張ったときに食べてるんだ！",
+            "VoiceFileName": "1201110220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111025,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あはっ、雪先輩は健気ですねぇ～。/nしぐれにはマネできないなぁ～。",
+            "VoiceFileName": "1201110230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111026,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（いちいち馬鹿にしてくるな……/n　やっぱり、こいつは好きになれん！）",
+            "VoiceFileName": "1201110240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111027,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（でもまぁ、ワタシのほうがだいぶ年上だし……。/n　あんまりムキになっても、大人げないか……）",
+            "VoiceFileName": "1201110250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 15,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111028,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ちょっとぉ、急に黙り込まないでくださいよぉ。/nなんか怖いじゃないですか～。",
+            "VoiceFileName": "1201110260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111029,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ちょっと考え事してただけだ。/nそういや、料理の腕は上達した？",
+            "VoiceFileName": "1201110270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111030,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "へ？",
+            "VoiceFileName": "1201110280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111031,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "今でも練習してるんだろ？/nワタシが教えた料理のコツ、ちゃんと覚えてるよな？",
+            "VoiceFileName": "1201110290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111032,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ふ、ふんっ！　当然ですよ！/n今では、雪先輩が驚くような料理も作れちゃうんですから！",
+            "VoiceFileName": "1201110300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 76,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111033,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "へぇ。食べたら、あのときのお前みたいにしてくれるのか？",
+            "VoiceFileName": "1201110310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 120111034,
+            "EpisodeMasterId": 120111,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "思い出させないでください……。",
+            "VoiceFileName": "1201110320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 120111035,
+            "EpisodeMasterId": 120111,
+            "Order": 2,
+            "GroupOrder": 33,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あれはしぐれにとっての汚点なんですから……！",
+            "VoiceFileName": "1201110321",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        }
+    ]
+}

@@ -1,0 +1,812 @@
+{
+    "EpisodeId": 1020212,
+    "StoryType": 1,
+    "Order": 12,
+    "Prev": 1020211,
+    "Next": 1020213,
+    "Chapter": "Eden　2章",
+    "Title": "筆島家の事情",
+    "EpisodeDetail": [
+        {
+            "Id": 1020212001,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 1,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1500",
+            "BgmFileName": "403",
+            "SeFileName": "240",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 1020212002,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ママ！　おかえりなさい！　/nあれ？　パパも一緒なの？　",
+            "VoiceFileName": "10202120010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212003,
+            "EpisodeMasterId": 1020212,
+            "Order": 2,
+            "GroupOrder": 2,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あれ？　パパも一緒なの？　",
+            "VoiceFileName": "10202120011",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212004,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "ただいま。/nママとは、ちょうど家の前で一緒になったんだ。",
+            "VoiceFileName": "10202120020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212005,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "パパもママと一緒で、早く帰ってきたかったみたいね。",
+            "VoiceFileName": "10202120030",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212006,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "しぐれがいくら優秀でも、まだ小学生だ。/n毎日遅くまでひとりにしておくのもな。",
+            "VoiceFileName": "10202120040",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212007,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "えへへ……ありがとう。",
+            "VoiceFileName": "10202120050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212008,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "いいのよ。/nそういえば、遊びに来るって言ってたお友達は帰ったの？　",
+            "VoiceFileName": "10202120060",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212009,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "うん。夕飯前に帰ったよ。/n演技の練習にもたくさん付き合ってもらったわ。",
+            "VoiceFileName": "10202120070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212010,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "重要な役にでも選ばれたのか？　",
+            "VoiceFileName": "10202120080",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212011,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "うん！　次の新作舞台でね、主人公の相棒を演じるんだ！　",
+            "VoiceFileName": "10202120090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212012,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "大きな舞台で、主役級に選ばれたんだよ！　/nダイスターに向けた、大きな一歩を踏み出せたの！　",
+            "VoiceFileName": "10202120100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212013,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "そっか、もう次の公演内容、発表されてたんだ。/nそういえば、通知が届いてたわね……。",
+            "VoiceFileName": "10202120110",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212014,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……しょうがないよ。パパもママも、お仕事忙しいから。",
+            "VoiceFileName": "10202120120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 409,
+                    "HeadDirectionMasterId": 4,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212015,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "とにかく、目標への距離を一気に縮められるなら、/nそれに越したことはないよ。",
+            "VoiceFileName": "10202120130",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212016,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "その役を演じれば、すぐにでもダイスターになれそうなの？　",
+            "VoiceFileName": "10202120140",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212017,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "まだわからないわ。/nでも、次の舞台で認められたら、そうなっちゃうかも。",
+            "VoiceFileName": "10202120150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212018,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "演劇の世界なんて、リスクが大きいだけだと思ってたけど……。/n時間を無駄にしてないみたいね。",
+            "VoiceFileName": "10202120160",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212019,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "だから、心配しないでって言ったでしょ？　/nしぐれにかかれば、これくらい当然なんだから♪",
+            "VoiceFileName": "10202120170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212020,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "気を抜いたときが一番転びやすい。気をつけろよ。",
+            "VoiceFileName": "10202120180",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212021,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ふふんっ。しぐれは、そんな失敗しないわ。",
+            "VoiceFileName": "10202120190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212022,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "……でも、約束はちゃんと覚えているよな？　/n中学生までにダイスターになれなかった場合は――",
+            "BgmFileName": "999",
+            "VoiceFileName": "10202120200",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212023,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……わかってる。そのときは、演劇も役者も全部やめるわ。",
+            "BgmFileName": "404",
+            "VoiceFileName": "10202120210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212024,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "それが正しい選択よ。/n芽が出ないものを続けても、しぐれのためにならないもの。",
+            "VoiceFileName": "10202120220",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212025,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "でも……もしダイスターになれたら、/nしぐれは演劇をするべきだってことでしょ？　",
+            "VoiceFileName": "10202120230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212026,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "少し飛躍しすぎだな。もしそうなったら、/n演劇を続けることも選択肢になり得るって話だ。",
+            "VoiceFileName": "10202120240",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212027,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "ダイスターになれば、よほどの間違いをしない限りは、/n基本的に収入面での不安は無くなると思う。",
+            "VoiceFileName": "10202120250",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212028,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "だがデータを調べた限り、たとえダイスターになれたとしても、/n一般職に比べて次のキャリアに繋がりにくい事実がある。",
+            "VoiceFileName": "10202120260",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212029,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "プロの職業全般に言えることだろうが、シビアな部分だな。",
+            "VoiceFileName": "10202120270",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212030,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "ダイスターだからって、人気が落ちたり、/nトラブルで舞台に立てなくなる可能性はある。不安は残るわ。",
+            "VoiceFileName": "10202120280",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212031,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "その時のために、備えておくのも大事だ。/nいずれは、資産運用の勉強もしておくべきだろうな。",
+            "VoiceFileName": "10202120290",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212032,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "パパもママも、しぐれに無駄な重荷を背負わせたくないの。/nこの先もずっと、幸せに生きていってほしいから。",
+            "VoiceFileName": "10202120300",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212033,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "うん……。/nパパもママも、ちゃんとしぐれのことを考えてくれてるってわかってる。",
+            "VoiceFileName": "10202120310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 404,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212034,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "でも、しぐれがダイスターになって、成功し続ければ問題はないでしょ。/n必ずそうなってみせるわ。",
+            "VoiceFileName": "10202120320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212035,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "言ったでしょ？　演劇なんて、しぐれには簡単な世界なんだから。",
+            "VoiceFileName": "10202120330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212036,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "自信を持つのは良い。だが、人生は有限だ。/nそれをしっかりと理解するんだぞ。",
+            "VoiceFileName": "10202120340",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212037,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "うん……！　",
+            "VoiceFileName": "10202120350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212038,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "そういえば、舞台の公演日程なんだけど――",
+            "VoiceFileName": "10202120360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212039,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "さて、パパはお風呂に入ってくるか。",
+            "VoiceFileName": "10202120370",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212040,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "私もご飯の用意しなきゃね。/n今日は作り置きのおかずしかないけど、いいでしょ？　",
+            "VoiceFileName": "10202120380",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212041,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "しぐれの父",
+            "FontSize": 2,
+            "Phrase": "ああ、大丈夫だ。時間もなかったしな。",
+            "VoiceFileName": "10202120390",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212042,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あっ……。",
+            "VoiceFileName": "10202120400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212043,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "ん？　しぐれ、何か言った？　",
+            "VoiceFileName": "10202120410",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212044,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ううん、なんでもない！　",
+            "VoiceFileName": "10202120420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 404,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020212045,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "しぐれの母",
+            "FontSize": 2,
+            "Phrase": "そう、ならいいけど。",
+            "VoiceFileName": "10202120430",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020212046,
+            "EpisodeMasterId": 1020212,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "パパ、ママ……今度の舞台も、観に行くって言ってくれなかったな。",
+            "VoiceFileName": "10202120440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadDirectionMasterId": 4,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        }
+    ]
+}

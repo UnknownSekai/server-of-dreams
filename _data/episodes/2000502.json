@@ -1,0 +1,774 @@
+{
+    "EpisodeId": 2000502,
+    "StoryType": 2,
+    "Order": 2,
+    "Prev": 2000501,
+    "Next": 2000503,
+    "Chapter": "脚光が照らすこれから",
+    "Title": "素敵な映画",
+    "EpisodeDetail": [
+        {
+            "Id": 2000502001,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "美兎の祖母",
+            "FontSize": 2,
+            "Phrase": "おかえり美兎ちゃん。/n今日は稽古はないの？",
+            "BackgroundImageFileName": "970",
+            "BgmFileName": "303",
+            "VoiceFileName": "20005020010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502002,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "うん。開店の準備手伝うよ。",
+            "VoiceFileName": "20005020020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502003,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "美兎の祖父",
+            "FontSize": 2,
+            "Phrase": "じゃあお通し用の小鉢、お願いできるか？",
+            "VoiceFileName": "20005020030",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502004,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 4,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000502005,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "美兎の祖母",
+            "FontSize": 2,
+            "Phrase": "お疲れ様。まかないできたから、冷めないうちに食べてね。/n余り物でごめんだけど。",
+            "VoiceFileName": "20005020040",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502006,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "全然いいよ。/nうちで作るお魚の煮つけ、大好き。",
+            "VoiceFileName": "20005020050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502007,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "美兎の祖父",
+            "FontSize": 2,
+            "Phrase": "へへっ、嬉しいねぇ。孫に喜んでもらえるように、/n長生きしてこの店続けないとな。",
+            "VoiceFileName": "20005020060",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502008,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "美兎の祖母",
+            "FontSize": 2,
+            "Phrase": "でも美兎ちゃん、疲れてない？/nお勉強に、最近は劇団の稽古もあるでしょ。",
+            "VoiceFileName": "20005020070",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502009,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "美兎の祖母",
+            "FontSize": 2,
+            "Phrase": "無理に手伝わなくって大丈夫よ。/nじいちゃんもばあちゃんも、体は丈夫だからね！",
+            "VoiceFileName": "20005020080",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502010,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "全部やりたくてやってるから。/n劇団は楽しいし、全然へっちゃらだよ。",
+            "VoiceFileName": "20005020090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502011,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "昔はおじいちゃんとおばあちゃんがお店開けてる間、/nお家でひとり、だったけど……。",
+            "VoiceFileName": "20005020100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502012,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "稽古に行ったり、お家で台本読んでたりすると、/nあっという間に時間が過ぎていくんだ。",
+            "VoiceFileName": "20005020110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502013,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "美兎の祖母",
+            "FontSize": 2,
+            "Phrase": "そうなの。/n最近は楽しく過ごせてるみたいで本当によかったよ。",
+            "VoiceFileName": "20005020120",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502014,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "美兎の祖母",
+            "FontSize": 2,
+            "Phrase": "……まったく、あの子たちも美兎ちゃんの舞台を観に来てくれたらいいのにね。/nいったい何してるんだか……。",
+            "VoiceFileName": "20005020130",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502015,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "美兎の祖父",
+            "FontSize": 2,
+            "Phrase": "おい、その話はするなって言ったろ。",
+            "VoiceFileName": "20005020140",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502016,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "！",
+            "VoiceFileName": "20005020150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502017,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "美兎の祖父",
+            "FontSize": 2,
+            "Phrase": "おっと。ごめんごめん。/nじいちゃん、つい大きな声出しちまったな。",
+            "VoiceFileName": "20005020160",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502018,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "美兎の祖母",
+            "FontSize": 2,
+            "Phrase": "ばあちゃんも、余計なこと言っちゃった。/n驚かせてごめんね。",
+            "VoiceFileName": "20005020170",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502019,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "……大丈夫。",
+            "VoiceFileName": "20005020180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502020,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 20,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "931",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "CharacterMotions": [],
+            "FadeValue1": 0.5,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.5
+        },
+        {
+            "Id": 2000502021,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "（舞台を観に来てくれる人、か。美兎は、/n　今みたいに楽しく演劇できて、いろはちゃんと一緒にいれたらそれでいい）",
+            "BgmFileName": "5",
+            "VoiceFileName": "20005020190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502022,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "（でも、電姫の経営は大変で……お客さんをたくさん呼ばなきゃ）",
+            "VoiceFileName": "20005020200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "HeadMotionMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502023,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "買収はなくなったけど……またあんなことがあったら、/nいろはちゃんが悲しんじゃうよね。",
+            "VoiceFileName": "20005020210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502024,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "――そうだ、時間あるし、映画観て演技の研究しようっと。",
+            "VoiceFileName": "20005020220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502025,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "配信サービス、入って良かった。/n面白そうな新作、たくさん追加されてる！",
+            "VoiceFileName": "20005020230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502026,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "……いろはちゃんと会うまでは、一日何本も観てたから、/n新作や話題作はすぐに観きってたなぁ。",
+            "VoiceFileName": "20005020240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 402,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502027,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 27,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000502028,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "（……この映画のヒロイン、いい。セリフの抑揚も、声の出し方も、間も）",
+            "VoiceFileName": "20005020250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502029,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "役者さん、なんてお名前なんだろ。知らない人だ。",
+            "VoiceFileName": "20005020260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502030,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "（舞台上だと遠くからでも目立つよう、大ぶりな動きが多め。/n　でも、こういう映画みたいな、自然な演技も取り入れてみたい）",
+            "VoiceFileName": "20005020270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502031,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "……こんな感じかな？",
+            "VoiceFileName": "20005020280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 9,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502032,
+            "EpisodeMasterId": 2000502,
+            "Order": 2,
+            "GroupOrder": 31,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "ううん、少し違う気がする……。",
+            "VoiceFileName": "20005020281",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502033,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "明日電姫に行ったら、いろはちゃんにも話そう。/nこの役者さんの演技、参考になるかも。",
+            "VoiceFileName": "20005020290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502034,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 33,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "50",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "WindowEffect": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000502035,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "女子生徒A",
+            "FontSize": 2,
+            "Phrase": "でも、あの白丸さんが演劇してるって意外だよね。",
+            "WindowEffect": 1,
+            "VoiceFileName": "20005020300",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502036,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "女子生徒B",
+            "FontSize": 2,
+            "Phrase": "白丸さんって、昔は雰囲気もっと暗かったもんね。/n人を寄せ付けない感じというか。",
+            "WindowEffect": 1,
+            "VoiceFileName": "20005020310",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502037,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "女子生徒A",
+            "FontSize": 2,
+            "Phrase": "そうそう。何考えてるかわかんなくて、/n話しかけにくかったじゃん。",
+            "WindowEffect": 1,
+            "VoiceFileName": "20005020320",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502038,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "女子生徒A",
+            "FontSize": 2,
+            "Phrase": "ちょっとイメージわかないなぁ。/n千寿さんはわかるけど。",
+            "WindowEffect": 1,
+            "VoiceFileName": "20005020330",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000502039,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 38,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "931",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000502040,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "あ……。",
+            "VoiceFileName": "20005020340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000502041,
+            "EpisodeMasterId": 2000502,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "（美兎なんかが、いろはちゃんにアドバイスなんて、できるのかな）",
+            "VoiceFileName": "20005020350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        }
+    ]
+}

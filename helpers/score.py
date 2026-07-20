@@ -1,7 +1,6 @@
 """Score-block hash verification for Lives/FinishAndValidate.
 
-Reversed from ``*ScoreBlock.GetHash`` + ``*ScoreBlockCache.GetBlocks`` (see
-scratchpad/RE_NOTES.md): each block's Hash is a running cumulative sum,
+Reversed from ``*ScoreBlock.GetHash`` + ``*ScoreBlockCache.GetBlocks``: each block's Hash is a running cumulative sum,
 ``hash[i] = hash[i-1] + sum(block[i] value fields)``, chained from 0 independently per
 block-type list. A submission whose chain does not reproduce the reported hashes is a
 tampered score and must be rejected.

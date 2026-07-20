@@ -1,0 +1,84 @@
+{
+    "EpisodeId": 6002,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "遊園地にはしゃぐ子…",
+    "EpisodeDetail": [
+        {
+            "Id": 6002001,
+            "EpisodeMasterId": 6002,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "遊園地にはしゃぐ子どもたち、手を引かれる保護者……。",
+            "VoiceFileName": "60020010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 6002002,
+            "EpisodeMasterId": 6002,
+            "Order": 2,
+            "GroupOrder": 1,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "演技の参考になりそうな人たちがたくさんいるわ！",
+            "VoiceFileName": "60020011",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 6002003,
+            "EpisodeMasterId": 6002,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ここなもちゃんと周りを観察してくれてればいいんだけど、/n遊ぶのに夢中でそれどころじゃなさそうね。",
+            "VoiceFileName": "60020020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        }
+    ]
+}

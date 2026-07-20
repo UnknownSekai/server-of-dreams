@@ -1,0 +1,1118 @@
+{
+    "EpisodeId": 1030404,
+    "StoryType": 1,
+    "Order": 4,
+    "Prev": 1030403,
+    "Next": 1030405,
+    "Chapter": "銀河座　4章",
+    "Title": "銀河座の橋弁慶",
+    "EpisodeDetail": [
+        {
+            "Id": 1030404001,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "次回の公演は、『橋弁慶』でいく。",
+            "BackgroundImageFileName": "670",
+            "BgmFileName": "23",
+            "VoiceFileName": "10304040010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030404002,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "はしべんけい……？",
+            "VoiceFileName": "10304040020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030404003,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "銀河座団員達",
+            "FontSize": 2,
+            "Phrase": "ねえ、知ってる？",
+            "VoiceFileName": "10304040030",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030404004,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "銀河座団員達",
+            "FontSize": 2,
+            "Phrase": "ううん。私の国では聞いたことない。",
+            "VoiceFileName": "10304040040",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030404005,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "海外出身の方々には馴染みのない作品かもしれませんわね。",
+            "VoiceFileName": "10304040050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404006,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ワタシも初めて聞くタイトルだ。/nいったいどんな話なんだ、その『橋弁慶』ってのは。",
+            "VoiceFileName": "10304040060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030404007,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "日本で古くから親しまれている伝説をもとにした、/n古典芸能の演目のひとつですわ。",
+            "VoiceFileName": "10304040070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404008,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "物語の中心人物の名は、武蔵坊弁慶――",
+            "VoiceFileName": "10304040080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404009,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "あ！　弁慶って、あの弁慶だね！/n弁慶の泣き所！",
+            "VoiceFileName": "10304040090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030404010,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "フフッ、それは向こう脛のことだろう？",
+            "VoiceFileName": "10304040100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030404011,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "そうそう！　足の脛！/n弁慶と言えば、そこが弱点だったって有名だよね！",
+            "VoiceFileName": "10304040110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 10,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030404012,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "まあ、あくまで比喩ですけれど。/nどんなに強い豪傑にも弱点や急所がある、というのが由来ですわね。",
+            "VoiceFileName": "10304040120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404013,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "そういえば、私が以前日本の歴史書で目にした弁慶は、/n人を斬っては刀剣を奪い、集めるという荒くれ者の僧侶だったな。",
+            "VoiceFileName": "10304040130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030404014,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "千人斬りを目指して、/n日本の京都にある五条橋を行き交う人たちを襲っていた、とも。",
+            "VoiceFileName": "10304040140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030404015,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ラモさん詳しいね！",
+            "VoiceFileName": "10304040150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030404016,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "銀河座にスカウトされた時に、過去の公演を調べてな。/n『橋弁慶』も伝統ある演目だったので少々調べたまでだ。",
+            "VoiceFileName": "10304040160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030404017,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "……ラモらしい。",
+            "VoiceFileName": "10304040170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030404018,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "そんな荒くれ者の話を銀河でやるのか。/nというか、結末はどうなるんだ？",
+            "VoiceFileName": "10304040180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030404019,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "私の読んだ話では、人斬りの噂を聞きつけてやって来た、/n牛若丸という者に弁慶は敗れ、彼の従者に下るのだったな。",
+            "VoiceFileName": "10304040190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030404020,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "それが、いわゆる一般に知られる武蔵坊弁慶と牛若丸の姿ですわ。/nですが……『橋弁慶』は、少々それとは異なります。",
+            "VoiceFileName": "10304040200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404021,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ふぅん、そうなのか。/nというか、途中から出てきた牛若丸というヤツは何者なんだ？",
+            "VoiceFileName": "10304040210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030404022,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "幼名を牛若丸……、/n実の名を源義経という、日本の武将ですわ。",
+            "VoiceFileName": "10304040220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404023,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "彼についてはあまり記録が残されていないため、/n知られているほとんどが脚色された虚構という話ですけれど。",
+            "VoiceFileName": "10304040230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404024,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "私が読んだものも、その脚色された弁慶と牛若丸の話だったのだな。",
+            "VoiceFileName": "10304040240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030404025,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "そちらの方が一般的には有名ですが、能楽の演目として知られる、/n『橋弁慶』では、五条橋で人を襲っていたとされるのが牛若丸なのです。",
+            "VoiceFileName": "10304040250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404026,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ほう。/n一般に知られる話とは、弁慶と牛若丸の立場が逆になっているのか。",
+            "VoiceFileName": "10304040260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030404027,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "そういうことになりますわね。/nさらに、銀河座で演じる『橋弁慶』には妖怪退治の要素も入りますわ。",
+            "VoiceFileName": "10304040270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404028,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "うーん……？　つまりどういうことだ？　すまないが暦サン、/n銀河座の『橋弁慶』のあらすじを、分かりやすくまとめてくれ！",
+            "VoiceFileName": "10304040280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030404029,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "私も混乱してきた……！　『橋弁慶』では暴れてたのが牛若丸で、/n銀河座の演目ではさらに、妖怪も出てきて……？",
+            "VoiceFileName": "10304040290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 19,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030404030,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "こほんっ。/nそれでは、出来る限り簡潔にお話しいたしますわね。",
+            "VoiceFileName": "10304040300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404031,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "――比叡山の僧・武蔵坊弁慶は、五条橋に凄腕の人斬りが出ると知り、/n気になって橋へ向かうと、襲われた人物と出会い、化け物の話を聞きます。",
+            "VoiceFileName": "10304040310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404032,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "その後、武芸を磨くために橋を通る者に腕試しを挑んでいた/n牛若丸に出会った弁慶は、そこで彼と斬り合いになり――",
+            "VoiceFileName": "10304040320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404033,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "結果的に弁慶は敗れて、彼の従者に下ることとなります。/nそうして、ふたりの絆が結ばれた矢先、橋姫という鬼が現れるのです。",
+            "VoiceFileName": "10304040330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404034,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "人を襲っていた正体はその橋姫で、主従の関係を結んだ牛若丸と弁慶が、/n力を合わせ、事件の影に潜んでいた鬼・橋姫を退治して幕引きですわ。",
+            "VoiceFileName": "10304040340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404035,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "なるほど。最後の盛り上げどころとして、両者の見せ場を用意したわけか。/nしかし、急に趣が変わったな。",
+            "VoiceFileName": "10304040350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030404036,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "弁慶にはそういった逸話も残されているのです。/nそちらは、『鬼若丸乃鯉退治』という名で知られていますわね。",
+            "VoiceFileName": "10304040360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404037,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "情感深い、弁慶と牛若丸の人間模様。/nそして迫力ある殺陣――",
+            "VoiceFileName": "10304040370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404038,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "それらが人気を博している、/n銀河座において伝統的な演目のひとつが『橋弁慶』なのですわ。",
+            "VoiceFileName": "10304040380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030404039,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "千寿から聞いての通りだ。『橋弁慶』には殺陣の躍動感と、/n登場人物の繊細な感情表現が同時に求められる、大事な演目だ。",
+            "VoiceFileName": "10304040390",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030404040,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "配役については現在協議中だ。/n各自、発表まで本の把握と稽古に励むように。",
+            "VoiceFileName": "10304040400",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030404041,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "銀河座劇団員達",
+            "FontSize": 2,
+            "Phrase": "はい！",
+            "VoiceFileName": "10304040410",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030404042,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（殺陣の躍動感かぁ……！/n　『橋弁慶』の演目なら、私にもチャンスあるかなぁ……）",
+            "VoiceFileName": "10304040420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030404043,
+            "EpisodeMasterId": 1030404,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（勢いのある仕草や演技ならば、ワタシにとっても得意分野だ。/n　今度の『橋弁慶』でも、絶対に主要な役柄に選ばれてみせる！）",
+            "VoiceFileName": "10304040430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        }
+    ]
+}

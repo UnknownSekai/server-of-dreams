@@ -34,8 +34,11 @@ python main.py
 
 2026/07/19 - Live end, drops, ratings, clear lamps
 
+2026/07/19 - Episodes (and read rewards)
+
 ## Priority Todo
-Episodes - https://lb-api.wds-stellarium.com/api/Episodes/.../GetDetails?episodeMasterId=...
+- Episodes (verify unlocked)
+- Missions
 
 ## Backburner (less important)
 - GET https://lb-api.wds-stellarium.com/api/Circles/Invited -> []
@@ -54,3 +57,4 @@ POST https://lb-api.wds-stellarium.com/api/Home/CheckEexternalPayment -> no elec
 
 # Credits
 - [t-wy](https://github.com/t-wy) for user ID hashing
+- [wds-sirius/Adv-Resource](https://github.com/wds-sirius/Adv-Resource) for episode data and archive (`_data/episodes/`)

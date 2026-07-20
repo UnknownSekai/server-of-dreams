@@ -1,0 +1,133 @@
+{
+    "EpisodeId": 2031,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "雪たそ～！　そんな…",
+    "EpisodeDetail": [
+        {
+            "Id": 2031001,
+            "EpisodeMasterId": 2031,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "雪たそ～！　そんなに急いでどうしたの～？",
+            "VoiceFileName": "20310010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 2031002,
+            "EpisodeMasterId": 2031,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "容か！　すまない、バイトに遅れそうで/n１分１秒無駄に出来んのだ！",
+            "VoiceFileName": "20310020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 2031003,
+            "EpisodeMasterId": 2031,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "用ならまた今度付き合うぞ！/nそれじゃあな！",
+            "VoiceFileName": "20310030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 2031004,
+            "EpisodeMasterId": 2031,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "……行っちゃった。/nそれにしても凄いスピードだったな～。",
+            "VoiceFileName": "20310040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        }
+    ]
+}

@@ -1,0 +1,967 @@
+{
+    "EpisodeId": 2002501,
+    "StoryType": 2,
+    "Order": 1,
+    "Prev": null,
+    "Next": 2002502,
+    "Chapter": "#指先がつむぐ暗黒",
+    "Title": "私以外が騒がしい教室",
+    "EpisodeDetail": [
+        {
+            "Id": 2002501001,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "教師",
+            "FontSize": 2,
+            "Phrase": "それでは手を合わせてー。",
+            "BackgroundImageFileName": "1080",
+            "BgmFileName": "101",
+            "VoiceFileName": "20025010010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2002501002,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "生徒一同",
+            "FontSize": 2,
+            "Phrase": "いただきまーす！",
+            "VoiceFileName": "20025010020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2002501003,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（今日の献立はカレー……。ひそかに楽しみにしていたわ。/n　家で作るのと違って、まろやかで美味しいのよね）",
+            "VoiceFileName": "20025010030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501004,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "よっしゃあ！　待ってたぜこの時を！/n今日の献立がカレーライスって知った時から、もうテンションMAXですよ～。",
+            "VoiceFileName": "20025010040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 10502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501005,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "みんな大好きだもんね。/n人気ランキング１位だし。",
+            "VoiceFileName": "20025010050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10602,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 2002501006,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（相変わらず騒がしい奴ら……。/n　給食の時間になるとイヤでも目に入る）",
+            "VoiceFileName": "20025010060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501007,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "今日の稽古も長丁場だし、/nここでモリモリ食べて備えとかねーとな。",
+            "VoiceFileName": "20025010070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501008,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "クラスメイトA",
+            "FontSize": 2,
+            "Phrase": "SNSで見たけど、シリウスの稽古大詰めなの？/n次も観に行くね。",
+            "VoiceFileName": "20025010080",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2002501009,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "そうなんですー。/nありがとうございます！",
+            "VoiceFileName": "20025010090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501010,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "20025010100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501011,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "ぱんだ、ルー多くない？",
+            "VoiceFileName": "20025010110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10602,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 2002501012,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "おう。多めによそってもらっちゃった～。/nこの辛すぎず甘すぎない絶妙な味は再現むずいんですよね～。",
+            "VoiceFileName": "20025010120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 10602,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501013,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（多めに……！？　おのれぱんだ……。/n　自分だけたくさん食べようなんて卑怯よ）",
+            "VoiceFileName": "20025010130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501014,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "クラスメイトA",
+            "FontSize": 2,
+            "Phrase": "良いなぁ、私も欲しい～。",
+            "VoiceFileName": "20025010140",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2002501015,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "大鍋にまだあるんで早いもん勝ちですよ！　/n残ったら勿体ないですしね！",
+            "VoiceFileName": "20025010150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501016,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "クラスメイトA",
+            "FontSize": 2,
+            "Phrase": "本当？　行ってくる。",
+            "VoiceFileName": "20025010160",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2002501017,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "私も行ってこようっと。",
+            "VoiceFileName": "20025010170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10602,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 2002501018,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（流れができてるじゃないの……！/n　味方を増やして立場を守る気ね。私はその手には――）",
+            "VoiceFileName": "20025010180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501019,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "お、カラスも気になります？　/n今日はお休みの人が多いですからね、まだありますよ！",
+            "VoiceFileName": "20025010190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501020,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "え！？",
+            "VoiceFileName": "20025010200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501021,
+            "EpisodeMasterId": 2002501,
+            "Order": 2,
+            "GroupOrder": 20,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "わ、私は……。",
+            "VoiceFileName": "20025010201",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501022,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "それとも、ライスをおかずにライス食べる派だったり？",
+            "VoiceFileName": "20025010210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501023,
+            "EpisodeMasterId": 2002501,
+            "Order": 2,
+            "GroupOrder": 21,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "なーんて。あはは。",
+            "VoiceFileName": "20025010211",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501024,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "……は？",
+            "VoiceFileName": "20025010220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501025,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "あははっ。流石ちゃんがこの前やってたやつだよねー。/n白米おかわりしてさ。",
+            "VoiceFileName": "20025010230",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2002501026,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "クラスメイトA",
+            "FontSize": 2,
+            "Phrase": "烏森さん見てなかったっけ？",
+            "VoiceFileName": "20025010240",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2002501027,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "え……ええ。",
+            "VoiceFileName": "20025010250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501028,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "ごはんオンごはんって、もはやおかずじゃねーから！",
+            "VoiceFileName": "20025010260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501029,
+            "EpisodeMasterId": 2002501,
+            "Order": 2,
+            "GroupOrder": 26,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "もうぱんだはツッコミ疲れましたよ。",
+            "VoiceFileName": "20025010261",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501030,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "そうだ。/n話変わるんですけどー、この前の稽古で――",
+            "VoiceFileName": "20025010270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2002501031,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "……………………。",
+            "VoiceFileName": "20025010280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501032,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 29,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "200",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 2002501033,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（急に話しかけてきただけじゃなくワケわからないジョークまで……！/n　しかもその後は、稽古中のどうでもいい失敗談！）",
+            "BgmFileName": "403",
+            "VoiceFileName": "20025010290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501034,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（ていうか、周りはあんな薄っぺらい会話でなんで盛り上がるの！？/n　一回会話に入れられたら、また反応すべきか戸惑うし……！）",
+            "VoiceFileName": "20025010300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501035,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（結局、早々に食べきって教室から逃げたけど……！",
+            "VoiceFileName": "20025010310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501036,
+            "EpisodeMasterId": 2002501,
+            "Order": 2,
+            "GroupOrder": 32,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "　あ～……イライラする……！）",
+            "VoiceFileName": "20025010311",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "HeadMotionMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501037,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 33,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1080",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "WindowEffect": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 2002501038,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "クラスメイトA",
+            "FontSize": 2,
+            "Phrase": "SNSで見たけど、シリウスの稽古大詰めなの？/n次も観に行くね。",
+            "WindowEffect": 1,
+            "VoiceFileName": "20025010320",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2002501039,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 35,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "200",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 2002501040,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "私だって役者なのに……。/nあの場でもっと面白く返せていたら、ぱんだより目立てていたの……？",
+            "VoiceFileName": "20025010330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501041,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 37,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "1670",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 2002501042,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "……通知。ぱんだの投稿ね。/n学校だけでなくSNSでも私をイラつかせて……っ！",
+            "VoiceFileName": "20025010340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002501043,
+            "EpisodeMasterId": 2002501,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "許すまじ……！　/n柳場ぱんだぁ……！",
+            "VoiceFileName": "20025010350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 301,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        }
+    ]
+}

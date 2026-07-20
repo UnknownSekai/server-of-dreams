@@ -1,0 +1,86 @@
+{
+    "EpisodeId": 3001,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "はぁ……観に行くの…",
+    "EpisodeDetail": [
+        {
+            "Id": 3001001,
+            "EpisodeMasterId": 3001,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "はぁ……観に行くのは２回目の公演でしたけど、/nやっぱり素晴らしい内容でしたわ。",
+            "VoiceFileName": "30010010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 3001002,
+            "EpisodeMasterId": 3001,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "いろはさんは前回よりもさらに輝いていましたし……。",
+            "VoiceFileName": "30010020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 3001003,
+            "EpisodeMasterId": 3001,
+            "Order": 2,
+            "GroupOrder": 2,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "もっとグッズを買って応援するべきですわね！",
+            "VoiceFileName": "30010021",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        }
+    ]
+}

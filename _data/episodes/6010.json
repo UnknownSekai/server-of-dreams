@@ -1,0 +1,60 @@
+{
+    "EpisodeId": 6010,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "練習もせずにこんな…",
+    "EpisodeDetail": [
+        {
+            "Id": 6010001,
+            "EpisodeMasterId": 6010,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "練習もせずにこんなところで遊んでいるなんて信じられませんわ……。/n千寿家の者としてもっと高みを目指さなければならないのに。",
+            "VoiceFileName": "60100010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 6010002,
+            "EpisodeMasterId": 6010,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "でも、氷川たちが息抜きも必要だと口うるさいし、遊園地で遊ぶ人を/n見るのも今後の演技の糧になると言うから仕方ありませんわね。",
+            "VoiceFileName": "60100020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        }
+    ]
+}

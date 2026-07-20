@@ -1,0 +1,931 @@
+{
+    "EpisodeId": 141271,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 141272,
+    "Chapter": "夜空をかけるビジョナリィ",
+    "Title": "お姉ちゃんと",
+    "EpisodeDetail": [
+        {
+            "Id": 141271001,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "千歌",
+            "FontSize": 2,
+            "Phrase": "聴いてください。/nAqoursで、『青空Jumping Heart』。",
+            "BackgroundImageFileName": "2010",
+            "VoiceFileName": "1412710010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "901"
+        },
+        {
+            "Id": 141271002,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 2,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.4000000059604645,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.4000000059604645
+        },
+        {
+            "Id": 141271003,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "はぁっ、はぁっ……。",
+            "BgmFileName": "8",
+            "VoiceFileName": "1412710020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271004,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "千歌",
+            "FontSize": 2,
+            "Phrase": "はぁっ、はぁ……。",
+            "VoiceFileName": "1412710030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 90102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "901"
+        },
+        {
+            "Id": 141271005,
+            "EpisodeMasterId": 141271,
+            "Order": 2,
+            "GroupOrder": 4,
+            "SpeakerName": "千歌",
+            "FontSize": 2,
+            "Phrase": "ありがとうございましたっ！",
+            "VoiceFileName": "1412710031",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "901"
+        },
+        {
+            "Id": 141271006,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "1412710040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271007,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "初魅さん……どっ、どうでした……？",
+            "VoiceFileName": "1412710050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 90902,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271008,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ああ。/n魂の渇きを潤す、素晴らしい舞台だった。",
+            "VoiceFileName": "1412710060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 90902,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 141271009,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "……！　ありがとうございますっ！",
+            "VoiceFileName": "1412710070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271010,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "あの、暦さんも……。",
+            "VoiceFileName": "1412710080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 90902,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271011,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ああ、ルビィさん。どうしました？",
+            "VoiceFileName": "1412710090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271012,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "その……ライブ、どうだったかなって……。",
+            "VoiceFileName": "1412710100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 90902,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271013,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ふふ、丁寧にありがとうございます。/nとても素晴らしいステージでしたよ。",
+            "VoiceFileName": "1412710110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271014,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "えへへ……よかった。/n実は、歌ってるとき、暦さんといろはちゃんのこと考えてたんです。",
+            "VoiceFileName": "1412710120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271015,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "私といろはさんを？/n……理由を聞いてもよろしくて？",
+            "VoiceFileName": "1412710130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271016,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "……ふたりの、背中を押せたらいいなって思って。",
+            "VoiceFileName": "1412710140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271017,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "ルビィとお姉ちゃんみたいにふたりが仲良く……ううん、/nルビィたちよりも仲良くなれたらいいなって。",
+            "VoiceFileName": "1412710150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271018,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "だから……。",
+            "VoiceFileName": "1412710160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271019,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "そうでしたか。ふふ、ありがとうございます。/nまさかそんなことを考えてくださっているなんて。",
+            "VoiceFileName": "1412710170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271020,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "ごっ、ごめんなさい、勝手に……。",
+            "VoiceFileName": "1412710180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271021,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "いいえ。/nおっしゃる通り、すごく勇気と元気がもらえる素晴らしいステージでした。",
+            "VoiceFileName": "1412710190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271022,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "歌と踊りだけで観客に気持ちを届けるのは並大抵の技術ではありませんし、/nとてもたくさん練習されたんだろうと感じました。",
+            "VoiceFileName": "1412710200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271023,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "同じ『舞台』に立つものとして、Aqoursのステージ、/n黒澤ルビィさんのパフォーマンスに、感動いたしました。",
+            "VoiceFileName": "1412710210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271024,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "わっ、わあ……。/nそんな、照れちゃいます……。",
+            "VoiceFileName": "1412710220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 115,
+                    "BodyMotionMasterId": 19,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271025,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ふふ、掛け値なしに素晴らしい舞台でしたよ。",
+            "VoiceFileName": "1412710230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271026,
+            "EpisodeMasterId": 141271,
+            "Order": 2,
+            "GroupOrder": 24,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "子どものころから、ああいったパフォーマンスをされていたんですか？",
+            "VoiceFileName": "1412710231",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271027,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "いえ……。/n歌もダンスも、人前に立つのもAqoursに入ってから始めました。",
+            "VoiceFileName": "1412710240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271028,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "あら、そうだったんですか。/nてっきり慣れていらっしゃるのかと……。",
+            "VoiceFileName": "1412710250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271029,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "ぜ、全然！/nスクールアイドルのことは子どものころから好きだったんですけど……。",
+            "VoiceFileName": "1412710260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271030,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "ルビィ、もともとすごく人見知りで、/nステージも、ずっと緊張しっぱなしだったんです。",
+            "VoiceFileName": "1412710270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "HeadDirectionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 90902,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271031,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "ルビィ",
+            "FontSize": 2,
+            "Phrase": "ずっと人の後ろにいて、みんなに助けてもらってばっかりで……。",
+            "VoiceFileName": "1412710280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "909"
+        },
+        {
+            "Id": 141271032,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ええ。/nでは、なにか変わるきっかけが？",
+            "VoiceFileName": "1412710290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141271033,
+            "EpisodeMasterId": 141271,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "人見知りだったルビィさんは、/nどうしてステージに立ちたいと思われたんですか？",
+            "VoiceFileName": "1412710300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        }
+    ]
+}

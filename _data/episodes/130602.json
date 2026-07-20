@@ -1,0 +1,2983 @@
+{
+    "EpisodeId": 130602,
+    "StoryType": 3,
+    "Order": 2,
+    "Prev": 130601,
+    "Next": null,
+    "Chapter": "本日晴天、プール日和",
+    "Title": "ついすてっどかいんどねす",
+    "EpisodeDetail": [
+        {
+            "Id": 130602001,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "杏",
+            "FontSize": 2,
+            "Phrase": "やったっちー！　/nしぐれ様、ありがとうっちー！　",
+            "BackgroundImageFileName": "80",
+            "BgmFileName": "403",
+            "VoiceFileName": "1306020010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50701,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "507"
+        },
+        {
+            "Id": 130602002,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "りこ",
+            "FontSize": 2,
+            "Phrase": "まさか私まで25m泳げるようになるとは、/n思ってもいませんでした！　",
+            "VoiceFileName": "1306020020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "506"
+        },
+        {
+            "Id": 130602003,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "小春",
+            "FontSize": 2,
+            "Phrase": "さっすが、しぐれ様っ！　/nうちのクラス、他のクラスよりも泳げる子増えたって先生言ってたよ！　",
+            "VoiceFileName": "1306020030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 50801,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "508"
+        },
+        {
+            "Id": 130602004,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ま、当然よねぇ？　しぐれがアドバイスしたんだから！",
+            "VoiceFileName": "1306020040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602005,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（……って言ったけど。/n　教えたこと、ほとんど仁花子先輩の受け売りなのよねぇ……）",
+            "VoiceFileName": "1306020050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602006,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（何かお礼とか……）",
+            "VoiceFileName": "1306020060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602007,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（お礼…………？）",
+            "VoiceFileName": "1306020070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602008,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 8,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1050",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": -1.0,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 130602009,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（……今さらぁ〜〜〜っ！？）",
+            "VoiceFileName": "1306020080",
+            "CharacterMotions": [],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602010,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 10,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "170",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.0,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 130602011,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "はぁっ、はぁっ、ふぅっ！",
+            "VoiceFileName": "1306020090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602012,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……っ、……っ！",
+            "VoiceFileName": "1306020100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602013,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "演技に集中しろ！　お前たちは今、アフリカに生きるトビネズミだ！　/n全身を使い灼熱の砂漠で燃える生命力を表現してみせろ！　",
+            "VoiceFileName": "1306020110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602014,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "ち、チュー！",
+            "VoiceFileName": "1306020120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 207,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602015,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "チュー！",
+            "VoiceFileName": "1306020130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 207,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602016,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "普段ならば暑い日中は巣穴で休んでいる。/nしかし何かしらの理由で、安息が壊されてしまった！　",
+            "VoiceFileName": "1306020140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602017,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "２匹の生きる姿で、観客の息を呑ませろ！　/n余計な思考を挟む余地を与えるな！　",
+            "VoiceFileName": "1306020150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602018,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "チュー！！！！",
+            "VoiceFileName": "1306020160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602019,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "初魅が急にエチュードで動物を演じろって言い出すから、/nどうなるかと思ったけど。ふたりとも上手くやってるねぇ。",
+            "VoiceFileName": "1306020170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602020,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "特に仁花子、集中力がすごいよ。熱がこもりまくり。",
+            "VoiceFileName": "1306020180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602021,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "我が主の指導もあるんでしょうけど、/n本当に砂漠で逃げ惑っているみたい……。",
+            "VoiceFileName": "1306020190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602022,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "それに比べてガキは……悪くないけど、冷静ぶって格好つけてるつもり？　/nもっとにかっちに合わせた――",
+            "VoiceFileName": "1306020200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602023,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "って、ちょっと！？",
+            "VoiceFileName": "1306020210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602024,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "そうだ、生き延びるために感覚を研ぎ澄ませ！　/nどんなトラブルがあるかわからないぞ――",
+            "VoiceFileName": "1306020220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602025,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "――すみませぇん。/n止めてもらっていいですかぁ？　",
+            "VoiceFileName": "1306020230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602026,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "はぁっ、はぁっ、はぁっ……？",
+            "VoiceFileName": "1306020240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602027,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "勝手に稽古止めるなんて、何様のつもり……！？　/nまさか、我が主の指導に文句でもあるって言うんじゃ……！！　",
+            "VoiceFileName": "1306020250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602028,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "珍しいね、しぐれがあんな風に止めるなんて。",
+            "VoiceFileName": "1306020260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602029,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "どうした、しぐれ。",
+            "VoiceFileName": "1306020270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602030,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "この床、汗で滑るんですけどぉ？　/n前の人、ちゃんと拭いてくれてましたぁ？　",
+            "VoiceFileName": "1306020280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602031,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "え、マジで！？　ごめーん！　/nそんなぐっしょりになってるとは思わなかった！　",
+            "VoiceFileName": "1306020290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602032,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ほら、仁花子先輩の足元とか、びっしょびしょですよぉ？　/n危ないから、モップ持ってきまぁす。",
+            "VoiceFileName": "1306020300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602033,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "はぁ、はぁ……ま、待ってしぐれちゃん。/n私も手伝うよ。",
+            "VoiceFileName": "1306020310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602034,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "二人も三人もいりませんってぇ。/nヘトヘトみたいですし、休んでたらどうですかぁ？　",
+            "VoiceFileName": "1306020320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602035,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "ご、ごめんね……。",
+            "VoiceFileName": "1306020330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602036,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "べ、別に仁花子先輩が悪いんじゃありませんしぃ。/n謝る必要なんてありませんけどぉ。",
+            "VoiceFileName": "1306020340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602037,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ほう。",
+            "VoiceFileName": "1306020350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602038,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "本当に生意気なガキね……。",
+            "VoiceFileName": "1306020360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602039,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "……そうなのかな？",
+            "VoiceFileName": "1306020370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602040,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "……？",
+            "VoiceFileName": "1306020380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602041,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ふぅ、終わりましたぁ。",
+            "VoiceFileName": "1306020390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602042,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "ありがとね、しぐれちゃん！",
+            "VoiceFileName": "1306020400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602043,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "よし。では、続きを――",
+            "VoiceFileName": "1306020410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602044,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "はぁ、喉渇いちゃいましたぁ。/n飲み物持ってきまぁす。",
+            "VoiceFileName": "1306020420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602045,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "……あ～、そういうことか。",
+            "VoiceFileName": "1306020430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602046,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "もう我慢できない……！　/nあのガキ、稽古をめちゃくちゃにするつもりだわ！　",
+            "VoiceFileName": "1306020440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602047,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "まーまーまー、大黒さんや。ちょっと視点を変えてみてよ。/nって言っても、アタシも今さっき気づいたところだけど。",
+            "VoiceFileName": "1306020450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602048,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "え……？　視点……。",
+            "VoiceFileName": "1306020460",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602049,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 49,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "……えっと。",
+            "VoiceFileName": "1306020470",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602050,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 50,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ふむ、では仁花子も少し休むか？",
+            "VoiceFileName": "1306020480",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602051,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 51,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "いえ！　私、もうちょっとやりたいです！　/n今、いい感じなので！　チュー！　",
+            "VoiceFileName": "1306020490",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602052,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 52,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "そうか。",
+            "VoiceFileName": "1306020500",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602053,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 53,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "仁花子せんぱぁい、パース！",
+            "VoiceFileName": "1306020510",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602054,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 54,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "ふえっ！？　わっ！？",
+            "VoiceFileName": "1306020520",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602055,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 55,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "……スポーツドリンク？",
+            "VoiceFileName": "1306020530",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602056,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 56,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "そのスポドリ限定品なんですけどぉ。/n間違えて２本買っちゃったんで、１本あげまぁす。",
+            "VoiceFileName": "1306020540",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "HeadDirectionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602057,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 57,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "え、ええっ？　貴重なものじゃないの！？　/nそんなのもらえないよ！　",
+            "VoiceFileName": "1306020550",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602058,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 58,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "い、いいからもらってくださいってぇ。/n今さら返されても困るんですぅ！　",
+            "VoiceFileName": "1306020560",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602059,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 59,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "わ、わかった。ありがたくもらっとくね……。",
+            "VoiceFileName": "1306020570",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602060,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 60,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "あ！　それより気づけなくてごめん！　/nしぐれちゃん、疲れてたんだ……。",
+            "VoiceFileName": "1306020580",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602061,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 61,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "プフッ。",
+            "VoiceFileName": "1306020590",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602062,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 62,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "つ、疲れてなんていませんしぃ！　/n勝手に謝らないでくれませんかぁ！？　",
+            "VoiceFileName": "1306020600",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602063,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 63,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "え、でも、休憩……。",
+            "VoiceFileName": "1306020610",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602064,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 64,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "喉渇いてるだけって言ったじゃないですかぁ！",
+            "VoiceFileName": "1306020620",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 207,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602065,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 65,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "あはははっ、しぐれも素直じゃないねぇ。",
+            "VoiceFileName": "1306020630",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602066,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 66,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "ああ、そういう……。",
+            "VoiceFileName": "1306020640",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602067,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 67,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "初魅も楽しくなっちゃってるし。/nそろそろ収拾をつけてくるかな～。",
+            "VoiceFileName": "1306020650",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602068,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 68,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "とにかく〜、そのスポドリ飲んでください〜！　/n運動後に飲むといいやつなんで〜！　",
+            "VoiceFileName": "1306020660",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602069,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 69,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "じゃあ、せめて代金は払わせてっ。",
+            "VoiceFileName": "1306020670",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602070,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 70,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "い〜り〜ま〜せ〜ん〜〜〜！",
+            "VoiceFileName": "1306020680",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602071,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 71,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "初魅〜。時間もキリがいいし、一旦休憩しないかい？",
+            "VoiceFileName": "1306020690",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602072,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 72,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "おっと、そうだな。/nでは10分後に再開としよう。",
+            "VoiceFileName": "1306020700",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602073,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 73,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ってことで。仁花子さんや。/n一緒に休憩しようじゃないか。",
+            "VoiceFileName": "1306020710",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602074,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 74,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "え？　あ？　の、飲み物代〜！",
+            "VoiceFileName": "1306020720",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602075,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 75,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "……ガキ。/nもっと素直にお礼、言えないの……？　",
+            "VoiceFileName": "1306020730",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602076,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 76,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "はっ、はあぁ！？　/nお礼ってなんのことかわからないんですけどぉ！？　",
+            "VoiceFileName": "1306020740",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 306,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602077,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 77,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "はぁ〜〜〜〜〜……。",
+            "VoiceFileName": "1306020750",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602078,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 78,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "なんなんですかぁ、そのおっきなため息！　/nムカつきますねぇ！！　",
+            "VoiceFileName": "1306020760",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 407,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602079,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 79,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "（さて、あっちはどうかな？）",
+            "VoiceFileName": "1306020770",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602080,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 80,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "さっきのしぐれ、仁花子のことを気にしてくれてたんだよ。/nわかりにくかったと思うけどさ。",
+            "VoiceFileName": "1306020780",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602081,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 81,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "……あ、やっぱりそうだったんですか？",
+            "VoiceFileName": "1306020790",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602082,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 82,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ありゃ、気づいてたの？",
+            "VoiceFileName": "1306020800",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602083,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 83,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "途中からですけど。そうかな？　って。",
+            "VoiceFileName": "1306020810",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602084,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 84,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "汗のこと、しぐれちゃんに言われて気づいたんです。/nでも、その時はまだちゃんとわかってなくて。",
+            "VoiceFileName": "1306020820",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602085,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 85,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "この飲み物も、もらってから喉が渇いてるって気づいて。/n無理矢理飲ませようとしてきたから、その辺りで、あっ、って……。",
+            "VoiceFileName": "1306020830",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602086,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 86,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "んっんっんっ……ぷはぁっ。/nおいし～！　",
+            "VoiceFileName": "1306020840",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602087,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 87,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "しぐれちゃんがいなかったら、汗で滑って怪我をしてたかもしれませんし。/n脱水症状で倒れちゃってたかもしれませんよね。",
+            "VoiceFileName": "1306020850",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602088,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 88,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "きっと、プールのお礼のつもり……だったんじゃないかなぁ？",
+            "VoiceFileName": "1306020860",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602089,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 89,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "多分、ね。それくらいしか思いつかないもん。/nにしたって、しぐれがあんなに他の人を気遣えるなんてね。",
+            "VoiceFileName": "1306020870",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602090,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 90,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "（……本当なら、先輩であるアタシが気づかなきゃいけなかったのに。/n　初魅の様子が変わらないから、完全に油断してた。反省しないとな）",
+            "VoiceFileName": "1306020880",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602091,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 91,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "レンさんの言ってた集中が、本当の意味でできてたのは、/nきっとしぐれちゃんだったんだと思います。",
+            "VoiceFileName": "1306020890",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602092,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 92,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "私はトビネズミになることで頭がいっぱいだったのに。/nしぐれちゃんは演技しながら、周りもちゃんと見えてた。",
+            "VoiceFileName": "1306020900",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602093,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 93,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "すごいなぁ、しぐれちゃんは。",
+            "VoiceFileName": "1306020910",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602094,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 94,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "うん。アタシたちも見習わなきゃ。/nもうちょっと、素直になってほしい気もするけどさ。",
+            "VoiceFileName": "1306020920",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602095,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 95,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "そこもチャームポイントですから！",
+            "VoiceFileName": "1306020930",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 130602096,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 96,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "うんうん、わかる。",
+            "VoiceFileName": "1306020940",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602097,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 97,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ふ……。",
+            "VoiceFileName": "1306020950",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602098,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 98,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": -1.0,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 130602099,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 99,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ただいま〜。ごめんごめん、10分過ぎちゃった？",
+            "VoiceFileName": "1306020960",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 130602100,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 100,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "遅いですよぉ！　そのせいで大黒先輩がしぐれのトビネズミに、/nめちゃくちゃダメ出ししてきたんですからぁ？　",
+            "VoiceFileName": "1306020970",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602101,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 101,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "……ガキ。",
+            "VoiceFileName": "1306020980",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 130602102,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 102,
+            "SpeakerName": "仁花子・容",
+            "FontSize": 2,
+            "Phrase": "ふふ。/nあははっ。",
+            "VoiceFileName": "1306020990",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 130602103,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 103,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "なんて言いましたぁ！？",
+            "VoiceFileName": "1306021000",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602104,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 104,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "しぐれは可愛いな。ふふ。",
+            "VoiceFileName": "1306021010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602105,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 105,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ち、ちょっとぉ？　/n人の頭をポンポン叩かないでくれませぇん？　",
+            "VoiceFileName": "1306021020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602106,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 106,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "その個性、大事にするんだぞ。ふふふ。",
+            "VoiceFileName": "1306021030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 130602107,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 107,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "本当になんなんですかぁ！？",
+            "VoiceFileName": "1306021040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 407,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 130602108,
+            "EpisodeMasterId": 130602,
+            "Order": 1,
+            "GroupOrder": 108,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "も～～～！！",
+            "VoiceFileName": "1306021050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 211,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        }
+    ]
+}

@@ -1,0 +1,1429 @@
+{
+    "EpisodeId": 141111,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 141112,
+    "Chapter": "玉椿、夜水に灯り",
+    "Title": "３年生の出し物",
+    "EpisodeDetail": [
+        {
+            "Id": 141111001,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "演出家",
+            "FontSize": 2,
+            "Phrase": "では、これにて今日の稽古は終了とする。",
+            "BackgroundImageFileName": "1050",
+            "VoiceFileName": "1411110010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111002,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "暦・ラモーナ・リリヤ・緋花里・雪",
+            "FontSize": 2,
+            "Phrase": "はい！",
+            "VoiceFileName": "1411110020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111003,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 3,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "670",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "202",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 141111004,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ふぅ……。",
+            "VoiceFileName": "1411110030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111005,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "今日の基礎練習、普段より身体が軽やかに動いたな……。",
+            "VoiceFileName": "1411110040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111006,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 5,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "緋花里とダンスの特訓をしていたからか？",
+            "VoiceFileName": "1411110041",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111007,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ほんと？",
+            "VoiceFileName": "1411110050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141111008,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 6,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "私はちょっと身体が重いかな～。このところずーっと忙しかったし。",
+            "VoiceFileName": "1411110051",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141111009,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "緋花里さんはそうでしょうね。",
+            "VoiceFileName": "1411110060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111010,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 7,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ラモーナさんも文化祭で忙しそうでしたのに、疲れておりませんの？",
+            "VoiceFileName": "1411110061",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111011,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ああ、私は緋花里ほど忙しくなかったしな！/nどうってことないぞ。",
+            "VoiceFileName": "1411110070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111012,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "結局、忙しくて暦サンたちのクラスには顔を出せなかったな。",
+            "VoiceFileName": "1411110080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141111013,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "そう！　そうなの、残念すぎるよ～！",
+            "VoiceFileName": "1411110090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141111014,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 10,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "たしか展示だったよね？",
+            "VoiceFileName": "1411110091",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141111015,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ええ、プラネタリウムですね。",
+            "VoiceFileName": "1411110100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111016,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "本物の星にはかなわないけれど、幻想的で美しかった。",
+            "VoiceFileName": "1411110110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 141111017,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "巨大なドームを用意して、結構本格的でしたわよね。",
+            "VoiceFileName": "1411110120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111018,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "３年生は受験やなんだで忙しいからな、労力を抑えた出し物が多いんだが、/nそれにしてはクオリティが高いと好評だったんだ。",
+            "VoiceFileName": "1411110130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111019,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "みんなが一致団結し、頑張ってくれたおかげだな。",
+            "VoiceFileName": "1411110140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111020,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 15,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "暦も私に手を貸してくれて助かったよ。",
+            "VoiceFileName": "1411110141",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111021,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "別にあなたを手伝ったわけでは……。",
+            "VoiceFileName": "1411110150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111022,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 16,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "クラスの一員として当然のことをしたまでです。",
+            "VoiceFileName": "1411110151",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111023,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ふふ、そう言いつつも、要所要所でサポートしてくれたじゃないか。",
+            "VoiceFileName": "1411110160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111024,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "あ、あれは……！　あなたがなんでもかんでも引き受けるので、/n劇団の活動に支障があってはならないと思って……！",
+            "VoiceFileName": "1411110170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 306,
+                    "BodyMotionMasterId": 10,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111025,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "クラスのみんなが一致団結、か。",
+            "VoiceFileName": "1411110180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141111026,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 19,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "学校行事とドイツの相性は最高なんじゃないか？",
+            "VoiceFileName": "1411110181",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141111027,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "本来はほめるべきことなんでしょうが、見ていて不安でした。/nクラス実行委員を決めるときも——",
+            "VoiceFileName": "1411110190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111028,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 21,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "60",
+            "BackgroundImageFileFadeType": 2,
+            "BgmFileName": "3",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 141111029,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "クラスメイトA",
+            "FontSize": 2,
+            "Phrase": "それじゃあ、文化祭のクラス実行委員を決めたいと思います。/n立候補者がいればその人に、いなければくじ引きの予定です。",
+            "VoiceFileName": "1411110200",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111030,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "くじ引きかぁ。私、バイトで忙しいから無理なんだよねぇ。/nちょっとなら手伝えると思うけど……。",
+            "VoiceFileName": "1411110210",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111031,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "クラスメイトC",
+            "FontSize": 2,
+            "Phrase": "私も塾があって……。/nもし当たっちゃったら断れるかな。",
+            "VoiceFileName": "1411110220",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111032,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "はい。",
+            "VoiceFileName": "1411110230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 18,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111033,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ラモーナさん……！？",
+            "VoiceFileName": "1411110240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111034,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "みんな受験や就活なんかで忙しいだろう？",
+            "VoiceFileName": "1411110250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111035,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 27,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "私はバイトもしていないしな、よければ引き受けよう。",
+            "VoiceFileName": "1411110251",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111036,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "クラスメイトA",
+            "FontSize": 2,
+            "Phrase": "え、でもウォルフさんって銀河座の稽古があるんじゃ……。/n悪いよ。",
+            "VoiceFileName": "1411110260",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111037,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ははは、これしきのことで音を上げるように見えるか？",
+            "VoiceFileName": "1411110270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111038,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 29,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "日本の文化祭は初めてだしな。芸を磨くためにも、是非経験させてくれ。",
+            "VoiceFileName": "1411110271",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111039,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ちょっと、本当に大丈夫なんですか……？",
+            "VoiceFileName": "1411110280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111040,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "大丈夫さ。スケジュール的にも問題はなさそうだ。",
+            "VoiceFileName": "1411110290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111041,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 31,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "もとより銀河座の役者はタフでなければやっていけない、そうだろ？",
+            "VoiceFileName": "1411110291",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111042,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 32,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 141111043,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "おーい、その機材はこっちに運んでくれ！",
+            "VoiceFileName": "1411110300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 18,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111044,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "1411110310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 30102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111045,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "やあ。看板の制作は順調か？",
+            "VoiceFileName": "1411110320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111046,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "クラスメイトC",
+            "FontSize": 2,
+            "Phrase": "うん！　ウォルフさんが提案してくれた通り、/n夜空をイメージしたデザインにしたよ。",
+            "VoiceFileName": "1411110330",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111047,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "作っておいてなんだけど、コンセプトにばっちり合いそうだよね～。",
+            "VoiceFileName": "1411110340",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111048,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "それは何よりだ。/nにしても助かったよ、未来のアーティストが手伝ってくれるなんてな。",
+            "VoiceFileName": "1411110350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111049,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "えへへ、美大志望ってだけで言い過ぎだよ。",
+            "VoiceFileName": "1411110360",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111050,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "クラスメイトC",
+            "FontSize": 2,
+            "Phrase": "これくらいの作業なら予備校にも影響しないしね。",
+            "VoiceFileName": "1411110370",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111051,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "うちらにまかせておいてよ～。",
+            "VoiceFileName": "1411110380",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111052,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "頼もしいぞ！",
+            "VoiceFileName": "1411110390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111053,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 42,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "その調子でよろしくな。",
+            "VoiceFileName": "1411110391",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111054,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "クラスメイトA",
+            "FontSize": 2,
+            "Phrase": "ウォルフさーん！/n買い出し行けそうな人が見つからなくて、頼めるかな？",
+            "VoiceFileName": "1411110400",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141111055,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ああ、わかった！",
+            "VoiceFileName": "1411110410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111056,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "……すっかり中核ではありませんか。/n本領発揮とはこのことですわね……。",
+            "VoiceFileName": "1411110420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111057,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 46,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "670",
+            "BackgroundImageFileFadeType": 2,
+            "BgmFileName": "202",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 141111058,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "……と、ラモーナさんはすべての頼み事を引き受けられていたのです。/nすっかり中心人物になってしまっていて。",
+            "VoiceFileName": "1411110430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 141111059,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ドイツらしいな。/nどうりで、準備している様子を見かけた時も張り切っていたわけだ。",
+            "VoiceFileName": "1411110440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141111060,
+            "EpisodeMasterId": 141111,
+            "Order": 1,
+            "GroupOrder": 49,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "皆が頑張ってくれるものだからな、私も負けてはいられまい。",
+            "VoiceFileName": "1411110450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 141111061,
+            "EpisodeMasterId": 141111,
+            "Order": 2,
+            "GroupOrder": 49,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "だが、暦もたくさんクラスに貢献してくれたんだぞ？",
+            "VoiceFileName": "1411110451",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        }
+    ]
+}

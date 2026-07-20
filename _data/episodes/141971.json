@@ -1,0 +1,741 @@
+{
+    "EpisodeId": 141971,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 141972,
+    "Chapter": "散る紅葉、終の手合わせ",
+    "Title": "支え合えるライバル",
+    "EpisodeDetail": [
+        {
+            "Id": 141971001,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "演出チーフ",
+            "FontSize": 2,
+            "Phrase": "そこ、立ち位置がズレたぞ！　もっとちゃんと集中しろ！/nほらほら、声が出てないぞ！　しっかり声出せ！",
+            "BackgroundImageFileName": "670",
+            "BgmFileName": "203",
+            "VoiceFileName": "1419710010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141971002,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "劇団員たち",
+            "FontSize": 2,
+            "Phrase": "はいっ！！",
+            "VoiceFileName": "1419710020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141971003,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "498……499……500……！　ふぅっ……！",
+            "VoiceFileName": "1419710030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971004,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（最近は、稽古もますます厳しくなってる……。/n　それだけ先生たちも、今回の『橋弁慶』に力を入れてるってこと……）",
+            "VoiceFileName": "1419710040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 17,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971005,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（大変かもしれないけど、/n　今度こそ主役を掴むためにも、ちばるよ～っ！！）",
+            "VoiceFileName": "1419710050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 26,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971006,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（それにはまず、体力をつけないと！/n　牛若丸役は殺陣のシーンもあるし、軽やかな身のこなしが売り……！）",
+            "VoiceFileName": "1419710060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971007,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（もしも途中で息切れなんてしたら、/n　牛若丸のイメージじゃなくなってしまう）",
+            "VoiceFileName": "1419710070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 75,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971008,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（激しい斬り合いのシーンにも耐えられるくらいの、パワーと体力をつけて、/n　フィジカルで周りと差をつけるっ！）",
+            "VoiceFileName": "1419710080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971009,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "よーし、まだまだ～……！",
+            "VoiceFileName": "1419710090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971010,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "1419710100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 15,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141971011,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 11,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "202",
+            "CharacterMotions": [],
+            "FadeValue1": 0.20000000298023224,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.20000000298023224
+        },
+        {
+            "Id": 141971012,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "912……913……914……915……っ。/nはぁ、はぁ……あと少し～……！",
+            "VoiceFileName": "1419710110",
+            "CharacterMotions": [],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971013,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "おいおい……。/n練習で気合いを入れすぎて潰れたら、元も子もないぞ。",
+            "VoiceFileName": "1419710120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141971014,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "あ、雪……心配してくれてありがとう。でも大丈夫だよ！/n今はただ、自分がやれることを、やっておきたいだけだから！",
+            "VoiceFileName": "1419710130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971015,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "そのために、体力トレーニングか？/n牛若丸狙いなのが、見え見えだな！",
+            "VoiceFileName": "1419710140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141971016,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "えへへ……バレちゃったね。/n私が勝負できるところといったら、運動神経くらいだから。",
+            "VoiceFileName": "1419710150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971017,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ハッ、随分と自分の動きに自信があるようだが、/n小柄で身軽というなら、ワタシだって牛若丸に向いている！",
+            "VoiceFileName": "1419710160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141971018,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "運動神経にも、それなりに自信があるしな。/nフィジカルに強いのは自分だけだと思うなよ、緋花里！",
+            "VoiceFileName": "1419710170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141971019,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "えっ、いやいや！　ごめん、そういう意味じゃなかったんだ……！/nもちろん、雪だってすごいのは、私も知ってるよ！",
+            "VoiceFileName": "1419710180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971020,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "まったく素直なヤツめ、冗談だバカ。/nただ少なからず、ワタシとお前はライバルだということを忘れるな。",
+            "VoiceFileName": "1419710190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141971021,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ライバル……！？/nそっかぁ～……ライバルかぁ……。",
+            "VoiceFileName": "1419710200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971022,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "どうした？　ワタシがライバルと知って、もう怖気づいたのか？",
+            "VoiceFileName": "1419710210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141971023,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ううん、そんなことないさ！/nむしろ、やる気満々！　でーじ燃えてきた！",
+            "VoiceFileName": "1419710220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971024,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "フフ、せいぜい足掻くんだな！/nだが、牛若丸役はこのワタシがもらう！",
+            "VoiceFileName": "1419710230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141971025,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "望むところさ！　負けないよー！",
+            "VoiceFileName": "1419710240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971026,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "それはお互い様だ！　……フンッ。",
+            "VoiceFileName": "1419710250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 141971027,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（雪もあんなに燃えてるんだ……。/n　稽古だって日に日にハードになってるのに、負けじと努力してる！）",
+            "VoiceFileName": "1419710260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971028,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "（私もうかうかしてられないさ！/n　みんなに置いていかれないよう、稽古もトレーニングもがんばらないと！）",
+            "VoiceFileName": "1419710270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 1,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 141971029,
+            "EpisodeMasterId": 141971,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ええっと……916っ、917っ、918……！！/n目指すは、1000回！　えいえいお～ッ！",
+            "VoiceFileName": "1419710280",
+            "CharacterMotions": [],
+            "SpeakerIconId": "305"
+        }
+    ]
+}

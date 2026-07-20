@@ -1,0 +1,1751 @@
+{
+    "EpisodeId": 2000507,
+    "StoryType": 2,
+    "Order": 7,
+    "Prev": 2000506,
+    "Next": 2000508,
+    "Chapter": "脚光が照らすこれから",
+    "Title": "白丸美兎の現在",
+    "EpisodeDetail": [
+        {
+            "Id": 2000507001,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "（ん……朝？）",
+            "BackgroundImageFileName": "1050",
+            "BgmFileName": "5",
+            "VoiceFileName": "20005070010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507002,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 2,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000507003,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "稽古行かなきゃ！",
+            "BackgroundImageFileName": "930",
+            "VoiceFileName": "20005070020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 501,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507004,
+            "EpisodeMasterId": 2000507,
+            "Order": 2,
+            "GroupOrder": 3,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "って、お休みもらったんだっけ……。ふう……。",
+            "VoiceFileName": "20005070021",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507005,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "……さっき見た夢……懐かしいな。/nいろはちゃんと、出会った頃の……。",
+            "VoiceFileName": "20005070030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507006,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 5,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "900",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.5,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.5
+        },
+        {
+            "Id": 2000507007,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "うーん……。",
+            "VoiceFileName": "20005070040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507008,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "千寿、さっきから何をしてるんだ？",
+            "VoiceFileName": "20005070050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 2000507009,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "わあっ！",
+            "VoiceFileName": "20005070060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 501,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507010,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "ふたりとも、そこにいたんですね……！",
+            "VoiceFileName": "20005070070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507011,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "どーせみとりんの様子が気になって、連絡しようとしてたんでしょ？/nふたりはいつもニコイチだもんね。",
+            "VoiceFileName": "20005070080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 2000507012,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "はい。なんだかみとちゃんがそばにいないの、不思議な感じで。",
+            "VoiceFileName": "20005070090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507013,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "でも……。/nなんてメッセージ送ればいいのか、わかんないんです。",
+            "VoiceFileName": "20005070100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507014,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "みとちゃん、最近何か悩んでる気がするんですが……。/n僕が聞いていい雰囲気でもなくて……。",
+            "VoiceFileName": "20005070110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507015,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "それに僕は、みとちゃんみたいなセンス、持ってないですし……。",
+            "VoiceFileName": "20005070120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507016,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "お前たちは、唯一無二の友なんじゃないのか？",
+            "VoiceFileName": "20005070130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 2000507017,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "その者に問いかけ、手を差し伸べることをなぜためらう必要がある。/nセンスのあるなし関係なく、お前たちは友になったのだろう？",
+            "VoiceFileName": "20005070140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 2000507018,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "友……そうですね。",
+            "VoiceFileName": "20005070150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507019,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "白丸が自分から話せないのなら、千寿がしつこく聞いてやればよい。/n本人が気づいていないだけで、助けが必要なのかもしれないしな。",
+            "VoiceFileName": "20005070160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 2000507020,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "蕾先輩、かっけー。",
+            "VoiceFileName": "20005070170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 2000507021,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "僕……なんで悩んでたんだろう。",
+            "VoiceFileName": "20005070180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507022,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "今からみとちゃんに電話してきますっ！",
+            "VoiceFileName": "20005070190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507023,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "え、電話？　/nお昼休みもうすぐ終わるよって……行っちゃった。",
+            "VoiceFileName": "20005070200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 2000507024,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "まあ、上には私たちから言っておこう。",
+            "VoiceFileName": "20005070210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 2000507025,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 24,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "930",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "CharacterMotions": [],
+            "FadeValue1": 0.5,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.5
+        },
+        {
+            "Id": 2000507026,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "（よし。『小公女』にまつわる作品は観ておさらいしたし……。/n　絵本に小説も……図書館で借りてきたから、集まった）",
+            "VoiceFileName": "20005070220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507027,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "（まだ、役になりきるための情報が足りないのかも）",
+            "VoiceFileName": "20005070230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507028,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "お休みするよう言われたけど、今できることをやらなきゃ、だよね。/n……いろはちゃんのためにも。",
+            "VoiceFileName": "20005070240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507029,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 28,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "50",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 2000507030,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "あっ、いろはちゃんから電話だ……。",
+            "VoiceFileName": "20005070250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507031,
+            "EpisodeMasterId": 2000507,
+            "Order": 2,
+            "GroupOrder": 29,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "もしもし？",
+            "VoiceFileName": "20005070251",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507032,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 30,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1350",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000507033,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "みとちゃん！　僕ですっ。いろはです。",
+            "BgmFileName": "8",
+            "VoiceFileName": "20005070260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507034,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "稽古中に、どうしたの？/n何か……あった？",
+            "VoiceFileName": "20005070270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507035,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "いえ……。そういうわけじゃないんですけど。/nみとちゃんは、今何してますか？",
+            "VoiceFileName": "20005070280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507036,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "美兎は……『小公女』について調べてたんだ。/n明日には、調子戻せるようにするから。",
+            "VoiceFileName": "20005070290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507037,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "あの……。",
+            "VoiceFileName": "20005070300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507038,
+            "EpisodeMasterId": 2000507,
+            "Order": 2,
+            "GroupOrder": 35,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "みとちゃんのほうこそ、何かあったんじゃないですか？",
+            "VoiceFileName": "20005070301",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507039,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "……えっ？",
+            "VoiceFileName": "20005070310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507040,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "前に、学校で落ち込んでるように見えました。/nあれからずっと、様子が気になっていて……。",
+            "VoiceFileName": "20005070320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507041,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "僕に話せることだったら、何があったか教えてほしいんです。/nだって僕たちは、親友なんですから。",
+            "VoiceFileName": "20005070330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507042,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "いろはちゃん……。うん、そうだね。",
+            "VoiceFileName": "20005070340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507043,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 40,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "930",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000507044,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "実は前に、クラスの子が話してるの、聞いちゃったんだ。/n美兎が舞台に立つのは意外だって。",
+            "VoiceFileName": "20005070350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507045,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "自分でも、そう思う。いろはちゃんに出会うまで、/n美兎はもっと暗くて、今より、うまく話せなかったから……。",
+            "VoiceFileName": "20005070360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507046,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "電姫に入れたのも、役を下ろせるってセンスを見込まれたからだし……。",
+            "VoiceFileName": "20005070370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507047,
+            "EpisodeMasterId": 2000507,
+            "Order": 2,
+            "GroupOrder": 43,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "わかってることなのに……少しへこんじゃって。",
+            "VoiceFileName": "20005070371",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507048,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "こんな弱気で、だめ……だよね。",
+            "VoiceFileName": "20005070380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507049,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 45,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "870",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000507050,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "……いいえ。僕は、センスを持ってないので、/nみとちゃんの気持ちの全部はわかりませんが……。",
+            "VoiceFileName": "20005070390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507051,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "でも、役を下ろしているみとちゃんを見ているとドキドキします。/n時には、美しく心優しいレイラ姫、時には、気高く強い小公女セーラ……。",
+            "VoiceFileName": "20005070400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507052,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "そんな風に違う存在になりきれるみとちゃんを見ていると、/n僕はすっごくワクワクして、自分も熱くなれるんです。",
+            "VoiceFileName": "20005070410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507053,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 49,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1350",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000507054,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 50,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "そう、なの？",
+            "VoiceFileName": "20005070420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507055,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 51,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "はいっ。/nみとちゃんがそのセンスを持ってるのは、絶対意味があります。",
+            "VoiceFileName": "20005070430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507056,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 52,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "普段のみとちゃんも、全部込みで僕は大好きです。/nだから、自信を持ってほしいです！",
+            "VoiceFileName": "20005070440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507057,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 53,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "全部、込みで……。",
+            "VoiceFileName": "20005070450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507058,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 54,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "50",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "WindowEffect": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000507059,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 55,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "白丸さんも、映画を観て、こうなれたらいいなって思うんですよね！/nその気持ちこそ、大切なんですよ！",
+            "WindowEffect": 1,
+            "VoiceFileName": "20005070460",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507060,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 56,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "930",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000507061,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 57,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "そっか、美兎が役を下ろせるのは……。",
+            "VoiceFileName": "20005070470",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507062,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 58,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "（きっと、こうなりたいって強く願うからなんだ）",
+            "VoiceFileName": "20005070480",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "HeadMotionMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507063,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 59,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1350",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 2000507064,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 60,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "みとちゃん？",
+            "VoiceFileName": "20005070490",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000507065,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 61,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "自分のこと、少しわかった気がする。",
+            "VoiceFileName": "20005070500",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507066,
+            "EpisodeMasterId": 2000507,
+            "Order": 2,
+            "GroupOrder": 61,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "美兎、周りの声ばかり気にして、役に向き合いきれてなかったかも……。",
+            "VoiceFileName": "20005070501",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2000507067,
+            "EpisodeMasterId": 2000507,
+            "Order": 1,
+            "GroupOrder": 62,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "ありがとう、いろはちゃん。/n忘れてたこと……思い出させてくれて。",
+            "VoiceFileName": "20005070510",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        }
+    ]
+}

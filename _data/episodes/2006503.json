@@ -1,0 +1,752 @@
+{
+    "EpisodeId": 2006503,
+    "StoryType": 2,
+    "Order": 3,
+    "Prev": 2006502,
+    "Next": 2006504,
+    "Chapter": "開運！　餅をつく音、鐘の音",
+    "Title": "買い出しはみんなで",
+    "EpisodeDetail": [
+        {
+            "Id": 2006503001,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "海老は……これが良いね。/nあとは白いそうめんと梅味のそうめん、ゆず味のそうめんを……。",
+            "BackgroundImageFileName": "1240",
+            "BgmFileName": "102",
+            "VoiceFileName": "20065030010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 2006503002,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "そうめんばっかじゃねーか！/nそれ、本当におせちの材料かよ。",
+            "VoiceFileName": "20065030020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 10601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2006503003,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "シリウスでは毎年おせちを作る伝統だからね。/nシリウスといえばそうめん……当然入るよ。",
+            "VoiceFileName": "20065030030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 2006503004,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "そうめんといえばだと、シリウスじゃなくて流石が出てくるんだけど……？",
+            "VoiceFileName": "20065030040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 2006503005,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "同感ね。",
+            "VoiceFileName": "20065030050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2006503006,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "そもそもおせちを作るのがシリウスの伝統とか、初耳だし！/n……まぁ、でも動画のネタになりそうだから、ぱんだは乗るけどな！！",
+            "VoiceFileName": "20065030060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2006503007,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "ぱんだ……！　うん……！/n一緒に作ろうね……！　最高のおせち！",
+            "VoiceFileName": "20065030070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 10521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 10601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 2006503008,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "ああ！　最高のおせちを視聴者のみんなに届けるぜ……！",
+            "VoiceFileName": "20065030080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2006503009,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "あれ、話食い違ってるわよね……？",
+            "VoiceFileName": "20065030090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 2006503010,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "コミュニケーションって難しいわよね。/nふたりを見てると、痛感させられるわ。",
+            "VoiceFileName": "20065030100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2006503011,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "あはは……。",
+            "VoiceFileName": "20065030110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10121,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 2006503012,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "それにカトリナが居るということは、/nドイツ料理も食べられるってことだよね……！",
+            "VoiceFileName": "20065030120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 2006503013,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "え……、アタシ！？/nま、まぁ？　求められるなら、手伝うのもやぶさかではないわ！",
+            "VoiceFileName": "20065030130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 10601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2006503014,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "ちょっ！？　さっすー！/nおま、カトりんに料理って……。",
+            "VoiceFileName": "20065030140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2006503015,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "たしかに！　シュトーレンにプレッツェル……。/nじゅるり……楽しみだよ～。",
+            "VoiceFileName": "20065030150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 10121,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 10521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 2006503016,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ねぇ、ここな？/nそれおせちじゃなくない？",
+            "VoiceFileName": "20065030160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 2006503017,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "黒豆も甘いから、代わりにシュトーレンが入っていても問題ないわ！/nねっ、流石？",
+            "VoiceFileName": "20065030170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2006503018,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "さすがにそれは暴論だと思う。",
+            "VoiceFileName": "20065030180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 2006503019,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "流石ちゃんが冷静な返し……！？",
+            "VoiceFileName": "20065030190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10121,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 2006503020,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "はしご外すの早すぎんだろ……。",
+            "VoiceFileName": "20065030200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 10121,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2006503021,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "とにかく、今年はシリウス躍進の年でしょ？",
+            "VoiceFileName": "20065030210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 2006503022,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ええ、そうね。/n私たちが世界演劇リーグのコンテストに役者として招かれているんだもの。",
+            "VoiceFileName": "20065030230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 2006503023,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "昔の自分に言っても信じてもらえないくらいすごいことだよね～。",
+            "VoiceFileName": "20065030240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10121,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 2006503024,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "……ええ、そうね。",
+            "VoiceFileName": "20065030250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 10121,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 2006503025,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "ああ、そうですね。",
+            "VoiceFileName": "20065030260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 2006503026,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "新しい年を迎えるだけじゃなくて、/n今までお疲れ様って意味もあるんだからね。",
+            "VoiceFileName": "20065030270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 2006503027,
+            "EpisodeMasterId": 2006503,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "だから、おせちにもこだわらないと。",
+            "VoiceFileName": "20065030280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        }
+    ]
+}

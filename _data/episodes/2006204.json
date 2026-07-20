@@ -1,0 +1,998 @@
+{
+    "EpisodeId": 2006204,
+    "StoryType": 2,
+    "Order": 4,
+    "Prev": 2006203,
+    "Next": 2006205,
+    "Chapter": "心の檻を越えて",
+    "Title": "みんなで行こうよ！",
+    "EpisodeDetail": [
+        {
+            "Id": 2006204001,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "というわけで、だーちゃんは校外学習のために、/n苦手な動物を克服しようとしてるんだよ！",
+            "BackgroundImageFileName": "170",
+            "BgmFileName": "402",
+            "VoiceFileName": "20062040010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2006204002,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "へ～？　大黒先輩、動物が苦手なんですか？/n苦手な物が多そうで大変ですね～？",
+            "VoiceFileName": "20062040020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2006204003,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "まぁまぁ、あまり突っついてやりなさんな。/n自分の苦手な物を克服しようと頑張るなんて良いことじゃない！",
+            "VoiceFileName": "20062040030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 2006204004,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ああ、苦手な物を避けるのは簡単だ。/nけれど挑戦するその姿勢……私は素晴らしいと思うぞ、大黒。",
+            "VoiceFileName": "20062040040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006204005,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "そ、そんな我が主……私には過ぎたお言葉です……。",
+            "VoiceFileName": "20062040050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 505,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204006,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "（我が主にも褒められてる……本当はぱんだを見返したいだけだなんて、/n　言えるわけない。嬉しいはずの言葉が痛いわ……）",
+            "VoiceFileName": "20062040060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204007,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "な、なんですか……この空気。別にしぐれは、/nただ周りに動物が苦手な人がいないから気になっただけですから！",
+            "VoiceFileName": "20062040070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2006204008,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "そう、アンタの周りは恵まれているのね。/n私の周りはそんな人間珍しくなかったわ。",
+            "VoiceFileName": "20062040080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204009,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "思い返すだけで忌々しいわ、あのアライグマ。/n知り合いの田んぼは荒らすし、挙句の果てには私を威嚇して……！",
+            "VoiceFileName": "20062040090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204010,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "だーちゃん、一時期東北の方に住んでたって言ってたもんね。/nその時にそんなことがあったんだ。",
+            "VoiceFileName": "20062040100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2006204011,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "ええ。その時から私、動物がダメなの。/n近所の農家の人だって、アライグマに困っていたわ。",
+            "VoiceFileName": "20062040110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204012,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "だから、私みたいな人は珍しくなかったの。/n……それで、アンタはなんで動物園ににかっちを誘ったのよ。",
+            "VoiceFileName": "20062040120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204013,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "実際に動物を見て、観察する面倒くさ～い宿題が出たんです。/nしぐれはちゃんと勉強目的なんですよっ！",
+            "VoiceFileName": "20062040130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2006204014,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "自然とか動物のことなら、仁花子先輩詳しそうだし。/nピッタリな人選ですよね？",
+            "VoiceFileName": "20062040140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2006204015,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "なっ、私だって遊び目的じゃないわよっ！",
+            "VoiceFileName": "20062040150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204016,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "別に遊び目的で動物園に行っても、全然良いと思うけどね。",
+            "VoiceFileName": "20062040160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 2006204017,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "ごめんね、だーちゃん。/nしぐれちゃんと先に約束してたし、すぐには答えられなくて……。",
+            "VoiceFileName": "20062040170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2006204018,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "にかっち……。/nううん、気にしないで。",
+            "VoiceFileName": "20062040180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204019,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "でも案外タイミング良かったかもね。アタシも日曜は予定ないし、/n仁花子は元々しぐれに付き合うつもりだったんでしょ？",
+            "VoiceFileName": "20062040190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 2006204020,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ならみんなで一緒に行けばいいじゃん。",
+            "VoiceFileName": "20062040200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 2006204021,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "大黒・しぐれ",
+            "FontSize": 2,
+            "Phrase": "え……。",
+            "VoiceFileName": "20062040210",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2006204022,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "良いですね、いるるん！　私もだーちゃんに誘われた時に、/nしぐれちゃんに聞こうと思ってたんです！",
+            "VoiceFileName": "20062040220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2006204023,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "それなら、私も一緒に行こう。/n日曜はちょうど予定がない日だからな。",
+            "VoiceFileName": "20062040230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006204024,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "な、なに勝手にみんなで決めてるんですか！/n休みの日まで大黒先輩と一緒なんて絶対に嫌です！",
+            "VoiceFileName": "20062040240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2006204025,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "こっちだって願い下げよ！",
+            "VoiceFileName": "20062040250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204026,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "でも、ふたりとも来週までに動物園に行かないといけないんでしょ？/n大黒は校外学習で、しぐれは宿題なわけだし。",
+            "VoiceFileName": "20062040260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 2006204027,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "大黒・しぐれ",
+            "FontSize": 2,
+            "Phrase": "うぐっ……。",
+            "VoiceFileName": "20062040270",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2006204028,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "皆で動物の観察をすれば、/n何か芝居に生かせるものを掴めるかもしれないしな。",
+            "VoiceFileName": "20062040280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006204029,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "うぐぐ……、苦手だからって足引っ張らないでくださいよ！/n大黒先輩！！",
+            "VoiceFileName": "20062040290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2006204030,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "アンタこそ、余計な口叩いてイラつかせないでよ！/n動物はそういうの察して逃げるって聞いたことがあるんだから！",
+            "VoiceFileName": "20062040300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204031,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "話はまとまったな！",
+            "VoiceFileName": "20062040310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006204032,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "我が主、当日は恥ずかしいところをみせてしまうかもしれませんが、/nよろしくお願いします……！",
+            "VoiceFileName": "20062040320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204033,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "克服しようと挑戦する姿勢が恥ずかしいなんて、あるものか。/n一緒に頑張っていこうな、大黒。",
+            "VoiceFileName": "20062040330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006204034,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "わ、我が主……！/nありがたきお言葉、恐悦至極です！",
+            "VoiceFileName": "20062040340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 505,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2006204035,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "はぁ、相変わらずしぐれの時と態度違いますね……。/n人によって態度変えるのってどうなんですかぁ？",
+            "VoiceFileName": "20062040350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2006204036,
+            "EpisodeMasterId": 2006204,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "乙女心……って奴だね。",
+            "VoiceFileName": "20062040360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        }
+    ]
+}

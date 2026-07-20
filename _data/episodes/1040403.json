@@ -1,0 +1,887 @@
+{
+    "EpisodeId": 1040403,
+    "StoryType": 1,
+    "Order": 3,
+    "Prev": 1040402,
+    "Next": 1040404,
+    "Chapter": "劇団電姫　4章",
+    "Title": "電姫の新章に向けて",
+    "EpisodeDetail": [
+        {
+            "Id": 1040403001,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "劇団員A・B",
+            "FontSize": 2,
+            "Phrase": "「オーディションってことは、今まで主要キャラやった子は有利だよね？」/n「逆でしょ、逆！　もっと広く、色んな子にチャンスがあるってこと！」",
+            "BackgroundImageFileName": "900",
+            "BgmFileName": "302",
+            "VoiceFileName": "10404030010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040403002,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "劇団員C・D",
+            "FontSize": 2,
+            "Phrase": "「『オズの魔法使い』っていったら、何人くらい受かるかな？」/n「私、ドロシー狙い！　カカシとかでもいいけど、せっかくならね」",
+            "VoiceFileName": "10404030020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040403003,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "うわ～、さっそくみんなオーディション意識してるねー。/nなんつーか、今までの電姫っぽくない感じ……。",
+            "VoiceFileName": "10404030030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040403004,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "ああ、自由を愛する電姫の雰囲気とは異なるように思えるが……、/nボスの言っていた『絶好の機会』というのは、私も同意見だ。",
+            "VoiceFileName": "10404030040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 1040403005,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "いつまでも同じ場所に留まり、停滞していては、/nいつかは世界から取り残されてしまうだろう……。",
+            "VoiceFileName": "10404030050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 1040403006,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "そうなれば、またもや電姫は財政難に陥ることも止む無し……。/nつまり我々電姫には、常に進化が求められるということだ。",
+            "VoiceFileName": "10404030060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 1040403007,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "我ら電子の姫は、この機会を逃すことなく……/n革命的進歩を起こし続けなければならない……ということだな。",
+            "VoiceFileName": "10404030070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 1040403008,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "うーん……進化かぁ。/nたしかに、同じことばっかしてても、つまんないですもんね。",
+            "VoiceFileName": "10404030080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040403009,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "もちろん今までだって、お客さんを楽しませるために、/n色々と試行錯誤はしてきたつもりだけど。",
+            "VoiceFileName": "10404030090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040403010,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "もっともっと良くなるんなら、それに越したことはないし！/n新しいことにチャレンジするってドキドキだけど、ワクワクもする！",
+            "VoiceFileName": "10404030100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040403011,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "これで電姫も人気になって盛り上がって、お客さんにも楽しんでもらえるなら、/n一石二鳥で、みんなハッピーじゃん！",
+            "VoiceFileName": "10404030110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040403012,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "蕾さんと、カミラちゃんの言葉を聞いたら……少し、勇気が出てきたかも。",
+            "VoiceFileName": "10404030120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 1040403013,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "オーディションで、ホロスコープシーズンがあって……今までよりもっと、/n頑張らなきゃって気持ちが強くて、緊張しちゃってたんだけど……。",
+            "VoiceFileName": "10404030130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 1040403014,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "たくさんの人に電姫のことを知ってもらえるのは、いいことだし……/n変わっていくのって、悪いことじゃない……よね。",
+            "VoiceFileName": "10404030140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 1040403015,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "楽しいだけじゃないのかもしれないけど……でも、/n前向きに、チャンスなんだって思うのは、いいことだよね。",
+            "VoiceFileName": "10404030150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 1040403016,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "そうそう！　肩に力入りすぎてたら、演技も硬くなっちゃうし。/nほら、笑顔笑顔！",
+            "VoiceFileName": "10404030160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040403017,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……と言いつつ、ウチもちょっち緊張はしてるんだけどさ……。/n考えててもどーにもならないし、前向きに頑張るしかないっしょ！",
+            "VoiceFileName": "10404030170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040403018,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "劇団員A・B",
+            "FontSize": 2,
+            "Phrase": "「やっぱ、みんな考えてることは同じなんだね……」/n「でも、蕾さんたちのお陰で、少しだけ肩の力抜けたかも～」",
+            "VoiceFileName": "10404030180",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040403019,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "劇団員C・D",
+            "FontSize": 2,
+            "Phrase": "「新しい電姫の姿、見せてやるしかないね！」/n「ほほう、ニュータイプか……って、これネタ古？」",
+            "VoiceFileName": "10404030190",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040403020,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "えっ、なになに、この盛り上がり？/nみんな超やる気になってんじゃん。うげえ～……。",
+            "VoiceFileName": "10404030200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040403021,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "アタシはそーいうの面倒くさいからパス～。/n電姫の諸君、アタシの代わりにがんばってくれたまえ～。",
+            "VoiceFileName": "10404030210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040403022,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "まあまあ、そう言わず！　叶羽ちゃんも一緒に頑張りましょう！　ね！/n叶羽ちゃんなくして、電姫はありませんからっ！",
+            "VoiceFileName": "10404030220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040403023,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "え～？/nアタシはいいよ、めんどくさい。",
+            "VoiceFileName": "10404030230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040403024,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "オーディション、選ばれたくないんですか？/n叶羽ちゃんなら、どんな役でも似合いそうなのに……。",
+            "VoiceFileName": "10404030240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040403025,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "別に～。やることはやるけど、そのために頑張る気はないの～。/nアタシはアタシのペースでやるつもりだから。",
+            "VoiceFileName": "10404030250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040403026,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "……ってか、いろはの方は随分とやる気みたいね？",
+            "VoiceFileName": "10404030260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040403027,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "はいっ！　もちろんですっ！　『オズの魔法使い』で、/n主要な役に選んでもらえるように、めいっぱい努力するつもりです！",
+            "VoiceFileName": "10404030270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040403028,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "へぇ～。/nなんかよくわかんないけど、せいぜい頑張ってね～。",
+            "VoiceFileName": "10404030280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040403029,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "ありがとうございます、叶羽ちゃん！/n僕、一生懸命、頑張りますっ！",
+            "VoiceFileName": "10404030290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040403030,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（もし次の公演で、主役のドロシーを演じて……/n　世界演劇リーグの人たちに認めてもらえたら……）",
+            "VoiceFileName": "10404030300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040403031,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（僕も、千寿家の名に恥じない活躍ができて、きっとおばあ様も……。/n　そうすれば、姉さんの負担だって少しは軽くなるはず……）",
+            "VoiceFileName": "10404030310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040403032,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（それに……頑張れば、僕にだっていつかはセンスが宿って、/n　素敵なハッピーエンドが、きっと魔法みたいにやってくる……）",
+            "VoiceFileName": "10404030320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040403033,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（そう信じているから……僕は……。/n　あの時できなかったドロシーを、必ず演じてみせますっ！）",
+            "VoiceFileName": "10404030330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040403034,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "BgmFileName": "999",
+            "VoiceFileName": "10404030340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 40503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040403035,
+            "EpisodeMasterId": 1040403,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "（いろは、なんか気張りすぎてんな～。/n　また前みたいに、突っ走らなきゃいいけど……）",
+            "VoiceFileName": "10404030350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        }
+    ]
+}

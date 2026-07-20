@@ -1,0 +1,871 @@
+{
+    "EpisodeId": 2002104,
+    "StoryType": 2,
+    "Order": 4,
+    "Prev": 2002103,
+    "Next": 2002105,
+    "Chapter": "Valentine Cocktail Hour",
+    "Title": "チョコレートフェスティバル",
+    "EpisodeDetail": [
+        {
+            "Id": 2002104001,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 1,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1240",
+            "BgmFileName": "2",
+            "SeFileName": "1431",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 2002104002,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "わぁー、すごい人だね！/nさすがは世界中のチョコレートが集結するイベント……。",
+            "VoiceFileName": "20021040010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2002104003,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "テレビで特集されてたわよ。/nうぅ……ぼんやりしてたらはぐれちゃいそう。",
+            "VoiceFileName": "20021040020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002104004,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "人気店はどこも大行列じゃん。/n初日でこの人だかりなら、早く行かなきゃ売り切れちゃうんじゃないですかぁ？",
+            "VoiceFileName": "20021040030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104005,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "大丈夫！　お目当てのものは、/nいるるんが早めに来て並んでくれてるんだー。",
+            "VoiceFileName": "20021040040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2002104006,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "だから３人で集合なんですねぇ。",
+            "VoiceFileName": "20021040050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104007,
+            "EpisodeMasterId": 2002104,
+            "Order": 2,
+            "GroupOrder": 6,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "じゃ、しぐれたちは好きなように見て回りましょっか♪",
+            "VoiceFileName": "20021040051",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104008,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 7,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 2002104009,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "――あっ、この薔薇の形のチョコ……我が主に似合いそう。/nけっこう値が張るけど、出せなくはないわね。",
+            "VoiceFileName": "20021040060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002104010,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "大黒先輩、ぬけがけする気ですかぁ？/n容先輩と決めたやつ、全員で渡すじゃないですか。",
+            "VoiceFileName": "20021040070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104011,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "言い方悪いわね。別に個人で渡すなとは言われてないし。/n１個でも２個でも構わないはずよ……。",
+            "VoiceFileName": "20021040080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002104012,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ま、大黒先輩はぁ、友チョコ交換とも無縁そうだし？/n初魅さん以外に渡す相手いませんもんねぇ。",
+            "VoiceFileName": "20021040090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 28,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104013,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "はぁ！？/nそれは関係ないでしょ……！",
+            "VoiceFileName": "20021040100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002104014,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "否定しないってことはそうなんだ？　寂しい～。/n可哀想な大黒先輩に、しぐれが義理チョコあげましょうかぁ？",
+            "VoiceFileName": "20021040110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 209,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104015,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "ぐぎぎ……誰があんたから貰うものですか……！　/nバキバキに折って溶かしてやる。",
+            "VoiceFileName": "20021040120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002104016,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "友チョコか～。",
+            "VoiceFileName": "20021040130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2002104017,
+            "EpisodeMasterId": 2002104,
+            "Order": 2,
+            "GroupOrder": 15,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "あ！　良いこと思いついた！",
+            "VoiceFileName": "20021040131",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2002104018,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "何よ……？",
+            "VoiceFileName": "20021040140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002104019,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "昔すっごく楽しいプレゼント交換やったんだ♪/nひとり１個ずつプレゼント用意して、それ持ってみんなで輪になるの！",
+            "VoiceFileName": "20021040150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2002104020,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "音楽が流れてるあいだ、隣の人にプレゼントを渡してー、/n自分も反対側の人からもらって……それを曲が止まるまで繰り返すんだ。",
+            "VoiceFileName": "20021040160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2002104021,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "曲がストップしたら終了！　/n誰のプレゼントが手に入るかはお楽しみ！",
+            "VoiceFileName": "20021040170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2002104022,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "あー……似たようなこと、クリスマスにクラスの人がやってたわ……。/nなんか盛り上がってたわね。",
+            "VoiceFileName": "20021040180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002104023,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "それをチョコでやるってことですねぇ。",
+            "VoiceFileName": "20021040190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104024,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "せっかくここに来たんだしさ、ひとり１個買って、/nEdenの皆でやってみない？",
+            "VoiceFileName": "20021040200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2002104025,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "面白そうですねぇ。しぐれは別に良いですよぉ。",
+            "VoiceFileName": "20021040210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104026,
+            "EpisodeMasterId": 2002104,
+            "Order": 2,
+            "GroupOrder": 23,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "でも何が貰えるかお楽しみなら、買ってる姿見ちゃダメですよねぇ？",
+            "VoiceFileName": "20021040211",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104027,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "なら……ここから先は別行動？",
+            "VoiceFileName": "20021040220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20221,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 2002104028,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "オッケー！　いるるんには私から伝えておくねっ。",
+            "VoiceFileName": "20021040230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2002104029,
+            "EpisodeMasterId": 2002104,
+            "Order": 2,
+            "GroupOrder": 25,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "じゃあみんな、また後で！",
+            "VoiceFileName": "20021040231",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 2002104030,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 26,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundCharacterImageFileName": "130420_0",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 2002104031,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ふーん……高級店以外も沢山出店してるのね。/nママからお金多めに貰ってきたけど、そこまで心配いらなかったわ。",
+            "BackgroundCharacterImageFileName": "130420_0",
+            "BgmFileName": "402",
+            "VoiceFileName": "20021040240",
+            "CharacterMotions": [],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104032,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（せっかく来たし、小春とりこ、杏の分も買っておこうっと）",
+            "BackgroundCharacterImageFileName": "130420_0",
+            "VoiceFileName": "20021040250",
+            "CharacterMotions": [],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104033,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "はー。でも仁花子先輩ってば。/nこんな沢山お店があると、選ぶのにも一苦労なんですけど～。",
+            "BackgroundCharacterImageFileName": "130420_0",
+            "VoiceFileName": "20021040260",
+            "CharacterMotions": [],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104034,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（文句言われない程度に、テキトーに買えばいいかぁ。/n　この詰め合わせなんか無難じゃない？）",
+            "BackgroundCharacterImageFileName": "130420_0",
+            "VoiceFileName": "20021040270",
+            "CharacterMotions": [],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104035,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "20021040280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 20521,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 2002104036,
+            "EpisodeMasterId": 2002104,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "まあ一応？　他の店も見ておこっと……。",
+            "VoiceFileName": "20021040290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        }
+    ]
+}

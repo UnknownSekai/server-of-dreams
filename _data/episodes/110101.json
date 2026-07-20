@@ -1,0 +1,882 @@
+{
+    "EpisodeId": 110101,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 110102,
+    "Chapter": "Eden",
+    "Title": "世話焼きの憂鬱",
+    "EpisodeDetail": [
+        {
+            "Id": 110101001,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "……よし、理科室の実験道具はチェック終了。次は家庭科室だね。",
+            "BackgroundImageFileName": "20",
+            "BgmFileName": "1",
+            "VoiceFileName": "1101010010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101002,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "は～、猫の手も借りたいにゃー。",
+            "VoiceFileName": "1101010020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101003,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "あら？　容さんじゃない。",
+            "VoiceFileName": "1101010030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 110101004,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "こんにちは！　なんだか忙しそうですね。",
+            "VoiceFileName": "1101010040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 110101005,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "こんにちは、おふたりさん。こんなところで会うなんて偶然だね。",
+            "VoiceFileName": "1101010050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101006,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "次の授業、理科室でやるんです。",
+            "VoiceFileName": "1101010060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 110101007,
+            "EpisodeMasterId": 110101,
+            "Order": 2,
+            "GroupOrder": 6,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "容さんこそ、こんなところで何してたんですか？",
+            "VoiceFileName": "1101010061",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 110101008,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "病気で休んでる友達の仕事、代わりにやってるの。/n校内の備品チェック中なんだ～。",
+            "VoiceFileName": "1101010070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101009,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "なんだか、今日は休みの人が多くてね。",
+            "VoiceFileName": "1101010080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101010,
+            "EpisodeMasterId": 110101,
+            "Order": 2,
+            "GroupOrder": 8,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "仕事、いくつも抱えることになっちゃって、てんてこ舞いでさ。",
+            "VoiceFileName": "1101010081",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101011,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "そうなんですか……私になにか、手伝えることがあれば……。",
+            "VoiceFileName": "1101010090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 110101012,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "あー、大丈夫大丈夫。/nアタシ、保健委員だからね、これくらいはこなせなくっちゃ。",
+            "VoiceFileName": "1101010100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101013,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "おっと、そろそろ次の備品チェックに行かなきゃ。",
+            "VoiceFileName": "1101010110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101014,
+            "EpisodeMasterId": 110101,
+            "Order": 2,
+            "GroupOrder": 11,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "おふたりさん、勉学に励みたまえよ～。",
+            "VoiceFileName": "1101010111",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101015,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "休みの人の仕事を肩代わりするのって、保健委員の仕事？",
+            "VoiceFileName": "1101010120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 10102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 110101016,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "うーん……どっちかっていうと、容さんの優しさだよねぇ。",
+            "VoiceFileName": "1101010130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 110101017,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 14,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 110101018,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "はー、これで仕事も一段落っと……。",
+            "VoiceFileName": "1101010140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101019,
+            "EpisodeMasterId": 110101,
+            "Order": 2,
+            "GroupOrder": 15,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "アタシも、そろそろ授業の準備もしとかないと……ん？",
+            "VoiceFileName": "1101010141",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101020,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "クラスメイト",
+            "FontSize": 2,
+            "Phrase": "うう……。",
+            "VoiceFileName": "1101010150",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110101021,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ありゃ！？　あんた、ずいぶん顔色悪いよ！？/nどっか具合でも悪いの？",
+            "VoiceFileName": "1101010160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101022,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "クラスメイトA",
+            "FontSize": 2,
+            "Phrase": "さっきから、ちょっと気分が悪くて……。",
+            "VoiceFileName": "1101010170",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110101023,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ありゃりゃ、保健委員なのに気づかなくて悪かったね……。/n立てるかい？　付き添うから、保健室まで行けそう？",
+            "VoiceFileName": "1101010180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101024,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "クラスメイトA",
+            "FontSize": 2,
+            "Phrase": "うん……ありがとう、萬さん……。",
+            "VoiceFileName": "1101010190",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110101025,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 21,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 110101026,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "あの子、早く良くなるといいんだけどね～……。",
+            "VoiceFileName": "1101010200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101027,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "きゃゃああああああ！？",
+            "VoiceFileName": "1101010210",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110101028,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "今度は何！？",
+            "VoiceFileName": "1101010220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101029,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "クラスメイトC",
+            "FontSize": 2,
+            "Phrase": "あ、あそこに！　ゴ、ゴキ、ゴキ……！",
+            "VoiceFileName": "1101010230",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110101030,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "はいはい、そういうこと……。",
+            "VoiceFileName": "1101010240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101031,
+            "EpisodeMasterId": 110101,
+            "Order": 2,
+            "GroupOrder": 26,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "Gさん、悪いけど出てってもらうよ～。",
+            "VoiceFileName": "1101010241",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101032,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "あっさりティッシュで包んで、外に逃がしちゃった……。/n萬さん、すごい……！",
+            "VoiceFileName": "1101010250",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110101033,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "クラスメイトC",
+            "FontSize": 2,
+            "Phrase": "でも、怖くなかったの……？",
+            "VoiceFileName": "1101010260",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110101034,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "しょせんは虫だし。普通にいける人はいけるでしょ。",
+            "VoiceFileName": "1101010270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101035,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "クラスメイトB",
+            "FontSize": 2,
+            "Phrase": "そう言いつつ何でもできちゃうから、萬さんはかっこいいんだよ！",
+            "VoiceFileName": "1101010280",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110101036,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "クラスメイトC",
+            "FontSize": 2,
+            "Phrase": "わかる！　私、思わずお兄ちゃんって呼びそうになったことあるし！",
+            "VoiceFileName": "1101010290",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110101037,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "そこはせめて、お姉さんにせんかい！",
+            "VoiceFileName": "1101010300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 10,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101038,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "クラスメイトC",
+            "FontSize": 2,
+            "Phrase": "あはは！　ごめんごめん。/nでも、それだけ頼りになるってことだよ。",
+            "VoiceFileName": "1101010310",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110101039,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "頼ってもらえるのは嬉しいけどさ。/nアタシ、そんなに女の子らしくないのかな？",
+            "VoiceFileName": "1101010320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 110101040,
+            "EpisodeMasterId": 110101,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "（弱みがなさすぎなのも、考えものなのかね～……）",
+            "VoiceFileName": "1101010330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        }
+    ]
+}

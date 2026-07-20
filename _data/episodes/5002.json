@@ -1,0 +1,60 @@
+{
+    "EpisodeId": 5002,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "あ、あれは……『魔…",
+    "EpisodeDetail": [
+        {
+            "Id": 5002001,
+            "EpisodeMasterId": 5002,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "あ、あれは……『魔法少女カリュー』のアニメ１期、コンプリートBOX！/nいろはちゃんが探してたやつだよね？",
+            "VoiceFileName": "50020010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 5002002,
+            "EpisodeMasterId": 5002,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "ど、どうしよう！　目を離した隙に売り切れちゃったら大変だし……。/nい、いろはちゃん、今すぐここにきて……っ。",
+            "VoiceFileName": "50020020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        }
+    ]
+}

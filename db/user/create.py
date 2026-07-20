@@ -1448,6 +1448,18 @@ def upsert_episode(user_id: int, row: dict) -> ExecutableQuery:
     )
 
 
+def update_episode_read_all(
+    user_id: int, episode_master_id: int, has_read_all: bool
+) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "episode" SET "hasReadAll" = $3 '
+        'WHERE "userId" = $1 AND "episodeMasterId" = $2',
+        user_id,
+        episode_master_id,
+        has_read_all,
+    )
+
+
 def upsert_character_mission(user_id: int, row: dict) -> ExecutableQuery:
     cols = [
         "id",

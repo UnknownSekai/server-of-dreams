@@ -1,0 +1,1778 @@
+{
+    "EpisodeId": 130371,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 130372,
+    "Chapter": "さあ、どうぞ",
+    "Title": "泥沼なサプライズ",
+    "EpisodeDetail": [
+        {
+            "Id": 130371001,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "演出家",
+            "FontSize": 2,
+            "Phrase": "よし、本日は以上。明日までに修正してくるように。",
+            "BackgroundImageFileName": "670",
+            "VoiceFileName": "1303710020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 130371002,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "銀河座劇団員たち",
+            "FontSize": 2,
+            "Phrase": "はい！",
+            "VoiceFileName": "1303710030",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 130371003,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 3,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "202",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 130371004,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "おいフィンランド。確認したいことがある。/nトナカイのワタシがソリを引くシーンなんだが。",
+            "VoiceFileName": "1303710040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371005,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "ごめん。今は雪とは話せない。じゃ。",
+            "VoiceFileName": "1303710050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 305,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 130371006,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ええ……断られる要素あったか、今の……。",
+            "VoiceFileName": "1303710060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371007,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "リリヤさん、稽古中もそわそわしてる感じだった。",
+            "VoiceFileName": "1303710070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371008,
+            "EpisodeMasterId": 130371,
+            "Order": 2,
+            "GroupOrder": 7,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "やっぱり雪のプレ……。",
+            "VoiceFileName": "1303710071",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371009,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "暦・ラモーナ",
+            "FontSize": 2,
+            "Phrase": "……ッ！？",
+            "VoiceFileName": "1303710080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 130371010,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "なんか言ったか？　ワタシのプレ……がなんとか。",
+            "BgmFileName": "999",
+            "VoiceFileName": "1303710090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371011,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "プレ…プレ…………プレミアム！",
+            "BgmFileName": "3",
+            "VoiceFileName": "1303710100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371012,
+            "EpisodeMasterId": 130371,
+            "Order": 2,
+            "GroupOrder": 10,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "プレミアムって言いたかった！",
+            "VoiceFileName": "1303710101",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371013,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "はあ？　何がプレミアムなんだ？/nなんか知らんが金のかかりそうな話なのか？",
+            "VoiceFileName": "1303710110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371014,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "プレミアムなプ……プレイングと言いたかったのだろう？/nつまり雪の珠玉の芝居に、リリヤも触発されたと！",
+            "VoiceFileName": "1303710120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371015,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "触発されるかぁ？　トナカイ役にぃ？",
+            "VoiceFileName": "1303710130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371016,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ま、まあ、そこは少々奇抜……",
+            "VoiceFileName": "1303710140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371017,
+            "EpisodeMasterId": 130371,
+            "Order": 2,
+            "GroupOrder": 14,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "こほん。独自の世界観に生きるリリヤさんですもの。ね、緋花里さん！？",
+            "VoiceFileName": "1303710141",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371018,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "うんうんうんうん！　プレミアムトナカイ！　でーじ光るよ！",
+            "VoiceFileName": "1303710150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 109,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371019,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "まあ確かに、アイツはよくわからん人間だが……。",
+            "VoiceFileName": "1303710160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371020,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "あ、危なかったー！/n雪へのサプライズのこと忘れてたさー……。",
+            "VoiceFileName": "1303710170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371021,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "大丈夫だ、スリルがあってよかったぞ、緋花里！/nこれもまたサプライズだな！",
+            "VoiceFileName": "1303710180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371022,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "一番楽しんでいるのはラモーナさんですわね……。",
+            "VoiceFileName": "1303710190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371023,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "おいそこ、何話してるんだ？",
+            "VoiceFileName": "1303710200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371024,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ああいや、リリヤの入れ込みように感心していたんだ。/nリスペクトしているからこそのこだわりだと思ってな。",
+            "VoiceFileName": "1303710210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371025,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "あれほど前のめりなリリヤさんも珍しいですものね。",
+            "VoiceFileName": "1303710220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371026,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "うううーッ！　そういうことならお手伝いしたいッ！/n私もトナカイ役としてソリを引く！　フルパワー！",
+            "VoiceFileName": "1303710230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371027,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "フン、やめとけ。どうせ要らん世話だ。",
+            "VoiceFileName": "1303710240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371028,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "でもじっとしてられないさ！",
+            "VoiceFileName": "1303710250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 305,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371029,
+            "EpisodeMasterId": 130371,
+            "Order": 2,
+            "GroupOrder": 25,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ラモさん暦さん！　いい案ないの！？",
+            "VoiceFileName": "1303710251",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371030,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "手助けしたいのは山々だが、リリヤの考えもあるからな……。",
+            "VoiceFileName": "1303710260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371031,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "それより緋花里さん？/n演技以外に現を抜かしていませんこと？",
+            "VoiceFileName": "1303710270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371032,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "う……でもでも、リリヤさんが可哀想さ！/nみんなを笑顔にしたくて頑張ってるのに、なんにも貰えてないんだよ？",
+            "VoiceFileName": "1303710280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371033,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "タダでモノ配るような変人に見返りなんていらないんだよ。/nそれこそ子どもたちの笑顔でもあげときゃ充分だ。",
+            "VoiceFileName": "1303710290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371034,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "断固はんたーい！　はんたーい！　サンタさんだって報われるべきだー！/nべきだー！　私は見返りたいぞー！　見返りたいぞー！",
+            "VoiceFileName": "1303710300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 18,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371035,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "まったく、ラモーナさんが焚き付けたせいですわよ……。/nどう責任を取るおつもりです？",
+            "VoiceFileName": "1303710310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371036,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "暦もそれなりに付き合ってくれているように思うが――",
+            "VoiceFileName": "1303710320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371037,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "――う、うむ！　確かにリリヤは報われて然るべきだな！/nサンタクロースも労われるべきだ！",
+            "VoiceFileName": "1303710330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 15,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371038,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "決まり！　題して『サンタクロースは贈られる人大作戦！』/nリリヤさんにもサプライズさ！",
+            "VoiceFileName": "1303710340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371039,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "にも？",
+            "VoiceFileName": "1303710350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371040,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "あ、ああいや、クリスマス公演で披露する演目のようにだな？/n頑張り屋には聖夜の優しいサプライズが降り注ぐのだ、そうだな？",
+            "VoiceFileName": "1303710360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371041,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "うんうんうんうん！",
+            "VoiceFileName": "1303710370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371042,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "泥沼にハマっている気がしますわ……。",
+            "VoiceFileName": "1303710380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 4,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371043,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "まったくだ。お前らどれだけお節介焼きなんだよ……。",
+            "VoiceFileName": "1303710390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371044,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "サプライズなんてどうせ無駄になるんだ。やめろやめろ。/n贈るなら現金か商品券、有価証券にしろ。",
+            "VoiceFileName": "1303710400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371045,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "そんなのつまらないよ！　悩んで選ぶから楽しいさー！",
+            "VoiceFileName": "1303710410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 305,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371046,
+            "EpisodeMasterId": 130371,
+            "Order": 2,
+            "GroupOrder": 41,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "さっそくみんなで買いダッシュ！　ショッピングモール！",
+            "VoiceFileName": "1303710411",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371047,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "……いや待て。ダメだ。/n上手くやらなければ、サプライズは失敗する！",
+            "VoiceFileName": "1303710420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371048,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "この４人でまとまって出かけると悪目立ちしてしまうかもしれない。/n買い物途中に撮られた写真をSNSにでもアップロードされてみろ。",
+            "VoiceFileName": "1303710430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371049,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "はっ！　リリヤさんに知られてサプライズは失敗！？/nあと、自分だけ除け者みたいで悲しい思いさせてしまうかも……。",
+            "VoiceFileName": "1303710440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371050,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "……仰る通りですわね。可能な限り、少人数が望ましい。",
+            "VoiceFileName": "1303710450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371051,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ゆえにプレゼントの機微のみならず、あらゆる不測の事態に対応可能な/n適応力が必要だ。気楽な買い出しではなく一種の任務と考えた方がいい。",
+            "VoiceFileName": "1303710460",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371052,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "た、ただの買い物が難しいミッションに！　インポッシブル！",
+            "VoiceFileName": "1303710470",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371053,
+            "EpisodeMasterId": 130371,
+            "Order": 2,
+            "GroupOrder": 47,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "えっと……誰が、挑むの……？",
+            "VoiceFileName": "1303710471",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371054,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ワタシはバイトで忙しい。/n通販でテキトーに探せばいいだろ。",
+            "VoiceFileName": "1303710480",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371055,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 49,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "それも考えたが、クリスマス時期の通販は逼迫しているんだ。/n間に合ったとしてもリスクはある。寮の宅配ボックスだ。",
+            "VoiceFileName": "1303710490",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371056,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 50,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "そっか、たまに違う人宛の荷物が混じっちゃってることあるもんね。/nせっかく秘密にしてても、リリヤさんが気づかず持ってっちゃうかも……！",
+            "VoiceFileName": "1303710500",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371057,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 51,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "用心に越したことはないですわ。/nつまり、寮住まいでない者の方が安全と……。",
+            "VoiceFileName": "1303710510",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371058,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 52,
+            "SpeakerName": "ラモーナ・雪・緋花里",
+            "FontSize": 2,
+            "Phrase": "！",
+            "VoiceFileName": "1303710520",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 130371059,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 53,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "……え！？",
+            "VoiceFileName": "1303710530",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371060,
+            "EpisodeMasterId": 130371,
+            "Order": 2,
+            "GroupOrder": 53,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ちょ、ちょっと待ってくださいませんこと！？",
+            "VoiceFileName": "1303710531",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 130371061,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 54,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "すまんが待っている時間はない。",
+            "VoiceFileName": "1303710540",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371062,
+            "EpisodeMasterId": 130371,
+            "Order": 2,
+            "GroupOrder": 54,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "これは暦にしか頼めないことだ。やってくれるな？",
+            "VoiceFileName": "1303710541",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 130371063,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 55,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "暦さぁん……！",
+            "VoiceFileName": "1303710550",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130371064,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 56,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ハハ、まさしく泥沼だな。御愁傷様、暦サン。",
+            "VoiceFileName": "1303710560",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 130371065,
+            "EpisodeMasterId": 130371,
+            "Order": 1,
+            "GroupOrder": 57,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "私が行くんですのーッ！？",
+            "VoiceFileName": "1303710570",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        }
+    ]
+}

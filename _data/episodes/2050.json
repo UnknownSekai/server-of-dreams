@@ -1,0 +1,204 @@
+{
+    "EpisodeId": 2050,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "おっと、もうこんな…",
+    "EpisodeDetail": [
+        {
+            "Id": 2050001,
+            "EpisodeMasterId": 2050,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "おっと、もうこんな時間か！/nそろそろ出たほうがいいな。",
+            "VoiceFileName": "20500010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 2050002,
+            "EpisodeMasterId": 2050,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "雪、今日もバイトか？/n頑張るのもいいが、ちゃんと休んでるのか？",
+            "VoiceFileName": "20500020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 2050003,
+            "EpisodeMasterId": 2050,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "心配無用。自分の体のことはワタシが一番分かってるからな。/nそれじゃあ、行ってくる。",
+            "VoiceFileName": "20500030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 2050004,
+            "EpisodeMasterId": 2050,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "待て、弁当箱を机に忘れてるぞ。/n置いたままじゃ明日困るだろ？",
+            "VoiceFileName": "20500040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 2050005,
+            "EpisodeMasterId": 2050,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "おっと……！　助かった、ありがとなドイツ！",
+            "VoiceFileName": "20500050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 2050006,
+            "EpisodeMasterId": 2050,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "バイトを頑張るのもいいが、たまには休むのも大事だぞ？/nもし何かあった時は、すぐに私を頼ってくれ。",
+            "VoiceFileName": "20500060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        }
+    ]
+}

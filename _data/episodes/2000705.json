@@ -1,0 +1,1167 @@
+{
+    "EpisodeId": 2000705,
+    "StoryType": 2,
+    "Order": 5,
+    "Prev": 2000704,
+    "Next": 2000706,
+    "Chapter": "FAIR IS FOUL, AND FOUL IS FAIR",
+    "Title": "きれいはきたない",
+    "EpisodeDetail": [
+        {
+            "Id": 2000705001,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "私は中学３年生になり、連尺野初魅の加入から１年が経った。/n彼女は数々の衝突を起こしながらも、銀河座の中で力を増していった。",
+            "BackgroundImageFileName": "1050",
+            "VoiceFileName": "20007050010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705002,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "強固な自我を持つカリスマ的存在。その独特な芝居に惹かれた者も多かった。/nある種の信奉者……とでも言うのでしょうか。",
+            "VoiceFileName": "20007050020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705003,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "私は彼女のことを危険視しながら、不思議な信頼を寄せていました。/n対等に渡り合える相手だと思ったからかもしれません。",
+            "VoiceFileName": "20007050030",
+            "CharacterMotions": [],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705004,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 4,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "670",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.5,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.5
+        },
+        {
+            "Id": 2000705005,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "演出家",
+            "FontSize": 2,
+            "Phrase": "来週は、『マクベス』のオーディションを行う。/n主役を含めて審査を行うのは久しぶりだな。",
+            "BgmFileName": "203",
+            "VoiceFileName": "20007050040",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000705006,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "演出家",
+            "FontSize": 2,
+            "Phrase": "マクベス役に求める演技は、この前伝えた通りだ。/nせっかくの機会だ、皆、万全な態勢で臨むように。",
+            "VoiceFileName": "20007050050",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2000705007,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "（主役級を演じるのは実力を測られる新人、/n　もしくは演出家、上層部の判断で選ばれることが多い）",
+            "VoiceFileName": "20007050060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 30119,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705008,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "（皆、このチャンスに沸き立っていますね。ですが私も負ける訳にはいかない）",
+            "VoiceFileName": "20007050070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705009,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "次は『マクベス』か。/n懐かしい。",
+            "VoiceFileName": "20007050080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705010,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "演じたことがあるのですか？",
+            "VoiceFileName": "20007050090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30119,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705011,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "舞台はないが、かつて本を読んだ。",
+            "VoiceFileName": "20007050100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705012,
+            "EpisodeMasterId": 2000705,
+            "Order": 2,
+            "GroupOrder": 11,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "『綺麗は汚い、汚いは綺麗』有名な台詞だ。",
+            "VoiceFileName": "20007050101",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705013,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "冒頭で、魔女がマクベスの運命を告げるシーンですね。",
+            "VoiceFileName": "20007050110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705014,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "物事の善し悪しに絶対的な物差しはない。/n個人の経験や立場、時勢で異なり、変わりゆく。",
+            "VoiceFileName": "20007050120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705015,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "あなたのわがままじみた数々の要求にも、/n肯定されるべき訳がありますの？",
+            "VoiceFileName": "20007050130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705016,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "はっ。わがままとはひどい言い草だ。",
+            "VoiceFileName": "20007050140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705017,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "さて……",
+            "VoiceFileName": "20007050150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705018,
+            "EpisodeMasterId": 2000705,
+            "Order": 2,
+            "GroupOrder": 16,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "どうだろうな。",
+            "VoiceFileName": "20007050151",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705019,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 17,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1001",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "CharacterMotions": [],
+            "FadeValue1": 0.5,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.5
+        },
+        {
+            "Id": 2000705020,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ふう。これくらいでしょうか……。",
+            "BgmFileName": "5",
+            "VoiceFileName": "20007050160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30119,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705021,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "（魔女にそそのかされ、王を暗殺し権力を手に入れる将軍マクベス。/n　一通り演技の方向性は固まりました）",
+            "VoiceFileName": "20007050170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705022,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "（台本の内容から察するに、先生が求めるマクベスは、/n　苦悩しながらも悪に落ちていく人物なはず）",
+            "VoiceFileName": "20007050180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705023,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "自分が身を置く場所に歯向かう苦悩。その複雑な葛藤を描く『マクベス』/n読んでいて引き込まれますわ……。",
+            "VoiceFileName": "20007050190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705024,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "こんな夜中まで練習ですか？",
+            "BgmFileName": "999",
+            "VoiceFileName": "20007050200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40801,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000705025,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "いろはさん。",
+            "BgmFileName": "303",
+            "VoiceFileName": "20007050210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30119,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "SpineId": 40801,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705026,
+            "EpisodeMasterId": 2000705,
+            "Order": 2,
+            "GroupOrder": 23,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "いらっしゃったのね。",
+            "VoiceFileName": "20007050211",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705027,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "お風呂が空いたので、呼びに来たんです。/n僕もまだだから姉さんと一緒に入ろうと思って。",
+            "VoiceFileName": "20007050220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000705028,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "まあそうなの？　/n私はまだ練習がありますから、先に入っていてくださいな。",
+            "VoiceFileName": "20007050230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705029,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "え～……。一緒に入らないんですか？/n最近全然お話しできてない気がします。",
+            "VoiceFileName": "20007050240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000705030,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "僕、ちょっと寂しいです。",
+            "VoiceFileName": "20007050250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000705031,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ごめんなさいね。大事なオーディションに備えたいのです。/n終わったらまたたくさんお話を聞かせてね。",
+            "VoiceFileName": "20007050260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 402,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705032,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "……はーい。",
+            "VoiceFileName": "20007050270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000705033,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "さあ、行ってくださいな。/n練習に集中させてください。",
+            "VoiceFileName": "20007050280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705034,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "お姉ちゃん……。",
+            "VoiceFileName": "20007050290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000705035,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "なあに？",
+            "VoiceFileName": "20007050300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705036,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "このところ、お姉ちゃんはずっと忙しそうです。/n家に帰っても険しい顔をしてばかりで……。",
+            "BackgroundCharacterImageFileName": "130280_0",
+            "VoiceFileName": "20007050310",
+            "CharacterMotions": [],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000705037,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "僕は銀河座に入ってないので、劇団のことはわかりません。/nきっと大変なんでしょうけど……もし辛かったら言ってくださいね。",
+            "BackgroundCharacterImageFileName": "130280_0",
+            "VoiceFileName": "20007050320",
+            "CharacterMotions": [],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000705038,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "その時は僕がみんなに言いますから！/nお姉ちゃんに、少しお休みをくださいって。",
+            "BackgroundCharacterImageFileName": "130280_0",
+            "VoiceFileName": "20007050330",
+            "CharacterMotions": [],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000705039,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ふふっ、私は全然平気です。/n心配してくれてありがとう、いろはさん。",
+            "VoiceFileName": "20007050340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 402,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30119,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 2000705040,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "……むー。本当ですか？/nならいいですけど。",
+            "VoiceFileName": "20007050350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40801,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2000705041,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 38,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1071",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "CharacterMotions": [],
+            "FadeValue1": 0.5,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.5
+        },
+        {
+            "Id": 2000705042,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ふん……。",
+            "BgmFileName": "6",
+            "VoiceFileName": "20007050360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705043,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "型にはまった退屈な筋書きだ。",
+            "VoiceFileName": "20007050370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 75,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705044,
+            "EpisodeMasterId": 2000705,
+            "Order": 2,
+            "GroupOrder": 40,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "それで果たして、観客の心は潤せるのか？",
+            "VoiceFileName": "20007050371",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705045,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "……それとも暦が演じれば、違うのか？",
+            "VoiceFileName": "20007050380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705046,
+            "EpisodeMasterId": 2000705,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "いや……考えるのはもうよそう。",
+            "VoiceFileName": "20007050390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2000705047,
+            "EpisodeMasterId": 2000705,
+            "Order": 2,
+            "GroupOrder": 42,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "私は私の演技をするまでだな。",
+            "VoiceFileName": "20007050391",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 307,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "EpisodeId": 5005,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "サバゲーかぁ。",
+    "EpisodeDetail": [
+        {
+            "Id": 5005001,
+            "EpisodeMasterId": 5005,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "サバゲーかぁ。銃撃つのはFPSと同じで楽しそうだけど、/nリアルでやるとなると疲れるよねぇ。",
+            "VoiceFileName": "50050010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 5005002,
+            "EpisodeMasterId": 5005,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "あー！　この銃、アタシがいつもゲームで使ってるやつじゃん。",
+            "VoiceFileName": "50050020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 5005003,
+            "EpisodeMasterId": 5005,
+            "Order": 2,
+            "GroupOrder": 2,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "これ、強いんだよね。ゲームしたくなってきたから早く帰ろう。",
+            "VoiceFileName": "50050021",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 75,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        }
+    ]
+}

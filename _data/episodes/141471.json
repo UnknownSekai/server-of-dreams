@@ -1,0 +1,963 @@
+{
+    "EpisodeId": 141471,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 141472,
+    "Chapter": "一緒にツーリング！",
+    "Title": "ふたりで行かない？",
+    "EpisodeDetail": [
+        {
+            "Id": 141471001,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "ずずず……ふぅ。",
+            "BackgroundImageFileName": "2030",
+            "BgmFileName": "1",
+            "VoiceFileName": "1414710010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 51501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471002,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "良い飲みっぷりだねぇ。",
+            "VoiceFileName": "1414710020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 51501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471003,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "その、ごめんね？/nもしかしたら、リンちゃんのキャンプの邪魔しちゃったかも。",
+            "VoiceFileName": "1414710030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471004,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ソロでやってる人って誰かに干渉されたくない人も多いだろうし……。",
+            "VoiceFileName": "1414710040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471005,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "ううん、気にしないで。/nこちらこそ、気を遣わせちゃったみたいで……。",
+            "VoiceFileName": "1414710050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471006,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "あ～、大丈夫大丈夫！/nアタシ、こうして誰かと一緒にいるのも好きだからさ。",
+            "VoiceFileName": "1414710060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471007,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "それにリンちゃんにはキャンプの時に、/n助けてもらった恩があるしね。",
+            "VoiceFileName": "1414710070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471008,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "そんな大したことはしてないよ。",
+            "VoiceFileName": "1414710080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471009,
+            "EpisodeMasterId": 141471,
+            "Order": 2,
+            "GroupOrder": 8,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "……でも、たしかに誰かと一緒にキャンプをするのも良いよね。",
+            "VoiceFileName": "1414710081",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471010,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "うん、いい……。",
+            "VoiceFileName": "1414710090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471011,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "容・リン",
+            "FontSize": 2,
+            "Phrase": "ずずず……ぷはっ。",
+            "VoiceFileName": "1414710100",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 141471012,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "ごちそうさま。",
+            "VoiceFileName": "1414710110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 51501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471013,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "おかわり、要る？",
+            "VoiceFileName": "1414710120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 51501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471014,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "ううん。これ以上は悪いし、/nそれにテントを立てないといけないから。",
+            "VoiceFileName": "1414710130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471015,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "そっか、頑張ってね。",
+            "VoiceFileName": "1414710140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471016,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "（せっかく会えたわけだし、/n　もうちょっと話したい……なんて言えないよねぇ）",
+            "VoiceFileName": "1414710150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471017,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "（アタシもリンちゃんもソロキャンに来たわけだし、/n　自分の時間を大切にしたいって気持ちは同じだろうから）",
+            "VoiceFileName": "1414710160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471018,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 17,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 141471019,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "ふぅ～……テントも立て終わった。",
+            "VoiceFileName": "1414710170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 51501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471020,
+            "EpisodeMasterId": 141471,
+            "Order": 2,
+            "GroupOrder": 18,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "さてと、どうしようかな。",
+            "VoiceFileName": "1414710171",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471021,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "（本を読むのも良いけど、今はそういう気分じゃない）",
+            "VoiceFileName": "1414710180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471022,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "（そういえば、行きに山小屋カフェを見たな。/n　うん、そっちに行こう）",
+            "VoiceFileName": "1414710190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471023,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 21,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "WindowEffect": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 141471024,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "あっ、そうだ。ちょうどコーヒー作ったんだけど飲む？",
+            "WindowEffect": 1,
+            "VoiceFileName": "1414710200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471025,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 23,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 141471026,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "（さっき、容さんからコーヒー貰ったよな。/n　カフェとか好きかな……？）",
+            "VoiceFileName": "1414710210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 51501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471027,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "（せっかくコーヒー貰ったわけだし、/n　何かした方が良いかな……）",
+            "VoiceFileName": "1414710220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 20,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471028,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 26,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 141471029,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "～♪",
+            "VoiceFileName": "1414710230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 20,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471030,
+            "EpisodeMasterId": 141471,
+            "Order": 2,
+            "GroupOrder": 27,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ふわぁ～……続きは、また後で読むかな。",
+            "VoiceFileName": "1414710231",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 23,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471031,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "あの、容さん。/n今、大丈夫……？",
+            "VoiceFileName": "1414710240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 51501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471032,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "あれ、どうしたの？　困りごと？",
+            "VoiceFileName": "1414710250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471033,
+            "EpisodeMasterId": 141471,
+            "Order": 2,
+            "GroupOrder": 29,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "だったら今度はアタシが手を貸すよ！",
+            "VoiceFileName": "1414710251",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 141471034,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "あ、いやそういうわけじゃなくて。",
+            "VoiceFileName": "1414710260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471035,
+            "EpisodeMasterId": 141471,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "あの……。",
+            "VoiceFileName": "1414710270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        },
+        {
+            "Id": 141471036,
+            "EpisodeMasterId": 141471,
+            "Order": 2,
+            "GroupOrder": 31,
+            "SpeakerName": "リン",
+            "FontSize": 2,
+            "Phrase": "私と一緒に山小屋カフェ……行かない？",
+            "VoiceFileName": "1414710271",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "515"
+        }
+    ]
+}

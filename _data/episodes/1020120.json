@@ -1,0 +1,921 @@
+{
+    "EpisodeId": 1020120,
+    "StoryType": 1,
+    "Order": 20,
+    "Prev": 1020119,
+    "Next": null,
+    "Chapter": "Eden　1章",
+    "Title": "楽園に差す光（後編）",
+    "EpisodeDetail": [
+        {
+            "Id": 1020120001,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "では、『オペラ座の怪人』の公演大成功を祝して……。",
+            "BackgroundImageFileName": "170",
+            "BgmFileName": "405",
+            "VoiceFileName": "10201200010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 9,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020120002,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "一同",
+            "FontSize": 2,
+            "Phrase": "かんぱーい！",
+            "VoiceFileName": "10201200020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020120003,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "ぷはー……打ち上げのジュース、/n今までで一番美味しい気がする！",
+            "VoiceFileName": "10201200030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 6,
+                    "SpineId": 20201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020120004,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "単純に……いいものを買ってきたのかも……。",
+            "VoiceFileName": "10201200040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020120005,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "へぇ？　これ、いつもの安ジュースじゃないの？",
+            "VoiceFileName": "10201200050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020120006,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "いや？　別に特別なものに変えたりしてないよ？/n達成感で味が変わったってことかもね。",
+            "VoiceFileName": "10201200060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020120007,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "そう言われると、/n急にいつも通りの味に思えてきちゃったんですけどぉ？",
+            "VoiceFileName": "10201200070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020120008,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "レンさん、上に何かあるんですか？",
+            "VoiceFileName": "10201200080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020120009,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "テトラさんに、成功の報告をしてた。/nきっと見守ってくれてたからな。",
+            "VoiceFileName": "10201200090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 78,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020120010,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "えっ……それって……。",
+            "VoiceFileName": "10201200100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 501,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020120011,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "勝手に人を殺すんじゃないよ、まったく。",
+            "VoiceFileName": "10201200110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020120012,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "テトラさん！",
+            "VoiceFileName": "10201200120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 501,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 501,
+                    "BodyMotionMasterId": 5,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020120013,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "身体は大丈夫なんですか！？",
+            "VoiceFileName": "10201200130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020120014,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "……千秋楽の舞台、病院を抜け出して観に行ったよ。",
+            "VoiceFileName": "10201200140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020120015,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "え～っ、また抜け出して来たんですかぁ！？/nそろそろ、いい加減にしとかないとヤバいですよぉ？",
+            "VoiceFileName": "10201200150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 501,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 20201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020120016,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "年寄りの冷や水……。",
+            "VoiceFileName": "10201200160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 74,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020120017,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "聞こえてるからね！/n話の腰を折るんじゃないよ、まったく。",
+            "VoiceFileName": "10201200170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020120018,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "とにかく、本番の『オペラ座の怪人』を観たわけさ。/nそしたら、ダメ出しで頭がいっぱいになっちまってねぇ。",
+            "VoiceFileName": "10201200180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 76,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020120019,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "気がついたら、死に損なったみたいだ。/n病気も寛解状態まで回復したってさ。",
+            "VoiceFileName": "10201200190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020120020,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "やっ……やったー！/nテトラさんが生き返ったー！",
+            "VoiceFileName": "10201200200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020120021,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "だから、死んでないっての。",
+            "VoiceFileName": "10201200210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020120022,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "これは間違いなく、私とEdenの舞台を観た影響だな。/n病気に打ち勝つ精神力まで与えるとは……我ながら恐ろしい。",
+            "VoiceFileName": "10201200220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 201,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020120023,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "わぁ……どんだけ自信家なんだ、うちのリーダーは……。",
+            "VoiceFileName": "10201200230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020120024,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "事実を述べたまでだ。/nしかし……これからはさらに忙しくなるな。",
+            "VoiceFileName": "10201200240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020120025,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "え？　どうしてですか？",
+            "VoiceFileName": "10201200250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020120026,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "テトラさんを救った以上の奇跡を、/n起こしてみせなければならないだろう？",
+            "VoiceFileName": "10201200260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020120027,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "あははは！　そうですね！/nなら、私ももっともっとがんばります！",
+            "VoiceFileName": "10201200270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020120028,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "ちょっとにかっち……抜け駆けは許さないわよ……！/n我が主の隣を歩くのは、この私なんだから……！",
+            "VoiceFileName": "10201200280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020120029,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "あはっ！　ずっと隣で満足してればいいんじゃない？/nしぐれはみんな置き去りにして、先に進んじゃうつもりだしぃ。",
+            "VoiceFileName": "10201200290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020120030,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "こっちにも自信家がいたわ……。/nその元気、少し分けてほしいねぇ。",
+            "VoiceFileName": "10201200300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020120031,
+            "EpisodeMasterId": 1020120,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "やれやれ……演技は多少マシになっても、/nこいつらはちっとも変わらないねぇ。",
+            "VoiceFileName": "10201200310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        }
+    ]
+}

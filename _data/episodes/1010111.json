@@ -1,0 +1,3478 @@
+{
+    "EpisodeId": 1010111,
+    "StoryType": 1,
+    "Order": 11,
+    "Prev": 1010110,
+    "Next": 1010112,
+    "Chapter": "シリウス　1章",
+    "Title": "じごくの、とっくん",
+    "EpisodeDetail": [
+        {
+            "Id": 1010111001,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "それじゃあ、次の演目はこれで。",
+            "BackgroundImageFileName": "340",
+            "VoiceFileName": "10101110010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10701,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111002,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "花",
+            "FontSize": 2,
+            "Phrase": "『アラビアンナイト』……主演はまた八恵ちゃん？",
+            "VoiceFileName": "10101110020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 106,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 11001,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "110"
+        },
+        {
+            "Id": 1010111003,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "……そうですね。",
+            "VoiceFileName": "10101110030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111004,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "花",
+            "FontSize": 2,
+            "Phrase": "まあ、魔人役は流石かぱんだかな。/nカトリナもメンタルが安定すれば、ハマる気はするけど……。",
+            "VoiceFileName": "10101110040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "110"
+        },
+        {
+            "Id": 1010111005,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "10101110050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111006,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "すみません、ちょっといいですか？",
+            "VoiceFileName": "10101110060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111007,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "どうしたの？",
+            "VoiceFileName": "10101110070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 106,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10701,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111008,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "次の公演に関して、お願いがありまして。",
+            "VoiceFileName": "10101110080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111009,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "お願い……？",
+            "VoiceFileName": "10101110090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111010,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 10,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "370",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "23",
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 1010111011,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "みんな、集まったわね？/n次の公演の配役を発表するわ。",
+            "VoiceFileName": "10101110100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10703,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111012,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ここなに目立つ役を、ここなに目立つ役を。/nここなに目立つ役を……！",
+            "VoiceFileName": "10101110110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 76,
+                    "HeadDirectionMasterId": 4,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111013,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "演目は『アラビアンナイト』……。",
+            "VoiceFileName": "10101110120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10603,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 1010111014,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "恐らく主役のアラジンは新妻っちかな。",
+            "VoiceFileName": "10101110130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "SpineId": 10303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111015,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "ええ……。",
+            "VoiceFileName": "10101110140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1010111016,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "ぱんだ・カトリナ",
+            "FontSize": 2,
+            "Phrase": "（なら、魔人役はもらった……！）",
+            "VoiceFileName": "10101110150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 107,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1010111017,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "主役アラジン……鳳ここな。",
+            "VoiceFileName": "10101110160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10703,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111018,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "ぱんだ・カトリナ",
+            "FontSize": 2,
+            "Phrase": "ん？",
+            "VoiceFileName": "10101110170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 10503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 15,
+                    "SpineId": 10303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1010111019,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "ええっ！？",
+            "VoiceFileName": "10101110180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 509,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111020,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "続いて、ランプの魔人、新妻八恵。",
+            "VoiceFileName": "10101110190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10703,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 106,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 10403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111021,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "はい。",
+            "VoiceFileName": "10101110200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111022,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "あれ……？",
+            "VoiceFileName": "10101110210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "SpineId": 10503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10603,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "FacialExpressionMasterId": 106,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 10303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 1010111023,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "ここなが主役……？",
+            "VoiceFileName": "10101110220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1010111024,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "それよりも、新妻っちが魔人って！？",
+            "VoiceFileName": "10101110230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111025,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "知冴",
+            "FontSize": 2,
+            "Phrase": "魔法、使いたかったな……。",
+            "VoiceFileName": "10101110240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "106"
+        },
+        {
+            "Id": 1010111026,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "ちょ、ちょっと待って下さい！",
+            "VoiceFileName": "10101110250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 511,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111027,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "なに？",
+            "VoiceFileName": "10101110260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10703,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111028,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "新妻っちが魔人なのは百歩譲っても……、/nここちゃんがアラジンって……っ。",
+            "VoiceFileName": "10101110270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111029,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "……あり得ません。/n新人が本公演の主役なんて……舞台が壊れます。",
+            "VoiceFileName": "10101110280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 401,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111030,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "え……。",
+            "VoiceFileName": "10101110290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111031,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "演出部と何度も話し合った結果よ。",
+            "VoiceFileName": "10101110300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10703,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "SpineId": 10503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111032,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "でも……！",
+            "VoiceFileName": "10101110310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 307,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111033,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "ぱんだちゃん……。",
+            "VoiceFileName": "10101110320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111034,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "……ここな。",
+            "VoiceFileName": "10101110330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111035,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "静香ちゃん……。うん……！",
+            "VoiceFileName": "10101110340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111036,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "……わ、私やります。絶対に舞台を成功させてみせます！/nだから……やらせてください！",
+            "VoiceFileName": "10101110350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111037,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "10101110360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 20,
+                    "SpineId": 10403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111038,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 38,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1010111039,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "主役だなんて、大チャンスよ、ここな！",
+            "VoiceFileName": "10101110370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111040,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "う、うん！",
+            "VoiceFileName": "10101110380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111041,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "頑張らなきゃ……ぱんだちゃんたちに認めてもらえるように。/nお客さんにも……。",
+            "VoiceFileName": "10101110390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 76,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111042,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ここなのためにも、でしょ。/nダイスターの夢に一歩近づいたんだから。",
+            "VoiceFileName": "10101110400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111043,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "……うんっ！",
+            "VoiceFileName": "10101110410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadMotionMasterId": 1,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111044,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "――少しいい？",
+            "VoiceFileName": "10101110420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10703,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111045,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "あ、はい！",
+            "VoiceFileName": "10101110430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111046,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "これ、部屋に戻ったら目を通しておいて。",
+            "VoiceFileName": "10101110440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10703,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111047,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "え……？/nこれって、練習メニューですか……？",
+            "VoiceFileName": "10101110450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111048,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "うわ……何この量……。えげつないわね。",
+            "VoiceFileName": "10101110460",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 508,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111049,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 49,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "これから公演が終わるまでの間、/n徹底的に舞台役者の基礎を叩きこんでもらうわ。",
+            "VoiceFileName": "10101110470",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10703,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111050,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 50,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "舞台役者の基礎……？",
+            "VoiceFileName": "10101110480",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111051,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 51,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "わかってるでしょ？　今のあなたには、/n１時間半の舞台で主役を張るだけの体力も実力もないって。",
+            "VoiceFileName": "10101110490",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 76,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111052,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 52,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "……っ！",
+            "VoiceFileName": "10101110500",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 104,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111053,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 53,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "あの！　なら、どうしてここなを主役に選んだんですか？",
+            "VoiceFileName": "10101110510",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111054,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 54,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "……シリウスのためよ。",
+            "VoiceFileName": "10101110520",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111055,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 55,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "え？",
+            "VoiceFileName": "10101110530",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111056,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 56,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "千秋楽までアルバイトは全面禁止。その分の保証はシリウスで持つ。/nそれじゃあ、また明日。",
+            "VoiceFileName": "10101110540",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 76,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111057,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 57,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "あ……柊さん。",
+            "VoiceFileName": "10101110550",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 506,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111058,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 58,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ちょっとここな！　このスケジュール、/n学校と劇団での基礎練習以外、全部個人練習になってるわよ？",
+            "VoiceFileName": "10101110560",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111059,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 59,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "……じごくのとっくんだ。",
+            "BgmFileName": "999",
+            "VoiceFileName": "10101110570",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111060,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 60,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "302",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "103",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1010111061,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 61,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "あ、きたきた。/nおーい。ここちゃん。",
+            "VoiceFileName": "10101110580",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 10502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111062,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 62,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "えっと……。",
+            "VoiceFileName": "10101110590",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111063,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 63,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "やだなー、もう。そんな怖がらないでくださいよ。/nぱんだはただ、これをここちゃんに渡したかっただけなんですから。",
+            "VoiceFileName": "10101110600",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadDirectionMasterId": 6,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111064,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 64,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "え……これって……。",
+            "VoiceFileName": "10101110610",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 514,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111065,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 65,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "シリウスの先輩たちがこれまでやってきた『アラビアンナイト』の台本です。/nアラジン役の人たちの……ぱんだの秘蔵のシリウスコレクションです。",
+            "VoiceFileName": "10101110620",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111066,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 66,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "先輩たちのメモ書き、いろいろ入ってるんで。/n役作りの参考になるかなって。",
+            "VoiceFileName": "10101110630",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111067,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 67,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "借りていいの？",
+            "VoiceFileName": "10101110640",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111068,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 68,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "もちろんです。/n柊さんの指名で、ここちゃんもやるって言いきったわけですから。",
+            "VoiceFileName": "10101110650",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111069,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 69,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "ぱんだも……覚悟を決めました。/n……失礼なこと言って、ごめんなさい。",
+            "VoiceFileName": "10101110660",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111070,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 70,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "ぱんだちゃん……。",
+            "VoiceFileName": "10101110670",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 106,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111071,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 71,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "舞台、成功させましょうね。",
+            "VoiceFileName": "10101110680",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111072,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 72,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "うんっ！/nありがとう、頑張るね！",
+            "VoiceFileName": "10101110690",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 10102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111073,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 73,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "370",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 1010111074,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 74,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "はあ……はあ……。/nお、おはようございます。",
+            "BgmFileName": "2",
+            "VoiceFileName": "10101110700",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111075,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 75,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "ノルマは達成した？",
+            "VoiceFileName": "10101110710",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10703,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111076,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 76,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "はい、なんとか……３キロ。",
+            "VoiceFileName": "10101110720",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 112,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111077,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 77,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "そう、じゃあそのまま発声練習。外郎売り。",
+            "VoiceFileName": "10101110730",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111078,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 78,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "ひぇ……は、はいっ！",
+            "VoiceFileName": "10101110740",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111079,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 79,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "鬼……。",
+            "VoiceFileName": "10101110750",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 508,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111080,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 80,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "30",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 1010111081,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 81,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "あら？　ここな、何やってるの？",
+            "VoiceFileName": "10101110760",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1010111082,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 82,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "柊さんの課題。/n毎朝いろんなキャラクターのワンシーンを演じなきゃなの。",
+            "VoiceFileName": "10101110770",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 107,
+                    "HeadDirectionMasterId": 1,
+                    "SpineId": 10302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111083,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 83,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "ふーん、マクベスにトニー、ジキル、ハイド、ジャヴェール警部……。/n全部男役ね。なんでそんなことを……。",
+            "VoiceFileName": "10101110780",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 107,
+                    "HeadDirectionMasterId": 4,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1010111084,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 84,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "でも、これもアラジンをするためだから。",
+            "VoiceFileName": "10101110790",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111085,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 85,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "……読み合わせくらいなら、付き合ってあげなくもないわよ？",
+            "VoiceFileName": "10101110800",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 74,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1010111086,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 86,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "ほんと！？　それじゃ、三幕二場からなんだけどいいかな？",
+            "VoiceFileName": "10101110810",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 512,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111087,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 87,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "ええ……あら？/nそういえば、静香は？",
+            "VoiceFileName": "10101110820",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 107,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1010111088,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 88,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "あ、静香ちゃんなら、今――",
+            "VoiceFileName": "10101110830",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111089,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 89,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "520",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 1010111090,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 90,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ふぅん……。ぱんだから貸してもらった台本を見る限り、/n主役はみんな、役作りに苦労したみたいね。",
+            "VoiceFileName": "10101110840",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111091,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 91,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ここなは……どんなアラジンを目指すべきかしら？/nいろいろ試してみるしかなさそうだけど……。",
+            "VoiceFileName": "10101110850",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111092,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 92,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "にしても、柊さんのあの言葉……。",
+            "VoiceFileName": "10101110860",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111093,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 93,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "370",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "SeFileName": "641",
+            "WindowEffect": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 1010111094,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 94,
+            "SpeakerName": "望有",
+            "FontSize": 2,
+            "Phrase": "……シリウスのためよ。",
+            "WindowEffect": 1,
+            "VoiceFileName": "10101110870",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10703,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "107"
+        },
+        {
+            "Id": 1010111095,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 95,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "520",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 1010111096,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 96,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "なんか、ひっかかるわね。",
+            "VoiceFileName": "10101110880",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111097,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 97,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "570",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "13",
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 1010111098,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 98,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "ふいぃ～。疲れた～。",
+            "VoiceFileName": "10101110890",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 402,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10104,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111099,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 99,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "今日も一日お疲れ様でした。",
+            "VoiceFileName": "10101110900",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10404,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111100,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 100,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "わわっ！？/n八恵ちゃんも入ってたんだ……。",
+            "SeFileName": "920",
+            "VoiceFileName": "10101110910",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111101,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 101,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "随分お疲れのようですが……。/n練習はつらいですか？",
+            "VoiceFileName": "10101110920",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111102,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 102,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "ううん……。だけど、役作りをする時間が全然なくて。",
+            "VoiceFileName": "10101110930",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111103,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 103,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "ここなが学校に行ってる間にいろいろ考えてはいるけど……。",
+            "VoiceFileName": "10101110940",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "HeadDirectionMasterId": 4,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10204,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111104,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 104,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "どんなアラジンをやればいいのかな……私。",
+            "VoiceFileName": "10101110950",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10104,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 10404,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111105,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 105,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "公演はまだ先です。焦らなくても大丈夫ですよ。",
+            "VoiceFileName": "10101110960",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111106,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 106,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "それに……ここなさんがやるべきアラジンは、/nもう決まっています。",
+            "VoiceFileName": "10101110970",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111107,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 107,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "え？",
+            "VoiceFileName": "10101110980",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10204,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111108,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 108,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "アラジンは魔人と出会い、献身的な魔人に信頼を寄せます。/n魔人はアラジンにとって、初めての心を許せる友達だったから。",
+            "VoiceFileName": "10101110990",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 10404,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111109,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 109,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "それで……？",
+            "VoiceFileName": "10101111000",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10204,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111110,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 110,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "……ここなさんは私を信じることはできますか？",
+            "VoiceFileName": "10101111010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 20,
+                    "SpineId": 10104,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 10404,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111111,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 111,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "……うん。できるよ。",
+            "VoiceFileName": "10101111020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111112,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 112,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "なら、簡単です。/nその気持ちのままアラジンに臨んでください。そうすれば……、",
+            "VoiceFileName": "10101111030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111113,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 113,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "この舞台は、きっと上手くいきます。",
+            "BgmFileName": "999",
+            "VoiceFileName": "10101111040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 1010111114,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 114,
+            "SpeakerName": "ここな",
+            "FontSize": 2,
+            "Phrase": "……うん。八恵ちゃんとなら、きっと……。",
+            "VoiceFileName": "10101111050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "101"
+        },
+        {
+            "Id": 1010111115,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 115,
+            "SpeakerName": "静香",
+            "FontSize": 2,
+            "Phrase": "……ここな？",
+            "VoiceFileName": "10101111060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10204,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "102"
+        },
+        {
+            "Id": 1010111116,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 116,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "531",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "7",
+            "CharacterMotions": [],
+            "FadeValue1": 0.30000001192092896,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.30000001192092896
+        },
+        {
+            "Id": 1010111117,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 117,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "あら？　あなたまだ寝てなかったの？",
+            "SeFileName": "260",
+            "VoiceFileName": "10101111070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10305,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1010111118,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 118,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "いや……やっぱりなんか引っかかるんですよねー。/nどうしてここちゃんが主役なのか……。",
+            "VoiceFileName": "10101111080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10505,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111119,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 119,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "そんなの、アタシが知りたいわよ。",
+            "VoiceFileName": "10101111090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10305,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1010111120,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 120,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "その上、新妻っちが魔人なんて……。/n……あ。",
+            "VoiceFileName": "10101111100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10505,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111121,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 121,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "あぁ……そっか。/nここちゃんは、新妻っちの……、",
+            "VoiceFileName": "10101111110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 1010111122,
+            "EpisodeMasterId": 1010111,
+            "Order": 1,
+            "GroupOrder": 122,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "（引き立て役……ってことか）",
+            "VoiceFileName": "10101111120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        }
+    ]
+}

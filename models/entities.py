@@ -891,6 +891,79 @@ class EpisodeResult(BaseModel):
     episode_detail_asset_source: Optional[str] = None
 
 
+# One character's on-screen state for a scene line (a member of EpisodeDetailResult.CharacterMotions).
+# Aliases are the vendored-JSON (PascalCase) keys so the files in _data/episodes/ load directly.
+class EpisodeDetailCharacterMotionResult(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+    slot_number: int = Field(default=0, alias="SlotNumber")
+    facial_expression_master_id: Optional[int] = Field(
+        default=None, alias="FacialExpressionMasterId"
+    )
+    head_motion_master_id: Optional[int] = Field(
+        default=None, alias="HeadMotionMasterId"
+    )
+    head_direction_master_id: Optional[int] = Field(
+        default=None, alias="HeadDirectionMasterId"
+    )
+    body_motion_master_id: Optional[int] = Field(
+        default=None, alias="BodyMotionMasterId"
+    )
+    lip_sync_master_id: Optional[int] = Field(default=None, alias="LipSyncMasterId")
+    spine_id: int = Field(default=0, alias="SpineId")
+    character_appearance_type: Optional[CharacterAppearanceTypes] = Field(
+        default=None, alias="CharacterAppearanceType"
+    )
+    character_position: CharacterPositions = Field(
+        default=CharacterPositions.None_, alias="CharacterPosition"
+    )
+    character_layer_type: CharacterLayerTypes = Field(
+        default=CharacterLayerTypes.None_, alias="CharacterLayerType"
+    )
+    spine_size: SpineSizes = Field(default=SpineSizes.Middle, alias="SpineSize")
+
+
+# A single scene line of an episode (dialogue + presentation). The vendored JSON omits null
+# fields; the model fills them so the wire array (models/keys.py) has all 24 slots.
+class EpisodeDetailResult(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+    id_: int = Field(default=0, alias="Id")
+    episode_master_id: int = Field(default=0, alias="EpisodeMasterId")
+    order: int = Field(default=0, alias="Order")
+    group_order: int = Field(default=0, alias="GroupOrder")
+    effect: Optional[str] = Field(default=None, alias="Effect")
+    speaker_name: Optional[str] = Field(default=None, alias="SpeakerName")
+    font_size: FontSizes = Field(default=FontSizes.Middle, alias="FontSize")
+    phrase: Optional[str] = Field(default=None, alias="Phrase")
+    title: Optional[str] = Field(default=None, alias="Title")
+    background_image_file_name: Optional[str] = Field(
+        default=None, alias="BackgroundImageFileName"
+    )
+    background_character_image_file_name: Optional[str] = Field(
+        default=None, alias="BackgroundCharacterImageFileName"
+    )
+    background_image_file_fade_type: Optional[FadeTypes] = Field(
+        default=None, alias="BackgroundImageFileFadeType"
+    )
+    bgm_file_name: Optional[str] = Field(default=None, alias="BgmFileName")
+    se_file_name: Optional[str] = Field(default=None, alias="SeFileName")
+    still_photo_file_name: Optional[str] = Field(
+        default=None, alias="StillPhotoFileName"
+    )
+    movie_file_name: Optional[str] = Field(default=None, alias="MovieFileName")
+    window_effect: Optional[WindowEffects] = Field(default=None, alias="WindowEffect")
+    scene_camera_master_id: Optional[int] = Field(
+        default=None, alias="SceneCameraMasterId"
+    )
+    voice_file_name: Optional[str] = Field(default=None, alias="VoiceFileName")
+    character_motions: Optional[list[EpisodeDetailCharacterMotionResult]] = Field(
+        default=None, alias="CharacterMotions"
+    )
+    speaker_icon_id: Optional[str] = Field(default=None, alias="SpeakerIconId")
+    fade_value1: Optional[float] = Field(default=None, alias="FadeValue1")
+    fade_value2: Optional[float] = Field(default=None, alias="FadeValue2")
+    fade_value3: Optional[float] = Field(default=None, alias="FadeValue3")
+
+
 class Event(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
     id_: int = Field(default=0, alias="id")
@@ -3237,6 +3310,8 @@ __all__ = [
     "EnvironmentResult",
     "Episode",
     "EpisodeResult",
+    "EpisodeDetailResult",
+    "EpisodeDetailCharacterMotionResult",
     "Event",
     "EventBoxGacha",
     "EventBoxGachaBoxThing",

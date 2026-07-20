@@ -1,0 +1,60 @@
+{
+    "EpisodeId": 1008,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "高校生って……意外…",
+    "EpisodeDetail": [
+        {
+            "Id": 1008001,
+            "EpisodeMasterId": 1008,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "高校生って……意外にリア充ばかりじゃないのね。/nフフ、安心したわ。",
+            "VoiceFileName": "10080010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1008002,
+            "EpisodeMasterId": 1008,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "それより、にかっちはどこかしら。/n高校の前に中学生が立ってると目立つのよね……。",
+            "VoiceFileName": "10080020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        }
+    ]
+}

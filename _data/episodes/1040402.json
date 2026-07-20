@@ -1,0 +1,836 @@
+{
+    "EpisodeId": 1040402,
+    "StoryType": 1,
+    "Order": 2,
+    "Prev": 1040401,
+    "Next": 1040403,
+    "Chapter": "劇団電姫　4章",
+    "Title": "どうして電姫に？",
+    "EpisodeDetail": [
+        {
+            "Id": 1040402001,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "本当に、本当に来たんですね……！/n世界演劇リーグから、手紙が……！",
+            "BackgroundImageFileName": "900",
+            "BgmFileName": "302",
+            "VoiceFileName": "10404020010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 601,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040402002,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "いやいや、嘘でしょ？/n今日ってエイプリルフールだったっけ？",
+            "VoiceFileName": "10404020020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040402003,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "要",
+            "FontSize": 2,
+            "Phrase": "何言ってんのよ……嘘じゃないわ。ほら。/n私も今日、ボスから見せられて度肝抜かれちゃった。",
+            "VoiceFileName": "10404020030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40603,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "406"
+        },
+        {
+            "Id": 1040402004,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "電姫劇団員たち",
+            "FontSize": 2,
+            "Phrase": "「こ、これが……」「やばい、なんかありがたそ～」「とりあえず拝んどく？」/n「この紙触ったら、芝居が上手くなるバフとかあるかな？」",
+            "VoiceFileName": "10404020040",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040402005,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "ほう、確かに本物のようだな。差出人や住所も、偽りではなさそうだ。/nとなると、ついに我らも、歴代の名優たちに目を付けられたということか……。",
+            "VoiceFileName": "10404020050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 1040402006,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "でもなんで……ウチらみたいな劇団に？/nほら、さっきの話だと、もっとお堅い感じの人たちなんでしょ？",
+            "VoiceFileName": "10404020060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040402007,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "電姫劇団員たち",
+            "FontSize": 2,
+            "Phrase": "「クールジャパン……だからかな？」/n「審査部にも私たちの同志が居たんだよ……コスプレは世界を救うって」",
+            "VoiceFileName": "10404020070",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040402008,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "いや、どーゆーことよ。/nまぁ正直アタシにも、わけわかんないけど……。",
+            "VoiceFileName": "10404020080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040402009,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "強いて言うなら、演劇界隈を盛り上げるために、/n間口を広げようとでもしてるって感じじゃない？",
+            "VoiceFileName": "10404020090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040402010,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "間口……？/n電姫みたいな、2.5次元をやる劇団のファン層を取り込むってこと……？",
+            "VoiceFileName": "10404020100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 1040402011,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "マチコ",
+            "FontSize": 2,
+            "Phrase": "それが近いだろうな。",
+            "VoiceFileName": "10404020110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40701,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "407"
+        },
+        {
+            "Id": 1040402012,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "電姫劇団員たち",
+            "FontSize": 2,
+            "Phrase": "わっ……ボス！？",
+            "VoiceFileName": "10404020120",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040402013,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "マチコ",
+            "FontSize": 2,
+            "Phrase": "今や、うちのような劇団は、海外からも支持され市場の拡大にも貢献している。/nそれでお偉いさん方も、無視し続けるって訳にはいかなくなったんだろう。",
+            "VoiceFileName": "10404020130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40701,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "407"
+        },
+        {
+            "Id": 1040402014,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "マチコ",
+            "FontSize": 2,
+            "Phrase": "……これまで電姫がやってきたことは、無駄じゃなかったってことさ。",
+            "VoiceFileName": "10404020140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "407"
+        },
+        {
+            "Id": 1040402015,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "電姫劇団員たち",
+            "FontSize": 2,
+            "Phrase": "「嘘！　これってすごくない！？」「とうとう世界に名を轟かせちゃったか～」/n「今から英語の勉強しとかなきゃヤバい？　ネットスラングでいける？」",
+            "VoiceFileName": "10404020150",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040402016,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "僕たち電姫の活躍が、ついに演劇界でも認められたということですね！/nすごいです！　もしやとは思いましたけど……なんだか信じられません！",
+            "VoiceFileName": "10404020160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040402017,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "うん……世界演劇リーグなんて、遠い世界のことのように思ってたけど……/nげ、現実なんだ……本当に、すごい……。",
+            "VoiceFileName": "10404020170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 1040402018,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "うーん、そんなに注目されるってことは、/nメイクにもさらに気合い入れなきゃかな～。",
+            "VoiceFileName": "10404020180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040402019,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "蕾",
+            "FontSize": 2,
+            "Phrase": "もしも、吉兆を呼ぶ化粧の色が知りたければ、我が占いを頼るといい。/n今後の舞台に相応しいラッキーカラーを、私が教えてやろう。",
+            "VoiceFileName": "10404020190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "404"
+        },
+        {
+            "Id": 1040402020,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "マジすか！？　さっすが先輩、頼りになるー！",
+            "VoiceFileName": "10404020200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 1040402021,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "マチコ",
+            "FontSize": 2,
+            "Phrase": "まあ、はやる気持ちもわかるが、少し落ち着け。/n……とはいえ、これは絶好の機会だ。",
+            "VoiceFileName": "10404020210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40701,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "407"
+        },
+        {
+            "Id": 1040402022,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "マチコ",
+            "FontSize": 2,
+            "Phrase": "今まで電姫の作品を観てこなかった、/n『演劇らしい演劇』を好む層へ、売り込むためのな。",
+            "VoiceFileName": "10404020220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "407"
+        },
+        {
+            "Id": 1040402023,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "マチコ",
+            "FontSize": 2,
+            "Phrase": "そのためにも、お前たちにはホロスコープシーズンに注力してもらう。/nこれ程おあつらえ向きな舞台を、こっちが生かさない手はないからね。",
+            "VoiceFileName": "10404020230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "407"
+        },
+        {
+            "Id": 1040402024,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "電姫劇団員たち",
+            "FontSize": 2,
+            "Phrase": "はい！",
+            "VoiceFileName": "10404020240",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1040402025,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "うわ～、やっぱこうなった。/n早く家に帰ってゲームしたいのに。今大事なイベ期間なんだから～。",
+            "VoiceFileName": "10404020250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040402026,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "要",
+            "FontSize": 2,
+            "Phrase": "毎度のことではあるけど、今回ばかりは叶羽も真面目にやりなさいよね？/nボスも話してた通り、電姫にとって大事な時なんだから。",
+            "VoiceFileName": "10404020260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 209,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40603,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "406"
+        },
+        {
+            "Id": 1040402027,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "え～……アタシにとってもイベは大事なのに～。",
+            "VoiceFileName": "10404020270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 1040402028,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "要",
+            "FontSize": 2,
+            "Phrase": "ちなみに、次の演目の役柄は、オーディションで決めることにしたわ。/n……これはボスと話し合って決めたことよ。",
+            "VoiceFileName": "10404020280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "406"
+        },
+        {
+            "Id": 1040402029,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "要",
+            "FontSize": 2,
+            "Phrase": "電姫では今までにない試みだけど、それくらい重要な場面ってことだから、/nみんなも覚悟しておいて頂戴ね。",
+            "VoiceFileName": "10404020290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 107,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "406"
+        },
+        {
+            "Id": 1040402030,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "あの……！　演目はもう決まったんですか？",
+            "VoiceFileName": "10404020300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040402031,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "要",
+            "FontSize": 2,
+            "Phrase": "ええ。/n次の公演の演目は……『オズの魔法使い』よ。",
+            "VoiceFileName": "10404020310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "406"
+        },
+        {
+            "Id": 1040402032,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "……！",
+            "BgmFileName": "999",
+            "VoiceFileName": "10404020320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 508,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 1040402033,
+            "EpisodeMasterId": 1040402,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "（……オズの……魔法使い……）",
+            "VoiceFileName": "10404020330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        }
+    ]
+}

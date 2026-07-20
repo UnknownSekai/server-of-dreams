@@ -1,0 +1,2885 @@
+{
+    "EpisodeId": 130291,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 130292,
+    "Chapter": "ほら、帰ろ？",
+    "Title": "旅ならではのごちそうを",
+    "EpisodeDetail": [
+        {
+            "Id": 130291001,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 1,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1130",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 130291002,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ああああっ！　急いで急いで！/n急がないと電車が出発しちゃう！",
+            "SeFileName": "2121",
+            "VoiceFileName": "1302910010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291003,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ちょちょちょちょい待ち！/nヒカりんストップストーップっ！",
+            "VoiceFileName": "1302910020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291004,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "戻ってくださ～い！/nこっちの階段ですよ～！",
+            "VoiceFileName": "1302910030",
+            "CharacterMotions": [],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291005,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 5,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1063",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 130291006,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "――セーフ！",
+            "SeFileName": "1511",
+            "VoiceFileName": "1302910040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291007,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ひ～、ギリだったねぇ。/n危なかったぁ。",
+            "BgmFileName": "1",
+            "VoiceFileName": "1302910050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291008,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "はぁ、はぁ……か、駆け込み乗車は良くないと思いますよ～。/n何か事故があったりしたら、大変ですから～。",
+            "VoiceFileName": "1302910060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 401,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291009,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "や～、ごめんねぱんだ。/nウチらの会計が長引いたせいで走らせちゃって。",
+            "VoiceFileName": "1302910070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291010,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "いえ……ぱんだもお弁当選びに夢中になってて/n時計見てませんでしたし。",
+            "VoiceFileName": "1302910080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291011,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "……まさかあんな新商品が、/nしかも複数出ているなんてっ。",
+            "VoiceFileName": "1302910090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291012,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "まーまー、無事に乗れてよかったよー。",
+            "VoiceFileName": "1302910100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291013,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ね、ね、席ってどこ？　海は見える？",
+            "VoiceFileName": "1302910110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291014,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "これから行くのは山ですから。/n残念ですが海は見えませんよ～？",
+            "VoiceFileName": "1302910120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291015,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "来年の夏は海もいいねぇ。で、えっと席は～……。",
+            "VoiceFileName": "1302910130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291016,
+            "EpisodeMasterId": 130291,
+            "Order": 2,
+            "GroupOrder": 15,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……あ、やば。切符しまっちゃったんだった。",
+            "VoiceFileName": "1302910131",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291017,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "大丈夫です！/nぱんだがバッチリ憶えてますから！",
+            "VoiceFileName": "1302910140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291018,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "さっすがぱんだちゃん！/nそれじゃぱんだちゃんの後に続け～。",
+            "VoiceFileName": "1302910150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291019,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "あはは、今からそんなハイテンションだと疲れちゃいますよ～。/n……あ、ここですね。",
+            "VoiceFileName": "1302910160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291020,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 19,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 130291021,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "おお～、お日さまもポカポカ！　気持ちいいさー！",
+            "VoiceFileName": "1302910170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291022,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ん～、いい景色期待できそうだ！",
+            "VoiceFileName": "1302910180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 209,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291023,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "えっと、ヒカりんは窓側がいいんだよね。/nぱんだはどっちがいい？",
+            "VoiceFileName": "1302910190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291024,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "では、ぱんだはこっちの通路側にします。/nちょっと眩しそうなので。",
+            "VoiceFileName": "1302910200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291025,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "オッケー。/nんじゃ、ウチがこっち～。",
+            "VoiceFileName": "1302910210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291026,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ふ～、ようやく一息つけたねぇ。",
+            "VoiceFileName": "1302910220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291027,
+            "EpisodeMasterId": 130291,
+            "Order": 2,
+            "GroupOrder": 25,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "お茶でもしばいちゃう――",
+            "VoiceFileName": "1302910221",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291028,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "……はぁ。",
+            "VoiceFileName": "1302910230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 4,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291029,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "って、どしたんぱんだ？/nいきなり酔った？",
+            "VoiceFileName": "1302910240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291030,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "いえ。きっちりタイムスケジュールを組みましたから、/nこんな慌ただしいことにはならないハズだったんですけど……。",
+            "VoiceFileName": "1302910250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291031,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "美味しそうな駅弁がいっぱいあったんだから仕方ないよ！/nひとつなんて簡単に選べない！",
+            "VoiceFileName": "1302910260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291032,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "だねぇ。普段、駅弁なんてめった買わんから、/nテンション爆上がったわ。",
+            "VoiceFileName": "1302910270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291033,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "次の時は、駅弁選びの時間短縮のためにも、/n事前リサーチをもっとしっかりしておかないと駄目ですね。",
+            "VoiceFileName": "1302910280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291034,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "まま、終わりよければすべてよしってゆーじゃん？/nギリまで粘ったから、みんな良さげなお弁当選べたんじゃね？",
+            "VoiceFileName": "1302910290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291035,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "うん、いいのが選べたよ～！",
+            "VoiceFileName": "1302910300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291036,
+            "EpisodeMasterId": 130291,
+            "Order": 2,
+            "GroupOrder": 33,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ねーねー、ふたりはどんなお弁当選んだの？",
+            "VoiceFileName": "1302910301",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291037,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "席についたばかりなのに、もうですか？",
+            "VoiceFileName": "1302910310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291038,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "だって気になる！",
+            "VoiceFileName": "1302910320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291039,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "わかる！/n買ってきたばっかの新商品とか開けるのガマンできんし！",
+            "VoiceFileName": "1302910330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291040,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "も～、仕方ないですね～。ぱんだのチョイスがそんなに気になっちゃいますか。",
+            "VoiceFileName": "1302910340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291041,
+            "EpisodeMasterId": 130291,
+            "Order": 2,
+            "GroupOrder": 37,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "では、とくとご覧あれです――",
+            "VoiceFileName": "1302910341",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291042,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "あ、ちょい待ち。どうせなら紹介動画にせん？/nあとで編集して踊ってみたのオマケにしよ？",
+            "VoiceFileName": "1302910350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291043,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "なるほど、プチ旅行の雰囲気も伝わりますね。/nいい考えだと思います。オフショ需要もありますし！",
+            "VoiceFileName": "1302910360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291044,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "……よし、オッケー！",
+            "VoiceFileName": "1302910370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291045,
+            "EpisodeMasterId": 130291,
+            "Order": 2,
+            "GroupOrder": 40,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "それじゃ、ぱんだ、ヒカりんも準備オッケ？　いくよ～。",
+            "VoiceFileName": "1302910371",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291046,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 41,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 130291047,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "やっほー。元気してる？　こっちはねぇ、なんと特急電車の中！/n銀河座のヒカりんと、シリウスのぱんだも一緒！",
+            "BgmFileName": "12",
+            "VoiceFileName": "1302910380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291048,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "はいたーい！　緋花里だよ！",
+            "VoiceFileName": "1302910390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291049,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "かわいいかわいいぱんだちゃんで～す。/n周りのお客様の迷惑にならないように控えめで～す。",
+            "VoiceFileName": "1302910400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291050,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "踊ってみた動画、見てくれた？/nこれはねアレのオマケ動画……になる予定！",
+            "VoiceFileName": "1302910410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291051,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "って、まだぱんだたちは現地到着前なんですけど！",
+            "VoiceFileName": "1302910420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291052,
+            "EpisodeMasterId": 130291,
+            "Order": 2,
+            "GroupOrder": 46,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "これから踊ると思うとドキドキですよ！　お昼ご飯、喉を通りますかね～？",
+            "VoiceFileName": "1302910421",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291053,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "そんな不安も吹き飛んじゃうような、/n美味しそ～うな駅弁を上野駅で買ってきましたよっ！",
+            "VoiceFileName": "1302910430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291054,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "うん、今からみんなに紹介するね～！",
+            "VoiceFileName": "1302910440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291055,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 49,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "んじゃ、トップバッターを務めていただくのは～……。",
+            "VoiceFileName": "1302910450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291056,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 50,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "独断と偏見で、頼んだぱんだ！",
+            "VoiceFileName": "1302910460",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 209,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291057,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 51,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "ふぇっ、ぱんだからですか？",
+            "VoiceFileName": "1302910470",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291058,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 52,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "いいと思う！/nぱんだちゃんならきっと、かわいいパンダのお弁当だもん！",
+            "VoiceFileName": "1302910480",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291059,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 53,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ってことで、よろしく！",
+            "VoiceFileName": "1302910490",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 209,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291060,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 54,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "むむむ……わかりました！",
+            "VoiceFileName": "1302910500",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291061,
+            "EpisodeMasterId": 130291,
+            "Order": 2,
+            "GroupOrder": 54,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "大事なトップバッター、務めさせていただきます！",
+            "VoiceFileName": "1302910501",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291062,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 55,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "見てください。ぱんだが選んだのは～……じゃーん！/n『上野駅限定パンダランチボックス』ですよ～！",
+            "VoiceFileName": "1302910510",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291063,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 56,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "――ぷはぁ！　おおお～！　入れ物が親子パンダ！　キュート！",
+            "VoiceFileName": "1302910520",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291064,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 57,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "これは開ける前からワクワクしちゃうねぇ。/n中はどんなん？　見せてみ見せてみ。",
+            "VoiceFileName": "1302910530",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291065,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 58,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "中はですねぇ……ほら！　パンダの顔の形になってるご飯がかわいいんです♪/nおかずもハンバーグやエビフライに唐揚げと、大満足間違いなし！",
+            "VoiceFileName": "1302910540",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291066,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 59,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "やば、嫌いな人なんていないパーフェクトラインナップじゃん。/nこれは上野ポイント高いわ。",
+            "VoiceFileName": "1302910550",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291067,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 60,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "むむむ、負けてられない！　次は私！",
+            "VoiceFileName": "1302910560",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291068,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 61,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "いいねぇ、やる気だねぇ！",
+            "VoiceFileName": "1302910570",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291069,
+            "EpisodeMasterId": 130291,
+            "Order": 2,
+            "GroupOrder": 61,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "さあさあ一体全体どんな駅弁が登場するか……！",
+            "VoiceFileName": "1302910571",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291070,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 62,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "いっくよ～……どどーん！/n牛肉ストライク弁当！",
+            "VoiceFileName": "1302910580",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291071,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 63,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "アンド！　鮭いくらどっさり弁当！",
+            "VoiceFileName": "1302910590",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291072,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 64,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "いやいやいや！/nさっきひとつなんて選べないって言ってませんでした！？",
+            "VoiceFileName": "1302910600",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291073,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 65,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "選べない！　だからふたつにしちゃった！",
+            "VoiceFileName": "1302910610",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 209,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291074,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 66,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "しちゃったって……それと、他のお弁当に比べて大きいですけど、/nふたつも食べられるんですか……？",
+            "VoiceFileName": "1302910620",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291075,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 67,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "成長期だからね！　いっぱい食べていっぱい動く！/nラモさんみたくおっきくなるよ～！",
+            "VoiceFileName": "1302910630",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 109,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291076,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 68,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "それにこれからみんなでダンスするんだし！/nたっぷり食べて体力補充！　エネルギッシュ！",
+            "VoiceFileName": "1302910640",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291077,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 69,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "（むむむ、これが緋花里さんの底知れないパワーの源なのかも。/n　……真似できるとは思えないですケド）",
+            "VoiceFileName": "1302910650",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291078,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 70,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "両方ともテレビで取り上げられてたヤツだ。/n超人気あるってぇ話！　買えたのラッキーじゃん！",
+            "VoiceFileName": "1302910660",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291079,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 71,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "中も見てみて。ほらほら～！/nお肉がこ～んなにたっぷり！",
+            "VoiceFileName": "1302910670",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291080,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 72,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "わぁ、煮込まれた牛肉とそぼろがお弁当箱から溢れちゃいそうです！ /n甘辛い醤油のにおいに、おなかがぐ～って鳴っちゃったらどうしましょ～。",
+            "VoiceFileName": "1302910680",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291081,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 73,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "鮭いくらの方も『これでもかっ！』ってくらい盛られてるし！/n見ているだけで食欲そそられちゃうよねえ。",
+            "VoiceFileName": "1302910690",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291082,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 74,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "上野ポイントはどう？　どう？",
+            "VoiceFileName": "1302910700",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291083,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 75,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "え？　あー、上野発の列車でこんな駅弁食べたら気分アガるの間違いなし！　/n上野ポイント100万点！",
+            "VoiceFileName": "1302910710",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291084,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 76,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "やった～！",
+            "VoiceFileName": "1302910720",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291085,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 77,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "最後になっちゃいましたけど、/nカミラちゃんはどんなお弁当にしたんです？",
+            "VoiceFileName": "1302910730",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291086,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 78,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "（やっぱり映えるようなオシャレなお弁当？/n　それともかわいい系？　気になる……！）",
+            "VoiceFileName": "1302910740",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291087,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 79,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "おっとと、ふたりのお弁当見て満足しかけてたわ。",
+            "VoiceFileName": "1302910750",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291088,
+            "EpisodeMasterId": 130291,
+            "Order": 2,
+            "GroupOrder": 79,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ウチのはね～、100％めっちゃ美味しいヤツ！",
+            "VoiceFileName": "1302910751",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291089,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 80,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "なんだろなんだろ！/nどきどきわくわく！",
+            "VoiceFileName": "1302910760",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291090,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 81,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "じゃっじゃじゃ～ん！/n深川飯弁当～！",
+            "VoiceFileName": "1302910770",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291091,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 82,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "（えっ、ええええ！？　地味系～！？）",
+            "VoiceFileName": "1302910780",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291092,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 83,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "あっ、貝の炊き込みご飯のヤツ！/nそれも美味しそうだった！",
+            "VoiceFileName": "1302910790",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291093,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 84,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "……へぇ、和で攻めたんですね。/n海外の方にも受けそうな、映えるチョイスですね。",
+            "VoiceFileName": "1302910800",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291094,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 85,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "あ。バエは意識してなかったわ。/n単にいつも食べてる美味しいものって気分で、一発で選んじゃった。",
+            "VoiceFileName": "1302910810",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291095,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 86,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "一発って、ぱんだたちと一緒に最後まで選んでましたよね？",
+            "VoiceFileName": "1302910820",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291096,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 87,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ああ、アレは駅弁選び配信してたんよ。/nちゃんとお店の人に許可取ったからダイジョーブ！",
+            "VoiceFileName": "1302910830",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291097,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 88,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "（あんな短時間でも配信を！？　しかも許可まで取るコミュ力の高さ！　/n　むむむ、見習うべきですかね？）",
+            "VoiceFileName": "1302910840",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 501,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291098,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 89,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "地味って思われっかも知んねぇけど、/nこういうの子どもの頃からずっと食べてるし。",
+            "VoiceFileName": "1302910850",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291099,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 90,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "今日の気分はコレ！　って/nシンパシっちゃったんだよねぇ。",
+            "VoiceFileName": "1302910860",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291100,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 91,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ねーねー、もうお昼にしちゃおうよ！　ぺこぺこ！",
+            "VoiceFileName": "1302910870",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291101,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 92,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "えっ、まだお昼には……。",
+            "VoiceFileName": "1302910880",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291102,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 93,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "いいんじゃない？　ウチも食べたくなっちゃったし。/nついでに食レポ配信もしちゃおうよ。",
+            "VoiceFileName": "1302910890",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291103,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 94,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "でも、ぱんだちゃんがまだお腹空いてないなら後にしよ。/n一緒に食べた方が美味しいさ～。",
+            "VoiceFileName": "1302910900",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291104,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 95,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "……開けちゃいましたし。消化の時間とかも考えますと、/n今のうちに食べちゃった方がいいかもしれませんね。",
+            "VoiceFileName": "1302910910",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291105,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 96,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "やった～！　それじゃ、食べよ～！",
+            "VoiceFileName": "1302910920",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291106,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 97,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "んじゃ、みんな準備して。",
+            "VoiceFileName": "1302910930",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291107,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 98,
+            "SpeakerName": "ぱんだ",
+            "FontSize": 2,
+            "Phrase": "準備……ああ、こういう時は『アレ』ですよね。",
+            "VoiceFileName": "1302910940",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "105"
+        },
+        {
+            "Id": 130291108,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 99,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "あっ、わかった！",
+            "VoiceFileName": "1302910950",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 130291109,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 100,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "ってことで、ヒカりんもぱんだも、/n画面の前のみんなもいい？　それじゃ、せ～の！",
+            "VoiceFileName": "1302910960",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 130291110,
+            "EpisodeMasterId": 130291,
+            "Order": 1,
+            "GroupOrder": 101,
+            "SpeakerName": "ぱんだ・カミラ・緋花里",
+            "FontSize": 2,
+            "Phrase": "いただきます！",
+            "VoiceFileName": "1302910970",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 10501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 18,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        }
+    ]
+}

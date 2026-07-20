@@ -1,0 +1,60 @@
+{
+    "EpisodeId": 4002,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "我が主を誘おうと思…",
+    "EpisodeDetail": [
+        {
+            "Id": 4002001,
+            "EpisodeMasterId": 4002,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "我が主を誘おうと思って、下見にきたけどここは駄目だわ……。",
+            "VoiceFileName": "40020010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 4002002,
+            "EpisodeMasterId": 4002,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "だって、女の子が多いもの。これじゃあ、我が主との時間が/n台無しになってしまうわ……。ふたりきりの時は私だけを見てほしいもの。",
+            "VoiceFileName": "40020020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        }
+    ]
+}

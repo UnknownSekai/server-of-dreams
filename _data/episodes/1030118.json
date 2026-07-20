@@ -1,0 +1,570 @@
+{
+    "EpisodeId": 1030118,
+    "StoryType": 1,
+    "Order": 18,
+    "Prev": 1030117,
+    "Next": 1030119,
+    "Chapter": "銀河座　1章",
+    "Title": "広大なる銀河",
+    "EpisodeDetail": [
+        {
+            "Id": 1030118001,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "（気がつくと、万雷の拍手の中に居た――）",
+            "BackgroundImageFileName": "1050",
+            "VoiceFileName": "10301180010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030118002,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "本日の赤マル注目コーナーは、大好評上演中！/n銀河座の皆さんにお集まりいただきました！",
+            "BackgroundImageFileName": "660",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "10",
+            "SeFileName": "71",
+            "VoiceFileName": "10301180020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1",
+            "FadeValue1": 0.0,
+            "FadeValue2": 0.0,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030118003,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "『竹取物語』を拝見しましたが、今でも興奮が収まりません！/nあれこれお伺いしたくて整理がつかないのですが……！",
+            "VoiceFileName": "10301180030",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030118004,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "私の美しさについて話す？　まさに月から来た/n使者そのものになっていたと思う。",
+            "VoiceFileName": "10301180040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "HeadDirectionMasterId": 7,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 26,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "FacialExpressionMasterId": 202,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030118005,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ワタシの爺も良くできていたろ、グッズ買ってくれ。",
+            "VoiceFileName": "10301180050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "FacialExpressionMasterId": 200,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030118006,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "満足いく舞台が出来たさ！　こういう時って凄いハッピー。",
+            "VoiceFileName": "10301180060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 18,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "FacialExpressionMasterId": 202,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030118007,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "『竹取物語』の主役お二方に/nインタビューさせていただきます！",
+            "VoiceFileName": "10301180070",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030118008,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "かぐや役、千寿暦さん！/nそして操役、ラモーナ・ウォルフさん！",
+            "VoiceFileName": "10301180080",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030118009,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "『ふたりの出会いと別れに涙！』『＃銀河座ヤバい』など！/nSNSでも絶賛コメントが相次いでいます。",
+            "VoiceFileName": "10301180090",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030118010,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "まずは、見事大活躍のラモーナさん、/n率直な感想を聞かせてください！",
+            "VoiceFileName": "10301180100",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030118011,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "喜んでもらえる芝居ができてよかった。/n協力してくれた共演者やスタッフに感謝だな。",
+            "VoiceFileName": "10301180110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30209,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030118012,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "千寿さんはいかがでしょう？",
+            "VoiceFileName": "10301180120",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030118013,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "自分でも驚きなのですが、次の公演が楽しみなんですの。/n翁や媼との絆、皇子達とのやりとり。使者との対決。",
+            "VoiceFileName": "10301180130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30109,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030118014,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "……そして何より従者・操と心を通わせる芝居。/n突き詰めれば、よりすばらしいものになりますものね。",
+            "VoiceFileName": "10301180140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030118015,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "現段階でも傑作と名高いのに、これ以上ですか！？",
+            "VoiceFileName": "10301180150",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030118016,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "うへえ、向上心の塊かよ。まだ満足してなかったのか。",
+            "VoiceFileName": "10301180160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 30403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 26,
+                    "SpineId": 30503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "FacialExpressionMasterId": 508,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030118017,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ステキだと思うよ！　私も頑張る。",
+            "VoiceFileName": "10301180170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030118018,
+            "EpisodeMasterId": 1030118,
+            "Order": 2,
+            "GroupOrder": 17,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "体が熱くてもう走り出してしまいそう！",
+            "VoiceFileName": "10301180171",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030118019,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "確かに私の美しさに際限は無い。まだ上を目指せる。",
+            "VoiceFileName": "10301180180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 1,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 5,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030118020,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "以上。賑やかな銀河座からお送りしました。/nスタジオにお返ししまーす！",
+            "VoiceFileName": "10301180190",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030118021,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 20,
+            "FontSize": 2,
+            "Phrase": "",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 1030118022,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "リリヤの芝居だけ見るつもりだったが、/nなかなかどうして面白い芝居をする……。",
+            "BackgroundImageFileName": "641",
+            "BackgroundImageFileFadeType": 1,
+            "VoiceFileName": "10301180200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201",
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030118023,
+            "EpisodeMasterId": 1030118,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "一皮むけた千寿暦。フ……面白い。/nそういうお前が見たかったのだ。",
+            "VoiceFileName": "10301180210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        }
+    ]
+}

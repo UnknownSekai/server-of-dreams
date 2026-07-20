@@ -1,0 +1,610 @@
+{
+    "EpisodeId": 1030101,
+    "StoryType": 1,
+    "Order": 1,
+    "Prev": null,
+    "Next": 1030102,
+    "Chapter": "銀河座　1章",
+    "Title": "来日",
+    "EpisodeDetail": [
+        {
+            "Id": 1030101001,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "みんな、わざわざ見送りに来てくれてありがとう。/n今日もハンブルクで公演なのにすまないな。",
+            "BackgroundImageFileName": "1100",
+            "BgmFileName": "1",
+            "VoiceFileName": "10301010010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101002,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "劇団員A",
+            "FontSize": 2,
+            "Phrase": "仲間の見送りを無視して、芝居なんてできないわ。",
+            "VoiceFileName": "10301010020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030101003,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "劇団員B",
+            "FontSize": 2,
+            "Phrase": "それよりホントに大丈夫？　日本でやってける？/n銀河座ってトコのスカウトは信用できる？",
+            "VoiceFileName": "10301010030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030101004,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "問題ない。しっかりと見極めた。",
+            "VoiceFileName": "10301010040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101005,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "劇団員C",
+            "FontSize": 2,
+            "Phrase": "問題なのは、ラミーはさみしがり屋ってトコだよね～。",
+            "VoiceFileName": "10301010050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030101006,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "おい、やめてくれ。/nせっかく考えないようにしていたというのに。",
+            "VoiceFileName": "10301010060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 404,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101007,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "劇団員A",
+            "FontSize": 2,
+            "Phrase": "いつでも帰ってきていいわよ。籍は残しておくから。",
+            "VoiceFileName": "10301010070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030101008,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ありがたいな。だが、聞かなかったことにする。/n決心が鈍ってはいよいよ飛べなくなるからな。",
+            "VoiceFileName": "10301010080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101009,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "空港ナレーション",
+            "FontSize": 2,
+            "Phrase": "ご案内します。ハンブルク発東京行き国際便。/nただいまよりお客様のご搭乗手続きを開始します。",
+            "VoiceFileName": "10301010090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030101010,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "さあ、ラモーナ・ウォルフ挑戦の始まりだ。/n向こうに着いて落ち着いたら手紙を書く。行ってくるぞ。",
+            "VoiceFileName": "10301010100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101011,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 11,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1050",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030101012,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "（故郷が小さくなる心細さに、まぶたを閉じて未来を想う）",
+            "VoiceFileName": "10301010110",
+            "CharacterMotions": [],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101013,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "（目的地は東京。/n　そこは――彼女も暮らしている場所だ）",
+            "VoiceFileName": "10301010120",
+            "CharacterMotions": [],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101014,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 14,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1100",
+            "BackgroundImageFileFadeType": 2,
+            "SeFileName": "641",
+            "WindowEffect": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030101015,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "水くさいぞカトリナ。我々に黙って出発だなんて。",
+            "BgmFileName": "9",
+            "WindowEffect": 1,
+            "VoiceFileName": "10301010130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101016,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "仲いいワケでもないし、伝えられたって迷惑でしょ。",
+            "WindowEffect": 1,
+            "VoiceFileName": "10301010140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1030101017,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "同じ釜のヴルストを食べた仲だろう。/nそもそもなぜ日本なんだ？　ドイツにはお前の母上だって――",
+            "WindowEffect": 1,
+            "VoiceFileName": "10301010150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101018,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "アタシがどこで何しようが勝手でしょ！？/n結果を出さなきゃいけないの！",
+            "WindowEffect": 1,
+            "VoiceFileName": "10301010160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 300,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1030101019,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "落ち着いてくれ、カトリナ。突っ走るな。/n役者が孤立しては駄目だ。仲間が必要だ！",
+            "WindowEffect": 1,
+            "VoiceFileName": "10301010170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101020,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "カトリナ",
+            "FontSize": 2,
+            "Phrase": "ああそう、仲間との絆を大切にね。じゃあね。",
+            "WindowEffect": 1,
+            "VoiceFileName": "10301010180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 76,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 10301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "103"
+        },
+        {
+            "Id": 1030101021,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 21,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1050",
+            "BackgroundImageFileFadeType": 2,
+            "BgmFileName": "999",
+            "SeFileName": "641",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030101022,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "カトリナ、すまなかった。お前の焦りに気づけたら/nもっとしてやれることがあったのだろうな。",
+            "VoiceFileName": "10301010190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 402,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101023,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "……だが、後悔はここまでだ。/nなぜならもうすぐ追いつけるのだから。",
+            "VoiceFileName": "10301010200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101024,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "……しばらく待っていてくれ、カトリナ。/n今度こそ、お前を助けられる人間になる。",
+            "VoiceFileName": "10301010210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101025,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 25,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1130",
+            "BackgroundImageFileFadeType": 2,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030101026,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "（この大演劇時代、役者のスカウトは世界中で行われていた）",
+            "BgmFileName": "206",
+            "VoiceFileName": "10301010220",
+            "CharacterMotions": [],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101027,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "（歴史と伝統あるブロードウェイ、ウエストエンドのみならず、/n　ここ東京にも未来のダイスター候補を揃える劇団は数多い）",
+            "VoiceFileName": "10301010230",
+            "CharacterMotions": [],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030101028,
+            "EpisodeMasterId": 1030101,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "（そんな数多ある星々のひとつが、東京上野に存在する巨大劇団。/n　その名を銀河座という）",
+            "BackgroundImageFileName": "640",
+            "BackgroundImageFileFadeType": 2,
+            "SceneCameraMasterId": 7,
+            "VoiceFileName": "10301010240",
+            "CharacterMotions": [],
+            "SpeakerIconId": "302",
+            "FadeValue1": 0.5,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.5
+        }
+    ]
+}

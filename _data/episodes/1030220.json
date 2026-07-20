@@ -1,0 +1,1586 @@
+{
+    "EpisodeId": 1030220,
+    "StoryType": 1,
+    "Order": 20,
+    "Prev": 1030219,
+    "Next": null,
+    "Chapter": "銀河座　2章",
+    "Title": "旅は続く",
+    "EpisodeDetail": [
+        {
+            "Id": 1030220001,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "こんばんは。今夜は注目が集まる『銀河鉄道の夜』、/n初演を終えたばかりの上野、銀河座に来ています！",
+            "BackgroundImageFileName": "640",
+            "BgmFileName": "202",
+            "VoiceFileName": "10302200010",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030220002,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "さっそくお客さんに感想を伺ってみましょう！/nご覧になっていかがでしたか？",
+            "VoiceFileName": "10302200020",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030220003,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "倫子",
+            "FontSize": 2,
+            "Phrase": "控えめに言って最高です長くなりますけどいいですかいいですよね！/nそもそも銀河座の『銀河鉄道の夜』は数多くのダイスターを輩出してきた伝統の",
+            "VoiceFileName": "10302200030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 50301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "503"
+        },
+        {
+            "Id": 1030220004,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "リポーター",
+            "FontSize": 2,
+            "Phrase": "とても好評みたいでーす！/nそれではスタジオにお返ししまーす！",
+            "VoiceFileName": "10302200040",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030220005,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "倫子",
+            "FontSize": 2,
+            "Phrase": "もっと語りたいんですけどーッ！",
+            "VoiceFileName": "10302200050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 401,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 50301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "503"
+        },
+        {
+            "Id": 1030220006,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 6,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1050",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.10000000149011612
+        },
+        {
+            "Id": 1030220007,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（『銀河鉄道の夜』は、無事に初演を乗り越えた）",
+            "VoiceFileName": "10302200060",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220008,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（最高にムカつくザネリでジョバンニに応えたドイツは、/n　悩んでいた鳥をとる人も上手くモノにしていた）",
+            "VoiceFileName": "10302200070",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220009,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（フィンランドはわずかな出番を美しさで押し通した。/n　主役よりも注目を惹きつける、油断ならない芝居だ）",
+            "VoiceFileName": "10302200080",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220010,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（緋花里はイメージと真逆の青年役を好演した。/n　演出家が珍しく拍手を送るほどだ。また手強い相手になるだろう）",
+            "VoiceFileName": "10302200090",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220011,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（暦サンは——）",
+            "VoiceFileName": "10302200100",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220012,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 12,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1460",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.10000000149011612,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030220013,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "元劇団員A",
+            "FontSize": 2,
+            "Phrase": "演劇黄金時代を思わせる名演、『銀河鉄道の夜』。/n彼女らは演劇界を導く北極星となり得るか——",
+            "VoiceFileName": "10302200110",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030220014,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "元劇団員C",
+            "FontSize": 2,
+            "Phrase": "見事なモンだね。/nこの批評家先生、めったにほめない超辛口なのにさ。",
+            "VoiceFileName": "10302200120",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030220015,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "もったいないお言葉です。",
+            "VoiceFileName": "10302200130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220016,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "元劇団員B",
+            "FontSize": 2,
+            "Phrase": "羽は休めてもいいけれど、ここに満足してはならないわ。/n羽ばたきなさい、どこまでも。遙かなる高みを目指して。",
+            "VoiceFileName": "10302200140",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030220017,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "元劇団員A",
+            "FontSize": 2,
+            "Phrase": "英気を養い、勇猛果敢に邁進すること。/n銀河は若き世代に託す。頼むぞ、千寿暦。",
+            "VoiceFileName": "10302200150",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030220018,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "もちろん、ご期待に応え続けます。/nそれが銀河座なのですから。",
+            "VoiceFileName": "10302200160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220019,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 19,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1050",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.10000000149011612
+        },
+        {
+            "Id": 1030220020,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（暦サンは、不眠症を他の団員に黙ったまま/n　カムパネルラを演じきり、期待に応えてみせた）",
+            "VoiceFileName": "10302200170",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220021,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（そして主演のジョバンニ役、王雪は——）",
+            "VoiceFileName": "10302200180",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220022,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 22,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "660",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.10000000149011612,
+            "FadeValue2": 0.10000000149011612,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030220023,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "……話としてはこんなところだ。",
+            "VoiceFileName": "10302200190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220024,
+            "EpisodeMasterId": 1030220,
+            "Order": 2,
+            "GroupOrder": 23,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "これからもワタシは役者と学生、バイトの三足の草鞋でいく。",
+            "VoiceFileName": "10302200191",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220025,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "だからせいぜい期待していろ。",
+            "VoiceFileName": "10302200200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220026,
+            "EpisodeMasterId": 1030220,
+            "Order": 2,
+            "GroupOrder": 24,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "その他大勢から這い上がる王雪の下剋上をな！",
+            "VoiceFileName": "10302200201",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220027,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "MC",
+            "FontSize": 2,
+            "Phrase": "とっても勇気が湧く素敵なお話でした……！/n本日は銀河座、王雪さんにお越しいただきました！",
+            "VoiceFileName": "10302200210",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030220028,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "MC",
+            "FontSize": 2,
+            "Phrase": "王雪さん主演、銀河座『銀河鉄道の夜』は絶賛上演中！/n本当の幸せを探す物語にご期待ください！",
+            "VoiceFileName": "10302200220",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030220029,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 27,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1131",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030220030,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（王雪は――センスの加護がない後半を乗り切った。/n　禅が効いたのか、緋花里との筋トレの成果か）",
+            "VoiceFileName": "10302200230",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220031,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（それとも、周りの連中のおかげなのか。/n　理由は分からない）",
+            "VoiceFileName": "10302200240",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220032,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（ただ、ひとつだけ確かなことがある）",
+            "VoiceFileName": "10302200250",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220033,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "（――その他大勢だったワタシは、/n　世間にその名を知らしめたということだ）",
+            "VoiceFileName": "10302200260",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220034,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 32,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1481",
+            "BackgroundImageFileFadeType": 1,
+            "SeFileName": "230",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030220035,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "……ここ、こんなにいい眺めだったんだな。/nあの時はまるで感じなかった。",
+            "BgmFileName": "203",
+            "VoiceFileName": "10302200270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220036,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "余裕がなかったからではありませんこと？",
+            "VoiceFileName": "10302200280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220037,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "いいや、ワタシは余裕だ。落ち着き払っていた。",
+            "VoiceFileName": "10302200290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220038,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "そういうことにしておいてさしあげますわ。",
+            "VoiceFileName": "10302200300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220039,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "椅子が座席で、フェンスが車窓でしたわね。",
+            "VoiceFileName": "10302200310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220040,
+            "EpisodeMasterId": 1030220,
+            "Order": 2,
+            "GroupOrder": 37,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "座りましょうか、雪さん。",
+            "VoiceFileName": "10302200311",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220041,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "……うぐ、ぬぬぬ。",
+            "VoiceFileName": "10302200320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 303,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220042,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "どうかなさいまして？",
+            "VoiceFileName": "10302200330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220043,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "改めて考えると、/nずいぶん恥ずかしいことやってたんだな……。",
+            "VoiceFileName": "10302200340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadMotionMasterId": 4,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220044,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "確かに……。これはふたりだけの秘密ですわよ？",
+            "VoiceFileName": "10302200350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220045,
+            "EpisodeMasterId": 1030220,
+            "Order": 2,
+            "GroupOrder": 41,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "特にラモーナさんには！",
+            "VoiceFileName": "10302200351",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220046,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "当たり前だ、アイツに話してみろ。/n何故呼ばなかったと叫んだ上で、ここでパーティーを始めるぞ。",
+            "VoiceFileName": "10302200360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 305,
+                    "HeadDirectionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220047,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "言えてますわね。あの行動力には本当に——",
+            "VoiceFileName": "10302200370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220048,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 44,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "40",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 1030220049,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "あら、呼んでいますわよ。ご家族では？",
+            "VoiceFileName": "10302200380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220050,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "……そうらしい、兄さんたちだ。/n送っておいた配信チケットで観たんだろう。",
+            "VoiceFileName": "10302200390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220051,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ご感想をお伺いしてみては？",
+            "VoiceFileName": "10302200400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220052,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 48,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "40",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 1030220053,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 49,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "お、おい……！　送りすぎだぞ……！/n通知が止まらん！",
+            "SeFileName": "40",
+            "VoiceFileName": "10302200410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220054,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 50,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "感想は伺わずともわかりましたわね？",
+            "VoiceFileName": "10302200420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220055,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 51,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "あいつらワタシをからかって遊んでるんだ。/nこんなヤツらには、ひと言くれてやるだけで充分だ！",
+            "SeFileName": "40",
+            "VoiceFileName": "10302200430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220056,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 52,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "文面はなんと？",
+            "VoiceFileName": "10302200440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220057,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 53,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "決まってるだろ。/n『これからも期待しとけ』だ。",
+            "VoiceFileName": "10302200450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 109,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220058,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 54,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ふふふ。",
+            "VoiceFileName": "10302200460",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 6,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220059,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 55,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1131",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "999",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030220060,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 56,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "本当の幸せとはいったいなんだろう。",
+            "VoiceFileName": "10302200470",
+            "CharacterMotions": [],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220061,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 57,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "公演が決まってからというもの、/n私はずっと考えてきました。",
+            "VoiceFileName": "10302200480",
+            "CharacterMotions": [],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220062,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 58,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "最初こそ役作りのためでしたが、次第にそれは/n私自身への問いかけになっていた。",
+            "VoiceFileName": "10302200490",
+            "CharacterMotions": [],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220063,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 59,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "危なっかしいな、暦サンは。/nあんなことを本当の幸せだと思い込むなんて。",
+            "VoiceFileName": "10302200500",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220064,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 60,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ですが結果として、公演は成功。/n期待に応えた銀河座は、評価を高めることができた。",
+            "VoiceFileName": "10302200510",
+            "CharacterMotions": [],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220065,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 61,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "期待をかけられていなければ、/nきっとこれほどの成功はなかったはずですわ。",
+            "VoiceFileName": "10302200520",
+            "CharacterMotions": [],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220066,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 62,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "……釈然としないが、理解はしてやる。",
+            "VoiceFileName": "10302200530",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220067,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 63,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1481",
+            "BackgroundImageFileFadeType": 4,
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929
+        },
+        {
+            "Id": 1030220068,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 64,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "雪さんはいかがですか？/n銀河鉄道に揺られて何か得られたものは？",
+            "VoiceFileName": "10302200540",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220069,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 65,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "実利的なモノならある。/n王雪の知名度、銀河座の評判、主演の実績、ギャラ……。",
+            "VoiceFileName": "10302200550",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220070,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 66,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "センスのない後半を補う地力も固まった。/n座長の経験も得るものはあった。",
+            "VoiceFileName": "10302200560",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 109,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220071,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 67,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "何より、家族にいい報告ができた。",
+            "BackgroundCharacterImageFileName": "140320_0",
+            "BgmFileName": "8",
+            "VoiceFileName": "10302200570",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220072,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 68,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "だが、これが本当の幸せとは思えない。/n小さないいことがたくさんある。そんな感じだ。",
+            "BackgroundCharacterImageFileName": "140320_0",
+            "VoiceFileName": "10302200580",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220073,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 69,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "なら、答えは分からないと？",
+            "BackgroundCharacterImageFileName": "140320_0",
+            "VoiceFileName": "10302200590",
+            "CharacterMotions": [],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220074,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 70,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "分からん。分からんことを悩んでもしょうがない。/n誰かさんみたいに不眠症にもなりたくないしな。",
+            "BackgroundCharacterImageFileName": "140320_0",
+            "VoiceFileName": "10302200600",
+            "CharacterMotions": [],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220075,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 71,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "どなたのことでしょうね。",
+            "BackgroundCharacterImageFileName": "140320_0",
+            "VoiceFileName": "10302200610",
+            "CharacterMotions": [],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030220076,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 72,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "フン、まあいい。本当の幸せなんて/n見つかれば儲け物くらいのものだ。",
+            "VoiceFileName": "10302200620",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220077,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 73,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "銀河鉄道より長い旅を続けてればいつか分かるだろ。",
+            "VoiceFileName": "10302200630",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220078,
+            "EpisodeMasterId": 1030220,
+            "Order": 2,
+            "GroupOrder": 73,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "そう思わないか、カムパネルラ。",
+            "VoiceFileName": "10302200631",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030220079,
+            "EpisodeMasterId": 1030220,
+            "Order": 1,
+            "GroupOrder": 74,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "ですわね、ジョバンニ。",
+            "VoiceFileName": "10302200640",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        }
+    ]
+}

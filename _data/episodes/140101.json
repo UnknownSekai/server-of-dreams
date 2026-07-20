@@ -1,0 +1,1375 @@
+{
+    "EpisodeId": 140101,
+    "StoryType": 3,
+    "Order": 1,
+    "Prev": null,
+    "Next": 140102,
+    "Chapter": "オーロラの精霊",
+    "Title": "危険な？お姉さん",
+    "EpisodeDetail": [
+        {
+            "Id": 140101001,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "うー、稽古が休みだとそわそわする。",
+            "BackgroundImageFileName": "122",
+            "BgmFileName": "203",
+            "VoiceFileName": "1401010010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 140101002,
+            "EpisodeMasterId": 140101,
+            "Order": 2,
+            "GroupOrder": 1,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "練習したい！　稽古場開けてくれないかな？",
+            "VoiceFileName": "1401010011",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 140101003,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "稽古場が改装中なんだ、帰って寝ろ。/nフィンランドなんてもう半分寝てるぞ。",
+            "VoiceFileName": "1401010020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101004,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "眠い……脱がないと眠れない……。",
+            "VoiceFileName": "1401010030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 23,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 140101005,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ダメだまだ寝るな。",
+            "VoiceFileName": "1401010040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101006,
+            "EpisodeMasterId": 140101,
+            "Order": 2,
+            "GroupOrder": 4,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ええい、なんとかしないと暦に叱られる！",
+            "VoiceFileName": "1401010041",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 401,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101007,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "バイト代を払うならなんとかしてやらんでも――",
+            "VoiceFileName": "1401010050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101008,
+            "EpisodeMasterId": 140101,
+            "Order": 2,
+            "GroupOrder": 5,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "お？　あの車を運転してるヤツ、もしかして……。",
+            "VoiceFileName": "1401010051",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101009,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "仲良く下校か、銀河座の。",
+            "BgmFileName": "402",
+            "VoiceFileName": "1401010060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101010,
+            "EpisodeMasterId": 140101,
+            "Order": 2,
+            "GroupOrder": 6,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "かぐや姫……いや、暦は別行動か？",
+            "VoiceFileName": "1401010061",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101011,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "人違いだ。帰るぞ、みんな。",
+            "VoiceFileName": "1401010070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 76,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101012,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "たまにはいいこと言うじゃないか。/n緋花里、リリヤを担げ。帰るぞ。",
+            "VoiceFileName": "1401010080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101013,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "無視して帰ると後悔するぞ。/nこの連尺野初魅が直々に礼をしてやろうと言うのに。",
+            "VoiceFileName": "1401010090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101014,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "よーし緋花里、ステイだ。",
+            "VoiceFileName": "1401010100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101015,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "礼に釣られたか、まったく。",
+            "VoiceFileName": "1401010110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101016,
+            "EpisodeMasterId": 140101,
+            "Order": 2,
+            "GroupOrder": 11,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "分かっているだろうが雪、彼女はだな……。",
+            "VoiceFileName": "1401010111",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 305,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101017,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "まるで私に邪心があるかのような言いぐさだな？/n私は見事な『竹取物語』を作り上げた君たちに報いたいだけだぞ。",
+            "VoiceFileName": "1401010120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101018,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "何？",
+            "VoiceFileName": "1401010130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101019,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ラモーナ。お前の操はかぐや姫と客席を結ぶ橋渡し役だ。/nお前が機能したからこそ、客は物語の悲劇性を味わえた。",
+            "VoiceFileName": "1401010140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101020,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "リリヤ、お前は存在ひとつで客に畏敬を抱かせた。/nもはや呪いとさえ呼べる美しさは格別としか言えん。",
+            "VoiceFileName": "1401010150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101021,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "そして翁と媼。お前たちの賑やかしや遊びのおかげで、/n客を物語世界に釘付けできた。脇役にしかできん仕事だ。",
+            "VoiceFileName": "1401010160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 109,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101022,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "以上、私はいい芝居を見せた君たちを評価している。/nもちろん、暦の演技もだ。まとめて礼をさせてもらう。",
+            "VoiceFileName": "1401010170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101023,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "そろそろ初魅が来るころだと思った。",
+            "VoiceFileName": "1401010180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 140101024,
+            "EpisodeMasterId": 140101,
+            "Order": 2,
+            "GroupOrder": 18,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "……ついでに眠たいし寮まで送って。",
+            "VoiceFileName": "1401010181",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 140101025,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "ああ、おい勝手に……！",
+            "VoiceFileName": "1401010190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 501,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101026,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "楽園に選ばれる好機はそう訪れない。",
+            "VoiceFileName": "1401010200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101027,
+            "EpisodeMasterId": 140101,
+            "Order": 2,
+            "GroupOrder": 20,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "さあ、私の車に乗れ。悪いようにはしない。",
+            "VoiceFileName": "1401010201",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101028,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ワタシの最低希望時給は2000円だ！/nお前はそれ以上の価値を提供できるか！",
+            "VoiceFileName": "1401010210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101029,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "これは慎ましいな。いいだろう。/n現物支給だが、腹いっぱい馳走しよう。",
+            "VoiceFileName": "1401010220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101030,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "タダ飯か。よし、乗っていいぞ緋花里。",
+            "VoiceFileName": "1401010230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101031,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "ラモさん、どうする？/nみんな一緒なら私も行きたいさー。",
+            "VoiceFileName": "1401010240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 140101032,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "……仕方あるまい、私もお目付役として同行する。/n念のため、帰りが遅ければ通報するよう暦に伝えた。",
+            "VoiceFileName": "1401010250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101033,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ハハ、買いかぶりすぎだ。/nさすがの私も一度に美少女４人を相手などできないよ。",
+            "VoiceFileName": "1401010260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101034,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "もし妙なことをしでかせば……分かっているな？",
+            "VoiceFileName": "1401010270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101035,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "むしろ分からせてくれ。/n威勢のよさで隠した、お前のもうひとつの一面を。",
+            "VoiceFileName": "1401010280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101036,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "どうでもいい、とっとと車を出せ。/n早くメシを食わせろとフィンランドも言ってるぞ。",
+            "VoiceFileName": "1401010290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101037,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "ふああ……眠い……。",
+            "VoiceFileName": "1401010300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 140101038,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "いいだろう、喜んでエスコートさせてもらうぞ。",
+            "VoiceFileName": "1401010310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101039,
+            "EpisodeMasterId": 140101,
+            "Order": 2,
+            "GroupOrder": 31,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "フフ、今日はいい日だ。",
+            "VoiceFileName": "1401010311",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101040,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "さあ、好きに注文を――",
+            "BackgroundImageFileName": "1261",
+            "BackgroundImageFileFadeType": 1,
+            "VoiceFileName": "1401010320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201",
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 140101041,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "よし、とりあえずメニューのここからここまで。/nお前も頼め、フィンランド。今日はチートデイだ。",
+            "VoiceFileName": "1401010330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101042,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "なるほど、その手があった。",
+            "VoiceFileName": "1401010340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 502,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 140101043,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "おお、ポテトサラダだけで５種類もあるぞ！/nヴルストも揃っている！　これはいい！",
+            "VoiceFileName": "1401010350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101044,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "――注文するのはいいが、食べきれるんだろうな？",
+            "VoiceFileName": "1401010360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101045,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ハッ、こっちには最強の胃袋がいるんだ。",
+            "VoiceFileName": "1401010370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101046,
+            "EpisodeMasterId": 140101,
+            "Order": 2,
+            "GroupOrder": 37,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "緋花里、限界を超えろ。本気を見せてやれ！",
+            "VoiceFileName": "1401010371",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 140101047,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "うおおおおっ、限界突破！/n今なら100人前も軽いさー！",
+            "VoiceFileName": "1401010380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 26,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30502,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 140101048,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "それではこれより作戦を開始する！　行くぞ！",
+            "VoiceFileName": "1401010390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30202,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 140101049,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "フッ。好きなだけ食い、糧にしろ。/n元気な奴等じゃないか、暦。",
+            "VoiceFileName": "1401010400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 140101050,
+            "EpisodeMasterId": 140101,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "これからの銀河座、少し楽しみだな。",
+            "VoiceFileName": "1401010410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        }
+    ]
+}

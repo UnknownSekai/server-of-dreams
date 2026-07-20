@@ -1,0 +1,1320 @@
+{
+    "EpisodeId": 110152,
+    "StoryType": 3,
+    "Order": 2,
+    "Prev": 110151,
+    "Next": null,
+    "Chapter": "銀河座",
+    "Title": "頼れる先輩",
+    "EpisodeDetail": [
+        {
+            "Id": 110152001,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "学生A",
+            "FontSize": 2,
+            "Phrase": "見て、リリヤさんよ！/nあの制服の着崩し方、すごく大胆……。",
+            "BackgroundImageFileName": "50",
+            "BgmFileName": "202",
+            "VoiceFileName": "1101520010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 24,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110152002,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "学生B",
+            "FontSize": 2,
+            "Phrase": "絵になるし、ホント目の保養だよね……。/nあの顔と身体になりたい……。",
+            "VoiceFileName": "1101520020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 25,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 110152003,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "……見物料でも取ったらひと稼ぎできそうだな。",
+            "VoiceFileName": "1101520030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 110152004,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "タダでいい。大勢に見てほしいから。",
+            "VoiceFileName": "1101520040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152005,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "もったいないな、ビジネスチャンスだぞ？",
+            "VoiceFileName": "1101520050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 110152006,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "お金儲けより、私を見て喜ぶ人たちがいる。",
+            "VoiceFileName": "1101520060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152007,
+            "EpisodeMasterId": 110152,
+            "Order": 2,
+            "GroupOrder": 6,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "それって……興奮しない？　ゾクゾクしない？",
+            "VoiceFileName": "1101520061",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152008,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "しねえよ。/nホント役者でよかったな、お前……。",
+            "VoiceFileName": "1101520070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 600,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 110152009,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "みんなに見てもらえるから役者は天職。",
+            "VoiceFileName": "1101520080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152010,
+            "EpisodeMasterId": 110152,
+            "Order": 2,
+            "GroupOrder": 8,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "気分がいいからもう少し校内を散歩するけど、雪は？",
+            "VoiceFileName": "1101520081",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152011,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "付き合いきれないっての。先に帰ってるぞ。",
+            "VoiceFileName": "1101520090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 76,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 110152012,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "そう。気をつけて。",
+            "VoiceFileName": "1101520100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152013,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "ああ、よかった！　やっぱりリリヤさんだ。/n生徒たちの黄色い声を追ってきて正解でした！",
+            "BgmFileName": "999",
+            "VoiceFileName": "1101520110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 110152014,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "息を切らしてどうしたの、いろは？",
+            "VoiceFileName": "1101520120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152015,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "ぜひともご意見を伺いたくて！",
+            "VoiceFileName": "1101520130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 110152016,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "なるほど、例のコスチューム。露出度は？",
+            "VoiceFileName": "1101520140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152017,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "高いです！　でも可愛いです！",
+            "VoiceFileName": "1101520150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40102,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 110152018,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "美しそうでいい。行こう、恍惚の彼方へ。",
+            "VoiceFileName": "1101520160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152019,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "それではエントリーナンバー１！/n『魔法少女カリュー』より、マリア・マリオン！",
+            "BackgroundImageFileName": "60",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "302",
+            "VoiceFileName": "1101520170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40108,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401",
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 110152020,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "わ、悪い子は……この糸で操っちゃうぞ！",
+            "VoiceFileName": "1101520180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 306,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40208,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 110152021,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "続いてエントリーナンバー２！/n同じく『魔法少女カリュー』より、ティアリエ！",
+            "VoiceFileName": "1101520190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40108,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 110152022,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "リリヤさんよろ～！",
+            "VoiceFileName": "1101520200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40308,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 110152023,
+            "EpisodeMasterId": 110152,
+            "Order": 2,
+            "GroupOrder": 20,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "てか元ネタ知らんのウケる。このノリでおけまる？",
+            "VoiceFileName": "1101520201",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 110152024,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "そしてナンバー３は僕！/nもちろん『魔法少女カリュー』より、カリュー！",
+            "VoiceFileName": "1101520210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40108,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 110152025,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "次のコスイベでカリュー合わせするんです。/nどうでしょう！",
+            "VoiceFileName": "1101520220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 110152026,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "1101520230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152027,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "あう、すっごいじっくり見られてる……。/nさ、さすがにちょっと恥ずかしいよ……。",
+            "VoiceFileName": "1101520240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 16,
+                    "SpineId": 40108,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40208,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 110152028,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "ポーズを崩しちゃダメですよ、みとちゃん。/nリリヤさんに一番キレイなところを見てもらわなきゃ！",
+            "VoiceFileName": "1101520250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 110152029,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "……うん、もういいよ。リラックスして。",
+            "VoiceFileName": "1101520260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152030,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "で、リリヤさん的にはどう？　ありよりのあり？",
+            "VoiceFileName": "1101520270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40308,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 110152031,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "ありよりのあり。美しい。",
+            "VoiceFileName": "1101520280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152032,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "やったー！　リリヤさんのお墨付きです！",
+            "VoiceFileName": "1101520290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40108,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 110152033,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "だけど、カミラは胸元の露出を少し控えた方がいい。/nいろははニーハイをあと２センチ降ろす。",
+            "VoiceFileName": "1101520300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152034,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "それと美兎、ちょっと調節する。/n……動かないで。",
+            "VoiceFileName": "1101520310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152035,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "え、えっ！　ちょっとリリヤさん……！？",
+            "VoiceFileName": "1101520320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 40308,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 513,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40208,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 110152036,
+            "EpisodeMasterId": 110152,
+            "Order": 2,
+            "GroupOrder": 32,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "スリットの切れ込み、そんなに入れたら……。",
+            "VoiceFileName": "1101520321",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 407,
+                    "HeadMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 110152037,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "うわ、みとりんヤバ～。マジ大胆不敵じゃ～ん。",
+            "VoiceFileName": "1101520330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 110152038,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "ふえ……これ、だいじょうぶなの……？",
+            "VoiceFileName": "1101520340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "BodyMotionMasterId": 19,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 110152039,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "ギリギリに見えるけど余裕のある角度。/n私が研究した結果だから信じても大丈夫。",
+            "VoiceFileName": "1101520350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152040,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "それに原作の際どさも完全再現できた。",
+            "VoiceFileName": "1101520360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152041,
+            "EpisodeMasterId": 110152,
+            "Order": 2,
+            "GroupOrder": 36,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "美しさだけじゃなく、作品への愛情も表現できたと思う。",
+            "VoiceFileName": "1101520361",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152042,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "そうですよね、そうですよね！　ありがとうございます！",
+            "VoiceFileName": "1101520370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 40108,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 110152043,
+            "EpisodeMasterId": 110152,
+            "Order": 2,
+            "GroupOrder": 37,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "すっごく可愛くなりましたよ、みとちゃん！",
+            "VoiceFileName": "1101520371",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 16,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 110152044,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "そ、そうかな……？",
+            "VoiceFileName": "1101520380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 15,
+                    "SpineId": 40308,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40208,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 110152045,
+            "EpisodeMasterId": 110152,
+            "Order": 2,
+            "GroupOrder": 38,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "いろはちゃんが気に入ったなら、いいけど……。",
+            "VoiceFileName": "1101520381",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 110152046,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "いやいや可愛すぎてウチら最強っしょ～！/nとりま３人で動画撮ろ撮ろ～！",
+            "VoiceFileName": "1101520390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 8,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 110152047,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "うん、いい仕事をした。/n美しいコスプレも見られて勉強になった。",
+            "VoiceFileName": "1101520400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30402,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 110152048,
+            "EpisodeMasterId": 110152,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "……暦も、妹を見習って大胆になったら、/nもっと美しくなるのに。もったいない。",
+            "VoiceFileName": "1101520410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        }
+    ]
+}

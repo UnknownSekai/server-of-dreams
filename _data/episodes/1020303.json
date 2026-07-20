@@ -1,0 +1,2407 @@
+{
+    "EpisodeId": 1020303,
+    "StoryType": 1,
+    "Order": 3,
+    "Prev": 1020302,
+    "Next": 1020304,
+    "Chapter": "Eden　3章",
+    "Title": "語り継がれてきた傑作",
+    "EpisodeDetail": [
+        {
+            "Id": 1020303001,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "Edenが公演する次の演目、それは……『オイディプス王』だ",
+            "BackgroundImageFileName": "170",
+            "BgmFileName": "402",
+            "VoiceFileName": "10203030010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303002,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "マジか～……ここで選んで来るとはね～……",
+            "VoiceFileName": "10203030020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303003,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "いるるん、『オイディプス王』ってどんな話でしたっけ……？/n名前だけは聞いたことあるんですけど……",
+            "VoiceFileName": "10203030030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020303004,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "あ～、仁花子は知らなくても仕方ないか。/n絶対に好みの話じゃないだろうからね～……",
+            "VoiceFileName": "10203030040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303005,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "えっ、そうなんですか……？",
+            "VoiceFileName": "10203030050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020303006,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "『オイディプス王』は悲劇だもの……。/nしかも、とびっきりのね……",
+            "VoiceFileName": "10203030060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020303007,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "しぐれもよく知らないんですよねぇ。/nどんなお話なんですか？",
+            "VoiceFileName": "10203030070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303008,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "複雑な話ではあるんだが……簡単に言うなら、/n主人公であるオイディプス王が破滅するまでを描く物語だ",
+            "VoiceFileName": "10203030080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303009,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "間違っちゃいないが、ざっくりしすぎやしないかねぇ……",
+            "VoiceFileName": "10203030090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303010,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "なら、説明はテトラさんに任せるとしよう",
+            "VoiceFileName": "10203030100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303011,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "結局こっちに丸投げかい。/n仕方ないねぇ……",
+            "VoiceFileName": "10203030110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303012,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "舞台はテーバイという国でね。/nそこの王であるオイディプスは、先王を殺した犯人を探し始めるんだ",
+            "VoiceFileName": "10203030120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303013,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "何だか推理小説みたいですね……",
+            "VoiceFileName": "10203030130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020303014,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "にかっち、鋭いわね……。/n『オイディプス王』は、最初の探偵小説と言われることもあるのよ……",
+            "VoiceFileName": "10203030140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020303015,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "犯人についていろいろ調べていった結果……。/nオイディプス王は、自分が犯人であることに気づくのさ",
+            "VoiceFileName": "10203030150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303016,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "しかも、殺したその先王は自分の実の父親であり……。/n自分の妻もまた、先王の妻、つまり実の母親だったことも知ってしまう",
+            "VoiceFileName": "10203030160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303017,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "全てを知ったオイディプスを、さらなる悲劇が襲い……。/n結果、オイディプスは自分で自分の目を潰してしまうのさ",
+            "VoiceFileName": "10203030170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303018,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "うわぁ……容赦ないっていうか、怖い話ですねぇ……",
+            "VoiceFileName": "10203030180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303019,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "でも、ギリシャ悲劇の中でも最高傑作って言われてる作品だよ。/nだからこそ、遥か古代から今に至るまで演じ続けられてきたんだ",
+            "VoiceFileName": "10203030190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303020,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "いつか、Edenでこの悲劇を演じてみたいと思っていた。/nだが、なかなかその機会が無くてな",
+            "VoiceFileName": "10203030200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303021,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "これだけの傑作を演じ切るには、それ相応の演技力が必要だ。/n今までのEdenでは、そこまでに至っていなかった",
+            "VoiceFileName": "10203030210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303022,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "だが、今は違う……！",
+            "VoiceFileName": "10203030220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303023,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ここまで成長したお前達なら、『オイディプス王』に挑んでも問題ない。/n私はそう判断した",
+            "VoiceFileName": "10203030230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303024,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "あたしも、初魅に賛成したのさ。/n今のあんた達が演じる『オイディプス王』を観てみたいと思ってね",
+            "VoiceFileName": "10203030240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303025,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "大昔から最高傑作と言われ続けてきた作品だ。/nそりゃもう、演じ甲斐はあるはずだよ",
+            "VoiceFileName": "10203030250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303026,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "……劇の内容は難しそうだし怖そうだけど……。",
+            "VoiceFileName": "10203030260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020303027,
+            "EpisodeMasterId": 1020303,
+            "Order": 2,
+            "GroupOrder": 26,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "レンさんとテトラさんにそこまで言われたら……！",
+            "VoiceFileName": "10203030261",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020303028,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "まぁ、尻尾巻いて逃げるって選択は無いよねぇ",
+            "VoiceFileName": "10203030270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 71,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303029,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "我が主の期待に応えられるよう、全身全霊で挑戦するだけよ……！",
+            "VoiceFileName": "10203030280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020303030,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……しぐれは反対でぇす",
+            "VoiceFileName": "10203030290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303031,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "仁花子・容・大黒",
+            "FontSize": 2,
+            "Phrase": "！？",
+            "VoiceFileName": "10203030300",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1020303032,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ほう……理由を聞かせてみろ",
+            "VoiceFileName": "10203030310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303033,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "この劇、重すぎると思うんですよねぇ",
+            "VoiceFileName": "10203030320",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303034,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 33,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "『悪魔の友人』でファンがせっかく増えたのに、/n次に観せるのが悲劇ですかぁ？",
+            "VoiceFileName": "10203030330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303035,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "良い反応もらえない気がするんですよねぇ。/n今、このタイミングで選ぶ必要はないと思います",
+            "VoiceFileName": "10203030340",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303036,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "こ、このガキ……我が主に向かって、なんて生意気な……！",
+            "VoiceFileName": "10203030350",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 300,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020303037,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "みんなそう言ってましたよねぇ。ファンも増やしていきたいって。/nだったら、そういうことも考えるべきだと思いますけどぉ？",
+            "VoiceFileName": "10203030360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303038,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "そ、それは……",
+            "VoiceFileName": "10203030370",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020303039,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "うーん……確かに、観る側のハードルは高いかもなぁ……。/nでも、演じ甲斐があるならやってみたいし……",
+            "VoiceFileName": "10203030380",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020303040,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "『オイディプス王』を演じたくないってわけじゃないんですよぉ。/nただ、今じゃないほうがいいって思うんですぅ",
+            "VoiceFileName": "10203030390",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303041,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 40,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "……しぐれの言い分も一理ある。/n悲劇は、どうしたって観る人間を選ぶからね",
+            "VoiceFileName": "10203030400",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303042,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 41,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "…………",
+            "VoiceFileName": "10203030410",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303043,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 42,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "……アタシは、初魅を信じてみたい",
+            "VoiceFileName": "10203030420",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303044,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 43,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "えっ……？",
+            "VoiceFileName": "10203030430",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303045,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 44,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "初魅、前からちょくちょく言ってたんだよ。/n『オイディプス王』はいつかやってみたいって",
+            "VoiceFileName": "10203030440",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303046,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 45,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ここで選んできたのは、アタシも驚いたけど……。/n今のEdenに、それだけ自信があるんだと思う",
+            "VoiceFileName": "10203030450",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303047,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 46,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "だったら、その期待に応えてやろうじゃない。/n最高の舞台を観せて、全部のファンも納得させてさ",
+            "VoiceFileName": "10203030460",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303048,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 47,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……本当に、納得させられると思ってますぅ？",
+            "VoiceFileName": "10203030470",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303049,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 48,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "思ってる。アタシ達なら出来るよ",
+            "VoiceFileName": "10203030480",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303050,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 49,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "…………",
+            "VoiceFileName": "10203030490",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 3,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303051,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 50,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……わかりました。/nだったら、しぐれも乗ってあげます",
+            "VoiceFileName": "10203030500",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303052,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 51,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "しぐれ……",
+            "VoiceFileName": "10203030510",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303053,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 52,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "これ以上はワガママになっちゃいますし。/nやるって決めたら、稽古に時間かけたいですからねぇ",
+            "VoiceFileName": "10203030520",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303054,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 53,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ありがとね。良い舞台にしよう",
+            "VoiceFileName": "10203030530",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303055,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 54,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "当然ですよぉ！そうじゃなきゃ怒りますからねぇ！",
+            "VoiceFileName": "10203030540",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 600,
+                    "BodyMotionMasterId": 28,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303056,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 55,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "まったく……ほんとガキなんだから。/nいちいち文句言わずに、最初から素直になってればいいのよ",
+            "VoiceFileName": "10203030550",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020303057,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 56,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "でも、しぐれちゃんのああいうところカッコいいと思う。/nレンさんにもはっきり意見しちゃうとかすごいなぁ",
+            "VoiceFileName": "10203030560",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020303058,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 57,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "ふん！不敬なだけよ！",
+            "VoiceFileName": "10203030570",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020303059,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 58,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "話はまとまったようだな？",
+            "VoiceFileName": "10203030580",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303060,
+            "EpisodeMasterId": 1020303,
+            "Order": 2,
+            "GroupOrder": 58,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "なら、続けてメインキャストを発表するぞ",
+            "VoiceFileName": "10203030581",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303061,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 59,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "へっ！？もうそこまで決まってるんですか！？",
+            "VoiceFileName": "10203030590",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020303062,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 60,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "私も、それだけ気合が入っているということだ",
+            "VoiceFileName": "10203030600",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303063,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 61,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "まずは主人公であるオイディプス……。/nこれは私が演じる。異論ある者はいるか？",
+            "VoiceFileName": "10203030610",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303064,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 62,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "……なんでこっち見るんですかぁ！/nそこは別に意見ないですよぉ！",
+            "VoiceFileName": "10203030620",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 306,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303065,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 63,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ふっ……ならいい。/n続いて、オイディプスの妻であり母……イオカステだが――",
+            "VoiceFileName": "10203030630",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303066,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 64,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "容、お前に演じてもらう",
+            "VoiceFileName": "10203030640",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303067,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 65,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "おおぅ……結構な大役だねぇ。/n初魅のオイディプスに負けないよう頑張るよ",
+            "VoiceFileName": "10203030650",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303068,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 66,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ああ、そうしてくれ。/n期待しているぞ、我が妻よ",
+            "VoiceFileName": "10203030660",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303069,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 67,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ちょいちょい、まだ役に入り込むには早いでしょ",
+            "VoiceFileName": "10203030670",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 10,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303070,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 68,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "次に、国の摂政クレオンと高名な預言者テイレシアス。/n演じるのは、仁花子としぐれだ",
+            "VoiceFileName": "10203030680",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303071,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 69,
+            "SpeakerName": "仁花子",
+            "FontSize": 2,
+            "Phrase": "摂政って、国の偉い人でしたっけ……。/n私、雰囲気出せるかな……",
+            "VoiceFileName": "10203030690",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20303,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "203"
+        },
+        {
+            "Id": 1020303072,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 70,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "（預言者役かぁ……目立てるかなぁ……）",
+            "VoiceFileName": "10203030700",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 400,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 20503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        },
+        {
+            "Id": 1020303073,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 71,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "最後に、全ての真実を知る羊飼い役だが……。/nこれは大黒、お前にやってもらう",
+            "VoiceFileName": "10203030710",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303074,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 72,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "は、はい……！",
+            "VoiceFileName": "10203030720",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020303075,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 73,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "オイディプスに真実を突きつける重要な役どころだ。",
+            "VoiceFileName": "10203030730",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303076,
+            "EpisodeMasterId": 1020303,
+            "Order": 2,
+            "GroupOrder": 73,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "私を破滅させるんだ、それ相応の気概で演じろよ？",
+            "VoiceFileName": "10203030731",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303077,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 74,
+            "SpeakerName": "大黒",
+            "FontSize": 2,
+            "Phrase": "や、やってみせます……！/nそれが我が主の望みなら……！",
+            "VoiceFileName": "10203030740",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "202"
+        },
+        {
+            "Id": 1020303078,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 75,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "イイねぇ。大作に挑む前の空気ってのは。/nあたしまで、年甲斐もなくドキドキしちまいそうだよ",
+            "VoiceFileName": "10203030750",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303079,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 76,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ふむ……なら、テトラさんも出てみるか？/n演じてもらうなら……スフィンクス役でどうだ？",
+            "VoiceFileName": "10203030760",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 6,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303080,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 77,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "あんたねぇ……あたしのこと、化け物だって言いたいのかい？",
+            "VoiceFileName": "10203030770",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 10,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303081,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 78,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "なら、他に希望でもあるのか？",
+            "VoiceFileName": "10203030780",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 1020303082,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 79,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "演じるなら、イオカステがいいねぇ。/nいろんな葛藤に思い悩む女……役に入り込むのが楽しそうだ",
+            "VoiceFileName": "10203030790",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303083,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 80,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "テトラさん、それアタシの役だから！取らないでよ～！",
+            "VoiceFileName": "10203030800",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20403,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        },
+        {
+            "Id": 1020303084,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 81,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "じゃあ、せいぜい演技に励みな。/nグダグダしてると、本当に役を取っちまうからね？",
+            "VoiceFileName": "10203030810",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 17,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 1020303085,
+            "EpisodeMasterId": 1020303,
+            "Order": 1,
+            "GroupOrder": 82,
+            "SpeakerName": "容",
+            "FontSize": 2,
+            "Phrase": "ひえ～……全力で頑張ります……！",
+            "VoiceFileName": "10203030820",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "204"
+        }
+    ]
+}

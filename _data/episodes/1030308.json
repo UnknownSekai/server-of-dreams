@@ -1,0 +1,990 @@
+{
+    "EpisodeId": 1030308,
+    "StoryType": 1,
+    "Order": 8,
+    "Prev": 1030307,
+    "Next": 1030309,
+    "Chapter": "銀河座　3章",
+    "Title": "美意識",
+    "EpisodeDetail": [
+        {
+            "Id": 1030308001,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "はあ？　悩むまでもないだろ！？　/nカネ貰って顔まで売れるんだぞ！　絶対に受けろ！　",
+            "BackgroundImageFileName": "700",
+            "BgmFileName": "202",
+            "VoiceFileName": "10303080010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030308002,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "雪はそう言うと思った。/nこれ、オファーしてきた作家の資料。",
+            "VoiceFileName": "10303080020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030308003,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 3,
+            "FontSize": 2,
+            "Phrase": "",
+            "SeFileName": "470",
+            "CharacterMotions": []
+        },
+        {
+            "Id": 1030308004,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "人体をキャンバスにし、破壊と創造の美を突き詰める。/nコンセプトは『破壊と創造』か……。",
+            "VoiceFileName": "10303080030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030308005,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "楽しそう！　イカ釣りしてる時みたい！　ブシャーッ！",
+            "VoiceFileName": "10303080040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030308006,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "い、イカか……確かに噴き出したスミにも見える……。/n難解なアートだ……。",
+            "VoiceFileName": "10303080050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030308007,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "感受性や審美眼は十人十色ですわ。/n万人を満足させる芸術はありませんもの。",
+            "VoiceFileName": "10303080060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 71,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030308008,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "それに、この作家さんのお人柄は理解しております。/n千寿家のパーティーにお見えになったこともありますのよ。",
+            "VoiceFileName": "10303080070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030308009,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "芸術はボンバー！　ダイバーシティ！　",
+            "VoiceFileName": "10303080080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030308010,
+            "EpisodeMasterId": 1030308,
+            "Order": 2,
+            "GroupOrder": 9,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "……ってこと？　",
+            "VoiceFileName": "10303080081",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030308011,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "わからないけど、暦の知り合いに評価されてるのは確かみたい。",
+            "VoiceFileName": "10303080090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 106,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030308012,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "……今は、リリヤさんにとっても大事な時期です。/n芝居の準備に集中いただきたい気持ちはあります。",
+            "VoiceFileName": "10303080100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030308013,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "その銀河座がリリヤさんに話を持ちかけたのです。/nおそらく銀河座の……いえ。リリヤさんのためになるかと。",
+            "VoiceFileName": "10303080110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030308014,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "運営の人もそう言ってた。",
+            "VoiceFileName": "10303080120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030308015,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "暦の知人であれば事情も察してくれるだろうしな。/n悪いようにはならないとは思うぞ。",
+            "VoiceFileName": "10303080130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030308016,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "わかった。ありがとう。/nやっぱり断ろうと思う。",
+            "VoiceFileName": "10303080140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 1,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030308017,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "一同（暦・ラモーナ・雪・緋花里）",
+            "FontSize": 2,
+            "Phrase": "！！！",
+            "VoiceFileName": "10303080150",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030308018,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "どこに目と耳つけてんだよお前は？　/nこんないい話そう転がってないんだぞ！？　",
+            "VoiceFileName": "10303080160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 10,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030308019,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "どうして断っちゃうの？　もったいないさー！",
+            "VoiceFileName": "10303080170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030308020,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "わからないから。この作家の、美しいところ。/n『破壊は創造』なんて思えない。",
+            "VoiceFileName": "10303080180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "HeadMotionMasterId": 2,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030308021,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "美しい私の身体を、絵具で汚すなんて嫌。/nこの人の感性は私と違う。",
+            "VoiceFileName": "10303080190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030308022,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "自ら磨いた美しさを、壊されたくはない、と。",
+            "VoiceFileName": "10303080200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030308023,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "世界的な芸術家相手でも譲れない美意識か……。",
+            "VoiceFileName": "10303080210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030308024,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 23,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "偉い人に伝えてくる。モイモイ。",
+            "VoiceFileName": "10303080220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 12,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030308025,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "あーあ、せっかくのチャンスを不意にしやがって。/n顔も売れて話題にもなってカネも貰えるってのに……。",
+            "VoiceFileName": "10303080230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "BodyMotionMasterId": 27,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030308026,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "まあ仕方がない、リリヤ自身が決めたことだ。/n世間の注目や評判は我々の本業で作り上げればいい。",
+            "VoiceFileName": "10303080240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 105,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 30201,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030308027,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "ならどうやって示すんだよ？　/n運営も役者もみんな迷ってんのに何ができるんだ？　",
+            "VoiceFileName": "10303080250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 110,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030308028,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "ラモーナ",
+            "FontSize": 2,
+            "Phrase": "上を目指して、成すべきことを成すだけだ。/n……稽古の時間を増やすしかない。",
+            "VoiceFileName": "10303080260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "302"
+        },
+        {
+            "Id": 1030308029,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "緋花里",
+            "FontSize": 2,
+            "Phrase": "私も他の子たち呼んでくるね！　雪も！",
+            "VoiceFileName": "10303080270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "305"
+        },
+        {
+            "Id": 1030308030,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "雪",
+            "FontSize": 2,
+            "Phrase": "まあ結局、そうなるよな……。",
+            "VoiceFileName": "10303080280",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 72,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30301,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 30501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "303"
+        },
+        {
+            "Id": 1030308031,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "……。",
+            "VoiceFileName": "10303080290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 30101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030308032,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "（舞台に直接関係のないオファーは断る。それが銀河座の基本方針。/n　ですが慣例を無視してまで、リリヤさんに話を通してきた……）",
+            "VoiceFileName": "10303080300",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 74,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030308033,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 32,
+            "SpeakerName": "暦",
+            "FontSize": 2,
+            "Phrase": "（先生方は、すでに動き始めている……）",
+            "VoiceFileName": "10303080310",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 11,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "301"
+        },
+        {
+            "Id": 1030308034,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 33,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1840",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "203",
+            "CharacterMotions": [],
+            "FadeValue1": 0.800000011920929,
+            "FadeValue2": 0.5,
+            "FadeValue3": 0.800000011920929
+        },
+        {
+            "Id": 1030308035,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 34,
+            "SpeakerName": "銀河座広報",
+            "FontSize": 2,
+            "Phrase": "……オファーは断るのね？　/nわかったわ、貴女の意志を尊重したいと思います。",
+            "VoiceFileName": "10303080320",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030308036,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 35,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "私のきれいと、貴女のきれいは違う。/nそう伝えてほしい。",
+            "VoiceFileName": "10303080330",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 107,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030308037,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 36,
+            "SpeakerName": "銀河座広報",
+            "FontSize": 2,
+            "Phrase": "でも、その前にひとつだけ提案を聞いてちょうだい。/nアーティストに、稽古を見学させてあげたいの。",
+            "VoiceFileName": "10303080340",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030308038,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 37,
+            "SpeakerName": "銀河座広報",
+            "FontSize": 2,
+            "Phrase": "美しい貴女を間近で見て、創作活動の糧にしたいんですって。/nそれならどう？　",
+            "VoiceFileName": "10303080350",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 1030308039,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 38,
+            "SpeakerName": "リリヤ",
+            "FontSize": 2,
+            "Phrase": "見るだけなら構わない。好きにしてと伝えて。",
+            "VoiceFileName": "10303080360",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 30401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "304"
+        },
+        {
+            "Id": 1030308040,
+            "EpisodeMasterId": 1030308,
+            "Order": 1,
+            "GroupOrder": 39,
+            "SpeakerName": "銀河座広報",
+            "FontSize": 2,
+            "Phrase": "伝えておくわね、ありがとう。",
+            "VoiceFileName": "10303080370",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        }
+    ]
+}

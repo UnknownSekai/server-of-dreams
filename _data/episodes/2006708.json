@@ -1,0 +1,782 @@
+{
+    "EpisodeId": 2006708,
+    "StoryType": 2,
+    "Order": 8,
+    "Prev": 2006707,
+    "Next": null,
+    "Chapter": "荒神鎮め、栄達を為す",
+    "Title": "アンタが居たから",
+    "EpisodeDetail": [
+        {
+            "Id": 2006708001,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ふぅ……。",
+            "BackgroundImageFileName": "1600",
+            "BgmFileName": "403",
+            "VoiceFileName": "20067080010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708002,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "（今回のような公演をするなら、/n　安定した資金源は必要だな）",
+            "VoiceFileName": "20067080020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 7,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708003,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "舞台が成功したのに、溜息かい？/n初魅。",
+            "VoiceFileName": "20067080030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 20101,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 20601,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708004,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "……！/nテトラさん。",
+            "VoiceFileName": "20067080040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708005,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "公演成功おめでとう、初魅。/n良い舞台だった。",
+            "VoiceFileName": "20067080050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708006,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "演目内容も、公演場所の神社に沿うように考えていたんだろう？/n外部でも変わらず、高い完成度だったねぇ。",
+            "VoiceFileName": "20067080060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708007,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "まぁな、Edenの初めての挑戦なんだ。/n抜かりはない。",
+            "VoiceFileName": "20067080070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708008,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "とはいえ、初めての試みだったが成功してよかった。",
+            "VoiceFileName": "20067080080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708009,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "それで、テトラさんはどうだった？/n今回の舞台、楽しめたか？",
+            "VoiceFileName": "20067080090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708010,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "フッ、おかしな質問をする子だねぇ……。/n楽しめたさ、誰かさんが気遣ってくれた分ね。",
+            "VoiceFileName": "20067080100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708011,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "……！/nその様子だと、気づいていたか。",
+            "VoiceFileName": "20067080110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708012,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "当然さ、あそこまでお膳立てされればね。/nかつてのEdenのような移動劇団、急に言い出したのもそういうことかい。",
+            "VoiceFileName": "20067080120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708013,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "確かに、その気持ちは嬉しい。/nあのような舞台はかつてのEdenそのものだったからね。",
+            "VoiceFileName": "20067080130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708014,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "けれど、負担が激しいことは事実だ。/n……あたしへの気遣いの為に固執するなら、承知しないよ。",
+            "VoiceFileName": "20067080140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 104,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708015,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "前にも言った通り、今のEdenには今のEdenらしさがある。/nそれは今の在り方を形作ったアンタが一番分かってることだろう？",
+            "VoiceFileName": "20067080150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 21,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708016,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "だとすれば要らぬ心配だな、テトラさん。/n私が気遣いだけで、私のEdenの在り方を変えるとでも？",
+            "VoiceFileName": "20067080160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 101,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708017,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 17,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "前にも言った通りだが、移動劇団。/nそれは私が目指す理想の舞台を届けるに相応しい手段だ。",
+            "VoiceFileName": "20067080170",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 70,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708018,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "それに……Edenは私の劇団だ。/nこの劇団に入ったことで得られたものがある。",
+            "VoiceFileName": "20067080180",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 100,
+                    "BodyMotionMasterId": 14,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708019,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "初魅",
+            "FontSize": 2,
+            "Phrase": "ならば関わる者の願いも全て、私は押し上げて叶えてみせる。/n……それだけだ。",
+            "VoiceFileName": "20067080190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "BodyMotionMasterId": 24,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "201"
+        },
+        {
+            "Id": 2006708020,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "……フッ、そうかい。",
+            "VoiceFileName": "20067080200",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708021,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "（……このまま腐り堕ちていくばかりだと思っていた。/n　けれど、アンタが来てから全てが動き始めたんだ。）",
+            "VoiceFileName": "20067080210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 70,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708022,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "テトラ",
+            "FontSize": 2,
+            "Phrase": "（感謝してるよ、初魅……）",
+            "VoiceFileName": "20067080220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "206"
+        },
+        {
+            "Id": 2006708023,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 23,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "1500",
+            "BackgroundImageFileFadeType": 1,
+            "CharacterMotions": [],
+            "FadeValue1": 0.20000000298023224,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.20000000298023224
+        },
+        {
+            "Id": 2006708024,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "ひばり",
+            "FontSize": 2,
+            "Phrase": "『世界演劇リーグまで、１年を切りました！』",
+            "VoiceFileName": "20067080230",
+            "CharacterMotions": [],
+            "SpeakerIconId": "522"
+        },
+        {
+            "Id": 2006708025,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "ひばり",
+            "FontSize": 2,
+            "Phrase": "『会場はここ東京、上野に新設されます『アストロラーべホール』！』",
+            "VoiceFileName": "20067080240",
+            "CharacterMotions": [],
+            "SpeakerIconId": "522"
+        },
+        {
+            "Id": 2006708026,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "ひばり",
+            "FontSize": 2,
+            "Phrase": "『……そして、演劇ファンの皆様ならばもうお分かりのことでしょう！』",
+            "VoiceFileName": "20067080250",
+            "CharacterMotions": [],
+            "SpeakerIconId": "522"
+        },
+        {
+            "Id": 2006708027,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "ひばり",
+            "FontSize": 2,
+            "Phrase": "『ホロスコープシーズンの到来です！』",
+            "VoiceFileName": "20067080260",
+            "CharacterMotions": [],
+            "SpeakerIconId": "522"
+        },
+        {
+            "Id": 2006708028,
+            "EpisodeMasterId": 2006708,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "しぐれ",
+            "FontSize": 2,
+            "Phrase": "ホロスコープシーズン……。",
+            "VoiceFileName": "20067080270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 102,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 20501,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "205"
+        }
+    ]
+}

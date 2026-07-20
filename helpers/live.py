@@ -1,6 +1,6 @@
 """Build a LiveUnit / LiveTimeEvent from a party + masterdata.
 
-Reversed statically from SiriusLogic.Shared (see scratchpad/RE_NOTES.md):
+Reversed statically from SiriusLogic.Shared:
  - sense-light / star-act progression = SenseLightsManager (_SenseLightsManager).
  - normal-live window->position = Constants.Live.BasicNotationFiredSenseRules = 1-2-3-4-5-3-2-1
    (confirmed) at floor(dur/9)*[1..8].

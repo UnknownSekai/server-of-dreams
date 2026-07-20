@@ -1,0 +1,84 @@
+{
+    "EpisodeId": 2003,
+    "StoryType": 4,
+    "Order": 1,
+    "Prev": null,
+    "Next": null,
+    "Chapter": null,
+    "Title": "このマスカラ、まじ…",
+    "EpisodeDetail": [
+        {
+            "Id": 2003001,
+            "EpisodeMasterId": 2003,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "このマスカラ、まじカワイイ～！",
+            "VoiceFileName": "20030010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 500,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40302,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 2003002,
+            "EpisodeMasterId": 2003,
+            "Order": 2,
+            "GroupOrder": 1,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "この色だったら手持ちのシャドウにも合いそうだし動画撮れるなぁ。",
+            "VoiceFileName": "20030011",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 200,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 3,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        },
+        {
+            "Id": 2003003,
+            "EpisodeMasterId": 2003,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "カミラ",
+            "FontSize": 2,
+            "Phrase": "って、限定品！？　ちょ、学校来てる場合じゃないじゃん！",
+            "VoiceFileName": "20030020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 501,
+                    "BodyMotionMasterId": 5,
+                    "LipSyncMasterId": 3,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "403"
+        }
+    ]
+}

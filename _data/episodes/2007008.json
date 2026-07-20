@@ -1,0 +1,809 @@
+{
+    "EpisodeId": 2007008,
+    "StoryType": 2,
+    "Order": 8,
+    "Prev": 2007007,
+    "Next": null,
+    "Chapter": "少女海遊メモリアル！",
+    "Title": "海から帰って",
+    "EpisodeDetail": [
+        {
+            "Id": 2007008001,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 1,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "ふぁ……あ～、もう一歩も動けない。/nアタシのバッテリー、ゼロ寸前。",
+            "BackgroundImageFileName": "1012",
+            "BgmFileName": "303",
+            "VoiceFileName": "20070080010",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 23,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40517,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 2007008002,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 2,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "叶羽ちゃん、お疲れ様です！　今日は一日遊びましたもんね～。",
+            "VoiceFileName": "20070080020",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40117,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40517,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2007008003,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 3,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "うん、そうだね。",
+            "VoiceFileName": "20070080030",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 40117,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40217,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2007008004,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 4,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "私も楽しかったです！　皆さん、ありがとうございます！",
+            "VoiceFileName": "20070080040",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10417,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 2007008005,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 5,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "また、こうして海で遊びたい……ね。/n今度は蕾さんやカミラちゃんを連れて。",
+            "VoiceFileName": "20070080050",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40217,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2007008006,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 6,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "ですね～、割と突発的に決めましたから、/nふたりとも用事があって、それだけが心残りでしたもんね～。",
+            "VoiceFileName": "20070080060",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40117,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40217,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2007008007,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 7,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "アタシはしばらく外は良いかなぁ～。/nもう毎回こんな疲れてたら、もたないって～。",
+            "VoiceFileName": "20070080070",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 73,
+                    "BodyMotionMasterId": 15,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40517,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 2007008008,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 8,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "ふふふっ、先輩らしいですね。",
+            "VoiceFileName": "20070080080",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10417,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 2007008009,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 9,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "次に皆さんに会うとしたら、/n世界演劇リーグのコンテストでしょうか？",
+            "VoiceFileName": "20070080090",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 2007008010,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 10,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "そうだね。美兎はダイスターの祭典で同じ舞台に立つ……かな。",
+            "VoiceFileName": "20070080100",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40217,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2007008011,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 11,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "そうですね！　白丸さんと一緒の舞台に立つ日が楽しみです……！",
+            "VoiceFileName": "20070080110",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 2007008012,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 12,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "そうだね！",
+            "VoiceFileName": "20070080120",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2007008013,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 13,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "良い空気ですね！　僕たちも負けてられません！/nね、叶羽ちゃん！　……叶羽ちゃん？",
+            "VoiceFileName": "20070080130",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40117,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40217,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2007008014,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 14,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "んぅ……アイス……ダブル……チョコましましソース甘めで……。",
+            "VoiceFileName": "20070080140",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40517,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 2007008015,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 15,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "寝ちゃったみたいだね。",
+            "VoiceFileName": "20070080150",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40217,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2007008016,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 16,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "ふふっ、おやすみなさい。/n先輩。",
+            "VoiceFileName": "20070080160",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10417,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40217,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 2007008017,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 17,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "590",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "102",
+            "CharacterMotions": [],
+            "FadeValue1": 0.20000000298023224,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.20000000298023224
+        },
+        {
+            "Id": 2007008018,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 18,
+            "SpeakerName": "八恵の母親",
+            "FontSize": 2,
+            "Phrase": "驚いた……八恵の自由研究、とても素晴らしいわ。",
+            "VoiceFileName": "20070080170",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2007008019,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 19,
+            "SpeakerName": "八恵の母親",
+            "FontSize": 2,
+            "Phrase": "海洋ゴミの分析から、コミュニティの強制、/nさらに実体験に基づく改善案まで……。",
+            "VoiceFileName": "20070080180",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2007008020,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 20,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "実際に自分の足で砂浜に立ってみて、/n初めて気づくことがたくさんあったんです。",
+            "VoiceFileName": "20070080190",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 4,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 2007008021,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 21,
+            "SpeakerName": "八恵の母親",
+            "FontSize": 2,
+            "Phrase": "提出する時が楽しみね。",
+            "VoiceFileName": "20070080200",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2007008022,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 22,
+            "SpeakerName": "八恵",
+            "FontSize": 2,
+            "Phrase": "はい！",
+            "VoiceFileName": "20070080210",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 10401,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "104"
+        },
+        {
+            "Id": 2007008023,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 23,
+            "FontSize": 2,
+            "Phrase": "",
+            "BackgroundImageFileName": "900",
+            "BackgroundImageFileFadeType": 1,
+            "BgmFileName": "1",
+            "CharacterMotions": [],
+            "FadeValue1": 0.20000000298023224,
+            "FadeValue2": 0.30000001192092896,
+            "FadeValue3": 0.20000000298023224
+        },
+        {
+            "Id": 2007008024,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 24,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "すぅ……すぅ……。",
+            "VoiceFileName": "20070080220",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        },
+        {
+            "Id": 2007008025,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 25,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "ふふっ、今日も叶羽ちゃんは気持ちよさそうに寝てますね～。",
+            "VoiceFileName": "20070080230",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 202,
+                    "BodyMotionMasterId": 11,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40103,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 40503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2007008026,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 26,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "昨日から日中行動した揺れ戻しだって言って、/n寝てたもんね。",
+            "VoiceFileName": "20070080240",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 20,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 40203,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2007008027,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 27,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "でも、あれだけ熱心にボランティアに取り組んでたし、/nビーチバレーも動きっぱなしでしたから。疲れるのも無理はないですね。",
+            "VoiceFileName": "20070080250",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 201,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2007008028,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 28,
+            "SpeakerName": "美兎",
+            "FontSize": 2,
+            "Phrase": "そうだね。それじゃあ、もう少し寝かせてあげよっか。",
+            "VoiceFileName": "20070080260",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "FacialExpressionMasterId": 202,
+                    "HeadMotionMasterId": 1,
+                    "BodyMotionMasterId": 13,
+                    "LipSyncMasterId": 1,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "402"
+        },
+        {
+            "Id": 2007008029,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 29,
+            "SpeakerName": "いろは",
+            "FontSize": 2,
+            "Phrase": "ですね！",
+            "VoiceFileName": "20070080270",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 103,
+                    "BodyMotionMasterId": 2,
+                    "LipSyncMasterId": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 2,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                },
+                {
+                    "slotNumber": 2,
+                    "SpineId": 0,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 4,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "401"
+        },
+        {
+            "Id": 2007008030,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 30,
+            "SpeakerName": "いろは・美兎",
+            "FontSize": 2,
+            "Phrase": "おやすみなさい、叶羽ちゃん。",
+            "VoiceFileName": "20070080280",
+            "CharacterMotions": [],
+            "SpeakerIconId": "1"
+        },
+        {
+            "Id": 2007008031,
+            "EpisodeMasterId": 2007008,
+            "Order": 1,
+            "GroupOrder": 31,
+            "SpeakerName": "叶羽",
+            "FontSize": 2,
+            "Phrase": "んぅ～～～、……すぅ、すぅ。",
+            "VoiceFileName": "20070080290",
+            "CharacterMotions": [
+                {
+                    "slotNumber": 1,
+                    "FacialExpressionMasterId": 79,
+                    "BodyMotionMasterId": 25,
+                    "LipSyncMasterId": 4,
+                    "SpineId": 40503,
+                    "CharacterAppearanceType": 0,
+                    "CharacterPosition": 3,
+                    "CharacterLayerType": 1,
+                    "SpineSize": 2
+                }
+            ],
+            "SpeakerIconId": "405"
+        }
+    ]
+}
