@@ -20,7 +20,7 @@ from helpers.cache import cache
 from helpers.live import build_live_time_event, build_live_unit
 from helpers.live_drops import grant_frames, resolve_frames
 from helpers.live_rate import chart_live_rate, chart_live_rate_result, total_rate
-from helpers.live_result import achievement_rate, clear_lamp, rate_grade
+from helpers.live_result import achievement_rate, clear_lamp, play_totals, rate_grade
 from helpers.music_unlock import affects_unlocks, load_progress
 from helpers.msgpack import fault, read_request, respond
 from helpers.score import verify_score_blocks
@@ -108,12 +108,14 @@ async def lives_finish_and_validate(request: Request):
     if user_id is None:
         return respond(FinishLiveResult())
 
-    # clear_lamp / achievement rate / grade are exact mirrors of the client
-    # (InputCollector.CalculateAchievementRate + AchievementRateExtensions.GetAchievementRateGrade)
-    new_lamp = clear_lamp(payload.is_cleared, payload.judges)
-    this_rate = achievement_rate(payload.judges)
+    # the client reports score=0 / max_combo=0 / is_cleared=false / judges=null and leaves the
+    # rest to us, so lamp + rate + score all come out of the (hash-verified) score blocks
+    score, is_cleared = play_totals(payload)
+    new_lamp = clear_lamp(is_cleared, payload.base_score_blocks)
+    this_rate = achievement_rate(payload.base_score_blocks)
 
     async with app.acquire_db() as conn:
+        user = await conn.fetchrow(get_users(user_id))
         active = await conn.fetchrow(get_active_live(user_id))
         live_master_id = active.liveMasterId if active is not None else 0
         lives = await conn.fetch(get_lives(user_id)) if live_master_id else []
@@ -215,13 +217,13 @@ async def lives_finish_and_validate(request: Request):
 
         # live drops: resolve the setting's drop frames whose lot condition this play met,
         # then consolidate + batch-grant their rewards. Long-version songs never drop.
-        live_drops: list = []
+        live_drops: list[LiveDropThing] = []
         if not _is_long_version(live_master_id):
             setting_id = active.liveSettingMasterId if active is not None else 0
             frames = resolve_frames(
                 setting_id,
                 stamina_consumed=active.staminaSpent if active is not None else False,
-                score=payload.score,
+                score=score,
                 star_act_count=len(payload.star_act_score_blocks or []),
                 achievement_rate=this_rate,
             )
@@ -255,11 +257,11 @@ async def lives_finish_and_validate(request: Request):
         present += await build_present(app, user_id, *sorted(refresh))
 
     result = FinishLiveResult(
-        clear_lamp=ClearLamps(best_lamp),
+        clear_lamp=ClearLamps(new_lamp),
         before_clear_lamp=ClearLamps(before_lamp),
         rate_grade=AchievementRateGrades(best_grade),
         is_high_score=is_high_score,
-        achievement_rate_average=this_rate,
+        achievement_rate_average=0.0, # TODO: add global average acc
         rate_result=RateResult(
             achievement_rate_result=RateUpdateResult(
                 best_ever=prev_rate, this_time=this_rate  # best_ever = past best only
@@ -268,8 +270,15 @@ async def lives_finish_and_validate(request: Request):
             total_rate_before=total_before,
             total_rate_after=total_after,
         ),
-        # TODO: rank-point gain not implemented (0 acquired)
-        player_rank_point_result=PlayerRankPointResult(rank_point_acquired=0),
+        # TODO: calculate player rank pts
+        player_rank_point_result=PlayerRankPointResult(
+            rank_before=user.playerRank,
+            rank_after=user.playerRank,
+            rank_point_before=user.currentRankPoint,
+            rank_point_after=user.currentRankPoint,
+            rank_point_acquired=0,
+            stamina_before=user.currentStamina,
+        ),
         live_drop_things=live_drops,
         # These must be empty lists, not null -- the result panel iterates them and a null
         # list NREs the client. Empty for now; TODO implement each:
