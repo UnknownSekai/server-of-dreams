@@ -37,6 +37,8 @@ python main.py
 2026/07/19 - Episodes (and read rewards)
 
 ## Priority Todo
+- Player rank calculations (live end)
+- Senses voice ids (live start)
 - Episodes (verify unlocked)
 - Missions
 
