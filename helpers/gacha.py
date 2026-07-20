@@ -76,6 +76,18 @@ _RATES = {
         "pickup": 0.01,
     },
 }
+# _RATES = {
+#     (int(GachaTypes.Pickup), int(GachaCardTypes.Character)): {
+#         "normal": {2: 0.0, 3: 0.0, 4: 0.33},
+#         "fixed": {2: 0.0, 3: 0.0, 4: 0.33},
+#         "pickup": 0.34,
+#     },
+#     (int(GachaTypes.Pickup), int(GachaCardTypes.Poster)): {
+#         "normal": {1: 0.0, 2: 0.0, 3: 0.33},
+#         "fixed": {1: 0.0, 2: 0.0, 3: 0.33},
+#         "pickup": 0.34,
+#     },
+# }
 
 _BY_ID: dict = {}
 _CHARACTERS: dict = {}
