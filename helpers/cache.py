@@ -1,4 +1,4 @@
-"""In-memory master data, loaded from ``masterdata/*.json`` at startup.
+"""In-memory master data, loaded from ``_data/masterdata/*.json`` at startup.
 
     from helpers.cache import cache
     cache.accessory_master        # list[AccessoryMaster]  (typed)
@@ -13,7 +13,7 @@ from pathlib import Path
 
 from models.master_data import MasterData, TABLES
 
-_DIR = Path(__file__).resolve().parent.parent / "masterdata"
+_DIR = Path(__file__).resolve().parent.parent / "_data" / "masterdata"
 
 cache = MasterData()
 

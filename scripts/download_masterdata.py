@@ -6,7 +6,7 @@
 Registers a throwaway account on the official server, reads the MasterDataManifest for
 the *current* master-data uri + SAS token (the publish timestamp changes on every update,
 so a hardcoded one always 404s), downloads the blob, and decodes each table's rows through
-its model into ``masterdata/<Table>.json``. The ``/master-data`` route repacks them.
+its model into ``_data/masterdata/<Table>.json``. The ``/master-data`` route repacks them.
 """
 
 import argparse

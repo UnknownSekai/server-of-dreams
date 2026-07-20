@@ -1,4 +1,4 @@
-"""Download every asset bundle for the game into ``assets/`` (Android + iOS).
+"""Download every asset bundle for the game into ``_data/assets/`` (Android + iOS).
 
     python -m scripts.download_asset_catalogs
     python -m scripts.download_all_assets --dry-run # do a check of work first
@@ -7,7 +7,7 @@
 Each catalog's ``m_InternalIds`` encodes bundles as ``<prefixIndex>#/<name>`` which
 resolve (via ``m_InternalIdPrefixes``) to ``http://<kind>/<platform>/<group>/<name>``.
 The real file lives at ``<asset_url>/<kind>/<platform>/<version>/<group>/<name>`` and
-is saved to ``assets/<kind>/<platform>/<group>/<name>``. Existing files are skipped,
+is saved to ``_data/assets/<kind>/<platform>/<group>/<name>``. Existing files are skipped,
 so re-running resumes. This is the entire game -- expect many GB.
 """
 

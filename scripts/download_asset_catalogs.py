@@ -4,7 +4,7 @@
 
 Each ``catalog_<ver>.json.br`` is a Brotli-compressed Addressables catalog. This
 fetches every kind/platform pair and writes the decompressed catalog to
-``assets/<kind>/<platform>/catalog.json``.
+``_data/assets/<kind>/<platform>/catalog.json``.
 """
 
 import sys
