@@ -62,6 +62,7 @@ from models.database import (
     CharacterLessonSlotModel,
     TrophyModel,
     MarketModel,
+    MarketThingModel,
     ViewedShopModel,
     GameHintModel,
     UserBonusModel,
@@ -645,6 +646,14 @@ def get_trophys(user_id: int) -> SelectQuery[TrophyModel]:
 def get_markets(user_id: int) -> SelectQuery[MarketModel]:
     return SelectQuery(
         MarketModel, 'SELECT * FROM "market" WHERE "userId" = $1', user_id
+    )
+
+
+def get_market_things(user_id: int) -> SelectQuery[MarketThingModel]:
+    return SelectQuery(
+        MarketThingModel,
+        'SELECT * FROM "market_thing" WHERE "userId" = $1 ORDER BY "frameNumber"',
+        user_id,
     )
 
 

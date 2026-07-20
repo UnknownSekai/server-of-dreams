@@ -1363,6 +1363,26 @@ class Market(BaseModel):
         ]
 
 
+class MarketThing(BaseModel):
+    # the rolled contents of a user's current market. The Market entity itself only tracks
+    # when it was last refreshed and how many times, with nowhere to hold the frames, so the
+    # lineup lives here -- one row per frame, replaced wholesale on every refresh.
+    rowId = AutoField()
+    userId = BigIntegerField(index=True)
+    frameNumber = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    marketFrameThingMasterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    hasPurchased = BooleanField(constraints=[SQL("DEFAULT FALSE")])
+    discountPercent = BigIntegerField(null=True)
+
+    class Meta:
+        table_name = "market_thing"
+        constraints = [
+            SQL(
+                'FOREIGN KEY ("userId") REFERENCES "accounts"("userId") ON DELETE CASCADE'
+            )
+        ]
+
+
 class ViewedShop(BaseModel):
     rowId = AutoField()
     userId = BigIntegerField(index=True)
@@ -3729,6 +3749,7 @@ db.create_tables(
         CharacterLessonSlot,
         Trophy,
         Market,
+        MarketThing,
         ViewedShop,
         GameHint,
         UserBonus,

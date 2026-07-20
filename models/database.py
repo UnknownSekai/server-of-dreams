@@ -773,6 +773,14 @@ class MarketModel(BaseModel):
     refreshTimes: int
 
 
+class MarketThingModel(BaseModel):
+    userId: int
+    frameNumber: int
+    marketFrameThingMasterId: int
+    hasPurchased: bool
+    discountPercent: Optional[int] = None
+
+
 class ViewedShopModel(BaseModel):
     userId: int
     id: int
@@ -1948,6 +1956,7 @@ __all__ = ["AccountModel"] + [
     "CharacterLessonSlotModel",
     "TrophyModel",
     "MarketModel",
+    "MarketThingModel",
     "ViewedShopModel",
     "GameHintModel",
     "UserBonusModel",

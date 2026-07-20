@@ -40,6 +40,8 @@ python main.py
 
 2026/07/20 - Gacha Pulls (exclude non pickup gachas and reroll gachas)
 
+2026/07/20 - Music Shop + Market
+
 ## Priority Todo
 - Player rating history log
 - Player rank calculations (live end)
