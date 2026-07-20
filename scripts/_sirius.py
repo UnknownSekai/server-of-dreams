@@ -14,7 +14,12 @@ import msgpack
 import requests
 
 from helpers.msgpack import from_array, to_wire
-from models import AuthenticatePayload, RegisterPayload, AccountRegistResult, AuthenticateResult
+from models import (
+    AuthenticatePayload,
+    RegisterPayload,
+    AccountRegistResult,
+    AuthenticateResult,
+)
 
 _LZ4_BLOCK = 99
 _LZ4_BLOCK_ARRAY = 98

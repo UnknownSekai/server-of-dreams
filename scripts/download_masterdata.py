@@ -48,7 +48,10 @@ def main() -> None:
         except MaintenanceError:
             print("Server is in maintenance")
             return
-        url = "https://assets-e.wds-stellarium.com/master-data/production/" + _download_url(manifest)
+        url = (
+            "https://assets-e.wds-stellarium.com/master-data/production/"
+            + _download_url(manifest)
+        )
         print(
             f"master-data version {manifest.version} (publish {manifest.publish_timestamp})"
         )

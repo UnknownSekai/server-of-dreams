@@ -407,6 +407,14 @@ class LiveModel(BaseModel):
     rateGrade: int
 
 
+class ActiveLiveModel(BaseModel):
+    # the one in-progress live per user (set at Start, consumed at Finish/Retire)
+    userId: int
+    id: int
+    liveMasterId: int
+    partyId: int
+
+
 class MusicModel(BaseModel):
     userId: int
     id: int

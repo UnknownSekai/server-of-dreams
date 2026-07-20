@@ -30,7 +30,7 @@ python main.py
 
 2026/07/19 - Inbox receive/bulk receive implemented
 
-
+2026/07/19 - Live start and stamina
 
 ## Priority Todo
 Episodes - https://lb-api.wds-stellarium.com/api/Episodes/.../GetDetails?episodeMasterId=...
