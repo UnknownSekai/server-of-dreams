@@ -171,7 +171,8 @@ def market_reset(now_micros: int) -> int:
 def refresh_cost(refresh_times: int) -> Optional[int]:
     """Jewels for the next manual refresh, given how many have already been bought in the
     current market period, or None once the ceiling is reached. None is what the client is
-    told when the button is spent -- ``required_jewel_for_refresh`` is nullable for this."""
+    told when the button is spent -- ``required_jewel_for_refresh`` is nullable for this.
+    """
     index = max(int(refresh_times), 0)
     if index >= MARKET_MAX_REFRESHES:
         return None

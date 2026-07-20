@@ -895,7 +895,10 @@ class EpisodeResult(BaseModel):
 # Aliases are the vendored-JSON (PascalCase) keys so the files in _data/episodes/ load directly.
 class EpisodeDetailCharacterMotionResult(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
-    slot_number: int = Field(default=0, alias="SlotNumber")
+    # NB: the vendored JSON spells this one field camelCase ("slotNumber") while every other
+    # field is PascalCase -- without the right alias every character defaults to slot 0 and they
+    # all stack in one place, so only one shows.
+    slot_number: int = Field(default=0, alias="slotNumber")
     facial_expression_master_id: Optional[int] = Field(
         default=None, alias="FacialExpressionMasterId"
     )

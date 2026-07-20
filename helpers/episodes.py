@@ -108,8 +108,12 @@ def episode_result(episode_id: int) -> Optional[EpisodeResult]:
 # also carry the item as a normal read reward, but their full-read grants no extra copy.
 _CATALOGUE_ITEM_CATEGORY = 13
 
-_READ_REWARDS: dict = {}  # episode id -> read reward (the full package, chapter-all excluded)
-_READALL_REWARDS: dict = {}  # main episode id -> read-all reward (the catalogue item[s])
+_READ_REWARDS: dict = (
+    {}
+)  # episode id -> read reward (the full package, chapter-all excluded)
+_READALL_REWARDS: dict = (
+    {}
+)  # main episode id -> read-all reward (the catalogue item[s])
 
 
 def _build_rewards() -> None:

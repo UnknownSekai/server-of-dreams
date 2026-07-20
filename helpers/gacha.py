@@ -116,7 +116,8 @@ def _rarity_of(gacha, thing) -> Optional[int]:
 
 def _pool(gacha, totals: dict, pickup_rate: float) -> list[GachaLineupItemProbability]:
     """One pool's per-item probabilities: pickups take the flat rate, everything else of
-    that rarity splits the remainder evenly. Rarities at 0 contribute no items at all."""
+    that rarity splits the remainder evenly. Rarities at 0 contribute no items at all.
+    """
     by_rarity: dict[int, list] = {}
     for thing in gacha.things:
         rarity = _rarity_of(gacha, thing)
@@ -342,7 +343,8 @@ def active_gacha_ids(now: Optional[datetime] = None) -> list[int]:
 def roll_limits(gacha_master_id: int, used: dict[int, int]) -> list[GachaRollLimit]:
     """Remaining rolls for each of a banner's *limited* details. Details with neither a
     daily nor an overall limit are omitted entirely -- captures show banners whose every
-    detail is unlimited reporting an empty list. ``used`` maps detail id -> rolls spent."""
+    detail is unlimited reporting an empty list. ``used`` maps detail id -> rolls spent.
+    """
     _build()
     gacha = _BY_ID.get(gacha_master_id)
     if gacha is None:
