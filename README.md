@@ -32,11 +32,12 @@ python main.py
 
 2026/07/19 - Live start and stamina
 
-2026/07/19 - Live end, drops, ratings, clear lamps
+2026/07/19 - Live end, drops, ratings, clear lamps **DOES NOT WORK**
 
 2026/07/19 - Episodes (and read rewards)
 
 ## Priority Todo
+- Player rating history log
 - Player rank calculations (live end)
 - Senses voice ids (live start)
 - Episodes (verify unlocked)
