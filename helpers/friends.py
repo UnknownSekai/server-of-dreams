@@ -65,7 +65,8 @@ async def _friend_result(
         introduction=profile.introduction,
         last_logged_in_at=_iso(account.lastLoginAt if account else 0),
         name=profile.name,
-        player_rate=profile.playerRate,
+        # another user's rate is hidden (null) unless they made it public
+        player_rate=profile.playerRate if profile.isPublicPlayerRate else None,
         is_public_player_rate=profile.isPublicPlayerRate,
         league_class=profile.leagueClass,
         character_ranks=[],  # TODO: populate from the target's character star ranks

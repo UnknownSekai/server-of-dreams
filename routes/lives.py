@@ -8,18 +8,25 @@ from db.user import (
     delete_active_lives,
     get_active_live,
     get_lives,
+    get_musics,
     get_users,
     next_live_id,
     update_live_result,
+    update_music_releases,
+    update_player_rate,
     upsert_live,
 )
 from helpers.cache import cache
 from helpers.live import build_live_time_event, build_live_unit
+from helpers.live_drops import grant_frames, resolve_frames
+from helpers.live_rate import chart_live_rate_result, total_rate
 from helpers.live_result import achievement_rate, clear_lamp, rate_grade
+from helpers.music_unlock import affects_unlocks, load_progress
 from helpers.msgpack import fault, read_request, respond
 from helpers.score import verify_score_blocks
 from helpers.stamina import adjust_and_check_stamina
-from helpers.user_data import current_user_id, data_object
+from helpers.things import present_type
+from helpers.user_data import build_present, current_user_id, data_object
 from models import *
 
 router = APIRouter(tags=["Lives"])
@@ -98,12 +105,8 @@ async def lives_finish_and_validate(request: Request):
     async with app.acquire_db() as conn:
         active = await conn.fetchrow(get_active_live(user_id))
         live_master_id = active.liveMasterId if active is not None else 0
-        existing = None
-        if live_master_id:
-            for row in await conn.fetch(get_lives(user_id)):
-                if row.liveMasterId == live_master_id:
-                    existing = row
-                    break
+        lives = await conn.fetch(get_lives(user_id)) if live_master_id else []
+        existing = next((r for r in lives if r.liveMasterId == live_master_id), None)
 
         before_lamp = (
             existing.clearLamp if existing is not None else int(ClearLamps.None_)
@@ -142,6 +145,69 @@ async def lives_finish_and_validate(request: Request):
 
         await conn.execute(delete_active_lives(user_id))  # consume the session
 
+        # Only Extra/Stella/Olivier clears can change release state -- skip everything else.
+        # When they can, re-derive every owned song, then push all changes in one UPDATE.
+        present: list = []
+        if affects_unlocks(live_master_id):
+            progress = await load_progress(conn, user_id)
+            changes: list[tuple[int, bool, int]] = []
+            for music in await conn.fetch(get_musics(user_id)):
+                new_stella = progress.stella_released(
+                    music.musicMasterId, music.isPossession, music.stellaReleased
+                )
+                new_status = progress.olivier_status(
+                    music.musicMasterId, music.olivierReleaseStatus
+                )
+                if (
+                    new_stella != music.stellaReleased
+                    or new_status != music.olivierReleaseStatus
+                ):
+                    music.stellaReleased = new_stella
+                    music.olivierReleaseStatus = new_status
+                    changes.append((music.id, new_stella, new_status))
+                    present.append(data_object("Music", music))
+            if changes:
+                await conn.execute(update_music_releases(user_id, changes))
+
+        # live drops: resolve the setting's drop frames whose lot condition this play met,
+        # then consolidate + batch-grant their rewards.
+        setting_id = active.liveSettingMasterId if active is not None else 0
+        frames = resolve_frames(
+            setting_id,
+            stamina_consumed=active.staminaSpent if active is not None else False,
+            score=payload.score,
+            star_act_count=len(payload.star_act_score_blocks or []),
+            achievement_rate=this_rate,
+        )
+        live_drops = await grant_frames(conn, user_id, frames)
+
+        # live rate: this chart's (past-best, this-time) + the top-30 total before/after this
+        # play. The profile's playerRate IS that top-30 total, so keep it in sync when it moves.
+        # (0.0, 0.0) for charts with no live rate (Olivier / long-version) -- not null
+        lr_best, lr_this = chart_live_rate_result(live_master_id, this_rate, prev_rate)
+        live_rate_result = RateUpdateResult(best_ever=lr_best, this_time=lr_this)
+        total_before = total_rate((r.liveMasterId, r.achievementRate) for r in lives)
+        after_pairs = [
+            (r.liveMasterId, r.achievementRate)
+            for r in lives
+            if r.liveMasterId != live_master_id
+        ]
+        if live_master_id:
+            after_pairs.append((live_master_id, best_rate))
+        total_after = total_rate(after_pairs)
+        if total_after != total_before:
+            await conn.execute(update_player_rate(user_id, total_after))
+
+    # refresh what this finish changed for the client: drop rewards + the player rating
+    refresh: set = set()
+    if live_drops:
+        refresh |= {present_type(int(d.received_thing.type)) for d in live_drops}
+        refresh.discard(None)
+    if total_after != total_before:
+        refresh.add("UserProfile")
+    if refresh:
+        present += await build_present(app, user_id, *sorted(refresh))
+
     result = FinishLiveResult(
         clear_lamp=ClearLamps(best_lamp),
         before_clear_lamp=ClearLamps(before_lamp),
@@ -150,11 +216,17 @@ async def lives_finish_and_validate(request: Request):
         achievement_rate_average=this_rate,
         rate_result=RateResult(
             achievement_rate_result=RateUpdateResult(
-                best_ever=best_rate, this_time=this_rate
-            )
+                best_ever=prev_rate, this_time=this_rate  # best_ever = past best only
+            ),
+            live_rate_result=live_rate_result,
+            total_rate_before=total_before,
+            total_rate_after=total_after,
         ),
+        # TODO: rank-point gain not implemented (0 acquired)
+        player_rank_point_result=PlayerRankPointResult(rank_point_acquired=0),
+        live_drop_things=live_drops,
     )
-    return respond(result)
+    return respond(result, present=present)
 
 
 # /api/Lives/FinishAnotherNotationLive
@@ -281,6 +353,7 @@ async def lives_start(request: Request):
     if user_id is not None and payload is not None:
         async with app.acquire_db() as conn:
             user = await conn.fetchrow(get_users(user_id))
+            stamina_spent = False
             if user is not None and payload.use_stamina:
                 cost = _stamina_cost(
                     payload.live_master_id, payload.stamina_consumption_ratio
@@ -288,6 +361,7 @@ async def lives_start(request: Request):
                 if cost > 0 and await adjust_and_check_stamina(
                     conn, user_id, -cost, user.playerRank
                 ):
+                    stamina_spent = True
                     user = await conn.fetchrow(
                         get_users(user_id)
                     )  # reflect spent stamina
@@ -297,7 +371,12 @@ async def lives_start(request: Request):
             )
             await conn.execute(
                 create_active_live(
-                    user_id, live_id, payload.live_master_id, payload.party_id
+                    user_id,
+                    live_id,
+                    payload.live_master_id,
+                    payload.party_id,
+                    payload.live_setting_master_id,
+                    stamina_spent,
                 )
             )
             present = [data_object("User", user)] if user is not None else []

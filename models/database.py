@@ -413,6 +413,8 @@ class ActiveLiveModel(BaseModel):
     id: int
     liveMasterId: int
     partyId: int
+    liveSettingMasterId: int = 0
+    staminaSpent: bool = False
 
 
 class MusicModel(BaseModel):

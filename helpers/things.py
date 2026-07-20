@@ -16,8 +16,10 @@ from db.user import (
     grant_collection,
     grant_possession,
     increment_item_stock,
+    increment_item_stocks,
 )
 from helpers.cache import cache
+from helpers.music_unlock import granted_music_state
 from models import ReceivedThing
 from models.enums import ThingTypes as T
 
@@ -150,6 +152,19 @@ async def grant_thing(
     elif t in _COLLECTION:
         table, array_col = _COLLECTION[t]
         await conn.execute(grant_collection(table, array_col, user_id, thing_id))
+    elif t == T.Music:
+        # a song earned after the Stella/Olivier thresholds is born already unlocked
+        stella, olivier_status = await granted_music_state(conn, user_id, thing_id)
+        extra = {
+            "isPossession": True,
+            "stellaReleased": stella,
+            "olivierReleaseStatus": olivier_status,
+        }
+        await conn.execute(
+            grant_possession(
+                "music", "musicMasterId", user_id, _random_id(), thing_id, extra
+            )
+        )
     elif t in _POSSESSION:
         table, master_col, extra = _POSSESSION[t]
         for _ in range(max(1, int(quantity))):  # one owned row per unit
@@ -164,3 +179,50 @@ async def grant_thing(
 async def grant_things(conn, user_id: int, things) -> list:
     """Grant many ``(thing_type, thing_id, quantity)`` tuples. Returns the ReceivedThing[]."""
     return [await grant_thing(conn, user_id, tt, tid, q) for tt, tid, q in things]
+
+
+async def grant_things_consolidated(conn, user_id: int, things) -> list[ReceivedThing]:
+    """Grant many ``(thing_type, thing_id, quantity)`` with as few DB ops as possible.
+
+    Stackable resources are folded together -- all coin+jewel into one currency update, all
+    stamina into one, every item into a single batched upsert -- so N drops of the same
+    resource cost one write, not N. Unique owned rows (characters, accessories, other
+    possessions, collections) can't be merged, so they fall back to per-unit grants.
+    Returns one ReceivedThing per distinct resource."""
+    totals: dict[tuple[int, int], int] = {}
+    seq: list[tuple[int, int]] = []
+    for tt, tid, q in things:
+        key = (int(tt), int(tid))
+        if key not in totals:
+            seq.append(key)
+        totals[key] = totals.get(key, 0) + int(q)
+
+    coin = jewel = stamina = 0
+    items: list[tuple[int, int]] = []
+    others: list[tuple[int, int, int]] = []
+    received: list[ReceivedThing] = []
+    for tt, tid in seq:
+        qty = totals[(tt, tid)]
+        t = T(tt)
+        if t == T.Coin:
+            coin += qty
+        elif t == T.Jewel:
+            jewel += qty
+        elif t == T.Stamina:
+            stamina += qty
+        elif t == T.Item:
+            items.append((tid, qty))
+        else:
+            others.append((tt, tid, qty))
+            continue
+        received.append(ReceivedThing(type=tt, id_=tid, quantity=qty, sent_inbox=False))
+
+    if coin or jewel:
+        await conn.execute(add_currency(user_id, coin=coin, free_jewel=jewel))
+    if stamina:
+        await conn.execute(add_stamina(user_id, stamina))
+    if items:
+        await conn.execute(increment_item_stocks(user_id, items))
+    for tt, tid, qty in others:
+        received.append(await grant_thing(conn, user_id, tt, tid, qty))
+    return received

@@ -31,7 +31,7 @@ db = PostgresqlDatabase(
     port=CONFIG.port,
 )
 
-version = 1  # ONLY UPDATE ON CHANGED TABLE. NEW TABLES DON'T TOUCH VERSION
+version = 2  # ONLY UPDATE ON CHANGED TABLE. NEW TABLES DON'T TOUCH VERSION
 
 
 class BaseModel(Model):
@@ -3535,6 +3535,8 @@ class ActiveLive(BaseModel):
     id = BigIntegerField()
     liveMasterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
     partyId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    liveSettingMasterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
+    staminaSpent = BooleanField(constraints=[SQL("DEFAULT false")])
 
     class Meta:
         table_name = "active_live"

@@ -590,6 +590,31 @@ def increment_item_stock(
     )
 
 
+def increment_item_stocks(
+    user_id: int, items: list[tuple[int, int]]
+) -> ExecutableQuery:
+    """Add stock to many items in a single statement (items = [(item_master_id, delta), ...];
+    must be non-empty). Upserts each -- creates the row (id = master id) when new."""
+    rows: list[str] = []
+    args: list = [user_id]
+    for item_master_id, delta in items:
+        n = len(args)
+        rows.append(f"(${n + 1}::bigint, ${n + 2}::bigint)")
+        args.extend((item_master_id, delta))
+    return ExecutableQuery(
+        f"WITH v(item_id, delta) AS (VALUES {', '.join(rows)}), "
+        "upd AS ("
+        '  UPDATE "item" i SET "stock" = i."stock" + v.delta '
+        '  FROM v WHERE i."userId" = $1 AND i."itemMasterId" = v.item_id '
+        "  RETURNING v.item_id"
+        ") "
+        'INSERT INTO "item" ("userId", "id", "itemMasterId", "stock") '
+        "SELECT $1, v.item_id, v.item_id, v.delta FROM v "
+        "WHERE v.item_id NOT IN (SELECT item_id FROM upd)",
+        *args,
+    )
+
+
 def add_currency(user_id: int, coin: int = 0, free_jewel: int = 0) -> ExecutableQuery:
     return ExecutableQuery(
         'UPDATE "currency" SET "coin" = "coin" + $2, "freeJewel" = "freeJewel" + $3 '

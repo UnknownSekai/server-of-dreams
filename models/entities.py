@@ -3050,7 +3050,9 @@ class UserProfile(BaseModel):
     m_trophy_id1: Optional[int] = None
     m_trophy_id2: Optional[int] = None
     m_trophy_id3: Optional[int] = None
-    player_rate: float = 0.0
+    player_rate: Optional[float] = (
+        None  # own data always fills it; null when hidden for others
+    )
     is_public_player_rate: bool = False
     league_class: LeagueClassTypes = LeagueClassTypes.None_
     total_sp_count: int = 0
