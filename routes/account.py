@@ -3,9 +3,11 @@ from typing import Optional
 from fastapi import APIRouter, Request
 from core import YumeApp
 
-from helpers.msgpack import read_request, respond
+from db.user import get_user_preferences, update_birth_date
+from helpers.msgpack import iso_to_micros, read_request, respond
 from helpers.auth import authenticate
 from helpers.auth import register
+from helpers.user_data import current_user_id, data_object
 from models import *
 
 router = APIRouter(tags=["Account"])
@@ -122,5 +124,19 @@ async def account_take_over_with_account_connect(request: Request):
 @router.post("/api/Account/UpdateBirthDate", name="Account_UpdateBirthDate")
 async def account_update_birth_date(request: Request):
     app: YumeApp = request.app
+    user_id = current_user_id(request)
     payload = await read_request(request, RegisterBirthDayPayload)
-    return respond(BooleanResult())
+    if payload is None or user_id is None:
+        return respond(BooleanResult())
+    try:
+        birth_date = iso_to_micros(payload.birth_date)
+    except ValueError:
+        return respond(BooleanResult())
+    async with app.acquire_db() as conn:
+        await conn.execute(update_birth_date(user_id, birth_date))
+        preference = await conn.fetchrow(get_user_preferences(user_id))
+    # echo the row back so the client's UserPreference reflects the stored date
+    present = (
+        [data_object("UserPreference", preference)] if preference is not None else []
+    )
+    return respond(BooleanResult(is_success=True), present=present)

@@ -65,6 +65,15 @@ def iso_to_ts(s: str) -> msgpack.Timestamp:
     return msgpack.Timestamp(secs, micros * 1000)
 
 
+def iso_to_micros(s: str) -> Optional[int]:
+    """A wire ``DateTime`` -> the epoch microseconds the DB stores for it.
+    ``default(DateTime)`` means "unset", so it maps to None (SQL NULL)."""
+    ts = iso_to_ts(s)
+    if ts.seconds == DATETIME_MIN.seconds:
+        return None
+    return ts.seconds * 1_000_000 + ts.nanoseconds // 1000
+
+
 def _zero(base, kind):
     # non-nullable C# value types serialize as default(T); the client reads them
     # with ReadInt32/ReadInt64/etc. which throw on msgpack nil.

@@ -151,6 +151,15 @@ def update_multi_party(user_id: int, party_id: int) -> ExecutableQuery:
     )
 
 
+def update_birth_date(user_id: int, birth_date: Optional[int]) -> ExecutableQuery:
+    """Set the caller's birth date (epoch microseconds, or NULL to clear it)."""
+    return ExecutableQuery(
+        'UPDATE "user_preference" SET "birthDate" = $2 WHERE "userId" = $1',
+        user_id,
+        birth_date,
+    )
+
+
 def adjust_user_stamina_atomic(
     user_id: int,
     delta: int,
