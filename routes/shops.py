@@ -324,7 +324,7 @@ async def shops_exchange_music_score(request: Request, mLiveId: int):
         return respond(BooleanResult(), faults=[fault(rejected.code)])
 
     present = await build_present(app, user_id, *sorted(set(spent) | {"Music"}))
-    return respond(BooleanResult(result=True), present=present)
+    return respond(BooleanResult(is_success=True), present=present)
 
 
 # /api/Shops/ExchangePermanentMarketThing/{PermanentMarketThingMasterid}?permanentMarketThingMasterId=&quantity=
@@ -539,7 +539,7 @@ async def shops_update_last_viewed_at(request: Request):
             )
         )
     present = await build_present(app, user_id, "ViewedShop")
-    return respond(BooleanResult(result=True), present=present)
+    return respond(BooleanResult(is_success=True), present=present)
 
 
 # /api/Shops/RefreshMarketWithJewel

@@ -42,6 +42,8 @@ python main.py
 
 2026/07/20 - Music Shop + Market
 
+2026/07/20 - Character Level Up, Awakening, Sense Enhance, Talent Bloom
+
 ## Priority Todo
 - Player rating history log
 - Player rank calculations (live end)

@@ -70,6 +70,7 @@ def _build() -> None:
         _MARKET_POOLS.setdefault(master_id // 100, []).append(master_id)
     _PERMANENT.update({p.id_: p for p in cache.permanent_market_thing_master})
     _JEWEL_ITEMS.update({j.id_: j for j in cache.jewel_shop_item_master})
+    _LIVE_MUSIC.update({m.id_: m.music_master_id for m in cache.live_master})
 
 
 def available(start_date, end_date, now: Optional[datetime] = None) -> bool:

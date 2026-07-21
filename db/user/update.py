@@ -151,6 +151,55 @@ def update_multi_party(user_id: int, party_id: int) -> ExecutableQuery:
     )
 
 
+def update_character_level(
+    user_id: int, character_id: int, level: int, current_experience: int
+) -> ExecutableQuery:
+    """Set a character's level and the exp banked toward the next one."""
+    return ExecutableQuery(
+        'UPDATE "character" SET "level" = $3, "currentExperience" = $4 '
+        'WHERE "userId" = $1 AND "id" = $2',
+        user_id,
+        character_id,
+        level,
+        current_experience,
+    )
+
+
+def update_character_awakening(
+    user_id: int, character_id: int, phase: int
+) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "character" SET "awakeningPhase" = $3 WHERE "userId" = $1 AND "id" = $2',
+        user_id,
+        character_id,
+        phase,
+    )
+
+
+def update_character_talent_stage(
+    user_id: int, character_id: int, stage: int
+) -> ExecutableQuery:
+    return ExecutableQuery(
+        'UPDATE "character" SET "talentStage" = $3 WHERE "userId" = $1 AND "id" = $2',
+        user_id,
+        character_id,
+        stage,
+    )
+
+
+def update_character_sense_level(
+    user_id: int, character_id: int, level: int, secondary: bool = False
+) -> ExecutableQuery:
+    """Set a character's sense level -- its secondary sense has its own column."""
+    column = "secondarySenseLevel" if secondary else "senseLevel"
+    return ExecutableQuery(
+        f'UPDATE "character" SET "{column}" = $3 WHERE "userId" = $1 AND "id" = $2',
+        user_id,
+        character_id,
+        level,
+    )
+
+
 def update_birth_date(user_id: int, birth_date: Optional[int]) -> ExecutableQuery:
     """Set the caller's birth date (epoch microseconds, or NULL to clear it)."""
     return ExecutableQuery(

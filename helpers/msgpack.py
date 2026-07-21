@@ -268,3 +268,23 @@ async def read_request(request: Request, model: Optional[Union[Type[T], str]] = 
         return from_array(name, decoded)
     except ValidationError as exc:
         raise HTTPException(status_code=422, detail=exc.errors())
+
+
+async def read_request_list(request: Request, model: Union[Type[T], str]) -> list:
+    """A ``TPayload[]`` body -> the decoded models.
+
+    The wire form is an array of per-model arrays. A body that is a bare payload array
+    (elements are the model's own scalar fields, not nested arrays) is read as a one-entry
+    batch instead -- the reversed client declares several of these endpoints as arrays, and
+    reading a singular body as one entry costs nothing if a capture proves otherwise.
+    """
+    raw = await read_request(request)
+    if not isinstance(raw, (list, tuple)):
+        return []
+    if raw and not any(isinstance(x, (list, tuple)) for x in raw):
+        raw = [raw]
+    name = model if isinstance(model, str) else model.__name__
+    try:
+        return [from_array(name, entry) for entry in raw]
+    except ValidationError as exc:
+        raise HTTPException(status_code=422, detail=exc.errors())
