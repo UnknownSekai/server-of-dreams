@@ -8,11 +8,9 @@ from db.user import (
     delete_active_lives,
     get_active_live,
     get_lives,
-    get_musics,
     get_users,
     next_live_id,
     update_live_result,
-    update_music_releases,
     update_player_rate,
     upsert_live,
 )
@@ -20,8 +18,14 @@ from helpers.cache import cache
 from helpers.live import build_live_time_event, build_live_unit
 from helpers.live_drops import grant_frames, resolve_frames
 from helpers.live_rate import chart_live_rate, chart_live_rate_result, total_rate
-from helpers.live_result import achievement_rate, clear_lamp, play_totals, rate_grade
-from helpers.music_unlock import affects_unlocks, load_progress
+from helpers.live_result import (
+    achievement_rate,
+    clear_lamp,
+    good_or_worse_count,
+    play_totals,
+    rate_grade,
+)
+from helpers.music_unlock import affects_unlocks, apply_unlocks, stella_unlocked_by
 from helpers.msgpack import fault, read_request, respond
 from helpers.score import verify_score_blocks
 from helpers.stamina import adjust_and_check_stamina
@@ -195,25 +199,17 @@ async def lives_finish_and_validate(request: Request):
         # Only Extra/Stella/Olivier clears can change release state -- skip everything else.
         # When they can, re-derive every owned song, then push all changes in one UPDATE.
         if affects_unlocks(live_master_id):
-            progress = await load_progress(conn, user_id)
-            changes: list[tuple[int, bool, int]] = []
-            for music in await conn.fetch(get_musics(user_id)):
-                new_stella = progress.stella_released(
-                    music.musicMasterId, music.isPossession, music.stellaReleased
-                )
-                new_status = progress.olivier_status(
-                    music.musicMasterId, music.olivierReleaseStatus
-                )
-                if (
-                    new_stella != music.stellaReleased
-                    or new_status != music.olivierReleaseStatus
-                ):
-                    music.stellaReleased = new_stella
-                    music.olivierReleaseStatus = new_status
-                    changes.append((music.id, new_stella, new_status))
-                    present.append(data_object("Music", music))
-            if changes:
-                await conn.execute(update_music_releases(user_id, changes))
+            # the Extra GOOD budget can only be judged here, off this play's own blocks
+            changed = await apply_unlocks(
+                conn,
+                user_id,
+                stella_unlocked_by(
+                    live_master_id,
+                    is_cleared,
+                    good_or_worse_count(payload.base_score_blocks),
+                ),
+            )
+            present += [data_object("Music", music) for music in changed]
 
         # live drops: resolve the setting's drop frames whose lot condition this play met,
         # then consolidate + batch-grant their rewards. Long-version songs never drop.

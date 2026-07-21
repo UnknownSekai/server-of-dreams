@@ -38,22 +38,56 @@ _GRADE_THRESHOLDS = (
 )
 
 
-_BROKEN = (int(TimingTypes.MISS), int(TimingTypes.BAD))
-_IMPERFECT = (int(TimingTypes.GOOD), int(TimingTypes.GREAT))
+def _combo_broken(blocks: list[BaseScoreBlock]) -> bool:
+    """Whether the blocks' own running combo ever falls back.
+
+    Direct evidence of a dropped note that doesn't depend on the server agreeing with the
+    client about which timings break a combo. Only a strict decrease counts, so a chart that
+    reports no combo at all can't fake a break.
+    """
+    previous = 0
+    for block in blocks:
+        combo = int(block.combo)
+        if combo < previous:
+            return True
+        previous = combo
+    return False
 
 
 def clear_lamp(is_cleared: bool, base_score_blocks: list[BaseScoreBlock]) -> int:
-    """Fail (not cleared) / AllPerfect (no mis. no imperfect) / FullCombo (no misses) / Clear."""
+    """Fail (not cleared) / AllPerfect (no mis. no imperfect) / FullCombo (no misses) / Clear.
+
+    TimingTypes runs worst..best, so both tiers are threshold tests: anything below GOOD
+    (MISS / BAD, and None_ for a note that was never judged at all) breaks the combo, and
+    anything below PERFECT keeps the run off All Perfect. Asking instead whether a timing
+    *is* MISS or BAD let every value the server doesn't enumerate -- None_ above all -- pass
+    as combo-safe, which reported a FullCombo on runs that plainly weren't one.
+    """
     if not is_cleared:
         return int(ClearLamps.None_)
-    timings = [int(b.timing_type) for b in (base_score_blocks or [])]
-    broken = sum(1 for t in timings if t in _BROKEN)
-    imperfect = sum(1 for t in timings if t in _IMPERFECT)
-    if broken == 0 and imperfect == 0:
-        return int(ClearLamps.AllPerfect)
-    if broken == 0:
+    blocks = base_score_blocks or []
+    timings = [int(b.timing_type) for b in blocks]
+    broken = sum(1 for t in timings if t < int(TimingTypes.GOOD))
+    imperfect = sum(1 for t in timings if t < int(TimingTypes.PERFECT))
+    if broken or _combo_broken(blocks):
+        return int(ClearLamps.Clear)
+    if imperfect:
         return int(ClearLamps.FullCombo)
-    return int(ClearLamps.Clear)
+    return int(ClearLamps.AllPerfect)
+
+
+def good_or_worse_count(base_score_blocks: list[BaseScoreBlock]) -> int:
+    """Notes judged GOOD or below -- GOOD / BAD / MISS / unjudged.
+
+    This is what LiveUnlockConditionTypes.ExtraGoodCount budgets (see helpers/music_unlock),
+    and it only exists here: the live row a finish writes keeps a clear lamp, not a judgement
+    breakdown, so nothing downstream can recover it.
+    """
+    return sum(
+        1
+        for b in (base_score_blocks or [])
+        if int(b.timing_type) <= int(TimingTypes.GOOD)
+    )
 
 
 def achievement_rate(base_score_blocks: list[BaseScoreBlock]) -> float:

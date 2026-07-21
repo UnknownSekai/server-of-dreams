@@ -19,7 +19,7 @@ from db.user import (
     get_character_bases,
     get_characters,
     get_circle_supports,
-    get_lives,
+    get_musics,
     get_party_slots,
     get_partys,
     get_posters,
@@ -51,7 +51,7 @@ from models import (
     StarAct,
     TimingEvent,
 )
-from models.enums import MusicDifficulties, SenseLightTypes
+from models.enums import MusicDifficulties, OlivierReleaseStatuses, SenseLightTypes
 
 _MASTERS: dict = {}
 
@@ -524,11 +524,27 @@ async def build_live_unit(conn, user_id: int, party_id: int, live_master_id: int
 
     lm = _by_id("live_master").get(live_master_id)
 
-    # first Olivier play: this live is the Olivier difficulty and was never played before
+    # The Stella->Olivier intro marks how the chart was entered, not play history: it plays
+    # when the live was launched by holding the Stella button, and Challengeable is the only
+    # status that gesture is offered on. Purchasable means an Olivier clear at this level or
+    # above has put the chart in the shop instead, so it has to be bought, and Released picks
+    # straight off the difficulty list -- neither shows a transition. It repeats for as long
+    # as the chart stays Challengeable. StartLivePayload carries no field for the gesture
+    # itself (it ends at trial_party_event_stage_master_id), so status is all there is to go
+    # on.
     is_first_olivier = False
     if lm is not None and int(lm.difficulty) == int(MusicDifficulties.Olivier):
-        lives = await conn.fetch(get_lives(user_id))
-        is_first_olivier = not any(l.liveMasterId == live_master_id for l in lives)
+        music = next(
+            (
+                m
+                for m in await conn.fetch(get_musics(user_id))
+                if m.musicMasterId == lm.music_master_id
+            ),
+            None,
+        )
+        is_first_olivier = music is not None and music.olivierReleaseStatus == int(
+            OlivierReleaseStatuses.Challengeable
+        )
 
     # normal live: time events spread over the song duration (no sense notation).
     # TimeEvents is keyed by the timing second; the value is that window's TimingEvent.

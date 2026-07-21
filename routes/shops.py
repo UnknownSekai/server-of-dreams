@@ -20,6 +20,7 @@ from db.user import (
     touch_viewed_shop,
 )
 from helpers.msgpack import fault, read_request, respond
+from helpers.music_unlock import apply_unlocks
 from helpers.shops import (
     MARKET_MAX_REFRESHES,
     MUSIC_SCORE_COST,
@@ -320,6 +321,10 @@ async def shops_exchange_music_score(request: Request, mLiveId: int):
                 )
                 if spent is None:
                     raise _Rejected("NotEnoughThing")
+
+                # the 20th Olivier bought opens every owned song's Stella (see
+                # helpers/music_unlock); the whole Music list is rebuilt below either way
+                await apply_unlocks(conn, user_id)
     except _Rejected as rejected:
         return respond(BooleanResult(), faults=[fault(rejected.code)])
 
