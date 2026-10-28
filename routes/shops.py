@@ -511,10 +511,17 @@ async def shops_purchase(request: Request):
     # jewels -- the same split routes/gachas.py punts on when charging for a roll.
     async with app.acquire_db() as conn:
         async with conn.transaction():
+            rewards = [
+                (int(ThingTypes.Jewel), 0, item.give_paid_jewel)
+            ] if item.give_paid_jewel else []
+            rewards.extend(
+                (int(thing.thing_type), thing.thing_id, thing.thing_quantity)
+                for thing in item.lineup or []
+            )
             received = await grant_things_consolidated(
                 conn,
                 user_id,
-                [(int(ThingTypes.Jewel), 0, item.give_paid_jewel or 0)],
+                rewards,
             )
             await conn.execute(
                 record_jewel_shop_purchase(user_id, item.id_, _random_id(), None)
