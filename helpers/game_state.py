@@ -19,6 +19,10 @@ class Rejected(Exception):
     """Raised to abort and roll back a gameplay action (caller returns a failure result)."""
 
 
+class NotEnough(Rejected):
+    """Raised when the account cannot afford a cost; callers map it to NotEnoughThing."""
+
+
 def master(table: str, ident, field: str = "id_"):
     return next((x for x in getattr(cache, table) if getattr(x, field) == ident), None)
 
@@ -109,7 +113,7 @@ class State:
         if any(items.get(i, {}).get("stock", 0) < n for i, n in costs.items()) or (
             coin and (not currency or currency["coin"] < coin)
         ):
-            raise Rejected("Insufficient resources")
+            raise NotEnough("Insufficient resources")
         for i, n in costs.items():
             if n:
                 await self.update("Item", items[i], stock=items[i]["stock"] - n)
