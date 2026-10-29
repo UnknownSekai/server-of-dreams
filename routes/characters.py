@@ -8,6 +8,7 @@ from core import YumeApp
 from db.user import (
     get_characters,
     get_items,
+    get_user_bonuss,
     get_users,
     increment_item_stocks,
     update_character_awakening,
@@ -25,7 +26,6 @@ from helpers.character_enhance import (
     sense_enhance_cost,
 )
 from helpers.character_level import (
-    apply_experience,
     character_rarity,
     experience_item,
     experience_to_reach,
@@ -144,8 +144,10 @@ async def characters_add_experience(request: Request, characterId: int):
             )
             await gs.level_missions(s, cm, delta, level)
         return respond(BooleanResult(is_success=True), present=s.present())
+    except gs.NotEnough:
+        return respond(BooleanResult(), faults=[fault("NotEnoughThing")])
     except gs.Rejected:
-        return respond(BooleanResult())
+        return respond(BooleanResult(), faults=[fault("InvalidRequest")])
 
 
 # /api/Characters/{characterId}/Awaken
@@ -240,13 +242,16 @@ async def characters_bulk_level_up(request: Request):
     user_id = current_user_id(request)
     payloads = await read_request_list(request, BulkLevelUpPayload)
     if user_id is None or not payloads:
-        return respond(BooleanResult())
+        return respond(BooleanResult(), faults=[fault("InvalidRequest")])
 
     leveled: set = set()
     spent: dict = {}
+    bonus_gain = 0.0
+    needed_any = False
     async with app.acquire_db() as conn, conn.transaction():
         user = await conn.fetchrow(get_users(user_id))
-        if user is None:
+        bonus = await conn.fetchrow(get_user_bonuss(user_id))
+        if user is None or bonus is None:
             return respond(BooleanResult(), faults=[fault("InvalidRequest")])
         cap = level_cap(user)
         characters = {c.id: c for c in await conn.fetch(get_characters(user_id))}
@@ -258,21 +263,23 @@ async def characters_bulk_level_up(request: Request):
             if character is None or character.level >= cap:
                 continue
             rarity = character_rarity(character.characterMasterId)
-            spend = spend_from_pool(
-                stock,
-                experience_to_reach(
-                    character.level, character.currentExperience, cap, rarity
-                ),
+            needed = experience_to_reach(
+                character.level, character.currentExperience, cap, rarity
             )
-            gained = 0
+            if needed <= 0:
+                continue
+            needed_any = True
+            spend = spend_from_pool(stock, needed, bonus.experienceBonus)
+            gained = _actor_item_experience(spend, bonus.experienceBonus)
+            if not spend or gained <= 0:
+                continue
             for item_master_id, quantity in spend.items():
                 stock[item_master_id] -= quantity
                 spent[item_master_id] = spent.get(item_master_id, 0) + quantity
                 master = experience_item(item_master_id)
-                gained += master.acquirable_experience * quantity if master else 0
-            if not gained:
-                continue
-            level, experience = apply_experience(
+                if master:
+                    bonus_gain += master.acquirable_experience_bonus * quantity
+            level, experience = _actor_experience(
                 character.level, character.currentExperience, gained, cap, rarity
             )
             await conn.execute(
@@ -281,14 +288,29 @@ async def characters_bulk_level_up(request: Request):
             leveled.add(character.id)
 
         if not leveled:  # nothing affordable -- no items were touched either
-            return respond(BooleanResult())
+            faults = [fault("NotEnoughThing" if needed_any else "InvalidRequest")]
+            return respond(BooleanResult(), faults=faults)
         await conn.execute(
             increment_item_stocks(user_id, [(i, -q) for i, q in spent.items()])
         )
+        if bonus_gain:
+            await conn.conn.execute(
+                'UPDATE "user_bonus" SET "experienceBonus"=$1 '
+                'WHERE "userId"=$2 AND "id"=$3',
+                gs.f32(bonus.experienceBonus + bonus_gain),
+                user_id,
+                bonus.id,
+            )
+        spent_ids = {
+            item.id
+            for item in await conn.fetch(get_items(user_id))
+            if item.itemMasterId in spent
+        }
 
-    present = await build_present(
-        app, user_id, ("Character", leveled), ("Item", set(spent))
-    )
+    present_args = [("Character", leveled), ("Item", spent_ids)]
+    if bonus_gain:
+        present_args.append("UserBonus")
+    present = await build_present(app, user_id, *present_args)
     return respond(BooleanResult(is_success=True), present=present)
 
 

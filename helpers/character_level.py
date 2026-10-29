@@ -17,6 +17,7 @@ scaled unit, so ``experience_to_reach`` and ``apply_experience`` scale consisten
 ``scaled_experience``.
 """
 
+import math
 from datetime import datetime, timezone
 from decimal import Decimal
 from typing import Optional
@@ -196,7 +197,7 @@ def experience_items() -> list[CharacterExperienceItemMaster]:
     )
 
 
-def spend_from_pool(stock: dict, needed: int) -> dict:
+def spend_from_pool(stock: dict, needed: int, bonus: float = 0) -> dict:
     """Pick the exp items to burn from ``stock`` ({itemMasterId: owned}) to cover ``needed``
     exp. Returns {itemMasterId: quantity}.
 
@@ -206,16 +207,20 @@ def spend_from_pool(stock: dict, needed: int) -> dict:
     cheapest of those closes it -- refusing to overshoot there is what would strand a
     character short of its cap, and the excess is banked rather than lost anyway. Only a
     genuinely empty pool leaves the character below the cap.
+
+    ``bonus`` is the account's ``UserBonus.experienceBonus``; each item is priced at the
+    same rounded effective exp that ``AddExperience`` grants, so the two level-up paths
+    spend the same resources for the same result.
     """
-    # TODO: CharacterExperienceItemMaster.acquirable_experience_bonus (value/1000 for each of
-    # the three items) is unused -- what it multiplies is unobserved.
+    # The item's own ``acquirable_experience_bonus`` is added to the account's
+    # experienceBonus by the level-up routes; it is not part of the item's price.
     if needed <= 0:
         return {}
     items = experience_items()
     left = dict(stock)
     spend: dict = {}
     for master in items:
-        value = master.acquirable_experience
+        value = math.floor(master.acquirable_experience * (1 + bonus / 100))
         owned = left.get(master.item_master_id, 0)
         if value <= 0 or owned <= 0 or needed < value:
             continue
