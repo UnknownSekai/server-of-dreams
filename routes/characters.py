@@ -127,7 +127,7 @@ async def characters_add_experience(request: Request, characterId: int):
             if not row or not user or not bonus:
                 raise gs.Rejected()
             cm = character_master(row["characterMasterId"])
-            cap = min(user["playerRank"], released_max_level())
+            cap = min(user["playerRankLimit"], released_max_level())
             if row["level"] >= cap:
                 raise gs.Rejected()
             gained = _actor_item_experience(costs, bonus["experienceBonus"])
