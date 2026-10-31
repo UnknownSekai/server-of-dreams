@@ -10,9 +10,9 @@ from mitmproxy import http
 import socket
 
 do_proxying = True
-local_assets = False  # redirect asset requests to the local server (if downloaded)
+local_assets = True  # redirect asset requests to the local server (if downloaded)
 
-LOCAL_PORT = 8123
+LOCAL_PORT = 8080
 API_HOST = "lb-api.wds-stellarium.com"
 ASSET_HOST = "assets-e.wds-stellarium.com"
 REALTIME_HOST = "lb-realtime.wds-stellarium.com"
