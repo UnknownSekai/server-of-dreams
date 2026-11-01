@@ -42,10 +42,25 @@ python -m scripts.download_masterdata
 python -m scripts.download_all_assets   # https://github.com/Ryota537/asset-of-dreams
 ```
 
+Note: python commands are executed in the venv as long as the terminal is opened.
+Type `source venv/bin/activate` to access it again on a new terminal.
+
 ### Certificates
 
 You need to generate certificates for the realtime server (coop, friends, circle features).
 
+For this, use one of the two methods listed below.
+
+#### Generator script (automatic)
+First, make sure to fill the realtime part properly in the config.yml file.
+Then, you can simply run the generator script (make sure you're still in the venv first!):
+
+```bash
+python -m scripts.generate_realtime_cert
+```
+
+#### Openssl (manual)
+You can also generate them manually if you want to.
 Replace the two "REPLACEME" with your domain for realtime or your local network IP:
 
 ```bash
