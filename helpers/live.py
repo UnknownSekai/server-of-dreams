@@ -59,7 +59,12 @@ from models import (
     StarAct,
     TimingEvent,
 )
-from models.enums import EffectTypes, MusicDifficulties, OlivierReleaseStatuses, SenseLightTypes
+from models.enums import (
+    EffectTypes,
+    MusicDifficulties,
+    OlivierReleaseStatuses,
+    SenseLightTypes,
+)
 
 _MASTERS: dict = {}
 
@@ -143,9 +148,21 @@ def _calculate_slot_status(
     Stage 3: multiplier from CalculationTypes.Multiplication (e.g. FinalPerformanceUpCancelSense)
     """
     v_base, e_base, c_base = char_status
-    v_s1 = v_base + flat_bonuses[0] + sum(v_base * p[0] // 10000 for p in comp_pcts.values())
-    e_s1 = e_base + flat_bonuses[1] + sum(e_base * p[1] // 10000 for p in comp_pcts.values())
-    c_s1 = c_base + flat_bonuses[2] + sum(c_base * p[2] // 10000 for p in comp_pcts.values())
+    v_s1 = (
+        v_base
+        + flat_bonuses[0]
+        + sum(v_base * p[0] // 10000 for p in comp_pcts.values())
+    )
+    e_s1 = (
+        e_base
+        + flat_bonuses[1]
+        + sum(e_base * p[1] // 10000 for p in comp_pcts.values())
+    )
+    c_s1 = (
+        c_base
+        + flat_bonuses[2]
+        + sum(c_base * p[2] // 10000 for p in comp_pcts.values())
+    )
 
     v_final = v_s1 + sum(v_s1 * perf // 10000 for perf in perf_pcts.values())
     e_final = e_s1 + sum(e_s1 * perf // 10000 for perf in perf_pcts.values())
@@ -227,8 +244,10 @@ def _position_senses(
             "sense_master_id": cm.sense_master_id,
             "sense_id": ch.id * 100,
             "cool_time": 1 if cancel_sense else sm.cool_time,
-            "acquirable_lights": [] if cancel_sense else (
-                _lights(sm.type, sm.light_count) + added_lights(effects, sm.type)
+            "acquirable_lights": (
+                []
+                if cancel_sense
+                else (_lights(sm.type, sm.light_count) + added_lights(effects, sm.type))
             ),
         }
     return pos_sense
@@ -244,7 +263,11 @@ _LIGHT_FIELDS = {
 
 
 def _star_act_condition(
-    slots, chars, character_master, leader_position: int, leader_effects: Optional[list] = None
+    slots,
+    chars,
+    character_master,
+    leader_position: int,
+    leader_effects: Optional[list] = None,
 ) -> tuple[dict, int]:
     """(typed light requirements, free-light count) for the leader's star act,
     with DecreaseRequire*Light reductions applied."""
@@ -577,9 +600,8 @@ async def build_live_unit(conn, user_id: int, party_id: int, live_master_id: int
             + _star_rank_bonus(base.starRank if base else 0)
             + base_correction(effects)
         )
-        story_bonus = (
-            (2 if getattr(ch, "readEpisodeOrder", 0) >= 1 else 0)
-            + (3 if getattr(ch, "readEpisodeOrder", 0) >= 2 else 0)
+        story_bonus = (2 if getattr(ch, "readEpisodeOrder", 0) >= 1 else 0) + (
+            3 if getattr(ch, "readEpisodeOrder", 0) >= 2 else 0
         )
         char_v, char_e, char_c = _character_base_status(
             cm, ch.level, base_stat_bonus(effects), story_bonus, intrinsic
@@ -620,8 +642,13 @@ async def build_live_unit(conn, user_id: int, party_id: int, live_master_id: int
                     actor_id=ch.id,
                     cool_time=1 if cancel_sense else sm.cool_time,
                     sense_type=sm.type,
-                    acquirable_lights=[] if cancel_sense else (
-                        _lights(sm.type, sm.light_count) + added_lights(effects, sm.type)
+                    acquirable_lights=(
+                        []
+                        if cancel_sense
+                        else (
+                            _lights(sm.type, sm.light_count)
+                            + added_lights(effects, sm.type)
+                        )
                     ),
                     sense_effect=SenseEffect(
                         score_factor=0 if cancel_sense else sm.acquirable_score_percent,

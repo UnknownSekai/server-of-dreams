@@ -60,7 +60,37 @@ for a local test.
 
 ### Generating SSL/TLS Certificates
 
-The realtime StreamingHub runs over HTTP/2 with ALPN (`h2`). For local development, testing, or self-hosted environments, you can generate a self-signed certificate and private key using OpenSSL:
+The realtime StreamingHub runs over HTTP/2 with ALPN (`h2`). For local development, testing, or self-hosted environments you need a self-signed certificate and private key.
+
+The simplest way needs **no `openssl` binary** — it uses the OpenSSL bundled inside the `cryptography` wheel:
+
+```bash
+python -m scripts.generate_realtime_cert
+```
+
+It reads the realtime hostname from `multi_real_time_server_url` in `config.yml`, writes
+`certs/realtime-cert.pem` and `certs/realtime-key.pem` (rsa:4096, sha256, self-signed, 365
+days) with `subjectAltName=DNS:<host>,DNS:localhost,IP:127.0.0.1`, and verifies the pair
+loads for TLS `h2`. Override with `--host`, `--cert`, `--key`, `--days`, or `--force`.
+
+The cert can cover more than one name. The client accepts it for any host in its SAN, so add
+every hostname/IP it might connect to — a future online host, a LAN address — and each is
+auto-detected as DNS or IP:
+
+```bash
+python -m scripts.generate_realtime_cert --host lb-realtime.wds-stellarium.com --host rt.example.com --host 192.168.1.50
+```
+
+The first `--host` becomes the CN; `localhost` + `127.0.0.1` are always added. To make extra
+names permanent (applied on every regenerate), list them under `realtime.cert_hosts` in
+`config.yml`:
+
+```yaml
+realtime:
+  cert_hosts: ["rt.example.com", "192.168.1.50"]
+```
+
+Or, if you already have OpenSSL installed:
 
 ```bash
 openssl req -x509 -newkey rsa:4096 -nodes -sha256 \

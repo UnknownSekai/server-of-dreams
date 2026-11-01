@@ -71,7 +71,9 @@ async def possessions_bulk_set_costume_favorite(request: Request):
             if not p.set_favorite:
                 favorites = [v for v in favorites if v != ident]
             if row:
-                await s.update("FavoriteCostume", row, favoriteCostumeMasterIds=favorites)
+                await s.update(
+                    "FavoriteCostume", row, favoriteCostumeMasterIds=favorites
+                )
             else:
                 await s.insert(
                     "FavoriteCostume",

@@ -22,9 +22,7 @@ async def _claim_star_rewards(s: State, base_master_id: int) -> "StarPointResult
     points = 0
     categories = {x.id_: x for x in cache.character_mission_category_level_master}
     all_stages = [st for m in cache.character_mission_master for st in m.stages or []]
-    sizes = Counter(
-        st.character_mission_category_level_master_id for st in all_stages
-    )
+    sizes = Counter(st.character_mission_category_level_master_id for st in all_stages)
     for row in await s.rows("CharacterMission"):
         if row["characterBaseMasterId"] != base_master_id:
             continue
@@ -90,7 +88,10 @@ async def _claim_star_rewards(s: State, base_master_id: int) -> "StarPointResult
     await s.update("CharacterBase", base, starRank=rank, totalStarPoint=balance)
     rewards = []
     for r in cache.star_rank_reward_master:
-        if r.character_base_master_id == base_master_id and rank_before < r.rank <= rank:
+        if (
+            r.character_base_master_id == base_master_id
+            and rank_before < r.rank <= rank
+        ):
             group = master(
                 "character_star_rank_reward_group_master",
                 r.character_star_rank_reward_group_master_id,

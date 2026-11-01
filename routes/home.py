@@ -30,7 +30,9 @@ async def home_check_receive_login_bonus(request: Request):
     # result so the flow completes. real rewards still need LoginBonusMaster/LoginBonusDetailMaster
     # (absent from our unpacked masterdata), so nothing is granted yet -- received_things/details
     # stay empty.
-    now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat()
+    now = (
+        datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat()
+    )
     return respond(
         [
             LoginBonusResult(

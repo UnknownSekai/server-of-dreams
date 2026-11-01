@@ -344,9 +344,7 @@ async def lives_finish_and_validate(request: Request):
             if existing_sp is not None:
                 sp_id = existing_sp.id
                 if new_best != before_best:
-                    await conn.execute(
-                        update_sp_rate_point(user_id, sp_id, new_best)
-                    )
+                    await conn.execute(update_sp_rate_point(user_id, sp_id, new_best))
             else:
                 sp_id = max((r.id for r in sp_rows), default=0) + 1
                 await conn.execute(
@@ -685,7 +683,11 @@ async def lives_start_multi_live(request: Request):
                     stamina_spent,
                 )
             )
-            present = [data_object("User", user)] if user is not None and stamina_spent else []
+            present = (
+                [data_object("User", user)]
+                if user is not None and stamina_spent
+                else []
+            )
     return respond(unit, present=present)
 
 

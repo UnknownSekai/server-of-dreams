@@ -144,7 +144,8 @@ def _dual_masters() -> dict:
 
 async def repair_dual_cards(conn) -> int:
     """Link the second idol on saved dual-idol cards that are missing it (older grants left
-    secondaryCharacterBaseId NULL, which hangs the party screens). Returns the count fixed."""
+    secondaryCharacterBaseId NULL, which hangs the party screens). Returns the count fixed.
+    """
     duals = _dual_masters()
     if not duals:
         return 0

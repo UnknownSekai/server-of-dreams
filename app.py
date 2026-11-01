@@ -16,11 +16,11 @@ from realtime.dispatcher import RealtimeRouter, build_service
 from routes import live_modes, routers
 
 _PRESERVATION_TABLES = (
-    'CREATE TABLE IF NOT EXISTS preservation_live_context ('
+    "CREATE TABLE IF NOT EXISTS preservation_live_context ("
     '"userId" bigint PRIMARY KEY REFERENCES accounts("userId") ON DELETE CASCADE, '
     'mode text NOT NULL, "masterId" integer NOT NULL, '
     "extra jsonb NOT NULL DEFAULT '{}'::jsonb)",
-    'CREATE TABLE IF NOT EXISTS preservation_course_run ('
+    "CREATE TABLE IF NOT EXISTS preservation_course_run ("
     '"userId" bigint PRIMARY KEY REFERENCES accounts("userId") ON DELETE CASCADE, '
     "data jsonb NOT NULL)",
     # auto-play flag added to the transient active-live row (see db.user.create_active_live);
@@ -53,7 +53,8 @@ async def lifespan(app: "YumeApp"):
                 repaired = await repair_dual_cards(conn)
             if repaired:
                 print(
-                    f"Linked the second idol on {repaired} dual-idol card(s)", flush=True
+                    f"Linked the second idol on {repaired} dual-idol card(s)",
+                    flush=True,
                 )
             # drop empty live records (clearLamp None_ + achievementRate 0): a real clear always
             # has a lamp and a scored fail keeps its own rate, so such a row is only an all-miss

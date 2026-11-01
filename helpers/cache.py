@@ -27,7 +27,9 @@ cache = MasterData()
 # earlier end dates and stay expired. Applied to the cache at load time, so both the server's
 # own logic and the master-data blob it repacks for the client see the extended dates.
 _SERVICE_END_BOUNDARIES = {1790658000, 1790690400}
-_PERMANENT_END = "2100-01-01T00:00:00+00:00"  # 4102444800; the game's permanent-chart value
+_PERMANENT_END = (
+    "2100-01-01T00:00:00+00:00"  # 4102444800; the game's permanent-chart value
+)
 _EPOCH_UTC = datetime.datetime(1970, 1, 1, tzinfo=datetime.timezone.utc)
 
 

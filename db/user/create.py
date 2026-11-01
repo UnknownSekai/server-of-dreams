@@ -1792,7 +1792,13 @@ def upsert_connect_with_account(user_id: int, row: dict) -> ExecutableQuery:
 
 
 def upsert_connect_with_password(user_id: int, row: dict) -> ExecutableQuery:
-    cols = ["id", "passwordHash", "linkageCode", "confirmationCode", "confirmationExpiresAt"]
+    cols = [
+        "id",
+        "passwordHash",
+        "linkageCode",
+        "confirmationCode",
+        "confirmationExpiresAt",
+    ]
     # the expires column is NOT NULL: a caller that only sets the password leaves it at 0
     # rather than passing NULL through.
     vals = [user_id] + [

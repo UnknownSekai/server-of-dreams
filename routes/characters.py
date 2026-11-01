@@ -221,7 +221,9 @@ async def characters_bloom_talent(request: Request, characterId: int, stageTo: i
                         raise gs.Rejected()
                     costs[generic] += short
                 if step.required_item_master_id:
-                    costs[step.required_item_master_id] += step.required_item_amount or 0
+                    costs[step.required_item_master_id] += (
+                        step.required_item_amount or 0
+                    )
             await s.pay(costs)
             delta = stageTo - row["talentStage"]
             rewards = bloom_rewards(cm, row["talentStage"], stageTo)

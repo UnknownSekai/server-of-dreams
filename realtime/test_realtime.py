@@ -89,7 +89,9 @@ class HubClient:
             self.writer.write(data)
             await self.writer.drain()
 
-    async def send_request(self, method_id: int, args, *, expect_response: bool = True) -> int:
+    async def send_request(
+        self, method_id: int, args, *, expect_response: bool = True
+    ) -> int:
         self.message_id += 1
         payload = msgpack.packb([self.message_id, method_id, args])
         self.conn.send_data(self.stream_id, F.wrap_grpc_frame(payload))
@@ -104,7 +106,9 @@ class HubClient:
             if remaining <= 0:
                 break
             try:
-                data = await asyncio.wait_for(self.reader.read(65536), timeout=remaining)
+                data = await asyncio.wait_for(
+                    self.reader.read(65536), timeout=remaining
+                )
             except asyncio.TimeoutError:
                 break
             if not data:
@@ -115,7 +119,9 @@ class HubClient:
             # HTTP/2 framing, so it must not reach the gRPC parser.
             for ev in self.conn.receive_data(data):
                 if isinstance(ev, h2.events.DataReceived):
-                    self.conn.acknowledge_received_data(ev.flow_controlled_length, ev.stream_id)
+                    self.conn.acknowledge_received_data(
+                        ev.flow_controlled_length, ev.stream_id
+                    )
                     self._grpc_buf += bytes(ev.data)
             await self._flush()
             self._consume_buffer()
@@ -154,7 +160,11 @@ class HubClient:
 
     def broadcasts(self, method: str) -> list:
         mid = M.method_id(method, self.hub)
-        return [o[1] for o in self.received if isinstance(o, list) and len(o) == 2 and o[0] == mid]
+        return [
+            o[1]
+            for o in self.received
+            if isinstance(o, list) and len(o) == 2 and o[0] == mid
+        ]
 
     def close(self) -> None:
         try:
@@ -192,40 +202,84 @@ async def main() -> int:
         # --- connect ---------------------------------------------------- #
         print("connect")
         await host.connect(port)
-        check("server sent the anti-buffering marker", host.received and host.received[0] == [-1, 0, 12],
-              f"got {host.received[:1]}")
+        check(
+            "server sent the anti-buffering marker",
+            host.received and host.received[0] == [-1, 0, 12],
+            f"got {host.received[:1]}",
+        )
         check("host session registered", len(service.registry.sessions) == 1)
 
         # --- create a private hall -------------------------------------- #
         print("\ncreate private hall")
         res = await host.call(
             "CreatePrivateHallAsync",
-            [13, 13, "良太", 110, [150050, 5, 110, 105, 2007114, 110205, 210211026, True, None, 1439716, 180001]],
+            [
+                13,
+                13,
+                "良太",
+                110,
+                [
+                    150050,
+                    5,
+                    110,
+                    105,
+                    2007114,
+                    110205,
+                    210211026,
+                    True,
+                    None,
+                    1439716,
+                    180001,
+                ],
+            ],
         )
-        check("reply is a 5-element create result", isinstance(res, list) and len(res) == 5, f"got {res!r}")
+        check(
+            "reply is a 5-element create result",
+            isinstance(res, list) and len(res) == 5,
+            f"got {res!r}",
+        )
         check("is_succeeded", res and res[0] is True)
         check("member id 1 for the creator", res and res[2] == 1)
-        check("hall id is 32 hex chars", res and isinstance(res[1], str) and len(res[1]) == 32, f"got {res[1] if res else None!r}")
+        check(
+            "hall id is 32 hex chars",
+            res and isinstance(res[1], str) and len(res[1]) == 32,
+            f"got {res[1] if res else None!r}",
+        )
         key_code = res[3] if res else 0
         hall_id = res[1] if res else ""
         # An int, not a fixed-width code: the capture shows both 6- and 8-digit codes.
-        check("key code is a number", isinstance(key_code, int) and 0 < key_code < 100_000_000)
+        check(
+            "key code is a number",
+            isinstance(key_code, int) and 0 < key_code < 100_000_000,
+        )
 
         # --- a guest joins by key code ---------------------------------- #
         print("\nguest joins with the key code")
         await guest.connect(port)
         gres = await guest.call(
-            "JoinPrivateHallWithKeyCodeAsync", [key_code, "ゾメン", 110, [150050, 5, 1, 2102, 202105, 0, 0, False, None, 0, 0]]
+            "JoinPrivateHallWithKeyCodeAsync",
+            [
+                key_code,
+                "ゾメン",
+                110,
+                [150050, 5, 1, 2102, 202105, 0, 0, False, None, 0, 0],
+            ],
         )
         check("join error code 0", gres and gres[0] == 0, f"got {gres!r}")
         check("guest is member 2", gres and gres[2] == 2)
         check("guest gets the same hall id", gres and gres[1] == hall_id)
         await settle(host)
-        check("host was told about the join (OnJoin)", len(host.broadcasts("OnJoin")) == 1,
-              f"got {host.broadcasts('OnJoin')}")
+        check(
+            "host was told about the join (OnJoin)",
+            len(host.broadcasts("OnJoin")) == 1,
+            f"got {host.broadcasts('OnJoin')}",
+        )
         joined = host.broadcasts("OnJoin")
-        check("OnJoin carries the guest's MultiLiveUser", joined and len(joined[0]) == 14,
-              f"got {len(joined[0]) if joined else 0}")
+        check(
+            "OnJoin carries the guest's MultiLiveUser",
+            joined and len(joined[0]) == 14,
+            f"got {len(joined[0]) if joined else 0}",
+        )
         check("OnJoin user name", joined and joined[0][1] == "ゾメン")
         check("OnJoin member id", joined and joined[0][0] == 2)
 
@@ -233,14 +287,20 @@ async def main() -> int:
         print("\nwrong key code")
         stray = HubClient("IMultiLiveHub", token="tok3")
         await stray.connect(port)
-        bad = await stray.call("JoinPrivateHallWithKeyCodeAsync", [999999, "x", 110, None])
+        bad = await stray.call(
+            "JoinPrivateHallWithKeyCodeAsync", [999999, "x", 110, None]
+        )
         check("unknown hall -> NotFoundHall (3)", bad and bad[0] == 3, f"got {bad!r}")
         stray.close()
 
         # --- fetch users ------------------------------------------------ #
         print("\nfetch users")
         users = await host.call("FetchUsersAsync", None)
-        check("fetch result has 3 elements", isinstance(users, list) and len(users) == 3, f"got {users!r}")
+        check(
+            "fetch result has 3 elements",
+            isinstance(users, list) and len(users) == 3,
+            f"got {users!r}",
+        )
         check("host member id is 1", users and users[0] == 1)
         check("roster has 2 members", users and len(users[1]) == 2)
         check("can open hall is true", users and users[2] is True)
@@ -249,8 +309,11 @@ async def main() -> int:
         print("\nready and decide")
         await guest.call("ReadyForDecideMember", True)
         await settle(host)
-        check("host saw OnReadyDecideMember", [2, True] in host.broadcasts("OnReadyDecideMember"),
-              f"got {host.broadcasts('OnReadyDecideMember')}")
+        check(
+            "host saw OnReadyDecideMember",
+            [2, True] in host.broadcasts("OnReadyDecideMember"),
+            f"got {host.broadcasts('OnReadyDecideMember')}",
+        )
         await host.call("DecideMemberAsync", None)
         check("OnGoGame broadcast", len(host.broadcasts("OnGoGame")) == 1)
         check("OnReadyGroup broadcast", len(host.broadcasts("OnReadyGroup")) == 1)
@@ -259,27 +322,43 @@ async def main() -> int:
         print("\nmusic and difficulty")
         await host.call("SelectMusicAsync", [252, False, False])
         await settle(guest)
-        check("OnSelectMusic fan-out", [1, 252, False] in guest.broadcasts("OnSelectMusic"),
-              f"got {guest.broadcasts('OnSelectMusic')}")
-        check("Host alone selects music does not trigger OnLotMusic",
-              len(host.broadcasts("OnLotMusic")) == 0)
+        check(
+            "OnSelectMusic fan-out",
+            [1, 252, False] in guest.broadcasts("OnSelectMusic"),
+            f"got {guest.broadcasts('OnSelectMusic')}",
+        )
+        check(
+            "Host alone selects music does not trigger OnLotMusic",
+            len(host.broadcasts("OnLotMusic")) == 0,
+        )
 
         await guest.call("SelectMusicAsync", [253, False, False])
         await settle(host, guest)
-        check("All members selected music triggers OnLotMusic",
-              len(host.broadcasts("OnLotMusic")) == 1 and len(guest.broadcasts("OnLotMusic")) == 1)
+        check(
+            "All members selected music triggers OnLotMusic",
+            len(host.broadcasts("OnLotMusic")) == 1
+            and len(guest.broadcasts("OnLotMusic")) == 1,
+        )
 
         await host.call("SelectDifficultyAsync", [1, False])
         await settle(guest)
-        check("OnSelectDifficulty fan-out", [1, 1] in guest.broadcasts("OnSelectDifficulty"),
-              f"got {guest.broadcasts('OnSelectDifficulty')}")
-        check("Host alone selects difficulty does not broadcast OnGoGame yet",
-              len(host.broadcasts("OnGoGame")) == 1)  # only the 1 from decide_member
+        check(
+            "OnSelectDifficulty fan-out",
+            [1, 1] in guest.broadcasts("OnSelectDifficulty"),
+            f"got {guest.broadcasts('OnSelectDifficulty')}",
+        )
+        check(
+            "Host alone selects difficulty does not broadcast OnGoGame yet",
+            len(host.broadcasts("OnGoGame")) == 1,
+        )  # only the 1 from decide_member
 
         await guest.call("SelectDifficultyAsync", [2, False])
         await settle(host, guest)
-        check("All members selected difficulty triggers OnGoGame to both",
-              len(host.broadcasts("OnGoGame")) == 2 and len(guest.broadcasts("OnGoGame")) == 2)
+        check(
+            "All members selected difficulty triggers OnGoGame to both",
+            len(host.broadcasts("OnGoGame")) == 2
+            and len(guest.broadcasts("OnGoGame")) == 2,
+        )
 
         # --- game lifecycle --------------------------------------------- #
         print("\ngame lifecycle")
@@ -288,64 +367,106 @@ async def main() -> int:
         await host.call("BeforeGameCalculateAsync", None)
         await host.call("StartGameAsync", None)
         await settle(host, guest)
-        check("OnPlayGame broadcast to both", len(host.broadcasts("OnPlayGame")) == 1
-              and len(guest.broadcasts("OnPlayGame")) == 1)
+        check(
+            "OnPlayGame broadcast to both",
+            len(host.broadcasts("OnPlayGame")) == 1
+            and len(guest.broadcasts("OnPlayGame")) == 1,
+        )
 
         await host.call("SyncInGameStatusAsync", [123, 1, 2])
         await settle(guest)
         sync = guest.broadcasts("OnSyncInGameStatus")
-        check("OnSyncInGameStatus carries member/state", [1, 123, 1, 2] in sync, f"got {sync}")
+        check(
+            "OnSyncInGameStatus carries member/state",
+            [1, 123, 1, 2] in sync,
+            f"got {sync}",
+        )
 
         await host.call("ExitGameAsync", [282546925, 1, {"1": 2, "2": 9}, 47])
         await settle(guest)
-        check("OnSyncGameResult fan-out", any(s[0] == 1 for s in guest.broadcasts("OnSyncGameResult")),
-              f"got {guest.broadcasts('OnSyncGameResult')}")
-        check("OnExitGameAnyOne fan-out", len(guest.broadcasts("OnExitGameAnyOne")) == 1)
+        check(
+            "OnSyncGameResult fan-out",
+            any(s[0] == 1 for s in guest.broadcasts("OnSyncGameResult")),
+            f"got {guest.broadcasts('OnSyncGameResult')}",
+        )
+        check(
+            "OnExitGameAnyOne fan-out", len(guest.broadcasts("OnExitGameAnyOne")) == 1
+        )
 
         await host.call("EntryFinalResultAsync", None)
         await settle(guest)
         exit_broadcasts = guest.broadcasts("OnExitAllGames")
         check("OnExitAllGames carries the roster", len(exit_broadcasts) == 1)
-        check("OnExitAllGames carries [mvp_ids, fetch_result]",
-              isinstance(exit_broadcasts[0], list) and len(exit_broadcasts[0]) == 2
-              and isinstance(exit_broadcasts[0][0], list) and isinstance(exit_broadcasts[0][1], list))
+        check(
+            "OnExitAllGames carries [mvp_ids, fetch_result]",
+            isinstance(exit_broadcasts[0], list)
+            and len(exit_broadcasts[0]) == 2
+            and isinstance(exit_broadcasts[0][0], list)
+            and isinstance(exit_broadcasts[0][1], list),
+        )
 
         # --- continue play ---------------------------------------------- #
         print("\ncontinue play")
         cont = await host.call("ContinuePlayAsync", None)
-        check("continue reuses the hall id", cont and cont[1] == hall_id, f"got {cont!r}")
+        check(
+            "continue reuses the hall id", cont and cont[1] == hall_id, f"got {cont!r}"
+        )
         check("continue keeps member id 1", cont and cont[2] == 1)
-        check("guest status not prematurely reset to Joined",
-              service.registry.rooms[hall_id].members[2].session.status == D.MultiLiveUserStatus.ExitGame)
-        check("guest is_ready_decide_member is False",
-              not service.registry.rooms[hall_id].members[2].session.is_ready_decide_member)
+        check(
+            "guest status not prematurely reset to Joined",
+            service.registry.rooms[hall_id].members[2].session.status
+            == D.MultiLiveUserStatus.ExitGame,
+        )
+        check(
+            "guest is_ready_decide_member is False",
+            not service.registry.rooms[hall_id]
+            .members[2]
+            .session.is_ready_decide_member,
+        )
 
         # Host marks ready in lobby
         await host.call("ReadyForDecideMember", True)
 
         # Guest calls entry final result (e.g. from lingering result screen) and continue play
         await guest.call("EntryFinalResultAsync", None)
-        check("host status not overwritten back to ExitGame by guest's final result",
-              service.registry.rooms[hall_id].members[1].session.status == D.MultiLiveUserStatus.Joined)
-        check("host is_ready_decide_member preserved",
-              service.registry.rooms[hall_id].members[1].session.is_ready_decide_member)
+        check(
+            "host status not overwritten back to ExitGame by guest's final result",
+            service.registry.rooms[hall_id].members[1].session.status
+            == D.MultiLiveUserStatus.Joined,
+        )
+        check(
+            "host is_ready_decide_member preserved",
+            service.registry.rooms[hall_id].members[1].session.is_ready_decide_member,
+        )
 
         guest_cont = await guest.call("ContinuePlayAsync", None)
-        check("guest continue reuses the hall id", guest_cont and guest_cont[1] == hall_id)
-        check("guest status is now Joined",
-              service.registry.rooms[hall_id].members[2].session.status == D.MultiLiveUserStatus.Joined)
-        check("guest notified host is already ready (OnReadyDecideMember)",
-              [1, True] in guest.broadcasts("OnReadyDecideMember"))
+        check(
+            "guest continue reuses the hall id", guest_cont and guest_cont[1] == hall_id
+        )
+        check(
+            "guest status is now Joined",
+            service.registry.rooms[hall_id].members[2].session.status
+            == D.MultiLiveUserStatus.Joined,
+        )
+        check(
+            "guest notified host is already ready (OnReadyDecideMember)",
+            [1, True] in guest.broadcasts("OnReadyDecideMember"),
+        )
 
         # --- leaving ----------------------------------------------------- #
         print("\nleaving")
         guest.close()
         await asyncio.sleep(0.4)
         await settle(host)
-        check("host told the guest left (OnLeaveAnyOne)", 2 in host.broadcasts("OnLeaveAnyOne"),
-              f"got {host.broadcasts('OnLeaveAnyOne')}")
-        check("guest seat removed from room upon leaving",
-              2 not in service.registry.rooms[hall_id].members)
+        check(
+            "host told the guest left (OnLeaveAnyOne)",
+            2 in host.broadcasts("OnLeaveAnyOne"),
+            f"got {host.broadcasts('OnLeaveAnyOne')}",
+        )
+        check(
+            "guest seat removed from room upon leaving",
+            2 not in service.registry.rooms[hall_id].members,
+        )
 
         # --- auth -------------------------------------------------------- #
         print("\nauthentication")
@@ -359,11 +480,16 @@ async def main() -> int:
         print("\ncircle hub")
         circle = HubClient("ICircleHub", token="tok1")
         await circle.connect(port)
-        sent = await circle.call("TrySendChatAsync", ["tes", None, "良太", 150050, True, None, 190003])
+        sent = await circle.call(
+            "TrySendChatAsync", ["tes", None, "良太", 150050, True, None, 190003]
+        )
         check("chat accepted (result [0])", sent == [0], f"got {sent!r}")
         chats = circle.broadcasts("OnReceiveChat")
-        check("OnReceiveChat has 11 elements", chats and len(chats[0]) == 11,
-              f"got {len(chats[0]) if chats else 0}")
+        check(
+            "OnReceiveChat has 11 elements",
+            chats and len(chats[0]) == 11,
+            f"got {len(chats[0]) if chats else 0}",
+        )
         check("chat text relayed", chats and chats[0][2] == "tes")
         circle.close()
 
@@ -388,11 +514,19 @@ async def main() -> int:
         await settle(friend)
         pushed = friend.broadcasts("OnNotifyInviteMultiLiveFromFriend")
         check("invitee got the push", len(pushed) == 1, f"got {len(pushed)}")
-        check("push is a 13-element MultiLiveInvitation", pushed and len(pushed[0]) == 13,
-              f"got {len(pushed[0]) if pushed else 0}")
-        check("invitation carries the hall id", pushed and pushed[0][9] == hall_id,
-              f"got {pushed[0][9] if pushed else None!r}")
-        check("invitation carries the inviter's name", pushed and pushed[0][1] == "良太")
+        check(
+            "push is a 13-element MultiLiveInvitation",
+            pushed and len(pushed[0]) == 13,
+            f"got {len(pushed[0]) if pushed else 0}",
+        )
+        check(
+            "invitation carries the hall id",
+            pushed and pushed[0][9] == hall_id,
+            f"got {pushed[0][9] if pushed else None!r}",
+        )
+        check(
+            "invitation carries the inviter's name", pushed and pushed[0][1] == "良太"
+        )
         check("invite id is a string", pushed and isinstance(pushed[0][0], str))
         # The invitee also sees it in the pull API on the next common-hub join.
         friend.close()
@@ -400,8 +534,11 @@ async def main() -> int:
         friend2 = HubClient("ICommonHub", token="tok3")
         await friend2.connect(port)
         pending = await friend2.call("GetMultiLiveInvitationsFromFriendAsync", None)
-        check("invitation is returned by the pull API", isinstance(pending, list) and len(pending) == 1,
-              f"got {pending!r}")
+        check(
+            "invitation is returned by the pull API",
+            isinstance(pending, list) and len(pending) == 1,
+            f"got {pending!r}",
+        )
         check("pulled invitation has 13 elements", pending and len(pending[0]) == 13)
         again = await friend2.call("GetMultiLiveInvitationsFromFriendAsync", None)
         check("invitations are consumed, not repeated", again == [], f"got {again!r}")
@@ -418,18 +555,31 @@ async def main() -> int:
         check("roster has a member to inspect", bool(members), f"got {roster!r}")
         if members:
             got = members[0][10]
-            check("hashUserId is the game's hash of the member's user id",
-                  got == hash_id(10), f"got {got!r}, want {hash_id(10)!r}")
-            check("hashUserId round-trips back to the user id",
-                  unhash_id(got) == 10, f"got {unhash_id(got)!r}")
-            check("hashUserId is not a locally derived decimal id",
-                  got != f"{10:010d}", f"got {got!r}")
+            check(
+                "hashUserId is the game's hash of the member's user id",
+                got == hash_id(10),
+                f"got {got!r}, want {hash_id(10)!r}",
+            )
+            check(
+                "hashUserId round-trips back to the user id",
+                unhash_id(got) == 10,
+                f"got {unhash_id(got)!r}",
+            )
+            check(
+                "hashUserId is not a locally derived decimal id",
+                got != f"{10:010d}",
+                f"got {got!r}",
+            )
 
         # An invite addressed by the real hash must resolve; a made-up one must not.
-        check("invite by real hashUserId resolves to the account",
-              _as_user_id(hash_id(10)) == 10)
-        check("invite by an invented decimal id is rejected",
-              _as_user_id("0000000010") is None)
+        check(
+            "invite by real hashUserId resolves to the account",
+            _as_user_id(hash_id(10)) == 10,
+        )
+        check(
+            "invite by an invented decimal id is rejected",
+            _as_user_id("0000000010") is None,
+        )
 
         # --- seat survives a reconnect, and only multi-live owns it ------ #
         print("\nseat ownership and reconnects")
@@ -439,23 +589,35 @@ async def main() -> int:
         replacement = HubClient("IMultiLiveHub", token="tok1")
         await replacement.connect(port)
         await settle(host)
-        check("reconnect did not create a second room", len(service.registry.rooms) == 1,
-              f"got {len(service.registry.rooms)}")
+        check(
+            "reconnect did not create a second room",
+            len(service.registry.rooms) == 1,
+            f"got {len(service.registry.rooms)}",
+        )
         host.close()
         await asyncio.sleep(0.4)
-        check("room survives the old socket closing", len(service.registry.rooms) == 1,
-              f"got {len(service.registry.rooms)}")
+        check(
+            "room survives the old socket closing",
+            len(service.registry.rooms) == 1,
+            f"got {len(service.registry.rooms)}",
+        )
         # A hub that does not own seats must not steal one.
         probe = HubClient("ICircleHub", token="tok1")
         await probe.connect(port)
         room = next(iter(service.registry.rooms.values()))
-        check("circle connection did not steal the seat",
-              room.members[1].session is not None and room.members[1].session.hub == "IMultiLiveHub",
-              f"seat bound to {getattr(room.members[1].session, 'hub', None)}")
+        check(
+            "circle connection did not steal the seat",
+            room.members[1].session is not None
+            and room.members[1].session.hub == "IMultiLiveHub",
+            f"seat bound to {getattr(room.members[1].session, 'hub', None)}",
+        )
         probe.close()
         await asyncio.sleep(0.4)
-        check("closing the circle connection did not close the room",
-              len(service.registry.rooms) == 1, f"got {len(service.registry.rooms)}")
+        check(
+            "closing the circle connection did not close the room",
+            len(service.registry.rooms) == 1,
+            f"got {len(service.registry.rooms)}",
+        )
         host = replacement
 
         # --- the Connect frame is silent --------------------------------- #
@@ -473,16 +635,39 @@ async def main() -> int:
         await conn.send_request(0, None, expect_response=False)
         await conn.drain(timeout=0.5)
         after = [o for o in conn.received[before:] if o != [-1, 0, 12]]
-        check("Connect is answered with silence, not an error", after == [],
-              f"got {after!r}")
+        check(
+            "Connect is answered with silence, not an error",
+            after == [],
+            f"got {after!r}",
+        )
         # The stream must still be usable afterwards.
         hall = await conn.call(
             "CreatePrivateHallAsync",
-            [13, 13, "良太", 110, [150050, 5, 110, 105, 2007114, 110205, 210211026,
-                                   True, None, 1439716, 180001]],
+            [
+                13,
+                13,
+                "良太",
+                110,
+                [
+                    150050,
+                    5,
+                    110,
+                    105,
+                    2007114,
+                    110205,
+                    210211026,
+                    True,
+                    None,
+                    1439716,
+                    180001,
+                ],
+            ],
         )
-        check("stream still works after Connect", isinstance(hall, list) and hall[0] is True,
-              f"got {hall!r}")
+        check(
+            "stream still works after Connect",
+            isinstance(hall, list) and hall[0] is True,
+            f"got {hall!r}",
+        )
         # Leave no trace: the room this created would otherwise be counted by the
         # seat/reconnect checks below, which assert on the total number of rooms.
         await conn.call("ExitRoomAsync", None)
@@ -493,8 +678,10 @@ async def main() -> int:
         print("\nunknown hub")
         unknown = HubClient("INopeHub", token="tok1")
         await unknown.connect(port)
-        check("unknown hub did not register a session",
-              all(s.hub != "INopeHub" for s in service.registry.sessions))
+        check(
+            "unknown hub did not register a session",
+            all(s.hub != "INopeHub" for s in service.registry.sessions),
+        )
         unknown.close()
 
     finally:

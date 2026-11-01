@@ -35,7 +35,7 @@ def run(db: PostgresqlDatabase) -> int:
     # one password pairing per account, so the upsert can key on userId
     db.execute_sql(
         'DELETE FROM "connect_with_password" a USING "connect_with_password" b '
-        "WHERE a.\"userId\" = b.\"userId\" AND a.\"rowId\" < b.\"rowId\""
+        'WHERE a."userId" = b."userId" AND a."rowId" < b."rowId"'
     )
     db.execute_sql(
         'CREATE UNIQUE INDEX IF NOT EXISTS "connectwithpassword_userId_unique" '

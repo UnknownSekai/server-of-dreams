@@ -155,7 +155,9 @@ class HubConnection:
         for ev in events:
             if isinstance(ev, h2.events.DataReceived):
                 try:
-                    self.conn.acknowledge_received_data(ev.flow_controlled_length, ev.stream_id)
+                    self.conn.acknowledge_received_data(
+                        ev.flow_controlled_length, ev.stream_id
+                    )
                 except Exception:
                     pass
         self._flush()
@@ -206,7 +208,9 @@ class RealtimeServer:
             self._server = None
 
     # -- connection handling ----------------------------------------------- #
-    async def _handle_client(self, reader: asyncio.StreamReader, writer: asyncio.StreamWriter) -> None:
+    async def _handle_client(
+        self, reader: asyncio.StreamReader, writer: asyncio.StreamWriter
+    ) -> None:
         peer = writer.get_extra_info("peername")
         connection = HubConnection(on_stream=lambda s: self._on_stream(s))
         connection.set_writer(lambda data: self._safe_write(writer, data))
@@ -272,10 +276,7 @@ class RealtimeServer:
     async def _on_request(self, connection: HubConnection, ev) -> None:
         # h2 is configured with header_encoding="latin1", so headers arrive as str
         # already; decode only if a bytes pair shows up.
-        pairs = [
-            (_text(k), _text(v))
-            for k, v in ev.headers
-        ]
+        pairs = [(_text(k), _text(v)) for k, v in ev.headers]
         headers = {k.lower(): v for k, v in pairs}
         path = headers.get(":path", "/")
         method = headers.get(":method", "")
