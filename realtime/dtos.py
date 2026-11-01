@@ -136,7 +136,11 @@ def multi_live_user(
     _fill(a, 2, is_random_music)
     _fill(a, 3, selected_music_id)
     _fill(a, 4, status)
-    _fill(a, 5, leader_character if leader_character is not None else multi_live_character())
+    _fill(
+        a,
+        5,
+        leader_character if leader_character is not None else multi_live_character(),
+    )
     _fill(a, 6, user_name_plate_color_id)
     _fill(a, 7, difficulty)
     _fill(a, 8, clear_lamp)

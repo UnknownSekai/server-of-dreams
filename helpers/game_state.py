@@ -230,7 +230,8 @@ async def mission_progress(
 
 async def costume_owned(s: State, base: int, ident: int) -> None:
     """Validate that character base ``base`` may wear costume ``ident`` (default costumes and
-    group-wearable costumes are allowed; anything else must be owned). Raises ``Rejected``."""
+    group-wearable costumes are allowed; anything else must be owned). Raises ``Rejected``.
+    """
     b = master("character_base_master", base)
     c = master("costume_master", ident)
     if not b or not c or not await s.one("CharacterBase", characterBaseMasterId=base):

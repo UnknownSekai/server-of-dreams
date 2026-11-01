@@ -45,7 +45,11 @@ UA = "server-of-dreams"
 KINDS = ("2d-assets", "3d-assets", "cri-assets")
 PLATFORMS = ("android", "ios")
 # release base name -> destination dir name under _data/assets/
-EXTRA_DESTS = {"notations": "Notations", "scenes": "scenes", "static-assets": "static-assets"}
+EXTRA_DESTS = {
+    "notations": "Notations",
+    "scenes": "scenes",
+    "static-assets": "static-assets",
+}
 CATEGORIES = KINDS + tuple(EXTRA_DESTS)
 
 # "<base>.zip" or "<base>-<part>.zip" (multi-part release zips add a "-N" split suffix)
@@ -125,7 +129,9 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--tag", default=TAG, help="release tag to pull from")
     parser.add_argument(
-        "--dry-run", action="store_true", help="list zips + destinations, download nothing"
+        "--dry-run",
+        action="store_true",
+        help="list zips + destinations, download nothing",
     )
     parser.add_argument(
         "--only", nargs="+", choices=CATEGORIES, help="limit to these categories"
@@ -134,7 +140,9 @@ def main() -> None:
         "--platform", choices=PLATFORMS, help="limit bundle downloads to one platform"
     )
     parser.add_argument(
-        "--keep-zips", action="store_true", help="keep downloaded zips instead of deleting them"
+        "--keep-zips",
+        action="store_true",
+        help="keep downloaded zips instead of deleting them",
     )
     args = parser.parse_args()
 
@@ -161,7 +169,9 @@ def main() -> None:
     total = sum(z.size for z in plan)
     print(f"\nrelease {args.tag}: {len(plan)} zip(s), {total / 1e9:.1f} GB to download")
     for z in plan:
-        print(f"  {z.name:34} {z.size / 1e6:8.1f} MB -> {z.dest.relative_to(PROJECT_ROOT)}")
+        print(
+            f"  {z.name:34} {z.size / 1e6:8.1f} MB -> {z.dest.relative_to(PROJECT_ROOT)}"
+        )
     if args.dry_run or not plan:
         return
 

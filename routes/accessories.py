@@ -78,7 +78,11 @@ async def accessories_level_up(request: Request, uAccessoryId: int, levelTo: int
 
     async with app.acquire_db() as conn, conn.transaction():
         accessory = next(
-            (a for a in await conn.fetch(get_accessorys(user_id)) if a.id == uAccessoryId),
+            (
+                a
+                for a in await conn.fetch(get_accessorys(user_id))
+                if a.id == uAccessoryId
+            ),
             None,
         )
         master = _accessory_master(accessory.accessoryMasterId) if accessory else None

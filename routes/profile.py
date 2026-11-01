@@ -40,7 +40,9 @@ async def profile_edit(request: Request):
                 raise Rejected()
             if values["introduction"] != row["introduction"]:
                 await mission_progress(s, 28, create=True)
-            if any(values[k] != row[k] for k in ("mTrophyId1", "mTrophyId2", "mTrophyId3")):
+            if any(
+                values[k] != row[k] for k in ("mTrophyId1", "mTrophyId2", "mTrophyId3")
+            ):
                 await mission_progress(s, 27, create=True)
             await s.update("UserProfile", row, **values)
         return respond(BooleanResult(is_success=True), present=s.present())

@@ -162,7 +162,11 @@ async def start(request: Request):
             if m:
                 unit = from_array("LiveUnit", r[1])
                 lte = await build_live_time_event(
-                    s.conn, s.uid, p.party_id, m.music_master_id, m.sense_notation_master_id
+                    s.conn,
+                    s.uid,
+                    p.party_id,
+                    m.music_master_id,
+                    m.sense_notation_master_id,
                 )
                 unit.time_events = {t.timing_seconds: t.event for t in lte.timings}
                 r[1] = unit
@@ -172,7 +176,9 @@ async def start(request: Request):
 
 
 async def apply_progress(s, mode, ident, score, acts, cleared, result):
-    m = master("concert_stage_master" if mode == "concert" else "audition_master", ident)
+    m = master(
+        "concert_stage_master" if mode == "concert" else "audition_master", ident
+    )
     if not m:
         raise Rejected("Missing stage master")
     if mode == "concert":
@@ -491,7 +497,9 @@ async def start_course(request: Request):
             raise Rejected()
         course, details, index = find_course(p.music_course_detail_master_id)
         d = details[index]
-        if d.live_master_id != p.live_master_id or int(p.music_course_gauge_type) not in (
+        if d.live_master_id != p.live_master_id or int(
+            p.music_course_gauge_type
+        ) not in (
             0,
             1,
         ):

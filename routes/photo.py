@@ -19,7 +19,9 @@ router = APIRouter(tags=["Photo"])
 PHOTO_ROOT = Path(__file__).resolve().parent.parent / "_data" / "photos"
 
 
-async def _watch(request: Request, entity: str, field: str, ident: int, valid) -> object:
+async def _watch(
+    request: Request, entity: str, field: str, ident: int, valid
+) -> object:
     try:
         if not ident or not valid:
             raise gs.Rejected()
@@ -174,7 +176,9 @@ async def photo_finish_generate_photo(request: Request):
 
 def _unpack_items(raw) -> list:
     try:
-        value = _decompress(msgpack.unpackb(bytes(raw), raw=False, strict_map_key=False))
+        value = _decompress(
+            msgpack.unpackb(bytes(raw), raw=False, strict_map_key=False)
+        )
         if (
             not isinstance(value, list)
             or len(value) != 1

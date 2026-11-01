@@ -94,7 +94,8 @@ _COND_KEY = {
 
 def party_composition(members: list) -> dict:
     """members: dicts with character_master_id/character_base_master_id/company/attribute/
-    sense_type/poster_id. Returns the sets and counts ValidateTargetCondition matches against."""
+    sense_type/poster_id. Returns the sets and counts ValidateTargetCondition matches against.
+    """
     companies = [m["company"] for m in members]
     attributes = [m["attribute"] for m in members]
     return {
@@ -123,7 +124,9 @@ def _conditions_met(em, comp: Optional[dict]) -> bool:
         t = int(tr.trigger)
         val = tr.value
         if t == TriggerType.AllMemberBelongingCompany:
-            if comp.get("company_counts", {}).get(val, 0) != comp.get("member_count", 0):
+            if comp.get("company_counts", {}).get(val, 0) != comp.get(
+                "member_count", 0
+            ):
                 return False
         elif t == TriggerType.MaxMemberBelongingCompanyCount:
             max_comp = max(comp.get("company_counts", {}).values(), default=0)
@@ -169,7 +172,8 @@ def collect_slot_effects(
     is_leader: bool = False,
 ) -> list:
     """Returns [(EffectMaster, level, EffectSourceTypes)] for one slot from its resolvable sources,
-    keeping only effects whose target conditions are met by the party composition ``comp``."""
+    keeping only effects whose target conditions are met by the party composition ``comp``.
+    """
     raw: list = []
     if sense_master is not None:
         for eo in sense_master.pre_effects or []:
@@ -193,12 +197,16 @@ def collect_slot_effects(
                 ae = _aem(faeid)
                 em = _em(ae.effect_master_id) if ae is not None else None
                 if em is not None:
-                    raw.append(AppliedEffect(em, accessory.level, EffectSourceTypes.Accessory))
+                    raw.append(
+                        AppliedEffect(em, accessory.level, EffectSourceTypes.Accessory)
+                    )
         for aeid in accessory.accessoryEffects or []:
             ae = _aem(aeid)
             em = _em(ae.effect_master_id) if ae is not None else None
             if em is not None:
-                raw.append(AppliedEffect(em, accessory.level, EffectSourceTypes.Accessory))
+                raw.append(
+                    AppliedEffect(em, accessory.level, EffectSourceTypes.Accessory)
+                )
     if poster is not None:
         # poster abilities unlocked at the poster's level and enabled by the slot's
         # BonusAbilityEnableFlags (bit frame_number-1). bonus_flags==0 -> treat as all enabled.
@@ -310,7 +318,8 @@ def circle_effects(
 
 def _leader_condition_met(detail, member_cats: set) -> bool:
     """A LeaderSense detail applies when it has no conditions, or when any one condition has all of
-    its listed categories on the member (a condition listing no category always matches)."""
+    its listed categories on the member (a condition listing no category always matches).
+    """
     if not detail.conditions:
         return True
     for cond in detail.conditions:
@@ -369,7 +378,8 @@ def sum_by_type(effects: list, effect_type, calc_type: Optional[int] = None) -> 
 
 def _fixed_sums(effects: list, effect_types: tuple) -> tuple:
     return tuple(
-        int(sum_by_type(effects, t, CalculationTypes.FixedAddition)) for t in effect_types
+        int(sum_by_type(effects, t, CalculationTypes.FixedAddition))
+        for t in effect_types
     )
 
 
@@ -415,7 +425,9 @@ def max_principal(effects: list) -> int:
         v = _detail_value(em, lv)
         if int(em.calculation_type) == int(CalculationTypes.FixedAddition):
             flat += v
-        elif int(em.calculation_type) == int(CalculationTypes.PercentageAddition):  # /10000
+        elif int(em.calculation_type) == int(
+            CalculationTypes.PercentageAddition
+        ):  # /10000
             pct += v
     return int(_BASE_MAX_PRINCIPAL * (1 + pct / 10000) + flat)
 
@@ -424,7 +436,12 @@ def base_correction(effects: list) -> float:
     """BaseCorrection (type 4, PercentageAddition, Self) -> percent points on the character base
     (the leaf's w5 term; value 200 = +2%). Bloom 'performance up' bonuses are BaseCorrection.
     """
-    return sum_by_type(effects, EffectTypes.BaseCorrection, CalculationTypes.PercentageAddition) / 100.0
+    return (
+        sum_by_type(
+            effects, EffectTypes.BaseCorrection, CalculationTypes.PercentageAddition
+        )
+        / 100.0
+    )
 
 
 # Constants.Character: caps on the status/performance percent, raised by the matching *LimitUp.
@@ -448,16 +465,34 @@ def component_percent_bonuses_by_source(effects: list) -> dict:
     Album -> Poster -> Accessory -> BloomBonus -> Other -> LeaderSense.
     Returns {source_type: (vocal_bps, expression_bps, concentration_bps)}.
     """
-    v_cap = _STATUS_PERCENT_LIMIT + sum_by_type(effects, EffectTypes.VocalLimitUp, CalculationTypes.PercentageAddition)
-    e_cap = _STATUS_PERCENT_LIMIT + sum_by_type(effects, EffectTypes.ExpressionLimitUp, CalculationTypes.PercentageAddition)
-    c_cap = _STATUS_PERCENT_LIMIT + sum_by_type(effects, EffectTypes.ConcentrationLimitUp, CalculationTypes.PercentageAddition)
+    v_cap = _STATUS_PERCENT_LIMIT + sum_by_type(
+        effects, EffectTypes.VocalLimitUp, CalculationTypes.PercentageAddition
+    )
+    e_cap = _STATUS_PERCENT_LIMIT + sum_by_type(
+        effects, EffectTypes.ExpressionLimitUp, CalculationTypes.PercentageAddition
+    )
+    c_cap = _STATUS_PERCENT_LIMIT + sum_by_type(
+        effects, EffectTypes.ConcentrationLimitUp, CalculationTypes.PercentageAddition
+    )
 
     res: dict = {}
     for src in SOURCE_PRIORITY:
         s_int = int(src)
-        v_raw = sum_by_type_and_source(effects, EffectTypes.VocalUp, CalculationTypes.PercentageAddition, s_int)
-        e_raw = sum_by_type_and_source(effects, EffectTypes.ExpressionUp, CalculationTypes.PercentageAddition, s_int)
-        c_raw = sum_by_type_and_source(effects, EffectTypes.ConcentrationUp, CalculationTypes.PercentageAddition, s_int)
+        v_raw = sum_by_type_and_source(
+            effects, EffectTypes.VocalUp, CalculationTypes.PercentageAddition, s_int
+        )
+        e_raw = sum_by_type_and_source(
+            effects,
+            EffectTypes.ExpressionUp,
+            CalculationTypes.PercentageAddition,
+            s_int,
+        )
+        c_raw = sum_by_type_and_source(
+            effects,
+            EffectTypes.ConcentrationUp,
+            CalculationTypes.PercentageAddition,
+            s_int,
+        )
 
         v_val = min(v_raw, v_cap)
         e_val = min(e_raw, e_cap)
@@ -477,11 +512,18 @@ def performance_percent_bonuses_by_source(effects: list) -> dict:
     (10000 = 100%), capped in source priority order.
     Returns {source_type: perf_bps}.
     """
-    cap = _PERFORMANCE_PERCENT_LIMIT + sum_by_type(effects, EffectTypes.PerformanceLimitUp, CalculationTypes.PercentageAddition)
+    cap = _PERFORMANCE_PERCENT_LIMIT + sum_by_type(
+        effects, EffectTypes.PerformanceLimitUp, CalculationTypes.PercentageAddition
+    )
     res: dict = {}
     for src in SOURCE_PRIORITY:
         s_int = int(src)
-        raw = sum_by_type_and_source(effects, EffectTypes.PerformanceUp, CalculationTypes.PercentageAddition, s_int)
+        raw = sum_by_type_and_source(
+            effects,
+            EffectTypes.PerformanceUp,
+            CalculationTypes.PercentageAddition,
+            s_int,
+        )
         val = min(raw, cap)
         cap -= val
         if val:
@@ -501,7 +543,7 @@ def final_performance_multiplier(effects: list) -> float:
         ):
             val = _detail_value(em, lvl)
             if val > 0:
-                mult *= (val / 100.0)
+                mult *= val / 100.0
     return mult
 
 
@@ -561,7 +603,9 @@ def decrease_require_lights(effects: list) -> dict:
         em, lv = e.master, e.level
         light_type = _DECREASE_LIGHT_TYPE_MAP.get(int(em.type))
         if light_type is not None:
-            reductions[light_type] = reductions.get(light_type, 0) + int(_detail_value(em, lv))
+            reductions[light_type] = reductions.get(light_type, 0) + int(
+                _detail_value(em, lv)
+            )
     return reductions
 
 
@@ -587,4 +631,3 @@ def start_effects(effects: list, actor_id: int, start_order: int = 0) -> list:
             )
         )
     return result
-

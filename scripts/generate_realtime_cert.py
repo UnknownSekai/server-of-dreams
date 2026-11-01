@@ -79,12 +79,16 @@ def generate(host: str, cert_path: Path, key_path: Path, days: int) -> None:
         .issuer_name(name)
         .public_key(pub)
         .serial_number(x509.random_serial_number())
-        .not_valid_before(now - timedelta(hours=1))  # small backdate tolerates device clock skew
+        .not_valid_before(
+            now - timedelta(hours=1)
+        )  # small backdate tolerates device clock skew
         .not_valid_after(now + timedelta(days=days))
         .add_extension(x509.SubjectAlternativeName(_build_sans(host)), critical=False)
         .add_extension(x509.BasicConstraints(ca=True, path_length=None), critical=True)
         .add_extension(x509.SubjectKeyIdentifier.from_public_key(pub), critical=False)
-        .add_extension(x509.AuthorityKeyIdentifier.from_issuer_public_key(pub), critical=False)
+        .add_extension(
+            x509.AuthorityKeyIdentifier.from_issuer_public_key(pub), critical=False
+        )
         .sign(key, hashes.SHA256())
     )
 
@@ -125,7 +129,9 @@ def main() -> None:
         default=rt.get("keyfile") or DEFAULT_KEY,
         help="output key path (default: realtime.keyfile, else certs/realtime-key.pem)",
     )
-    parser.add_argument("--days", type=int, default=365, help="validity in days (default 365)")
+    parser.add_argument(
+        "--days", type=int, default=365, help="validity in days (default 365)"
+    )
     parser.add_argument("--force", action="store_true", help="overwrite existing files")
     args = parser.parse_args()
 
@@ -151,10 +157,16 @@ def main() -> None:
     print(f"wrote {cert_path}")
     print(f"wrote {key_path}")
     print(f"  CN / primary SAN : {host}")
-    print("  SAN              : "
-          + ", ".join(f"{'IP' if _is_ip(g) else 'DNS'}:{_san_value(g)}" for g in _build_sans(host)))
+    print(
+        "  SAN              : "
+        + ", ".join(
+            f"{'IP' if _is_ip(g) else 'DNS'}:{_san_value(g)}" for g in _build_sans(host)
+        )
+    )
     print(f"  valid            : {args.days} days, RSA-4096, SHA-256, self-signed")
-    print("point realtime.certfile/keyfile in config.yml at these paths (relative to server CWD).")
+    print(
+        "point realtime.certfile/keyfile in config.yml at these paths (relative to server CWD)."
+    )
 
 
 def _is_ip(g: x509.GeneralName) -> bool:

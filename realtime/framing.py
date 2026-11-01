@@ -31,7 +31,7 @@ import lz4.block
 import msgpack
 
 # MessagePack-CSharp extension types the game uses for compressed payloads.
-_LZ4_BLOCK = 99        # ExtType(99, <msgpack int uncompressedLen><raw lz4 block>)
+_LZ4_BLOCK = 99  # ExtType(99, <msgpack int uncompressedLen><raw lz4 block>)
 _LZ4_BLOCK_ARRAY = 98  # [ExtType(98, lens...), bin(block0), .. bin(blockN-1)]
 
 # Heartbeat type bytes. These ARE explicit on the wire (position 0 of the array),
@@ -117,7 +117,7 @@ def decompress(obj):
         up.feed(obj.data)
         length = up.unpack()
         return msgpack.unpackb(
-            lz4.block.decompress(obj.data[up.tell():], uncompressed_size=length),
+            lz4.block.decompress(obj.data[up.tell() :], uncompressed_size=length),
             **_UNPACK,
         )
     return obj
@@ -254,7 +254,10 @@ def read_message(payload: bytes, direction: str = "c2s") -> Message:
     if len(obj) >= 4:
         # A 4-element frame is an error response: [MessageId, status, detail, msg]
         return Message(
-            "response_with_error", message_id=obj[0], method_id=obj[1], args=list(obj[2:])
+            "response_with_error",
+            message_id=obj[0],
+            method_id=obj[1],
+            args=list(obj[2:]),
         )
     return Message("unknown", raw=list(obj))
 
@@ -264,7 +267,9 @@ def write_response(message_id: int, method_id: int, result) -> bytes:
     return pack_payload([message_id, method_id, result])
 
 
-def write_error(message_id: int, status: int, detail: str = "", message: str = "") -> bytes:
+def write_error(
+    message_id: int, status: int, detail: str = "", message: str = ""
+) -> bytes:
     """Server -> client error response.
 
     Shape from MagicOnion's writer: Array(4) ``[MessageId, StatusCode, Detail,

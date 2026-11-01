@@ -123,13 +123,17 @@ async def player_update_home_display_preference(request: Request):
         values = {_camel(k): v for k, v in payload.model_dump().items()}
         # the client's login-bonus field is a spine costume (a different master namespace);
         # the row stores it as the plain loginBonusCostumeMasterId column
-        values["loginBonusCostumeMasterId"] = values.pop("loginBonusSpineCostumeMasterId")
+        values["loginBonusCostumeMasterId"] = values.pop(
+            "loginBonusSpineCostumeMasterId"
+        )
         values["homeCharacterDisplayType"] = int(values["homeCharacterDisplayType"])
         async with gs.transaction(request) as s:
             for prefix in ("home", "member", "story", "shop", "loginBonus"):
                 base = values[prefix + "CharacterBaseMasterId"]
                 costume = values[prefix + "CostumeMasterId"]
-                if base and not await s.one("CharacterBase", characterBaseMasterId=base):
+                if base and not await s.one(
+                    "CharacterBase", characterBaseMasterId=base
+                ):
                     raise gs.Rejected()
                 if base and costume and prefix != "loginBonus":
                     await gs.costume_owned(s, base, costume)

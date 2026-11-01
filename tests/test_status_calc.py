@@ -58,7 +58,9 @@ class TestStatusCalculation(unittest.TestCase):
                 "Slot 1 (Kokona)",
                 (9623, 11780, 10950),
                 (1500, 0, 0),  # Album +700, Acc +800 Vocal
-                {int(EffectSourceTypes.Other): (600, 600, 600)},  # Circle +6% to all stats
+                {
+                    int(EffectSourceTypes.Other): (600, 600, 600)
+                },  # Circle +6% to all stats
                 {
                     int(EffectSourceTypes.Album): 4500,  # Album +45%
                     int(EffectSourceTypes.Poster): 15500,  # Poster +155%
@@ -126,7 +128,9 @@ class TestStatusCalculation(unittest.TestCase):
             exp_v, exp_e, exp_c, exp_tot = expected
             self.assertEqual(st.vocal, exp_v, f"Vocal mismatch in {name}")
             self.assertEqual(st.expression, exp_e, f"Expression mismatch in {name}")
-            self.assertEqual(st.concentration, exp_c, f"Concentration mismatch in {name}")
+            self.assertEqual(
+                st.concentration, exp_c, f"Concentration mismatch in {name}"
+            )
             self.assertEqual(st.total_status, exp_tot, f"Total mismatch in {name}")
             total_party_status += st.total_status
 
@@ -146,15 +150,43 @@ class TestStatusCalculation(unittest.TestCase):
             return em
 
         effects = [
-            AppliedEffect(make_eff(EffectTypes.BaseVocalUp, 3, 50), 1, EffectSourceTypes.Other),
-            AppliedEffect(make_eff(EffectTypes.BaseExpressionUp, 3, 40), 1, EffectSourceTypes.Other),
-            AppliedEffect(make_eff(EffectTypes.BaseConcentrationUp, 3, 30), 1, EffectSourceTypes.Other),
-            AppliedEffect(make_eff(EffectTypes.VocalUp, 3, 400), 1, EffectSourceTypes.Accessory),
-            AppliedEffect(make_eff(EffectTypes.ExpressionUp, 3, 300), 1, EffectSourceTypes.Accessory),
-            AppliedEffect(make_eff(EffectTypes.ConcentrationUp, 3, 200), 1, EffectSourceTypes.Accessory),
-            AppliedEffect(make_eff(EffectTypes.VocalUp, 1, 1500), 1, EffectSourceTypes.Poster),
-            AppliedEffect(make_eff(EffectTypes.PerformanceUp, 1, 2500), 1, EffectSourceTypes.Album),
-            AppliedEffect(make_eff(EffectTypes.PerformanceUp, 1, 5000), 1, EffectSourceTypes.Poster),
+            AppliedEffect(
+                make_eff(EffectTypes.BaseVocalUp, 3, 50), 1, EffectSourceTypes.Other
+            ),
+            AppliedEffect(
+                make_eff(EffectTypes.BaseExpressionUp, 3, 40),
+                1,
+                EffectSourceTypes.Other,
+            ),
+            AppliedEffect(
+                make_eff(EffectTypes.BaseConcentrationUp, 3, 30),
+                1,
+                EffectSourceTypes.Other,
+            ),
+            AppliedEffect(
+                make_eff(EffectTypes.VocalUp, 3, 400), 1, EffectSourceTypes.Accessory
+            ),
+            AppliedEffect(
+                make_eff(EffectTypes.ExpressionUp, 3, 300),
+                1,
+                EffectSourceTypes.Accessory,
+            ),
+            AppliedEffect(
+                make_eff(EffectTypes.ConcentrationUp, 3, 200),
+                1,
+                EffectSourceTypes.Accessory,
+            ),
+            AppliedEffect(
+                make_eff(EffectTypes.VocalUp, 1, 1500), 1, EffectSourceTypes.Poster
+            ),
+            AppliedEffect(
+                make_eff(EffectTypes.PerformanceUp, 1, 2500), 1, EffectSourceTypes.Album
+            ),
+            AppliedEffect(
+                make_eff(EffectTypes.PerformanceUp, 1, 5000),
+                1,
+                EffectSourceTypes.Poster,
+            ),
         ]
 
         # Base stat bonus (type 3)
@@ -188,8 +220,16 @@ class TestStatusCalculation(unittest.TestCase):
         # Normal cap is 20000 (200%). If Album has 15000 and Poster has 10000,
         # Album should get 15000 and Poster should be capped to 5000 (remaining cap).
         effects = [
-            AppliedEffect(make_eff(EffectTypes.PerformanceUp, 1, 15000), 1, EffectSourceTypes.Album),
-            AppliedEffect(make_eff(EffectTypes.PerformanceUp, 1, 10000), 1, EffectSourceTypes.Poster),
+            AppliedEffect(
+                make_eff(EffectTypes.PerformanceUp, 1, 15000),
+                1,
+                EffectSourceTypes.Album,
+            ),
+            AppliedEffect(
+                make_eff(EffectTypes.PerformanceUp, 1, 10000),
+                1,
+                EffectSourceTypes.Poster,
+            ),
         ]
         perf_pcts = performance_percent_bonuses_by_source(effects)
         self.assertEqual(perf_pcts[int(EffectSourceTypes.Album)], 15000)
@@ -230,8 +270,12 @@ class TestStatusCalculation(unittest.TestCase):
         orig_em = effects._em
         orig_am = effects._am
         try:
-            effects._aem = lambda aid: aem_fixed if aid == 501 else (aem_rand if aid == 502 else None)
-            effects._em = lambda eid: em_fixed if eid == 1001 else (em_rand if eid == 1002 else None)
+            effects._aem = lambda aid: (
+                aem_fixed if aid == 501 else (aem_rand if aid == 502 else None)
+            )
+            effects._em = lambda eid: (
+                em_fixed if eid == 1001 else (em_rand if eid == 1002 else None)
+            )
             effects._am = lambda mid: am if mid == 301 else None
 
             collected = collect_slot_effects(
@@ -347,7 +391,9 @@ class TestStatusCalculation(unittest.TestCase):
         detail_dec.value = 1.0
         em_dec.details = [detail_dec]
 
-        reductions = decrease_require_lights([AppliedEffect(em_dec, 1, EffectSourceTypes.BloomBonus)])
+        reductions = decrease_require_lights(
+            [AppliedEffect(em_dec, 1, EffectSourceTypes.BloomBonus)]
+        )
         self.assertEqual(reductions.get(SenseLightTypes.Amplification), 1)
 
         # Mock start lights (FireTimingTypes.StartLive)
@@ -359,8 +405,12 @@ class TestStatusCalculation(unittest.TestCase):
         detail_light.value = 2.0
         em_light.details = [detail_light]
 
-        lights = start_lights([AppliedEffect(em_light, 1, EffectSourceTypes.Poster)], sense_type=0)
-        self.assertEqual(lights, [SenseLightTypes.Amplification, SenseLightTypes.Amplification])
+        lights = start_lights(
+            [AppliedEffect(em_light, 1, EffectSourceTypes.Poster)], sense_type=0
+        )
+        self.assertEqual(
+            lights, [SenseLightTypes.Amplification, SenseLightTypes.Amplification]
+        )
 
         # Test _live_time_event with opening star act condition
         # Condition: Amplification=2, Support=1, Free=0
@@ -390,5 +440,3 @@ class TestStatusCalculation(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-

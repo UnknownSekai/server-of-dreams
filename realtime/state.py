@@ -69,7 +69,9 @@ class RoomMember:
             return self.session.to_user(self.member_id)
         if self.snapshot is not None:
             return list(self.snapshot)
-        return D.multi_live_user(member_id=self.member_id, hash_user_id=self.hash_user_id)
+        return D.multi_live_user(
+            member_id=self.member_id, hash_user_id=self.hash_user_id
+        )
 
     def capture(self) -> None:
         """Freeze the current state so it survives a disconnect."""
@@ -101,7 +103,11 @@ class Room:
         # it is stable for the hall's whole life -- the real server's code is
         # unrelated to the id, but only stability matters to the client.
         is_team_challenge = (hall_type == 21) or (live_setting_master_id == 21)
-        self.key_code = _key_code_for(hall_id, is_team_challenge=is_team_challenge) if private else 0
+        self.key_code = (
+            _key_code_for(hall_id, is_team_challenge=is_team_challenge)
+            if private
+            else 0
+        )
         self.members: dict[int, RoomMember] = {}
         self.selected_music_id: int = 0
         self.multi_live_id: int = 0
@@ -157,10 +163,16 @@ class Room:
         if member is None:
             return None
         # If another active session already took over this seat, do not remove it
-        if session is not None and member.session is not None and member.session is not session:
+        if (
+            session is not None
+            and member.session is not None
+            and member.session is not session
+        ):
             return None
         self.members.pop(member_id, None)
-        if member.session is not None and (session is None or member.session is session):
+        if member.session is not None and (
+            session is None or member.session is session
+        ):
             member.session.hall_id = None
             member.session.member_id = None
             member.session.member = None
@@ -312,7 +324,9 @@ class HubSession:
     def respond(self, message_id: int, method_id: int, result) -> None:
         self.send_frame(F.write_response(message_id, method_id, result))
 
-    def send_error(self, message_id: int, status: int, detail: str, message: str = "") -> None:
+    def send_error(
+        self, message_id: int, status: int, detail: str, message: str = ""
+    ) -> None:
         self.send_frame(F.write_error(message_id, status, detail, message))
 
     def broadcast(self, method_name: str, args) -> None:
@@ -356,7 +370,9 @@ class HubRegistry:
         """Return and clear a user's pending invitations."""
         return self.invitations.pop(user_id, [])
 
-    def sessions_for_user(self, user_id: int, hub: Optional[str] = None) -> list[HubSession]:
+    def sessions_for_user(
+        self, user_id: int, hub: Optional[str] = None
+    ) -> list[HubSession]:
         """Every live connection belonging to an account, optionally for one hub."""
         return [
             s
@@ -383,7 +399,9 @@ class HubRegistry:
             room.bind(member, session)
             logger.info(
                 "user %s reconnected into seat %s of room %s",
-                session.user_id, member.member_id, room.hall_id,
+                session.user_id,
+                member.member_id,
+                room.hall_id,
             )
             return
 
