@@ -1,14 +1,21 @@
 """Generate a self-signed TLS cert + key for the realtime StreamingHub, no openssl needed.
 
-    python -m scripts.generate_realtime_cert                 # host from config -> configured paths
-    python -m scripts.generate_realtime_cert --host lb-realtime.wds-stellarium.com
-    python -m scripts.generate_realtime_cert --force         # overwrite existing files
+    python -m scripts.generate_realtime_cert                             # host from config
+    python -m scripts.generate_realtime_cert --host a.com --host 10.0.0.5  # several names
+    python -m scripts.generate_realtime_cert --force                     # overwrite existing
 
 Equivalent to the openssl recipe in realtime/README.md (rsa:4096, sha256, self-signed, 365
-days, SAN = the realtime host + localhost + 127.0.0.1) but built with the ``cryptography``
-package, whose wheel bundles its own OpenSSL -- so no system ``openssl`` binary is required.
+days) but built with the ``cryptography`` package, whose wheel bundles its own OpenSSL -- so
+no system ``openssl`` binary is required.
 
-The realtime cert must be one the client trusts; see realtime/README.md and realtime_main.py.
+The cert is valid for every name in its subjectAltName: the realtime host (CN, from
+``multi_real_time_server_url`` or the first ``--host``), any extra ``--host`` or
+``realtime.cert_hosts`` entries, and always ``localhost`` + ``127.0.0.1`` for local testing.
+A TLS client accepts the cert as long as the host it connects to is one of those, so add
+every hostname/IP the client might reach -- a future online host included. Each entry is
+auto-classified as a DNS name or an IP address.
+
+The cert must still be one the client trusts; see realtime/README.md and realtime_main.py.
 """
 
 import argparse
@@ -50,28 +57,31 @@ def _resolve(path_str: str) -> Path:
     return p if p.is_absolute() else ROOT / p
 
 
-def _build_sans(host: str) -> list[x509.GeneralName]:
-    loopback = x509.IPAddress(ipaddress.ip_address("127.0.0.1"))
-    try:
-        ip = ipaddress.ip_address(host)
-    except ValueError:
-        # a hostname: carry it as DNS, plus localhost + loopback for local tests
-        sans: list[x509.GeneralName] = [x509.DNSName(host)]
-        if host != "localhost":
-            sans.append(x509.DNSName("localhost"))
-        sans.append(loopback)
-        return sans
-    # a literal IP: SAN must carry it as an IPAddress, not a DNSName
-    sans = [x509.IPAddress(ip), x509.DNSName("localhost")]
-    if ip != ipaddress.ip_address("127.0.0.1"):
-        sans.append(loopback)
+def _build_sans(hosts: list[str]) -> list[x509.GeneralName]:
+    # every host plus localhost + loopback, order kept, duplicates dropped, each
+    # classified as an IP (literal address) or a DNS name
+    sans: list[x509.GeneralName] = []
+    seen: set[str] = set()
+    for name in [*hosts, "localhost", "127.0.0.1"]:
+        name = name.strip()
+        if not name or name in seen:
+            continue
+        seen.add(name)
+        try:
+            sans.append(x509.IPAddress(ipaddress.ip_address(name)))
+        except ValueError:
+            sans.append(x509.DNSName(name))
     return sans
 
 
-def generate(host: str, cert_path: Path, key_path: Path, days: int) -> None:
+def generate(
+    hosts: list[str], cert_path: Path, key_path: Path, days: int
+) -> list[x509.GeneralName]:
     key = rsa.generate_private_key(public_exponent=65537, key_size=4096)
     pub = key.public_key()
-    name = x509.Name([x509.NameAttribute(NameOID.COMMON_NAME, host)])
+    sans = _build_sans(hosts)
+    # cn is only a label for modern clients (they verify against SAN); use the first host
+    name = x509.Name([x509.NameAttribute(NameOID.COMMON_NAME, hosts[0])])
     now = datetime.now(timezone.utc)
     cert = (
         x509.CertificateBuilder()
@@ -79,11 +89,9 @@ def generate(host: str, cert_path: Path, key_path: Path, days: int) -> None:
         .issuer_name(name)
         .public_key(pub)
         .serial_number(x509.random_serial_number())
-        .not_valid_before(
-            now - timedelta(hours=1)
-        )  # small backdate tolerates device clock skew
+        .not_valid_before(now - timedelta(hours=1))  # small backdate tolerates clock skew
         .not_valid_after(now + timedelta(days=days))
-        .add_extension(x509.SubjectAlternativeName(_build_sans(host)), critical=False)
+        .add_extension(x509.SubjectAlternativeName(sans), critical=False)
         .add_extension(x509.BasicConstraints(ca=True, path_length=None), critical=True)
         .add_extension(x509.SubjectKeyIdentifier.from_public_key(pub), critical=False)
         .add_extension(
@@ -106,6 +114,12 @@ def generate(host: str, cert_path: Path, key_path: Path, days: int) -> None:
     except OSError:
         pass
     cert_path.write_bytes(cert.public_bytes(serialization.Encoding.PEM))
+    return sans
+
+
+def _fmt_san(g: x509.GeneralName) -> str:
+    kind = "IP" if isinstance(g, x509.IPAddress) else "DNS"
+    return f"{kind}:{g.value}"
 
 
 def main() -> None:
@@ -116,8 +130,10 @@ def main() -> None:
     )
     parser.add_argument(
         "--host",
+        action="append",
         default=None,
-        help="cert CN/SAN hostname (default: host of multi_real_time_server_url in config.yml)",
+        help="cert hostname/IP; repeatable (first = CN). default: host of "
+        "multi_real_time_server_url in config.yml",
     )
     parser.add_argument(
         "--cert",
@@ -135,8 +151,12 @@ def main() -> None:
     parser.add_argument("--force", action="store_true", help="overwrite existing files")
     args = parser.parse_args()
 
-    host = args.host or _host_from_url(cfg.get("multi_real_time_server_url", ""))
-    if not host:
+    # primary hosts from --host, else the configured realtime url; extra names from
+    # realtime.cert_hosts are always folded in so a future online host can live in config
+    primary = args.host or [_host_from_url(cfg.get("multi_real_time_server_url", ""))]
+    extra = rt.get("cert_hosts") or []
+    hosts = [h.strip() for h in [*primary, *extra] if h and h.strip()]
+    if not hosts:
         sys.exit("no host: pass --host or set multi_real_time_server_url in config.yml")
 
     cert_path = _resolve(args.cert)
@@ -146,7 +166,7 @@ def main() -> None:
             f"refusing to overwrite existing {cert_path}/{key_path}; pass --force to replace"
         )
 
-    generate(host, cert_path, key_path, args.days)
+    sans = generate(hosts, cert_path, key_path, args.days)
 
     # sanity: load the pair exactly as realtime/transport.py will, so a bad cert fails here
     # rather than at first client connect
@@ -156,25 +176,12 @@ def main() -> None:
 
     print(f"wrote {cert_path}")
     print(f"wrote {key_path}")
-    print(f"  CN / primary SAN : {host}")
-    print(
-        "  SAN              : "
-        + ", ".join(
-            f"{'IP' if _is_ip(g) else 'DNS'}:{_san_value(g)}" for g in _build_sans(host)
-        )
-    )
-    print(f"  valid            : {args.days} days, RSA-4096, SHA-256, self-signed")
+    print(f"  CN   : {hosts[0]}")
+    print("  SAN  : " + ", ".join(_fmt_san(g) for g in sans))
+    print(f"  valid: {args.days} days, RSA-4096, SHA-256, self-signed")
     print(
         "point realtime.certfile/keyfile in config.yml at these paths (relative to server CWD)."
     )
-
-
-def _is_ip(g: x509.GeneralName) -> bool:
-    return isinstance(g, x509.IPAddress)
-
-
-def _san_value(g: x509.GeneralName) -> str:
-    return str(g.value)
 
 
 main()
