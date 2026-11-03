@@ -416,6 +416,7 @@ class ActiveLiveModel(BaseModel):
     liveSettingMasterId: int = 0
     staminaSpent: bool = False
     isAutoPlay: bool = False
+    staminaCost: int = 0
 
 
 class MusicModel(BaseModel):
