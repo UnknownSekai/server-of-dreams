@@ -18,7 +18,9 @@ First, make a copy of the `config.example.yml` file named `config.yml` and fill 
 
 ### Database setup
 
-Note: Docker commands may require "sudo" rights.
+Notes:
+- Docker commands may require "sudo" rights.
+- SQLite support will be available soon as a easier option.
 
 ```bash
 docker run --name soddb \
@@ -59,7 +61,7 @@ Then, you can simply run the generator script (make sure you're still in the ven
 python -m scripts.generate_realtime_cert
 ```
 
-#### Openssl (manual)
+#### OpenSSL (manual)
 You can also generate them manually if you want to.
 Replace the two "REPLACEME" with your domain for realtime or your local network IP:
 
