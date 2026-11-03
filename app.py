@@ -27,6 +27,8 @@ _PRESERVATION_TABLES = (
     # kept here too so existing databases gain the column without re-running database_setup.
     'ALTER TABLE active_live ADD COLUMN IF NOT EXISTS "isAutoPlay" '
     "boolean NOT NULL DEFAULT false",
+    'ALTER TABLE active_live ADD COLUMN IF NOT EXISTS "staminaCost" '
+    "bigint NOT NULL DEFAULT 0",
 )
 
 # The realtime StreamingHub channel is a second listener (HTTP/2 + gRPC) that the

@@ -48,11 +48,12 @@ def create_active_live(
     live_setting_master_id: int = 0,
     stamina_spent: bool = False,
     is_auto_play: bool = False,
+    stamina_cost: int = 0,
 ) -> ExecutableQuery:
     return ExecutableQuery(
         'INSERT INTO "active_live" '
-        '("userId", "id", "liveMasterId", "partyId", "liveSettingMasterId", "staminaSpent", "isAutoPlay") '
-        "VALUES ($1, $2, $3, $4, $5, $6, $7)",
+        '("userId", "id", "liveMasterId", "partyId", "liveSettingMasterId", "staminaSpent", "isAutoPlay", "staminaCost") '
+        "VALUES ($1, $2, $3, $4, $5, $6, $7, $8)",
         user_id,
         live_id,
         live_master_id,
@@ -60,6 +61,7 @@ def create_active_live(
         live_setting_master_id,
         stamina_spent,
         is_auto_play,
+        stamina_cost,
     )
 
 

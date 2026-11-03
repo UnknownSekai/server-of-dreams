@@ -3581,6 +3581,7 @@ class ActiveLive(BaseModel):
     liveSettingMasterId = BigIntegerField(constraints=[SQL("DEFAULT 0")])
     staminaSpent = BooleanField(constraints=[SQL("DEFAULT false")])
     isAutoPlay = BooleanField(constraints=[SQL("DEFAULT false")])
+    staminaCost = BigIntegerField(constraints=[SQL("DEFAULT 0")])
 
     class Meta:
         table_name = "active_live"

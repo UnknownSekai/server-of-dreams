@@ -177,6 +177,7 @@ async def lives_finish_and_validate(request: Request):
     async with app.acquire_db() as conn:
         user = await conn.fetchrow(get_users(user_id))
         active = await conn.fetchrow(get_active_live(user_id))
+        stamina_spent = bool(active.staminaSpent) if active is not None else False
         live_master_id = active.liveMasterId if active is not None else 0
         lives = await conn.fetch(get_lives(user_id)) if live_master_id else []
         existing = next((r for r in lives if r.liveMasterId == live_master_id), None)
@@ -248,11 +249,25 @@ async def lives_finish_and_validate(request: Request):
                 )
             )
 
-        await conn.execute(delete_active_lives(user_id))  # consume the session
+        async with conn.transaction():
+            if (
+                user is not None
+                and active is not None
+                and active.staminaCost > 0
+                and not active.staminaSpent
+            ):
+                stamina_spent = await adjust_and_check_stamina(
+                    conn, user_id, -active.staminaCost, user.playerRank
+                )
+                if stamina_spent:
+                    user = await conn.fetchrow(get_users(user_id))
+            await conn.execute(delete_active_lives(user_id))  # consume the session
 
         # the updated owned Live row goes in present so the client's records reflect it (only
         # when a row was actually written -- an existing record, or a counted clear)
         present: list = []
+        if stamina_spent and user is not None:
+            present.append(data_object("User", user))
         if live_master_id and (existing is not None or score_counts):
             present.append(
                 data_object(
@@ -293,7 +308,7 @@ async def lives_finish_and_validate(request: Request):
             setting_id = active.liveSettingMasterId if active is not None else 0
             frames = resolve_frames(
                 setting_id,
-                stamina_consumed=active.staminaSpent if active is not None else False,
+                stamina_consumed=stamina_spent,
                 score=score,
                 star_act_count=len(payload.star_act_score_blocks or []),
                 achievement_rate=this_rate,
@@ -551,23 +566,13 @@ async def lives_start(request: Request):
     if user_id is not None and payload is not None:
         async with app.acquire_db() as conn:
             user = await conn.fetchrow(get_users(user_id))
-            stamina_spent = False
-            # long-version songs never consume stamina
-            if (
-                user is not None
-                and payload.use_stamina
-                and not _is_long_version(payload.live_master_id)
-            ):
-                cost = _stamina_cost(
+            stamina_cost = (
+                _stamina_cost(
                     payload.live_master_id, payload.stamina_consumption_ratio
                 )
-                if cost > 0 and await adjust_and_check_stamina(
-                    conn, user_id, -cost, user.playerRank
-                ):
-                    stamina_spent = True
-                    user = await conn.fetchrow(
-                        get_users(user_id)
-                    )  # reflect spent stamina
+                if payload.use_stamina and not _is_long_version(payload.live_master_id)
+                else 0
+            )
             await conn.execute(delete_active_lives(user_id))  # one active live per user
             unit, live_id = await build_live_unit(
                 conn, user_id, payload.party_id, payload.live_master_id
@@ -579,8 +584,8 @@ async def lives_start(request: Request):
                     payload.live_master_id,
                     payload.party_id,
                     payload.live_setting_master_id,
-                    stamina_spent,
-                    payload.is_auto_play,
+                    is_auto_play=payload.is_auto_play,
+                    stamina_cost=stamina_cost,
                 )
             )
             present = [data_object("User", user)] if user is not None else []
@@ -638,20 +643,15 @@ async def lives_start_multi_live(request: Request):
     if user_id is not None and payload is not None:
         async with app.acquire_db() as conn:
             user = await conn.fetchrow(get_users(user_id))
-            stamina_spent = False
-            if (
-                user is not None
-                and payload.use_stamina
-                and not _is_long_version(payload.live_master_id)
-            ):
-                cost = _stamina_cost(
+            stamina_cost = (
+                _stamina_cost(
                     payload.live_master_id, payload.stamina_consumption_ratio
                 )
-                if cost > 0 and await adjust_and_check_stamina(
-                    conn, user_id, -cost, user.playerRank
-                ):
-                    stamina_spent = True
-                    user = await conn.fetchrow(get_users(user_id))
+                if user is not None
+                and payload.use_stamina
+                and not _is_long_version(payload.live_master_id)
+                else 0
+            )
 
             party_id = payload.party_id
             if not party_id:
@@ -680,7 +680,7 @@ async def lives_start_multi_live(request: Request):
                     payload.live_master_id,
                     party_id,
                     live_setting_master_id,
-                    stamina_spent,
+                    stamina_cost=stamina_cost,
                 )
             )
             present = (
